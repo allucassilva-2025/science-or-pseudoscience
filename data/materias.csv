@@ -1,0 +1,60 @@
+id_materia,campo,materia,subcampo,descricao,responsavel
+M01,Saberes alternativos,Acupuntura,,Terapia milenar originária da Medicina Tradicional Chinesa (MTC) que consiste na inserção de finas agulhas em pontos específicos do corpo,allan
+M02,Ciências Naturais,Alquimia,,"O estudo de transmutações, com principal objetivo na busca da pedra filosofal e o elixir da vida.",anizio
+M03.1,Ciências Humanas,Antropologia,Antropologia Biológica,"Estuda a evolução, a genética, a anatomia e a adaptação dos seres humanos",felipe
+M03.2,Ciências Humanas,Antropologia,Arqueologia,"Estuda as sociedades e culturas do passado por meio da análise de vestígios materiais, como artefatos, ruínas e fósseis",felipe
+M03.3,Ciências Humanas,Antropologia,Antropologia Cultural/Social,"Estuda as culturas humanas, focando nos comportamentos, crenças, organizações sociais, rituais e costumes",felipe
+M03.4,Ciências Humanas,Antropologia,Antropologia Linguística,"Estuda a linguagem e a comunicação humana, focando em como os idiomas moldam o pensamento, refletem a cultura e evoluem",felipe
+M04.1,"Linguística, Letras e Artes",Arte,Artes Visuais,"Estuda a expressão ou aplicação da criatividade e imaginação humana, envolvendo formas de expressão artística que utilizam a visão como principal meio de comunicação (pintura, escultura, fotografia, desenho).",mariana
+M04.2,"Linguística, Letras e Artes",Arte,Artes Cênicas,"Estuda a expressão ou aplicação da criatividade e imaginação humana, dedicada à criação, interpretação e produção de manifestações artísticas relacionadas à performance ao vivo (teatro, dança, ópera, performance).",mariana
+M04.3,"Linguística, Letras e Artes",Arte,Artes Musicais,"Estuda a expressão ou aplicação da criatividade e imaginação humana, a partir de formas de expressão artística que utilizam sons, ritmos e melodias para comunicar emoções, ideias e cultura (composição, regência, musicologia, performance instrumental/vocal).",mariana
+M04.4,"Linguística, Letras e Artes",Arte,Artes Aplicadas e Design,"Estuda a expressão ou aplicação da criatividade e imaginação humana, unindo-se à funcionalidade prática, transformando conceitos estéticos em objetos, espaços e comunicações visuais que resolvem problemas cotidianos e melhoram a nossa interação com o mundo (design gráfico, moda, design de interiores, artesanato).",mariana
+M05,Saberes alternativos,Astrologia,,"Conjunto de crenças e práticas que estuda a correlação entre a posição e a movimentação dos corpos celestes (como planetas e estrelas) e os acontecimentos na Terra, a personalidade humana e o destino.",allan
+M06,Ciências Naturais,Astronomia,,"Estudo dos corpos celestes (como estrelas, planetas, cometas e galáxias) e todos os fenômenos que se originam fora da atmosfera terrestre.",anizio
+M07.1,Ciências Naturais,Biologia,Ecologia,Estuda a interação entre os seres vivos e o ambiente em que vivem,felipe
+M07.2,Ciências Naturais,Biologia,Biologia Molecular,"Estuda os seres vivos a nível fundamental, focando nas estruturas e funções das macromoléculas",felipe
+M08,Saberes Alternativos,Biorritmos,,Teoria que afirma que as capacidades humanas são estritamente reguladas por ciclos matemáticos fixos iniciados no nascimento,mariana
+M09,Saberes Alternativos,Criacionismo,,"Crença religiosa de que o Universo, a Terra e todas as formas de vida são resultado da ação direta e intencional de um ou mais seres sobrenaturais",allan
+M10,Ciências Naturais,Design Inteligente,,O estudo de investigar se as evidências empíricas existentes implicam ou não que a vida na Terra precisou ser concebida por um agente ou agentes inteligentes. ,anizio
+M11,Ciências Sociais Aplicadas,Direito,,"Estuda o fenômeno jurídico de forma metódica. Seu objetivo é analisar, interpretar, sistematizar e aplicar as leis e princípios que regem a conduta humana em sociedade",felipe
+M12.1,Ciências Sociais Aplicadas,Economia,Microeconomia,"Estuda o comportamento individual dos agentes econômicos e como eles tomam decisões diante da escassez de recursos (teoria do consumidor, teoria da firma, estruturas de mercado)",mariana
+M12.2,Ciências Sociais Aplicadas,Economia,Macroeconomia,"Estuda como as sociedades utilizam recursos escassos para produzir mercadorias e distribuí-las entre diferentes pessoas (política monetária, inflação, desemprego, crescimento econômico)",mariana
+M12.3,Ciências Sociais Aplicadas,Economia,Economia aplicada,"Uso de teorias e ferramentas estatísticas (econometria) para analisar problemas reais (economia do trabalho, economia ambiental, finanças públicas, econometria)",mariana
+M13.1,Ciências Agrárias.,Engenharia,Engenharia de pesca,"Área da engenharia focada no estudo, manejo e exploração sustentável dos recursos aquáticos.",allan
+M13.2,Ciencias exatas,Engenharia,Engenharia aeroespacial,"Ramo da engenharia focado no projeto, construção e testes de veículos que operam no ar ou no espaço.",allan
+M14,Ciências Humanas,Esportes,,"É toda a forma de praticar alguma atividade física, de forma metódica, com objetivos competitivos, que por meio de participação casual ou organizada, procure usar, manter ou melhorar as habilidades físicas e/ou mentais.",anizio
+M15.1,Ciências Humanas,Filosofia ,Estética,"Ramo da filosofia dedicado ao estudo da natureza da beleza, do gosto e das artes",felipe
+M15.2,Ciências Humanas,Filosofia,Ética,"Ramo da filosofia que estuda os fundamentos das ações humanas, os valores morais e os princípios que orientam o que é considerado o ""bem"", o ""certo"" ou o ""justo"" em sociedade",allan
+M15.3,Ciências Humanas,Filosofia,Metafísica,"Ramo da filosofia que investiga a natureza da realidade, indo além do que pode ser explicado pela física ou pela experiência material",allan
+M15.4,Ciências Humanas,Filosofia,Epistemologia,"Ramo da filosofia dedicado ao estudo do conhecimento, que investiga sua natureza, origem, limites e validade",allan
+M15.5,Ciências Humanas,Filosofia,Lógica,Ramo que estuda o alcance e a natureza da lógica,allan
+M18,Ciências Naturais/Exatas,Física,,A ciência que estuda os fenomenos fisicos e busca compreensão dos comportamentos naturais e gerais do universo.,anizio
+M19,Saberes Alternativos,Frenologia,,"Teoria que afirmava ser possível determinar os traços de personalidade, o caráter e a inteligência de uma pessoa através da medição do formato e das saliências do crânio",felipe
+M20.1,Ciências Naturais/Humanas,Geografia,Geografia Física,"Estuda os elementos naturais da superfície terrestre e a interação dinâmica entre eles (climatologia, geomorfologia, hidrografia, biogeografia)",mariana
+M20.2,Ciências Naturais/Humanas,Geografia,Geografia Humana,"Estuda a interação entre a sociedade e o espaço geográfico (geografia urbana, geografia política, demografia, geografia econômica)",mariana
+M20.3,Ciências Naturais/Humanas,Geografia,Geotecnologias,"Estuda as técnicas e ferramentas digitais usadas para coletar, processar, analisar e mapear dados com localização geográfica (cartografia digital, Sensoriamento Remoto, Sistemas de Informação Geográfica (SIG))",mariana
+M21,Ciências humanas,História,,"Ciência humana que estuda o passado, as ações do ser humano no tempo e no espaço, e as mudanças e permanências nas sociedades.",allan
+M22,Ciências da Saúde,Homeopatia,,Baseia-se nos princípios da cura pelo semelhante e das diluições infinitesimais. ,anizio
+M23,Ciências Humanas,Linguística Formal,,Estudo científico da linguagem que utiliza modelos matemáticos e lógicos para descrever as regras estruturais e universais por trás das línguas humanas,felipe
+M24,"Linguística, Letras e Artes",Literatura,,"Estuda a arte da composição escrita, que utiliza a palavra para explorar a condição humana, expressar ideias e criar mundos reais ou imaginários.",mariana
+M25,Ciências Sociais aplicadas,Marxismo,,"Conjunto de teorias filosóficas, sociais, políticas e econômicas criado por Karl Marx e Friedrich Engels.",allan
+M26,Ciências Exatas,Matemática,,O estudo das abstrações.,anizio
+M27,Ciências da Saúde ,Medicina,,"Estuda a saúde como um todo. Seu objetivo é prevenir e combater doenças, manter a qualidade de vida e promover o bem-estar, seja ele individual ou coletivo",felipe
+M28,Ciências Humanas/da Saúde,Psicologia,,"Estuda a mente, o comportamento humano e as dinâmicas dos processos mentais conscientes e inconscientes",mariana
+M29,Ciências Humanas,Mitologia,Mitologia explicativa (Etiológica), Tipo de narrativa que tem como função principal explicar a origem de algo.,allan
+M29,"Linguística, Letras e Artes",Mitologia,Mitologia Narrativa (Épica),"Conjunto de mitos contados através da literatura épica, onde histórias sagradas sobre deuses, origens do mundo e criaturas sobrenaturais se entrelaçam com os feitos heroicos e as batalhas de mortais ou semideuses.",allan
+M30,Ciências da Saúde,Neurociência,,É o estudo científico do sistema nervoso.,anizio
+M31,Saberes Alternativos,"Parapsicologia (Telepatia, Telecinese)",,Disciplina dedicada à investigação de supostos fenômenos paranormais e psíquicos.,felipe
+M32,Ciências Humanas,Pedagogia,,"Estuda a educação, focada nos métodos de ensino, na aprendizagem e no desenvolvimento integral do indivíduo",mariana
+M33,Ciências Humanas,Política,,"Processo de organização, tomada de decisão e resolução de conflitos em grupos sociais. ",allan
+M34,Ciências Humanas,Psicanálise,,É uma abordagem clínica da psicologia voltada para a investigação teórica da psique humana através do inconsciente.,anizio
+M35,Ciências Naturais,Química,Química Analítica ,Trata da identificação ou quantificação de espécies ou elementos químicos,felipe
+M35,Ciências Naturais,Química,Física - Química ,Estuda os fenômenos químicos sob a ótica dos princípios e leis da física,felipe
+M36,Ciências da Saúde,Quiropraxia,,"Estuda o diagnóstico, tratamento e prevenção de distúrbios do sistema neuro-músculo-esquelético, com ênfase no tratamento manual (ajustes da coluna)",mariana
+M37,Saberes Alternativos,Religião,,"Conjunto de sistemas de crenças, valores morais, ritos e visões de mundo que conecta a humanidade à espiritualidade ou a forças transcendentais.",allan
+M38,Ciências Humanas,Sociologia,,"É a ciência social que estuda a sociedade, padrões de relações sociais, interação social e cultura da vida cotidiana.",anizio
+M39,Ciências Humanas,Teologia,,"Estudo crítico e racional sobre o divino, a fé, as religiões e as suas doutrinas. ",felipe
+M40,Ciências Exatas,Teoria das Cordas,,"Estuda um modelo teórico da física que propõe que as partículas elementares do universo não são pontos, mas sim minúsculas cordas vibrantes unidimensionais",mariana
+M41,Saberes Alternativas,Terraplanismo,,crença que defende que a Terra é um disco plano em vez de um esferoide.,allan
+M42,Ciências Naturais,Atomismo,,"Crença de que o universo é composto por somente duas coisas, o átomo e o vazio.",anizio
+M43,Ciências Humanas,Criticismo literário,,"O estudo, discussão, avaliação e interpretação da literatura.",felipe

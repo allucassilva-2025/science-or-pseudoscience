@@ -1,0 +1,1245 @@
+id_avaliacao,filosofo,id_filosofo,materia,id_materia,classificacao,cor,justificativa
+A01,Mario Bunge,F03,Acupuntura,M01,Pseudociência,Vermelho,Seu domínio (D) baseia-se em entidades irreais e não comprovadas fisicamente (como meridianos e energia Qi). É isolada do conhecimento médico moderno (B = nulo) e sua metódica falha em comprovar a causalidade de seus efeitos além do placebo (11).
+A02,Mario Bunge,F03,Alquimia,M02,Pseudociência,Vermelho,"Fundo de conhecimento estagnado e ontologia (G) que admite processos mágicos, sem intersecção com a física e química modernas (12)."
+A03,Mario Bunge,F03,Antropologia Biológica,M03.1,Ciência,Verde,"Estuda entidades reais (evolução física), utiliza métodos empíricos verificáveis (M) e está fortemente integrada à biologia (B)."
+A04,Mario Bunge,F03,Arqueologia,M03.2,Ciência,Verde,"Analisa entidades materiais (D) através de escavações e datações, usando metódica rigorosa (M) ligada à química e geologia."
+A05,Mario Bunge,F03,Antropologia Cultural/Social,M03.3,Não Ciência,Cinza,"Foca na interpretação de significados, não possuindo o objetivo de descobrir leis físicas (A) e carecendo de base formal matemática estrita (F)."
+A06,Mario Bunge,F03,Antropologia Linguística,M03.4,Não Ciência,Cinza,"Busca a construção social de sentido, sem a pretensão e a metódica empírica de formular leis naturais e preditivas do universo."
+A07,Mario Bunge,F03,Artes Visuais,M04.1,Não Ciência,Cinza,"Seus objetivos (A) são expressivos e estéticos, não a formulação de leis naturais verificáveis sobre entidades materiais (D)."
+A08,Mario Bunge,F03,Artes Cênicas,M04.2,Não Ciência,Cinza,"Foca na performance e na produção de sentido humano, prescindindo totalmente de bases lógico-matemáticas (F) e testes laboratoriais (M)."
+A09,Mario Bunge,F03,Artes Musicais,M04.3,Não Ciência,Cinza,"Embora a acústica seja física, a prática musical é arte. Não busca descobrir leis fáticas universais através de metódica científica."
+A10,Mario Bunge,F03,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Disciplinas focadas em solucionar problemas visuais e utilitários da vida prática (8, 10), não em pesquisa empírica de leis da natureza."
+A11,Mario Bunge,F03,Astrologia,M05,Pseudociência,Vermelho,"Ocupa-se de premissas historicamente estagnadas (1) e opera de forma totalmente isolada de ciências genuínas como a astronomia e a física (12), sem usar metódica (M) verificável para justificar as supostas influências astrais."
+A12,Mario Bunge,F03,Astronomia,M06,Ciência,Verde,Estuda um domínio puramente material (D) com base em forte instrumental matemático (F) e total intersecção teórica com a física (B).
+A13,Mario Bunge,F03,Ecologia,M07.1,Ciência,Verde,Investiga ecossistemas concretos (D) com modelos estatísticos (F) e forte intersecção teórica com as ciências biológicas (B).
+A14,Mario Bunge,F03,Biologia Molecular,M07.2,Ciência,Verde,"Opera de forma empírica com entidades factuais (D), buscando leis naturais (A) e atualizando frequentemente seu conhecimento (K) com experimentação exata."
+A15,Mario Bunge,F03,Biorritmos,M08,Pseudociência,Vermelho,"Inventa um domínio irreal (ciclos fixos de nascimento), possui um corpo de conhecimento estagnado (1) e falha em se conectar com a biologia genuína (12)."
+A16,Mario Bunge,F03,Criacionismo,M09,Pseudociência,Vermelho,"Tenta usar a linguagem do rigor metodológico para parecer ciência, mas sua visão de mundo (G) exige a admissão de causas imateriais e apelo à autoridade dogmática (5), não mudando através de investigação empírica real (1)."
+A17,Mario Bunge,F03,Design Inteligente,M10,Pseudociência,Vermelho,"Ontologia imaterial disfarçada de ciência (5), sem metódica verificável ou poder preditivo (11), mantida por crentes para defender dogmas (2)."
+A18,Mario Bunge,F03,Direito,M11,Não Ciência,Cinza,"Disciplina prática e normativa. Seu objetivo é aplicar regras à conduta humana, resolvendo problemas práticos, e não descobrir leis testáveis da natureza (A)."
+A19,Mario Bunge,F03,Microeconomia,M12.1,Ciência,Verde,Pode ser considerada ciência fática por Bunge se formular hipóteses testáveis sobre comportamentos econômicos reais (D) com forte base formal-matemática (F).
+A20,Mario Bunge,F03,Macroeconomia,M12.2,Ciência,Verde,"Assim como a microeconomia, atende aos critérios quando utiliza dados empíricos e modelos estatísticos rigorosos (M) para entender sistemas reais."
+A21,Mario Bunge,F03,Economia aplicada,M12.3,Ciência,Verde,Utiliza os conhecimentos gerados para resolver problemas práticos e testar predições econômicas empíricas.
+A22,Mario Bunge,F03,Engenharia de pesca,M13.1,Não Ciência,Cinza,"Na epistemologia de Bunge, engenharias são tecnologias e não ciências puras. Embora utilize os dados da biologia (B), seus objetivos (A) e problemáticas (P) são estritamente práticos (como extração e viabilidade comercial), e não a descoberta de leis primárias da natureza (10)."
+A23,Mario Bunge,F03,Engenharia aeroespacial,M13.2,Não Ciência,Cinza,"Aplica intensamente a física e a matemática (B e F) como ferramentas, mas é uma disciplina de aplicação. O seu foco cognitivo é construir máquinas e resolver problemas práticos de transporte humano (8 e 10), e não formular novas leis físicas para o universo."
+A24,Mario Bunge,F03,Esportes,M14,Não Ciência,Cinza,"Atividade prática focada no desempenho humano e entretenimento prático (10), sem o objetivo de construir corpos de conhecimento teórico sobre leis fáticas."
+A25,Mario Bunge,F03,Filosofia - Estética,M15.1,Não Ciência,Cinza,"Estuda o juízo de valor e o belo, não lidando com um domínio material mutável (D) nem com testes laboratoriais (M)."
+A26,Mario Bunge,F03,Filosofia - Ética,M15.2,Não Ciência,Cinza,"Disciplina normativa sobre o ""dever ser"", desprovida de domínio material (D) e baseada em sistemas de valores morais (G), não empíricos."
+A27,Mario Bunge,F03,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,"Investiga os princípios abstratos da realidade, admitindo conceitos que não dependem de observação empírica ou testabilidade de hipóteses (M)."
+A28,Mario Bunge,F03,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Estuda o próprio fenômeno do conhecimento. Seu domínio (D) foca em abstrações e teorias, não em entidades físicas testáveis."
+A29,Mario Bunge,F03,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Seu domínio lida apenas com ideias abstratas, servindo de base matemática para outras áreas (F), mas não analisando entidades reais e materiais."
+A30,Mario Bunge,F03,Física,M18,Ciência,Verde,"O paradigma bungeano absoluto: domínio material exato (D), leis universais (A), modelos matemáticos (F) e testes empíricos rigorosos (M)."
+A31,Mario Bunge,F03,Frenologia,M19,Pseudociência,Vermelho ,"Falsifica o rigor científico mantendo hipóteses falsas e intestáveis (9), ignorou o progresso empírico e foi totalmente superada e isolada pela neurociência (12)."
+A32,Mario Bunge,F03,Geografia Física,M20.1,Ciência,Verde,Investiga as entidades terrestres concretas (D) articulando-se firmemente com outras áreas como biologia e geologia (B).
+A33,Mario Bunge,F03,Geografia Humana,M20.2,Ciência,Verde,"Busca entender a relação humana com o espaço a partir de dados sociais reais empíricos, embora a metódica (M) varie em rigor."
+A34,Mario Bunge,F03,Geotecnologias,M20.3,Não Ciência,Cinza,"Aplicação tecnológica focada em objetivos práticos (10) como mapeamento e sensoriamento, não é a pesquisa pura de leis naturais."
+A35,Mario Bunge,F03,História,M21,Não Ciência,Cinza,"Pesquisa o passado humano de forma rigorosa, mas falha nos critérios de ciência factual natural de Bunge por não possuir uma base formal lógico-matemática profunda (F) e não ter o objetivo central de deduzir leis preditivas infalíveis e testáveis (A)."
+A36,Mario Bunge,F03,Homeopatia,M22,Pseudociência,Vermelho ,"Totalmente isolada (12) da química real, seu conhecimento é estagnado e amparado em hipóteses refutadas e falsas sobre a matéria (9)."
+A37,Mario Bunge,F03,Linguística Formal,M23,Ciência,Verde,"Possuem forte intersecção com outras ciências (B), como a neurociência e a ciência da computação, utilizam base formal matemático-lógica (F) e possuem métodos empíricos verificáveis (M)."
+A38,Mario Bunge,F03,Literatura,M24,Não Ciência,Cinza,Expressão artística focada na imaginação humana. Não possui domínio factual testável nem metódica empírica de experimentação.
+A39,Mario Bunge,F03,Marxismo,M25,Pseudociência,Vermelho ,"Bunge foi um notório crítico do marxismo (enquanto sistema ortodoxo), classificando-o como pseudociência. Para ele, a ontologia marxista tornou-se inflexível (1), defendendo dogmas em vez de submeter as suas hipóteses histórico-econômicas ao escrutínio imparcial e à refutação (11 e 5)."
+A40,Mario Bunge,F03,Matemática,M26,Não Ciência,Cinza,"O seu domínio (D) é feito de ideias abstratas, não de matéria. É a base formal (F) da ciência fática, mas não requer experimentação empírica."
+A41,Mario Bunge,F03,Medicina,M27,Não Ciência,Cinza,"Na epistemologia bungeana, é uma técnica. Foca em curar problemas práticos da vida (10) usando o conhecimento empírico de outras ciências, não em descobrir novas leis universais."
+A42,Mario Bunge,F03,Psicologia,M28,Ciência,Verde,"Para Bunge (que defendia a psicobiologia), é ciência autêntica quando tem forte base empírica evolutiva e neurológica (B) e metódica rigorosa (M)."
+A43,Mario Bunge,F03,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,"Busca explicar a origem das coisas, mas seu domínio (D) lida fundamentalmente com o sobrenatural. Sua visão de mundo (G) apoia-se em narrativas e folclore, sem exigir qualquer metódica (M) de verificação empírica."
+A44,Mario Bunge,F03,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,"É estruturalmente uma manifestação literária e cultural. Não possui a pretensão de ser um campo de pesquisa sobre a realidade factual, dispensando totalmente bases matemáticas (F) e métodos de teste (M)."
+A45,Mario Bunge,F03,Neurociência,M30,Ciência,Verde,"Opera de forma interligada com a biologia estrutural (B), estudando o cérebro físico (D) através de metódica instrumental verificável (M)."
+A46,Mario Bunge,F03,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Sua ontologia admite entidades imateriais (5), propõe hipóteses frequentemente intestáveis em laboratório (9) e isola-se das leis físicas conhecidas (12)."
+A47,Mario Bunge,F03,Pedagogia,M32,Não Ciência,Cinza,"Voltada à resolução de problemas práticos educacionais (8), aplicando dados da psicologia em vez de formular leis físicas primárias."
+A48,Mario Bunge,F03,Política,M33,Não Ciência,Cinza,"Tratada como a atividade humana em si, ela tem a problemática (P) focada exclusivamente em organizar a vida prática e os sistemas de valores morais (G), sem focar em objetivos cognitivos de descoberta empírica (10)."
+A49,Mario Bunge,F03,Psicanálise,M34,Pseudociência,Vermelho,"Constantemente criticada por Bunge: falta base específica ligada à biologia (7), adota dogmas intestáveis (9) e isolou-se do avanço científico (12)."
+A50,Mario Bunge,F03,Química Analítica ,M35,Ciência,Verde,"Cumpre todos os requisitos, usando um ferramental metódico e lógico rigoroso (M e F) para quantificar o domínio inteiramente real e material (D)."
+A51,Mario Bunge,F03,Física - Química ,M35,Ciência,Verde,"Arquétipo bungeano ideal: foca puramente no material, buscando as leis fundamentais (A) com alto poder matemático (F) e métodos empíricos exatos."
+A52,Mario Bunge,F03,Quiropraxia,M36,Pseudociência,Vermelho,"Inventou entidades não reais (como as subluxações vertebrais inatas) que cobrem seu domínio (4), estagnando diante da medicina baseada em evidências (9)."
+A53,Mario Bunge,F03,Religião,M37,Não Ciência,Cinza,"O exemplo clássico de Bunge de um campo onde as mudanças ocorrem por controvérsia ou revelação, e não por pesquisa. Seu domínio (D) é imaterial e dogmático, sem qualquer interseção com campos de metódica empírica testável (M)."
+A54,Mario Bunge,F03,Sociologia,M38,Ciência,Verde,"Reconhecida por Bunge como ciência fática desde que evite a pura hermenêutica subjetiva e utilize modelos sistêmicos estatísticos rigorosos (F, M)."
+A55,Mario Bunge,F03,Teologia,M39,Não Ciência,Cinza,"Opera como Campo de Crença. Seu domínio é imaterial e dogmático, mudando por controvérsia interpretativa em vez de verificação laboratorial testável (M)."
+A56,Mario Bunge,F03,Teoria das Cordas,M40,Pseudociência,Vermelho,"Bunge era um crítico feroz da teoria: embora tenha hipertrofia matemática (F), falha porque sua metódica empírica de teste (M) no mundo material é quase impossível."
+A57,Mario Bunge,F03,Terraplanismo,M41,Pseudociência,Vermelho,"Apropria-se do jargão investigativo, mas sua comunidade age como crentes (2) protegendo dogmas. O fundo de conhecimento é estagnado e repleto de hipóteses flagrantemente falsas (9), e o campo é inteiramente isolado e refutado pela física e astronomia reais (12)."
+A58,Mario Bunge,F03,Atomismo,M42,Ciência,Verde,"O atomismo grego antigo era Não Ciência (Filosofia especulativa sem metódica empírica). Já a Teoria Atômica Moderna é Ciência estrita, alicerce factual testável da química e física modernas."
+A59,Mario Bunge,F03,Criticismo literário,M43,Não Ciência,Cinza,Prática puramente interpretativa focada na produção humana. Não usa métodos de verificação empírica para formular predições ou leis fáticas (M).
+A60,Carl Hempel,F11,Acupuntura,M01,Pseudociência,Vermelho,"A hipótese (energia vital) falha no contexto de justificação clínica, recaindo no placebo e sofrendo refutação empírica."
+A61,Carl Hempel,F11,Alquimia,M02,Pseudociência,Vermelho,"Formulou hipóteses (como a transmutação de chumbo em ouro) que geraram implicações de teste. No entanto, ao falhar repetidamente na experiência empírica, sofreu falseação, mas seus defensores ignoraram a refutação lógica."
+A62,Carl Hempel,F11,Antropologia Biológica,M03.1,Ciência ,Verde,"Suas hipóteses sobre evolução e genética geram implicações de teste diretas no registro fóssil e no DNA, podendo ser corroboradas ou refutadas pela observação empírica."
+A63,Carl Hempel,F11,Arqueologia,M03.2,Ciência ,Verde,Hipóteses sobre o passado produzem implicações verificáveis através de escavações e datações; a evidência material submete a teoria ao contexto de justificação.
+A64,Carl Hempel,F11,Antropologia Cultural/Social,M03.3,Não Ciência,Cinza,"Trabalha com a interpretação de significados e redes simbólicas, não formulando hipóteses estritas que levem a previsões observáveis e falseáveis na natureza."
+A65,Carl Hempel,F11,Antropologia Linguística,M03.4,Não Ciência,Cinza,"Foca no contexto e na construção social da língua, carecendo da formulação lógica H -> I exigida para refutação ou corroboração universal empírica."
+A66,Carl Hempel,F11,Artes Visuais,M04.1,Não Ciência,Cinza,Não possui sistemas teóricos que formulem hipóteses ($H$) capazes de extrair predições empíricas ($I$) sobre o mundo físico.
+A67,Carl Hempel,F11,Artes Cênicas,M04.2,Não Ciência,Cinza,"Disciplina expressiva. Lida com a experiência humana, sem gerar consequências observáveis que a natureza precise corroborar."
+A68,Carl Hempel,F11,Artes Musicais,M04.3,Não Ciência,Cinza,A prática musical não estrutura um conjunto de implicações de teste para refutação ou corroboração em laboratório.
+A69,Carl Hempel,F11,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Campo prático focado na utilidade visual e funcional, sem o objetivo cognitivo de justificar empiricamente leis universais."
+A70,Carl Hempel,F11,Astrologia,M05,Pseudociência,Vermelho,"Suas predições astrológicas (implicações de teste) falham repetidamente quando observadas na realidade, resultando em falseação lógica."
+A71,Carl Hempel,F11,Astronomia,M06,Ciência ,Verde,Suas hipóteses astrofísicas geram implicações de teste altamente precisas (como a posição exata de um planeta) que são rigorosamente corroboradas por telescópios.
+A72,Carl Hempel,F11,Ecologia,M07.1,Ciência,Verde,"Extrai implicações de teste claras a partir de modelos de interação ambiental; se as dinâmicas populacionais previstas não ocorrem na observação, a hipótese sofre falseação lógica."
+A73,Carl Hempel,F11,Biologia Molecular,M07.2,Ciência,Verde,"Suas teorias genéticas derivam implicações preditivas exatas, frequentemente corroboradas pelo alto grau de confirmação nos testes laboratoriais."
+A74,Carl Hempel,F11,Biorritmos,M08,Pseudociência,Vermelho,"Formula uma relação de H -> I (ex: ""hoje você terá baixa intelectual baseada no seu nascimento""), mas quando a implicação não ocorre na experiência, a hipótese sofre refutação empírica fatal, perdendo o status de validade."
+A75,Carl Hempel,F11,Criacionismo,M09,Pseudociência,Vermelho,"Quando tenta formular implicações empíricas (ex: Terra jovem), a observação geológica impõe refutação física imediata."
+A76,Carl Hempel,F11,Design Inteligente,M10,Pseudociência,Vermelho,Seu núcleo (um criador) é inobservável e incapaz de gerar implicações de teste específicas ($I$) que possam ser falsificadas ou corroboradas empiricamente.
+A77,Carl Hempel,F11,Direito,M11,Não Ciência,Cinza,"Normas jurídicas não são hipóteses sobre fenômenos naturais que necessitam de corroboração empírica; descrevem prescrições sociais, não fatos observáveis."
+A78,Carl Hempel,F11,Microeconomia,M12.1,Ciência ,Verde,"Formula hipóteses sobre agentes econômicos que geram implicações preditivas (ex: se o preço sobe, a demanda cai) corroboráveis por dados estatísticos."
+A79,Carl Hempel,F11,Macroeconomia,M12.2,Ciência,Verde,Extrai implicações de teste sobre agregados como inflação e desemprego que podem ser validadas ou refutadas pela observação do mercado.
+A80,Carl Hempel,F11,Economia aplicada,M12.3,Ciência,Verde,Utiliza hipóteses corroboradas para prever os resultados de políticas públicas na experiência empírica.
+A81,Carl Hempel,F11,Engenharia de pesca,M13.1,Ciência,Verde,Seus modelos biológicos geram implicações preditivas que são constantemente corroboradas pela viabilidade prática.
+A82,Carl Hempel,F11,Engenharia aeroespacial,M13.2,Ciência,Verde,Teorias físicas produzem testes empíricos rigorosos. Um lançamento bem-sucedido é a corroboração definitiva da hipótese.
+A83,Carl Hempel,F11,Esportes,M14,Não Ciência,Cinza,"Atividade física e prática de rendimento, desprovida de um sistema teórico focado em extrair deduções lógicas e empíricas."
+A84,Carl Hempel,F11,Filosofia - Estética,M15.1,Não Ciência,Cinza,O juízo sobre o belo e a arte não possui significado empírico; é incapaz de gerar consequências observáveis que a natureza possa refutar.
+A85,Carl Hempel,F11,Filosofia - Ética,M15.2,Não Ciência,Cinza,"O estudo do ""dever ser"" não extrai implicações de teste factuais; um sistema moral não pode ser corroborado ou refutado pela experiência física."
+A86,Carl Hempel,F11,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,"Suas proposições sobre as causas primeiras operam além dos fatos observáveis, não produzindo nenhuma implicação de teste para o contexto de justificação."
+A87,Carl Hempel,F11,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Como estuda as bases do próprio saber, suas proposições lógicas e conceituais não dependem de observação empírica para corroboração material."
+A88,Carl Hempel,F11,Filosofia - Lógica,M15.5,Não Ciência,Cinza,Suas verdades são analíticas e independentes da experiência. Não produz implicações (I) que precisem ser testadas no mundo físico para evitar refutação.
+A89,Carl Hempel,F11,Física,M18,Ciência,Verde,O padrão-ouro de Hempel. Todas as suas hipóteses estruturam implicações lógicas diretas verificadas materialmente no contexto de justificação.
+A90,Carl Hempel,F11,Frenologia,M19,Pseudociência,Vermelho,"Tentou estabelecer a relação preditiva de que formatos cranianos implicavam em traços de personalidade, mas falhou repetidamente no contexto de justificação, sofrendo falseação empírica definitiva."
+A91,Carl Hempel,F11,Geografia Física,M20.1,Ciência,Verde,"Hipóteses sobre clima e relevo levam a previsões empíricas observáveis, ganhando apoio material na observação de campo."
+A92,Carl Hempel,F11,Geografia Humana,M20.2,Ciência,Verde,"Quando adota métodos estatísticos, elabora hipóteses demográficas cujas implicações de teste são verificáveis na dinâmica populacional."
+A93,Carl Hempel,F11,Geotecnologias,M20.3,Ciência,Verde,Os algoritmos de sensoriamento geram dados cujas implicações físicas são prontamente corroboradas pela observação satelital.
+A94,Carl Hempel,F11,História,M21,Não Ciência,Cinza,"Como foca em reconstruir o passado, não formula deduções e previsões empíricas para o futuro que exijam corroboração física."
+A95,Carl Hempel,F11,Homeopatia,M22,Pseudociência,Vermelho,"Gera uma implicação de teste clínica clara (a cura pelo semelhante diluído). Quando submetida à experiência controlada, a implicação falha (não supera o placebo), resultando em refutação empírica sumária."
+A96,Carl Hempel,F11,Linguística Formal,M23,Ciência,Verde,"Formulam hipóteses (ex: rastrear o movimento dos olhos ou o tempo de reação do cérebro a uma anomalia gramatical) que geram implicações de teste (I) diretas no laboratório, podendo sofrer falseação empírica."
+A97,Carl Hempel,F11,Literatura,M24,Não Ciência,Cinza,Seus textos não adquirem significância científica pois não levam a previsões empíricas ou implicações fáticas observáveis.
+A98,Carl Hempel,F11,Marxismo,M25,Pseudociência,Vermelho,"Como modelo preditivo puro, elaborou previsões histórico-econômicas que não se confirmaram na experiência empírica, sofrendo falseação."
+A99,Carl Hempel,F11,Matemática,M26,Não Ciência,Cinza,Suas proposições são analíticas e lógicas a priori. Não necessitam de implicações de teste ($I$) na experiência física para provar validade.
+A100,Carl Hempel,F11,Medicina,M27,Ciência,Verde,"A eficácia de um tratamento (H) leva a uma previsão de cura (I). Se os ensaios clínicos (experiência empírica) não observam a cura, a hipótese do tratamento é refutada logicamente."
+A101,Carl Hempel,F11,Psicologia,M28,Ciência,Verde,Formula hipóteses cognitivas e comportamentais que produzem implicações de teste passíveis de corroboração em estudos controlados.
+A102,Carl Hempel,F11,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Explicações baseadas no sobrenatural são incapazes de gerar consequências físicas testáveis para refutação.
+A103,Carl Hempel,F11,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,"Por ser estruturalmente literatura, carece de significado empírico ou hipóteses factuais passíveis de teste."
+A104,Carl Hempel,F11,Neurociência,M30,Ciência,Verde,"Hipóteses sobre o funcionamento sináptico geram predições físicas restritas, altamente corroboradas por exames de imagem e medições empíricas."
+A105,Carl Hempel,F11,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Suas alegações falham em produzir implicações de teste consistentes. Quando submetida a observações controladas, não ocorre corroboração, resultando em refutação empírica de seus supostos fenômenos."
+A106,Carl Hempel,F11,Pedagogia,M32,Não Ciência,Cinza,"Por ser majoritariamente prescritiva e prática (como ensinar melhor), não formula modelos universais voltados a justificação física e empírica."
+A107,Carl Hempel,F11,Política,M33,Não Ciência,Cinza,"É uma área normativa e social, incapaz de gerar previsões físicas que precisem de corroboração empírica da natureza."
+A108,Carl Hempel,F11,Psicanálise,M34,Pseudociência,Vermelho,Falha no critério porque suas hipóteses (como desejos inconscientes reprimidos) são formuladas de maneira a não gerar nenhuma implicação de teste ($I$) observável que possa resultar em sua refutação material.
+A109,Carl Hempel,F11,Química Analítica ,M35,Ciência,Verde,"É o próprio contexto de justificação em ação: reações químicas (H) geram medidas precisas (I) que são testadas ininterruptamente, recebendo alto grau de confirmação material."
+A110,Carl Hempel,F11,Física - Química ,M35,Ciência,Verde,"Formula sistemas teóricos termodinâmicos e quânticos rigorosos, extraindo implicações de teste altamente específicas que podem ser verificadas empiricamente nos laboratórios."
+A111,Carl Hempel,F11,Quiropraxia,M36,Pseudociência,Vermelho,A hipótese de que luxações umbilicais invisíveis causam doenças sistêmicas não encontra corroboração quando suas implicações clínicas são submetidas a testes rigorosos de justificação.
+A112,Carl Hempel,F11,Religião,M37,Não Ciência,Cinza,"Suas crenças transcendentes não produzem hipóteses observáveis, mantendo-se imunes a qualquer refutação ou corroboração material."
+A113,Carl Hempel,F11,Sociologia,M38,Ciência,Verde,Produz hipóteses societais amplas que extraem implicações passíveis de teste empírico e validação estatística na realidade observável.
+A114,Carl Hempel,F11,Teologia,M39,Não Ciência,Cinza,O divino não extrai implicações de teste sobre fatos observáveis; o sistema de crenças não possui significado empírico e é imune a processos físicos de falseação.
+A115,Carl Hempel,F11,Teoria das Cordas,M40,Não Ciência,Cinza,"Como as suas equações lidam com escalas subatômicas inalcançáveis, a teoria atualmente é incapaz de gerar implicações de teste observáveis. Sem relação lógica com a experiência, carece (por enquanto) de significado empírico verificável."
+A116,Carl Hempel,F11,Terraplanismo,M41,Pseudociência,Vermelho,"A implicação de teste física gerada por sua hipótese falha violentamente diante da observação real, sofrendo falseação definitiva."
+A117,Carl Hempel,F11,Atomismo,M42,Ciência,Verde,"A teoria atômica moderna formulou hipóteses ($H$) que deduziram reações químicas rigorosas ($I$), ganhando absoluto apoio empírico e sendo corroborada ininterruptamente. (Nota: O atomismo grego antigo era não-ciência por ser apenas especulação sem metódica de teste)."
+A118,Carl Hempel,F11,Criticismo literário,M43,Não Ciência,Cinza,É incapaz de ser justificado empiricamente. Suas análises da literatura não geram previsões factuais suscetíveis a refutação ou corroboração pela natureza.
+A119,Imre Lakatos,F15,Acupuntura,M01,Pseudociência,Vermelho,"Programa degenerativo. Cria hipóteses ad hoc (ex: ""estresse bloqueou o Qi"") apenas para justificar falhas clínicas, sem prever fatos fisiológicos novos."
+A120,Imre Lakatos,F15,Alquimia,M02,Pseudociência,Vermelho,"Programa degenerativo histórico. Suas falhas constantes em transmutar metais geravam apenas hipóteses ad hoc ilusórias, estagnando sem prever propriedades químicas novas."
+A121,Imre Lakatos,F15,Antropologia Biológica,M03.1,Ciência,Verde,Programa progressivo; seu núcleo rígido (teoria evolutiva) é defendido por um cinturão de hipóteses auxiliares genéticas que antecipam e descobrem novos fatos no registro fóssil e molecular.
+A122,Imre Lakatos,F15,Arqueologia,M03.2,Ciência,Verde,"Programa progressivo, cujo núcleo materialista resolve anomalias ajustando métodos de datação (cinturão protetor), resultando em novas previsões e descobertas sobre sociedades passadas"
+A123,Imre Lakatos,F15,Antropologia Cultural/Social,M03.3,Não Ciência,Cinza,"Carece de um núcleo rígido definido que tente fazer previsões empíricas sobre a natureza, dedicando-se inteiramente à interpretação de significados."
+A124,Imre Lakatos,F15,Antropologia Linguística,M03.4,Não Ciência,Cinza,Seu foco na construção do sentido social dispensa um núcleo focado em prever ou descobrir fatos novos do mundo físico.
+A125,Imre Lakatos,F15,Artes Visuais,M04.1,Não Ciência,Cinza,Prática estética e expressiva. Não possui um núcleo rígido teórico que busque antecipar e testar fenômenos materiais empíricos.
+A126,Imre Lakatos,F15,Artes Cênicas,M04.2,Não Ciência,Cinza,Focada na performance humana; opera sem um programa de pesquisa empírico ou cinturão de hipóteses protetoras.
+A127,Imre Lakatos,F15,Artes Musicais,M04.3,Não Ciência,Cinza,Expressão cultural e acústica prática. Não tem o propósito de formular previsões científicas fáticas.
+A128,Imre Lakatos,F15,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,Prática voltada à utilidade e estética de objetos. Carece de um núcleo desenhado para descobrir novos fatos da natureza.
+A129,Imre Lakatos,F15,Astrologia,M05,Pseudociência,Vermelho,"Programa degenerativo. Altera seu cinturão protetor de forma ad hoc para tentar explicar previsões que falharam no passado, mas é incapaz de antecipar eventos reais novos."
+A130,Imre Lakatos,F15,Astronomia,M06,Ciência,Verde,O ápice do programa progressivo. Anomalias gravitacionais (ex: órbita de Urano) forçam mudanças no cinturão protetor que resultam na predição e descoberta de fatos inéditos (ex: existência de Netuno).
+A131,Imre Lakatos,F15,Ecologia,M07.1,Ciência,Verde,"Programa altamente progressivo. Ajusta suas hipóteses auxiliares (modelos populacionais) não apenas para explicar o passado, mas para prever o impacto de mudanças ambientais inéditas."
+A132,Imre Lakatos,F15,Biologia Molecular,M07.2,Ciência,Verde,"Apresenta progresso evidente; seu núcleo genético incorpora novas técnicas (como a edição CRISPR) no cinturão protetor, o que aumenta seu poder de prever fatos biológicos novos."
+A133,Imre Lakatos,F15,Biorritmos,M08,Pseudociência,Vermelho,"Programa degenerativo. Seu núcleo rígido falha constantemente e, para se proteger, cria desculpas (hipóteses auxiliares ad hoc), estagnando sem jamais prever fatos reais novos."
+A134,Imre Lakatos,F15,Criacionismo,M09,Pseudociência,Vermelho,"Programa degenerativo. Sempre que a geologia o contradiz, inventa hipóteses (ex: ""fósseis foram postos para testar a fé"") só para blindar o núcleo rígido, não gerando descobertas."
+A135,Imre Lakatos,F15,Design Inteligente,M10,Pseudociência,Vermelho,"Altamente degenerativo. Seu núcleo dogmático não gera previsões biológicas novas, apenas ataca falhas pontuais da evolução para justificar retroativamente a necessidade de um ""criador""."
+A136,Imre Lakatos,F15,Direito,M11,Não Ciência,Cinza,"Sistema normativo focado em regulação social, desprovido de um programa de pesquisa estruturado para previsões empíricas."
+A137,Imre Lakatos,F15,Microeconomia,M12.1,Ciência,Verde,Programa progressivo quando ajusta seus modelos matemáticos (cinturão protetor) para prever com sucesso novos comportamentos de consumo e flutuações de preços locais.
+A138,Imre Lakatos,F15,Macroeconomia,M12.2,Ciência,Verde,"Funciona como programa progressivo ao adaptar teorias para antecipar desdobramentos inéditos de ciclos econômicos, embora enfrente períodos de estagnação preditiva em crises."
+A139,Imre Lakatos,F15,Economia aplicada,M12.3,Ciência,Verde,Utiliza os programas de pesquisa econômicos vigentes para tentar antecipar faticamente o resultado de políticas reais.
+A140,Imre Lakatos,F15,Engenharia de pesca,M13.1,Ciência,Verde,Programa progressivo. Adapta suas teorias biológicas e materiais (cinturão protetor) para resolver anomalias e prever a dinâmica populacional em ambientes inéditos.
+A141,Imre Lakatos,F15,Engenharia aeroespacial,M13.2,Ciência,Verde,Altamente progressivo. Modifica e refina constantemente seu cinturão protetor tecnológico para prever e superar novos desafios atmosféricos e espaciais.
+A142,Imre Lakatos,F15,Esportes,M14,Não Ciência,Cinza,Atividade física e lúdica. Não formula um sistema teórico de núcleo e cinturão para investigação e previsão científica de leis.
+A143,Imre Lakatos,F15,Filosofia - Estética,M15.1,Não Ciência,Cinza,Trabalha a valoração do belo. Não possui núcleo rígido focado em previsões empíricas de fatos físicos observáveis.
+A144,Imre Lakatos,F15,Filosofia - Ética,M15.2,Não Ciência,Cinza,"Por lidar com o ""dever ser"", não formula um núcleo destinado a testar previsões no mundo fático."
+A145,Imre Lakatos,F15,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Seus conceitos estruturais não objetivam fazer ou testar previsões empíricas na realidade física.
+A146,Imre Lakatos,F15,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Analisa conceitualmente a teoria do conhecimento, sem um programa de pesquisa direcionado à previsão empírica."
+A147,Imre Lakatos,F15,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Seu núcleo é puramente matemático e analítico a priori, logo, não realiza previsões empíricas sobre o universo físico."
+A148,Imre Lakatos,F15,Física,M18,Ciência,Verde,"Programa extremamente progressivo. A relatividade geral (núcleo), por exemplo, orientou ajustes teóricos que previram fatos empíricos antes inimagináveis (como ondas gravitacionais e o desvio da luz)."
+A149,Imre Lakatos,F15,Frenologia,M19,Pseudociência,Vermelho,"Programa degenerativo. Quando a análise craniana não batia com a personalidade, criavam-se hipóteses auxiliares apenas para justificar o erro e blindar o núcleo, sem prever fatos neurológicos reais."
+A150,Imre Lakatos,F15,Geografia Física,M20.1,Ciência,Verde,Progressiva. Ajusta modelos climáticos e geomorfológicos para antecipar eventos e descobrir novas dinâmicas terrestres.
+A151,Imre Lakatos,F15,Geografia Humana,M20.2,Ciência,Verde,Progressiva quando utiliza dados demográficos e espaciais para formular previsões testáveis sobre migrações e expansão urbana.
+A152,Imre Lakatos,F15,Geotecnologias,M20.3,Ciência,Verde,rogressiva metodologicamente. Refina constantemente suas ferramentas (cinturão) para prever mapeamentos e dinâmicas do solo com precisão crescente.
+A153,Imre Lakatos,F15,História,M21,Não Ciência,Cinza,É focada em retrospectiva. Não possui um núcleo rígido formulado para realizar ou testar previsões empíricas futuras sobre a realidade fática.
+A154,Imre Lakatos,F15,Homeopatia,M22,Pseudociência,Vermelho,"Programa degenerativo. Como falha sistematicamente na clínica, inventa desculpas (ex: ""memória da água"" ou agravamento temporário) para proteger o núcleo, falhando em descobrir mecanismos fisiológicos reais."
+A155,Imre Lakatos,F15,Linguística Formal,M23,Ciência,Verde,"São programas de pesquisa extremamente progressivos. A Linguística Formal e a Psicolinguística alteram continuamente suas hipóteses auxiliares para prever e descobrir novos fatos sobre o processamento mental, aumentando seu poder preditivo."
+A156,Imre Lakatos,F15,Literatura,M24,Não Ciência,Cinza,Obra criativa e interpretativa que escapa inteiramente à lógica de formulação de predições empíricas.
+A157,Imre Lakatos,F15,Marxismo,M25,Pseudociência,Vermelho,"Exemplo clássico do próprio Lakatos como programa degenerativo. Quando predições falharam, criou hipóteses auxiliares ad hoc (como a teoria do imperialismo) só para salvar o núcleo, perdendo o poder de prever fatos novos."
+A158,Imre Lakatos,F15,Matemática,M26,Não Ciência,Cinza,"Como opera unicamente com lógica dedutiva a priori, não possui um programa de pesquisa direcionado à previsão empírica de fatos do mundo físico."
+A159,Imre Lakatos,F15,Medicina,M27,Ciência,Verde,"Progressiva, pois altera continuamente seu cinturão protetor (novos medicamentos e terapias) para resguardar o núcleo (a cura), prevendo e solucionando o comportamento de doenças recém-descobertas."
+A160,Imre Lakatos,F15,Psicologia,M28,Ciência,Verde,Programa progressivo (especialmente na psicologia cognitiva e comportamental) ao ajustar modelos teóricos para descobrir e antecipar padrões universais da mente.
+A161,Imre Lakatos,F15,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,"Não possui um programa de pesquisa empírico estruturado, utilizando apenas a narrativa mítica retroativa, e não predições testáveis."
+A162,Imre Lakatos,F15,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Prática folclórica e literária. Carece inteiramente de um núcleo rígido focado em hipóteses físicas e na previsão de eventos factuais.
+A163,Imre Lakatos,F15,Neurociência,M30,Ciência,Verde,"Fortemente progressiva. Incorpora novas tecnologias ao seu cinturão para mapear o cérebro, prevendo comportamentos fisiológicos inéditos com sucesso."
+A164,Imre Lakatos,F15,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Fortemente degenerativa. Falhas em testes laboratoriais geram hipóteses de fuga no cinturão protetor (ex: alegar que o ""ceticismo atrapalha o fenômeno""), servindo apenas para proteger o núcleo sem prever novidades empíricas."
+A165,Imre Lakatos,F15,Pedagogia,M32,Não Ciência,Cinza,"Como tecnologia social e normativa do ensino, não visa proteger um núcleo teórico preditivo para revelar leis físicas ou biológicas desconhecidas."
+A166,Imre Lakatos,F15,Política,M33,Não Ciência,Cinza,"Opera como prática normativa e social, não estruturando um cinturão protetor focado na descoberta empírica contínua de fenômenos naturais."
+A167,Imre Lakatos,F15,Psicanálise,M34,Pseudociência,Vermelho,"Lakatos usou a psicanálise freudiana como exemplo clássico de programa degenerativo: qualquer comportamento anômalo do paciente é explicado retroativamente alterando as hipóteses protetoras, sem jamais prever fatos empíricos novos com exatidão."
+A168,Imre Lakatos,F15,Química Analítica ,M35,Ciência,Verde,Programa extremamente progressivo; refina constantemente suas técnicas de medição para identificar e prever a existência de compostos e propriedades físicas totalmente desconhecidos.
+A169,Imre Lakatos,F15,Física - Química ,M35,Ciência,Verde,"Possui um núcleo rígido termodinâmico/quântico inabalável e um cinturão protetor ágil que não apenas explica reações, mas antecipa matematicamente a formação de novos materiais com sucesso."
+A170,Imre Lakatos,F15,Quiropraxia,M36,Pseudociência,Vermelho,"Programa degenerativo. Ao ser refutada pela medicina baseada em evidências, recua suas afirmações (hipóteses auxiliares) apenas para sobreviver institucionalmente, não descobrindo nada clinicamente novo."
+A171,Imre Lakatos,F15,Religião,M37,Não Ciência,Cinza,Seu núcleo rígido e dogmático não tem a pretensão nem o mecanismo de se utilizar de hipóteses auxiliares para antecipar ou testar fatos novos do mundo empírico.
+A172,Imre Lakatos,F15,Sociologia,M38,Ciência,Verde,Progressiva sempre que altera suas formulações teóricas para antecipar de modo válido o surgimento de novos fenômenos de massa ou transições institucionais.
+A173,Imre Lakatos,F15,Teologia,M39,Não Ciência,Cinza,"O núcleo dogmático não busca, nem depende, de fazer previsões empíricas do mundo fático para existir."
+A174,Imre Lakatos,F15,Teoria das Cordas,M40,Pseudociência,Vermelho,"Pela ótica estrita de Lakatos, flerta com a degeneração. Possui imenso aparato matemático, mas suas constantes modificações estruturais falharam, até hoje, em prever um único fato físico empírico novo que possa ser testado."
+A175,Imre Lakatos,F15,Terraplanismo,M41,Pseudociência,Vermelho,"Programa intensamente degenerativo. Seu cinturão protetor baseia-se unicamente em inventar desculpas ad hoc (ex: ilusões de ótica, conspirações) para proteger o núcleo das incontáveis refutações da astronomia, sem nunca prever nada novo."
+A176,Imre Lakatos,F15,Atomismo,M42,Ciência,Verde,"A Teoria Atômica Moderna é um programa progressivo vital. Seu núcleo materialista assimilou os modelos quânticos (cinturão) para não só explicar a matéria conhecida, mas prever a existência de inúmeras partículas subatômicas novas."
+A177,Imre Lakatos,F15,Criticismo literário,M43,Não Ciência,Cinza,Opera fora do esquema de Lakatos por ser puramente interpretativo; não possui núcleo voltado para previsões empíricas da realidade.
+A178,Karl Popper,F19,Acupuntura,M01,Pseudociência,Vermelho,"Quando ensaios clínicos falham em demonstrar eficácia além do placebo, a teoria se esquiva da refutação apelando para justificativas ad hoc (como medições incorretas de ""energia"")."
+A179,Karl Popper,F19,Alquimia,M02,Pseudociência,Vermelho,"Falsificada, salva por hipóteses ad hoc."
+A180,Karl Popper,F19,Antropologia Biológica,M03.1,Ciência,Verde,Formula predições sobre o registro fóssil e genético que proíbem a ocorrência de certos eventos empíricos (ex: encontrar um fóssil de Homo sapiens em camadas do período Jurássico refutaria a teoria).
+A181,Karl Popper,F19,Arqueologia,M03.2,Ciência,Verde,Hipóteses sobre a utilidade de artefatos ou datação de assentamentos podem sofrer testes empíricos de falseabilidade e ser refutadas diante de novas escavações físicas.
+A182,Karl Popper,F19,Antropologia Cultural/Social,M03.3,Não Ciência,Cinza,"Suas interpretações sobre o funcionamento das sociedades não são desenhadas para proibir eventos empíricos estritos, não sendo passíveis de refutação por testes."
+A183,Karl Popper,F19,Antropologia Linguística,M03.4,Não Ciência,Cinza,"Foca em como o contexto sociocultural influencia a linguagem, sem estabelecer predições rígidas que possam sofrer falseação direta através da observação material isolada."
+A184,Karl Popper,F19,Artes Visuais,M04.1,Não Ciência,Cinza,"Prática estética, sem falsificabilidade."
+A185,Karl Popper,F19,Artes Cênicas,M04.2,Não Ciência,Cinza,"Expressão humana, não preditiva."
+A186,Karl Popper,F19,Artes Musicais,M04.3,Não Ciência,Cinza,"Expressão artística, não testável."
+A187,Karl Popper,F19,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Prática utilitária, não teórica."
+A188,Karl Popper,F19,Astrologia,M05,Pseudociência,Vermelho,"Exemplo clássico popperiano de formulações tão vagas que conseguem se adequar a qualquer resultado, ""explicando tudo"" e não proibindo a ocorrência de nenhum evento empírico."
+A189,Karl Popper,F19,Astronomia,M06,Ciência,Verde,Predições rigorosamente falsificáveis.
+A190,Karl Popper,F19,Ecologia,M07.1,Ciência,Verde,"Os modelos estatísticos de interação populacional preveem resultados que proíbem outros; se a observação de campo contradiz o modelo ecológico, a hipótese sofre refutação."
+A191,Karl Popper,F19,Biologia Molecular,M07.2,Ciência,Verde,Suas afirmações sobre o comportamento de proteínas e genes são específicas e estruturalmente falsificáveis a cada novo experimento laboratorial de replicação.
+A192,Karl Popper,F19,Biorritmos,M08,Pseudociência,Vermelho,"Falsifica-se de científica matemática, mas utiliza hipóteses vagas (""energia baixa"") ou ad hoc (""interferências estressantes externas alteraram seu ciclo hoje"") para blindar a teoria sempre que a predição inicial falha no teste."
+A193,Karl Popper,F19,Criacionismo,M09,Pseudociência,Vermelho,"Evita a refutação estrutural. Quando confrontado com descobertas geológicas e fósseis que o falsificariam, introduz hipóteses ad hoc inquestionáveis para proteger a teoria."
+A194,Karl Popper,F19,Design Inteligente,M10,Pseudociência,Vermelho,"Infalseável, recorre a dogmas ad hoc."
+A195,Karl Popper,F19,Direito,M11,Não Ciência,Cinza,É um sistema normativo que visa o ordenamento social. Não faz predições empíricas físicas que possam ser corroboradas ou falsificadas cientificamente
+A196,Karl Popper,F19,Microeconomia,M12.1,Ciência,Verde,Modelos confrontáveis com dados empíricos.
+A197,Karl Popper,F19,Macroeconomia,M12.2,Ciência,Verde,Hipóteses abertas à refutação estatística.
+A198,Karl Popper,F19,Economia aplicada,M12.3,Ciência,Verde,Testável na prática.
+A199,Karl Popper,F19,Engenharia de pesca,M13.1,Ciência,Verde,"Suas previsões biológicas e matemáticas sobre limites de extração proíbem certos eventos ecológicos, sendo estruturalmente abertas à falsificação pela observação de campo."
+A200,Karl Popper,F19,Engenharia aeroespacial,M13.2,Ciência,Verde,Altamente falsificável. Os cálculos de resistência e aerodinâmica proíbem falhas estruturais específicas; um fracasso no voo refuta empiricamente a hipótese aplicada.
+A201,Karl Popper,F19,Esportes,M14,Não Ciência,Cinza,"Atividade física, não formula predições."
+A202,Karl Popper,F19,Filosofia - Estética,M15.1,Não Ciência,Cinza,O estudo de juízos de valor e do que constitui a arte não formula previsões suscetíveis a testes empíricos de falseação pela natureza física.
+A203,Karl Popper,F19,Filosofia - Ética,M15.2,Não Ciência,Cinza,"Lida com proposições normativas (o ""dever ser""). Como não antecipa estados factuais do mundo material empírico, é impossível de ser falsificada em laboratório."
+A204,Karl Popper,F19,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,"Popper considerava que a metafísica não formula teorias estruturalmente testáveis contra o mundo físico, estando fora do escopo da refutação (embora não considerasse isso necessariamente inútil)."
+A205,Karl Popper,F19,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"É uma disciplina analítica que estuda as condições do próprio conhecimento humano, não antecipando fenômenos físicos que proíbam eventos materiais."
+A206,Karl Popper,F19,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Por lidar com tautologias e dedução pura e a priori, a lógica não depende da experiência do mundo físico e, portanto, jamais é falsificada por observações empíricas."
+A207,Karl Popper,F19,Física,M18,Ciência,Verde,Altamente estruturada para falsificação.
+A208,Karl Popper,F19,Frenologia,M19,Pseudociência,Vermelho,"Uma teoria que foi testada empiricamente e reprovada/falsa. Para Popper, ao invés de aceitar a refutação metodológica, a disciplina tentou sobreviver via justificativas ad hoc, firmando-se como pseudociência."
+A209,Karl Popper,F19,Geografia Física,M20.1,Ciência,Verde,Previsões passíveis de refutação empírica.
+A210,Karl Popper,F19,Geografia Humana,M20.2,Ciência,Verde,Modelos sociais testáveis empiricamente.
+A211,Karl Popper,F19,Geotecnologias,M20.3,Ciência,Verde,Ferramentas sujeitas a testes diretos.
+A212,Karl Popper,F19,História,M21,Não Ciência,Cinza,"Ao investigar o passado, não formula previsões dedutivas rigorosas que proíbam eventos futuros e que sejam suscetíveis a testes empíricos falsificáveis."
+A213,Karl Popper,F19,Homeopatia,M22,Pseudociência,Vermelho,"Falsificada, blindada por hipóteses ad hoc."
+A214,Karl Popper,F19,Linguística Formal,M23,Ciência,Verde,"Formula predições estritas sobre as regras sintáticas matemáticas universais, proibindo que certas estruturas inatas surjam na aquisição de linguagem; testes experimentais podem corroborar ou refutar essas previsões."
+A215,Karl Popper,F19,Literatura,M24,Não Ciência,Cinza,"Interpretativa, não sujeita a testes."
+A216,Karl Popper,F19,Marxismo,M25,Pseudociência,Vermelho,"Popper o usou como modelo histórico de teoria que iniciou fazendo predições, mas, quando falsificada pela realidade, foi salva por seus defensores através de hipóteses ad hoc (como o imperialismo)."
+A217,Karl Popper,F19,Matemática,M26,Não Ciência,Cinza,"Verdade analítica, empiricamente infalseável."
+A218,Karl Popper,F19,Medicina,M27,Ciência,Verde,"Na validação de tratamentos empíricos, predições são estruturadas: espera-se a cura ou alívio e proíbe-se a ineficácia estatística. Ensaios clínicos randomizados podem refutar a hipótese de imediato."
+A219,Karl Popper,F19,Psicologia,M28,Ciência,Verde,Formula predições comportamentais falsificáveis.
+A220,Karl Popper,F19,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Explicações fantásticas sobre a origem das coisas não produzem previsões estruturalmente submetidas à falsificação em laboratório.
+A221,Karl Popper,F19,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,"Sendo fundamentalmente arte e tradição, é impossível submeter um mito a testes empíricos que busquem sua refutação material."
+A222,Karl Popper,F19,Neurociência,M30,Ciência,Verde,Hipóteses biológicas rigorosamente testáveis.
+A223,Karl Popper,F19,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Veste-se de ciência, mas possuí premissas vagas. Quando os fenômenos falham no laboratório, apela para hipóteses ad hoc (como ""a presença de céticos destrói as vibrações"") para fugir da refutação inevitável."
+A224,Karl Popper,F19,Pedagogia,M32,Não Ciência,Cinza,"Normativa, não elabora predições físicas."
+A225,Karl Popper,F19,Política,M33,Não Ciência,Cinza,"Como prática e ordenamento de conduta, não formula previsões suscetíveis a testes empíricos de falseamento pelas leis da física ou da biologia."
+A226,Karl Popper,F19,Psicanálise,M34,Pseudociência,Vermelho,"Explica tudo, estruturalmente infalseável."
+A227,Karl Popper,F19,Química Analítica ,M35,Ciência,Verde,"Disciplina empírica. Qualquer afirmação de medição quantitativa proíbe categoricamente todos os outros valores, sendo estruturalmente aberta a testes e tentativas constantes de falsificação rigorosa."
+A228,Karl Popper,F19,Física - Química ,M35,Ciência,Verde,Formula sistemas teóricos universais cujas deduções matemáticas proíbem estritamente a ocorrência de reações fora de padrões energéticos e atômicos definidos; é altamente falsificável.
+A229,Karl Popper,F19,Quiropraxia,M36,Pseudociência,Vermelho,"Falsificada, mantida por premissas ad hoc."
+A230,Karl Popper,F19,Religião,M37,Não Ciência,Cinza,Não formula predições estruturalmente falsificáveis. Nenhuma observação empírica pode proibir ou falsificar materialmente uma crença divina.
+A231,Karl Popper,F19,Sociologia,M38,Ciência,Verde,Hipóteses sociais confrontáveis com dados.
+A232,Karl Popper,F19,Teologia,M39,Não Ciência,Cinza,A crença religiosa não pode produzir um evento empírico factível que proibiria algo e cujos testes de laboratório pudessem refutar ou falsificar o sistema divino.
+A233,Karl Popper,F19,Teoria das Cordas,M40,Não Ciência,Cinza,"Matematicamente estrita, empiricamente infalseável."
+A234,Karl Popper,F19,Terraplanismo,M41,Pseudociência,Vermelho,"Foi empiricamente falsificada há séculos (teoria falsa). Para sobreviver à refutação, sua comunidade ignora as provas e cria infinitas hipóteses ad hoc irracionais (como refração mágica e conspirações globais)."
+A235,Karl Popper,F19,Atomismo,M42,Ciência,Verde,Predições materiais abertas à refutação.
+A236,Karl Popper,F19,Criticismo literário,M43,Não Ciência,Cinza,Prática puramente interpretativa humana. Suas análises não fazem predições factuais empíricas e nenhuma leitura de uma obra pode ser validamente falsificada no sentido popperiano.
+A237,Carl Sagan,F23,Acupuntura,M01,Pseudociência,Vermelho," Falha na Navalha de Occam (8) ao postular sistemas complexos e imateriais (meridianos e ""Qi"") em vez de adotar a explicação mais simples (efeito placebo), sendo não-quantificável (6)."
+A238,Carl Sagan,F23,Alquimia,M02,Pseudociência,Vermelho,Falha na confirmação independente e não é quantificável.
+A239,Carl Sagan,F23,Antropologia Biológica,M03.1,Ciência,Verde,"Quantifica seus dados geológicos e genéticos (6), submetendo suas evidências sobre a evolução à confirmação independente por diferentes laboratórios (1) e mantendo a hipótese sempre aberta a refutações (9)."
+A240,Carl Sagan,F23,Arqueologia,M03.2,Ciência,Verde,"Mantém uma cadeia de argumentação empírica sólida (7) ao usar métodos de datação quantificáveis (6), encorajando o debate entre especialistas (2) para replicar e confirmar achados materiais (1)."
+A241,Carl Sagan,F23,Antropologia Cultural/Social,M03.3,Não Ciência,Cinza,"É um campo qualitativo focado na interpretação, o que o deixa aberto a muitas explicações não-quantificáveis (6). Não foca em experimentos empíricos passíveis de replicação exata por céticos (9)."
+A242,Carl Sagan,F23,Antropologia Linguística,M03.4,Não Ciência,Cinza,"Assim como a vertente social, analisa a linguagem de forma vaga e qualitativa para os padrões de Sagan (6), não buscando o isolamento de variáveis para refutação física sistemática (4 e 9)."
+A243,Carl Sagan,F23,Artes Visuais,M04.1,Não Ciência,Cinza,"Prática subjetiva, puramente qualitativa."
+A244,Carl Sagan,F23,Artes Cênicas,M04.2,Não Ciência,Cinza,"Expressiva, carece de formulação de hipóteses."
+A245,Carl Sagan,F23,Artes Musicais,M04.3,Não Ciência,Cinza,"Estético e qualitativo, não busca testes empíricos."
+A246,Carl Sagan,F23,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Foco prático, não submetido à replicação cética."
+A247,Carl Sagan,F23,Astrologia,M05,Pseudociência,Vermelho,Depende de afirmações vagas e qualitativas (6). Seus defensores apegam-se à hipótese (5) mesmo quando testes conduzidos por céticos independentes não encontram confirmação (1 e 9).
+A248,Carl Sagan,F23,Astronomia,M06,Ciência,Verde,Quantificável com rigorosa confirmação independente.
+A249,Carl Sagan,F23,Ecologia,M07.1,Ciência,Verde,"Formula modelos altamente quantificáveis (6) de ecossistemas, testando múltiplas hipóteses sobre o impacto ambiental (4) que podem ser verificadas e replicadas independentemente no campo (1)."
+A250,Carl Sagan,F23,Biologia Molecular,M07.2,Ciência,Verde,"Seus experimentos de genética e biologia celular são rigorosamente medidos (6) e reproduzidos por céticos independentes em todo o mundo (9), sobrevivendo sistematicamente a refutações (4)."
+A251,Carl Sagan,F23,Biorritmos,M08,Pseudociência,Vermelho,"Tenta parecer quantificável, mas falha na Navalha de Occam (8) ao preferir ciclos místicos complexos em vez da simples aleatoriedade biológica. Falha ao não resistir à verificação rigorosa por céticos independentes (9)."
+A252,Carl Sagan,F23,Criacionismo,M09,Pseudociência,Vermelho,"Viola diretamente a regra de que argumentos de autoridade têm pouco peso (3). Além disso, não admite a possibilidade de que sua hipótese fundamental seja refutada por evidências empíricas (9)."
+A253,Carl Sagan,F23,Design Inteligente,M10,Pseudociência,Vermelho,Apelo à autoridade e viola a Navalha de Occam.
+A254,Carl Sagan,F23,Direito,M11,Não Ciência,Cinza,"É um sistema puramente normativo que frequentemente se apoia em ""argumentos de autoridade"" (jurisprudência, tribunais superiores) (3), algo que o método de Sagan rejeita como base para definir a realidade fática."
+A255,Carl Sagan,F23,Microeconomia,M12.1,Ciência,Verde,Quantifica variáveis verificáveis independentemente.
+A256,Carl Sagan,F23,Macroeconomia,M12.2,Ciência,Verde,Modelos amplos sujeitos a medição e debate especializado.
+A257,Carl Sagan,F23,Economia aplicada,M12.3,Ciência,Verde,Cadeias de argumentação testadas por métricas reais.
+A258,Carl Sagan,F23,Engenharia de pesca,M13.1,Ciência,Verde,Quantifica populações e dinâmicas da água de forma exata (6). Cada elo da sua cadeia de argumentação aplicada tem de funcionar na prática (7) e é passível de confirmação independente (1).
+A259,Carl Sagan,F23,Engenharia aeroespacial,M13.2,Ciência,Verde,"Altamente quantificável e matemática (6). Avalia rigorosamente alternativas para evitar falhas (4), e cada elo da cadeia estrutural é testado exaustivamente por especialistas e replicado (7 e 9)."
+A260,Carl Sagan,F23,Esportes,M14,Não Ciência,Cinza,"Atividade humana, não possui hipóteses para céticos testarem."
+A261,Carl Sagan,F23,Filosofia - Estética,M15.1,Não Ciência,Cinza,"O estudo do belo é puramente qualitativo (6). Não gera debates sobre ""evidências"" materiais (2) nem formula hipóteses empíricas suscetíveis à replicação em laboratório (9)."
+A262,Carl Sagan,F23,Filosofia - Ética,M15.2,Não Ciência,Cinza,"Lida com valores não quantificáveis (6). Embora possua forte cadeia de argumentação lógica (7), suas hipóteses sobre moralidade não podem ser testadas ou refutadas empiricamente (9)."
+A263,Carl Sagan,F23,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Lida com a essência da realidade além da matéria. Falha em gerar confirmação independente de fatos empíricos (1) e suas hipóteses não podem ser testadas para refutação material (9).
+A264,Carl Sagan,F23,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Possui extrema validade na sua cadeia argumentativa sobre o saber (7), mas opera em um nível abstrato qualitativo (6), dispensando experimentos replicáveis (9) por não lidar com fatos da natureza."
+A265,Carl Sagan,F23,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Funciona perfeitamente na regra de que cada elo da cadeia argumentativa deve funcionar (7), mas lida com verdades dedutivas a priori, não necessitando de confirmação experimental empírica por céticos (1 e 9)."
+A266,Carl Sagan,F23,Física,M18,Ciência,Verde,Alta em quantificação e replicação rigorosa.
+A267,Carl Sagan,F23,Frenologia,M19,Pseudociência,Vermelho,"Falhou no crivo da ciência porque seus defensores se apegaram demais à sua própria hipótese (5), ignorando alternativas (4). Quando testada por céticos, não conseguiu confirmação independente (1 e 9)."
+A268,Carl Sagan,F23,Geografia Física,M20.1,Ciência,Verde,Medições concretas abertas à verificação material.
+A269,Carl Sagan,F23,Geografia Humana,M20.2,Ciência,Verde,Utiliza dados quantificáveis sujeitos a debate aberto.
+A270,Carl Sagan,F23,Geotecnologias,M20.3,Ciência,Verde,Ferramentas exatas confirmadas por medição independente.
+A271,Carl Sagan,F23,História,M21,Não Ciência,Cinza,Trabalha de forma predominantemente qualitativa e documental (6). Não realiza experimentos replicáveis que possam sofrer refutação sistemática nos moldes das ciências físicas (9).
+A272,Carl Sagan,F23,Homeopatia,M22,Pseudociência,Vermelho,Falha sistematicamente na replicação independente.
+A273,Carl Sagan,F23,Linguística Formal,M23,Ciência,Verde,"Desenvolve cadeias lógicas e algorítmicas claras (7) e estuda a sintaxe de maneira quantificável e matemática (6), formulando modelos cognitivos que podem ser independentemente testados (1)."
+A274,Carl Sagan,F23,Literatura,M24,Não Ciência,Cinza,"Totalmente qualitativa, aberta a infinitas interpretações."
+A275,Carl Sagan,F23,Marxismo,M25,Pseudociência,Vermelho,"Na ótica de Sagan, atua como pseudociência quando seus defensores se apegam dogmaticamente à hipótese original (5), apelam para argumentos de autoridade partidária (3) e falham em adotar explicações mais simples para falhas econômicas (8)."
+A276,Carl Sagan,F23,Matemática,M26,Não Ciência,Cinza,"Cadeia dedutiva forte, mas dispensa confirmação empírica."
+A277,Carl Sagan,F23,Medicina,M27,Ciência,Verde,Opera ativamente testando diferentes alternativas de tratamento para refutar as falhas (4). A eficácia das terapias é estritamente quantificada (6) e depende da confirmação independente de testes duplo-cegos (1).
+A278,Carl Sagan,F23,Psicologia,M28,Ciência,Verde,Quantifica o comportamento testado de forma cética.
+A279,Carl Sagan,F23,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,"Formula respostas vagas e sobrenaturais em vez de quantificáveis (6), não incentivando o teste e a rejeição sistemática de hipóteses alternativas (4)."
+A280,Carl Sagan,F23,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,"Como expressão cultural folclórica, não tem o compromisso de permitir que céticos testem e repliquem empiricamente os eventos narrados (9)."
+A281,Carl Sagan,F23,Neurociência,M30,Ciência,Verde,Testes laboratoriais objetivos e independentemente validados.
+A282,Carl Sagan,F23,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Falha na Navalha de Occam (8), ignorando explicações simples (como truques ou viés estatístico) para criar teses complexas. Além disso, céticos inveterados raramente conseguem replicar os ""experimentos"" com sucesso (9)."
+A283,Carl Sagan,F23,Pedagogia,M32,Não Ciência,Cinza,"Prática qualitativa, frequentemente baseada em autoridades."
+A284,Carl Sagan,F23,Política,M33,Não Ciência,Cinza,"Como campo de articulação social, os argumentos de autoridade importam excessivamente (3). Suas dinâmicas são majoritariamente qualitativas e abertas a muitas interpretações não-quantificáveis (6)."
+A285,Carl Sagan,F23,Psicanálise,M34,Pseudociência,Vermelho,"Apego dogmático à hipótese, baseada em autoridade clínica."
+A286,Carl Sagan,F23,Química Analítica ,M35,Ciência,Verde,O exemplo perfeito da regra 6: quantifica tudo de forma absoluta. Cada elo da medição empírica funciona com precisão (7) e é constantemente replicado para confirmação independente (1).
+A287,Carl Sagan,F23,Física - Química ,M35,Ciência,Verde,"Avalia todas as hipóteses para reações físico-químicas (4), aplica a Navalha de Occam (8) e utiliza modelos matemáticos precisos (6) que céticos em qualquer parte do mundo podem reproduzir (9)."
+A288,Carl Sagan,F23,Quiropraxia,M36,Pseudociência,Vermelho,Ignora explicações alternativas para suas alegações.
+A289,Carl Sagan,F23,Religião,M37,Não Ciência,Cinza,"Fundamenta-se exclusivamente em argumentos de autoridade divina e dogmática (3), rejeitando frontalmente a ferramenta essencial de que toda hipótese deve estar aberta à refutação material (9)."
+A290,Carl Sagan,F23,Sociologia,M38,Ciência,Verde,Dados sociais quantificados e debatidos por especialistas.
+A291,Carl Sagan,F23,Teologia,M39,Não Ciência,Cinza,Vai contra a terceira regra de Sagan ao ser inteiramente baseada em argumentos de autoridade e dogma (3). Também não permite que suas hipóteses divinas sejam refutadas materialmente por céticos (9).
+A292,Carl Sagan,F23,Teoria das Cordas,M40,Não Ciência,Cinza,Incapaz de ser replicada empiricamente por céticos.
+A293,Carl Sagan,F23,Terraplanismo,M41,Pseudociência,Vermelho,Viola totalmente a Navalha de Occam (8) ao exigir teias conspiratórias absurdamente complexas para contornar fatos simples. Ignora as evidências confirmadas de forma independente (1) e recusa todas as refutações feitas por especialistas (9).
+A294,Carl Sagan,F23,Atomismo,M42,Ciência,Verde,Fartamente quantificável e confirmado sistematicamente.
+A295,Carl Sagan,F23,Criticismo literário,M43,Não Ciência,Cinza,"É inerentemente subjetivo, interpretativo e não quantificável (6). Múltiplas ideias sobre um texto podem coexistir pacificamente, não necessitando da eliminação sistemática por testes (4 e 9)."
+A296,Rudolf Carnap,F04,Acupuntura,M01,Ciência,Verde,"Pode ser testada empiricamente, embora parte da base teórica tradicional não seja redutível a observação."
+A297,Rudolf Carnap,F04,Alquimia,M02,Pseudociência,Vermelho,Hipóteses centrais não confirmadas.
+A298,Rudolf Carnap,F04,Antropologia Biológica,M03.1,Ciência,Verde,Observável e testável.
+A299,Rudolf Carnap,F04,Arqueologia,M03.2,Ciência,Verde,Baseada em evidências materiais.
+A300,Rudolf Carnap,F04,Antropologia Cultural/Social,M03.3,Ciência,Verde,Hipóteses confrontáveis com dados.
+A301,Rudolf Carnap,F04,Antropologia Linguística,M03.4,Ciência,Verde,Observação sistemática da linguagem.
+A302,Rudolf Carnap,F04,Artes Visuais,M04.1,Não Ciência,Cinza,"Produção artística, não sistema de enunciados empíricos."
+A303,Rudolf Carnap,F04,Artes Cênicas,M04.2,Não Ciência,Cinza,Expressão artística.
+A304,Rudolf Carnap,F04,Artes Musicais,M04.3,Não Ciência,Cinza,Expressão artística.
+A305,Rudolf Carnap,F04,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,Prática criativa e técnica.
+A306,Rudolf Carnap,F04,Astrologia,M05,Pseudociência,Vermelho,Afirmações testáveis repetidamente não confirmadas.
+A307,Rudolf Carnap,F04,Astronomia,M06,Ciência,Verde,Altamente testável e confirmável.
+A308,Rudolf Carnap,F04,Ecologia,M07.1,Ciência,Verde,Observação e experimentação.
+A309,Rudolf Carnap,F04,Biologia Molecular,M07.2,Ciência,Verde,Observação e experimentação.
+A310,Rudolf Carnap,F04,Biorritmos,M08,Pseudociência,Vermelho,Não recebeu confirmação empírica adequada.
+A311,Rudolf Carnap,F04,Criacionismo,M09,Não Ciência,Cinza,Baseado em crenças sobrenaturais.
+A312,Rudolf Carnap,F04,Design Inteligente,M10,Não Ciência,Cinza,Recorre a causas não testáveis.
+A313,Rudolf Carnap,F04,Direito,M11,Não Ciência,Cinza,Normativo e interpretativo.
+A314,Rudolf Carnap,F04,Microeconomia,M12.1,Ciência,Verde,Modelos confrontáveis com dados.
+A315,Rudolf Carnap,F04,Macroeconomia,M12.2,Ciência,Verde,Confirmável por evidências.
+A316,Rudolf Carnap,F04,Economia aplicada,M12.3,Ciência,Verde,Uso intensivo de testes estatísticos.
+A317,Rudolf Carnap,F04,Engenharia de pesca,M13.1,Ciência,Verde,Testável na prática.
+A318,Rudolf Carnap,F04,Engenharia aeroespacial,M13.2,Ciência,Verde,Projetos e testes empíricos.
+A319,Rudolf Carnap,F04,Esportes,M14,Não Ciência,Cinza,"Prática humana, não teoria científica."
+A320,Rudolf Carnap,F04,Filosofia - Estética,M15.1,Não Ciência,Cinza,Não empiricamente confirmável.
+A321,Rudolf Carnap,F04,Filosofia - Ética,M15.2,Não Ciência,Cinza,Juízos de valor.
+A322,Rudolf Carnap,F04,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Sem significado empírico para Carnap.
+A323,Rudolf Carnap,F04,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,Reflexão conceitual.
+A324,Rudolf Carnap,F04,Filosofia - Lógica,M15.5,Ciência,Verde,"Analítica, não empírica."
+A325,Rudolf Carnap,F04,Física,M18,Ciência,Verde,Altamente confirmável.
+A326,Rudolf Carnap,F04,Frenologia,M19,Pseudociência,Vermelho,Refutada empiricamente.
+A327,Rudolf Carnap,F04,Geografia Física,M20.1,Ciência,Verde,Base observacional.
+A328,Rudolf Carnap,F04,Geografia Humana,M20.2,Ciência,Verde,Investigação baseada em dados.
+A329,Rudolf Carnap,F04,Geotecnologias,M20.3,Ciência,Verde,Métodos empíricos.
+A330,Rudolf Carnap,F04,História,M21,Ciência,Verde,Baseada em evidências documentais.
+A331,Rudolf Carnap,F04,Homeopatia,M22,Pseudociência,Vermelho,Sem confirmação robusta.
+A332,Rudolf Carnap,F04,Linguística Formal,M23,Ciência,Verde,Modelos formais aplicados a dados linguísticos.
+A333,Rudolf Carnap,F04,Literatura,M24,Não Ciência,Cinza,Produção e análise artística.
+A334,Rudolf Carnap,F04,Marxismo,M25,Ciência,Verde,Contém componentes empíricos e filosóficos.
+A335,Rudolf Carnap,F04,Matemática,M26,Ciência,Verde,"Analítica, não empírica."
+A336,Rudolf Carnap,F04,Medicina,M27,Ciência,Verde,Base experimental e clínica.
+A337,Rudolf Carnap,F04,Psicologia,M28,Ciência,Verde,Hipóteses testáveis.
+A338,Rudolf Carnap,F04,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Narrativa simbólica.
+A339,Rudolf Carnap,F04,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Narrativa simbólica.
+A340,Rudolf Carnap,F04,Neurociência,M30,Ciência,Verde,Fortemente experimental.
+A341,Rudolf Carnap,F04,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,Evidências insuficientes.
+A342,Rudolf Carnap,F04,Pedagogia,M32,Ciência,Verde,Métodos avaliáveis empiricamente.
+A343,Rudolf Carnap,F04,Política,M33,Não Ciência,Cinza,Campo prático e normativo.
+A344,Rudolf Carnap,F04,Psicanálise,M34,Não Ciência,Cinza,Baixa testabilidade para Carnap.
+A345,Rudolf Carnap,F04,Química Analítica ,M35,Ciência,Verde,Experimental.
+A346,Rudolf Carnap,F04,Física - Química ,M35,Ciência,Verde,Experimental.
+A347,Rudolf Carnap,F04,Quiropraxia,M36,Ciência,Verde,Algumas práticas são testáveis; evidência mista.
+A348,Rudolf Carnap,F04,Religião,M37,Não Ciência,Cinza,Afirmações transcendentais.
+A349,Rudolf Carnap,F04,Sociologia,M38,Ciência,Verde,Observação e análise de dados.
+A350,Rudolf Carnap,F04,Teologia,M39,Não Ciência,Cinza,Objeto transcendente.
+A351,Rudolf Carnap,F04,Teoria das Cordas,M40,Ciência,Verde,"Possui estrutura científica, mas confirmação empírica limitada."
+A352,Rudolf Carnap,F04,Terraplanismo,M41,Pseudociência,Vermelho,Contradiz evidências observacionais.
+A353,Rudolf Carnap,F04,Atomismo,M42,Não Ciência,Cinza,Formulação filosófica original sem testes diretos.
+A354,Rudolf Carnap,F04,Criticismo literário,M43,Não ciência,Cinza,Interpretação e avaliação textual.
+A355,David Resnik,F20,Acupuntura,M01,Ciência,Verde,"Ciência fraca. Há pesquisas e testes, mas persistem problemas metodológicos e evidências inconsistentes."
+A356,David Resnik,F20,Alquimia,M02,Pseudociência,Vermelho,Não segue padrões modernos de teste e validação.
+A357,David Resnik,F20,Antropologia Biológica,M03.1,Ciência,Verde,"Métodos sistemáticos, revisão crítica e produção empírica."
+A358,David Resnik,F20,Arqueologia,M03.2,Ciência,Verde,"Métodos sistemáticos, revisão crítica e produção empírica."
+A359,David Resnik,F20,Antropologia Cultural/Social,M03.3,Ciência,Verde,"Métodos sistemáticos, revisão crítica e produção empírica."
+A360,David Resnik,F20,Antropologia Linguística,M03.4,Ciência,Verde,"Métodos sistemáticos, revisão crítica e produção empírica."
+A361,David Resnik,F20,Artes Visuais,M04.1,Não Ciência,Cinza,"Campo legítimo, mas não pretende ser ciência."
+A362,David Resnik,F20,Artes Cênicas,M04.2,Não Ciência,Cinza,"Campo legítimo, mas não pretende ser ciência."
+A363,David Resnik,F20,Artes Musicais,M04.3,Não Ciência,Cinza,"Campo legítimo, mas não pretende ser ciência."
+A364,David Resnik,F20,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Campo legítimo, mas não pretende ser ciência."
+A365,David Resnik,F20,Astrologia,M05,Pseudociência,Vermelho,Faz alegações científicas sem suporte empírico robusto.
+A366,David Resnik,F20,Astronomia,M06,Ciência,Verde,Altamente testável e reprodutível.
+A367,David Resnik,F20,Ecologia,M07.1,Ciência,Verde,Métodos experimentais rigorosos.
+A368,David Resnik,F20,Biologia Molecular,M07.2,Ciência,Verde,Métodos experimentais rigorosos.
+A369,David Resnik,F20,Biorritmos,M08,Pseudociência,Vermelho,Falta evidência consistente.
+A370,David Resnik,F20,Criacionismo,M09,Pseudociência,Vermelho,Não atende aos critérios científicos de Resnik.
+A371,David Resnik,F20,Design Inteligente,M10,Pseudociência,Vermelho,Não oferece hipóteses adequadamente testáveis.
+A372,David Resnik,F20,Direito,M11,Não Ciência,Cinza,Campo normativo e interpretativo.
+A373,David Resnik,F20,Microeconomia,M12.1,Ciência,Verde,"Ciência fraca. Empírica, mas frequentemente limitada por vieses e dificuldades de replicação."
+A374,David Resnik,F20,Macroeconomia,M12.2,Ciência,Verde,"Ciência fraca. Empírica, mas frequentemente limitada por vieses e dificuldades de replicação."
+A375,David Resnik,F20,Economia aplicada,M12.3,Ciência,Verde,"Ciência fraca. Empírica, mas frequentemente limitada por vieses e dificuldades de replicação."
+A376,David Resnik,F20,Engenharia de pesca,M13.1,Ciência,Verde,Aplica conhecimentos científicos de forma testável.
+A377,David Resnik,F20,Engenharia aeroespacial,M13.2,Ciência,Verde,Aplica conhecimentos científicos de forma testável.
+A378,David Resnik,F20,Esportes,M14,Não Ciência,Cinza,"Prática social, não ciência em si."
+A379,David Resnik,F20,Filosofia - Estética,M15.1,Não Ciência,Cinza,Investigação conceitual e crítica.
+A380,David Resnik,F20,Filosofia - Ética,M15.2,Não Ciência,Cinza,Investigação conceitual e crítica.
+A381,David Resnik,F20,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Investigação conceitual e crítica.
+A382,David Resnik,F20,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,Investigação conceitual e crítica.
+A383,David Resnik,F20,Filosofia - Lógica,M15.5,Não Ciência,Cinza,Investigação conceitual e crítica.
+A384,David Resnik,F20,Física,M18,Ciência,Verde,Modelo exemplar de ciência.
+A385,David Resnik,F20,Frenologia,M19,Pseudociência,Vermelho,Refutada e metodologicamente inadequada.
+A386,David Resnik,F20,Geografia Física,M20.1,Ciência,Verde,Produz conhecimento empírico e verificável.
+A387,David Resnik,F20,Geografia Humana,M20.2,Ciência,Verde,Produz conhecimento empírico e verificável.
+A388,David Resnik,F20,Geotecnologias,M20.3,Ciência,Verde,Produz conhecimento empírico e verificável.
+A389,David Resnik,F20,História,M21,Não Ciência,Cinza,Disciplina acadêmica baseada em interpretação histórica.
+A390,David Resnik,F20,Homeopatia,M22,Pseudociência,Vermelho,Evidências incompatíveis com suas alegações centrais.
+A391,David Resnik,F20,Linguística Formal,M23,Ciência,Verde,Possui rigor metodológico e avaliação crítica.
+A392,David Resnik,F20,Literatura,M24,Não Ciência,Cinza,Campo interpretativo e artístico.
+A393,David Resnik,F20,Marxismo,M25,Ciência,Verde,"Ciência fraca. Alguns componentes são empiricamente investigáveis, outros são ideológicos."
+A394,David Resnik,F20,Matemática,M26,Não Ciência,Cinza,"Disciplina formal, não empírica; fora da ciência empírica de Resnik."
+A395,David Resnik,F20,Medicina,M27,Ciência,Verde,Baseada em evidências e revisão contínua.
+A396,David Resnik,F20,Psicologia,M28,Ciência,Verde,"Ciência fraca. Busca seguir critérios científicos, mas enfrenta problemas de replicação em áreas específicas."
+A397,David Resnik,F20,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Narrativas culturais legítimas.
+A398,David Resnik,F20,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Narrativas culturais legítimas.
+A399,David Resnik,F20,Neurociência,M30,Ciência,Verde,Alta integração entre teoria e evidência.
+A400,David Resnik,F20,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,Evidências frágeis e baixa reprodutibilidade.
+A401,David Resnik,F20,Pedagogia,M32,Ciência,Verde,"Ciência fraca. Possui pesquisa empírica, mas enfrenta desafios metodológicos."
+A402,David Resnik,F20,Política,M33,Não Ciência,Cinza,Campo normativo e prático.
+A403,David Resnik,F20,Psicanálise,M34,Ciência,Verde,"Ciência fraca. Alguns aspectos são investigáveis, mas muitos carecem de testabilidade clara."
+A404,David Resnik,F20,Química Analítica ,M35,Ciência,Verde,Altamente experimental e reprodutível.
+A405,David Resnik,F20,Física - Química ,M35,Ciência,Verde,Altamente experimental e reprodutível.
+A406,David Resnik,F20,Quiropraxia,M36,Ciência,Verde,Ciência fraca. Algumas técnicas possuem suporte empírico limitado.
+A407,David Resnik,F20,Religião,M37,Não Ciência,Cinza,"Sistema de crenças, não ciência."
+A408,David Resnik,F20,Sociologia,M38,Ciência,Verde,"Ciência fraca. Empírica, mas sujeita a limitações metodológicas."
+A409,David Resnik,F20,Teologia,M39,Não Ciência,Cinza,"Investigação religiosa, não científica."
+A410,David Resnik,F20,Teoria das Cordas,M40,Ciência,Verde,"Ciência fraca. Coerente teoricamente, mas com pouca testabilidade atual."
+A411,David Resnik,F20,Terraplanismo,M41,Pseudociência,Vermelho,Contraria evidências amplamente reproduzidas.
+A412,David Resnik,F20,Atomismo,M42,Não Ciência,Cinza,Doutrina filosófica histórica.
+A413,David Resnik,F20,Criticismo literário,M43,Não Ciência,Cinza,Análise interpretativa de textos.
+A414,Vandana Shiva,F24,Acupuntura,M01,Não Ciência,Cinza,Saber tradicional valorizado por seu potencial de cuidado e pluralismo epistêmico.
+A415,Vandana Shiva,F24,Alquimia,M02,Não Ciência,Cinza,Importante como tradição histórica de conhecimento.
+A416,Vandana Shiva,F24,Antropologia Biológica,M03.1,Não Ciência,Cinza,Ajuda a compreender diversidade cultural e formas de conhecimento.
+A417,Vandana Shiva,F24,Arqueologia,M03.2,Não Ciência,Cinza,Ajuda a compreender diversidade cultural e formas de conhecimento.
+A418,Vandana Shiva,F24,Antropologia Cultural/Social,M03.3,Não Ciência,Cinza,Ajuda a compreender diversidade cultural e formas de conhecimento.
+A419,Vandana Shiva,F24,Antropologia Linguística,M03.4,Não Ciência,Cinza,Ajuda a compreender diversidade cultural e formas de conhecimento.
+A420,Vandana Shiva,F24,Artes Visuais,M04.1,Não Ciência,Cinza,Expressa visões de mundo e preserva diversidade cultural.
+A421,Vandana Shiva,F24,Artes Cênicas,M04.2,Não Ciência,Cinza,Expressa visões de mundo e preserva diversidade cultural.
+A422,Vandana Shiva,F24,Artes Musicais,M04.3,Não Ciência,Cinza,Expressa visões de mundo e preserva diversidade cultural.
+A423,Vandana Shiva,F24,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,Expressa visões de mundo e preserva diversidade cultural.
+A424,Vandana Shiva,F24,Astrologia,M05,Não Ciência,Cinza,"Pode ser reconhecida como tradição cultural, sem depender dos critérios científicos clássicos."
+A425,Vandana Shiva,F24,Astronomia,M06,Ciência,Verde,Contribui para o conhecimento humano sem necessariamente ameaçar a diversidade.
+A426,Vandana Shiva,F24,Ecologia,M07.1,Ciência,Verde,Importante quando orientada à proteção da vida e biodiversidade.
+A427,Vandana Shiva,F24,Biologia Molecular,M07.2,Ciência,Verde,Importante quando orientada à proteção da vida e biodiversidade.
+A428,Vandana Shiva,F24,Biorritmos,M08,Não Ciência,Cinza,Pode ser considerado dentro do pluralismo de saberes.
+A429,Vandana Shiva,F24,Criacionismo,M09,Não Ciência,Cinza,Expressa tradições culturais e religiosas.
+A430,Vandana Shiva,F24,Design Inteligente,M10,Não Ciência,Cinza,Pode participar do debate plural de interpretações da natureza.
+A431,Vandana Shiva,F24,Direito,M11,Não Ciência,Cinza,Instrumento social relevante para proteção de comunidades.
+A432,Vandana Shiva,F24,Microeconomia,M12.1,Não Ciência,Cinza,Positiva quando promove sustentabilidade e justiça social.
+A433,Vandana Shiva,F24,Macroeconomia,M12.2,Não Ciência,Cinza,Positiva quando promove sustentabilidade e justiça social.
+A434,Vandana Shiva,F24,Economia aplicada,M12.3,Ciência,Verde,Positiva quando promove sustentabilidade e justiça social.
+A435,Vandana Shiva,F24,Engenharia de pesca,M13.1,Ciência,Verde,Desde que orientada ao bem-estar social e ecológico.
+A436,Vandana Shiva,F24,Engenharia aeroespacial,M13.2,Ciência,Verde,Desde que orientada ao bem-estar social e ecológico.
+A437,Vandana Shiva,F24,Esportes,M14,Não Ciência,Cinza,Contribui para a vida comunitária.
+A438,Vandana Shiva,F24,Filosofia - Estética,M15.1,Não Ciência,Cinza,Amplia perspectivas e evita monoculturas intelectuais.
+A439,Vandana Shiva,F24,Filosofia - Ética,M15.2,Não Ciência,Cinza,Amplia perspectivas e evita monoculturas intelectuais.
+A440,Vandana Shiva,F24,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Amplia perspectivas e evita monoculturas intelectuais.
+A441,Vandana Shiva,F24,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,Amplia perspectivas e evita monoculturas intelectuais.
+A442,Vandana Shiva,F24,Filosofia - Lógica,M15.5,Não Ciência,Cinza,Amplia perspectivas e evita monoculturas intelectuais.
+A443,Vandana Shiva,F24,Física,M18,Ciência,Verde,"Importante, mas não deve monopolizar a definição de conhecimento."
+A444,Vandana Shiva,F24,Frenologia,M19,Pseudociência,Vermelho,Associada a exclusões e hierarquizações humanas.
+A445,Vandana Shiva,F24,Geografia Física,M20.1,Não Ciência,Cinza,Ajuda a compreender relações entre sociedade e ambiente.
+A446,Vandana Shiva,F24,Geografia Humana,M20.2,Não Ciência,Cinza,Ajuda a compreender relações entre sociedade e ambiente.
+A447,Vandana Shiva,F24,Geotecnologias,M20.3,Não Ciência,Cinza,Ajuda a compreender relações entre sociedade e ambiente.
+A448,Vandana Shiva,F24,História,M21,Não Ciência,Cinza,Preserva memórias e experiências de diferentes povos.
+A449,Vandana Shiva,F24,Homeopatia,M22,Não Ciência,Cinza,Tende a ser valorizada como saber alternativo e local.
+A450,Vandana Shiva,F24,Linguística Formal,M23,Não Ciência,Cinza,Contribui para a preservação e compreensão da diversidade linguística.
+A451,Vandana Shiva,F24,Literatura,M24,Não Ciência,Cinza,Expressa pluralidade cultural.
+A452,Vandana Shiva,F24,Marxismo,M25,Não Ciência,Cinza,Ferramenta de análise social e econômica.
+A453,Vandana Shiva,F24,Matemática,M26,Não Ciência,Cinza,"Importante, mas não exclusiva na produção de conhecimento."
+A454,Vandana Shiva,F24,Medicina,M27,Ciência,Verde,Especialmente quando integrada a saberes locais e preventivos.
+A455,Vandana Shiva,F24,Psicologia,M28,Não Ciência,Cinza,Contribui para o bem-estar humano.
+A456,Vandana Shiva,F24,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Parte do patrimônio simbólico dos povos.
+A457,Vandana Shiva,F24,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Parte do patrimônio simbólico dos povos.
+A458,Vandana Shiva,F24,Neurociência,M30,Ciência,Verde,Importante desde que respeite limites éticos e sociais.
+A459,Vandana Shiva,F24,"Parapsicologia (Telepatia, Telecinese)",M31,Não Ciência,Cinza,Não seria excluída apenas por critérios tradicionais.
+A460,Vandana Shiva,F24,Pedagogia,M32,Não Ciência,Cinza,Fundamental para transmissão plural de saberes.
+A461,Vandana Shiva,F24,Política,M33,Não Ciência,Cinza,Essencial para organização social e justiça.
+A462,Vandana Shiva,F24,Psicanálise,M34,Não Ciência,Cinza,Forma alternativa de compreender a experiência humana.
+A463,Vandana Shiva,F24,Química Analítica ,M35,Ciência,Verde,Deve ser avaliada pelos seus impactos sociais e ambientais.
+A464,Vandana Shiva,F24,Física - Química ,M35,Ciência,Verde,Deve ser avaliada pelos seus impactos sociais e ambientais.
+A465,Vandana Shiva,F24,Quiropraxia,M36,Não Ciência,Cinza,Pode coexistir com outros sistemas de cuidado.
+A466,Vandana Shiva,F24,Religião,M37,Não Ciência,Cinza,Importante para muitas comunidades e identidades.
+A467,Vandana Shiva,F24,Sociologia,M38,Não Ciência,Cinza,Ajuda a compreender desigualdades e diversidade social.
+A468,Vandana Shiva,F24,Teologia,M39,Não Ciência,Cinza,Parte das tradições intelectuais e religiosas.
+A469,Vandana Shiva,F24,Teoria das Cordas,M40,Ciência,Verde,Não deve ser julgada apenas pela aplicação imediata.
+A470,Vandana Shiva,F24,Terraplanismo,M41,Pseudociência,Vermelho,Pouca contribuição para proteção da vida ou compreensão ecológica.
+A471,Vandana Shiva,F24,Atomismo,M42,Não Ciência,Cinza,Importante historicamente para o pensamento humano.
+A472,Vandana Shiva,F24,Criticismo literário,M43,Não Ciência,Cinza,Favorece interpretação plural da cultura.
+A473,Christopher Pincock,F28,Acupuntura,M01,Não Ciência,Cinza,Não possui modelagem teórica e evidência empírica robusta compatíveis com seus pressupostos tradicionais.
+A474,Christopher Pincock,F28,Alquimia,M02,Pseudociência,Vermelho,Carece de metodologia científica moderna e modelagem validada.
+A475,Christopher Pincock,F28,Antropologia Biológica,M03.1,Ciência,Verde,"Utiliza modelos biológicos, estatísticos e evidências empíricas."
+A476,Christopher Pincock,F28,Arqueologia,M03.2,Ciência,Verde,Emprega métodos quantitativos e hipóteses empiricamente testáveis.
+A477,Christopher Pincock,F28,Antropologia Cultural/Social,M03.3,Não Ciência,Cinza,"Possui pesquisa empírica, mas menor dependência de modelagem formal."
+A478,Christopher Pincock,F28,Antropologia Linguística,M03.4,Não Ciência,Cinza,"Baseia-se em observação empírica, com modelagem limitada."
+A479,Christopher Pincock,F28,Artes Visuais,M04.1,Não Ciência,Cinza,"Produção estética, não voltada à representação científica."
+A480,Christopher Pincock,F28,Artes Cênicas,M04.2,Não Ciência,Cinza,Finalidade artística e expressiva.
+A481,Christopher Pincock,F28,Artes Musicais,M04.3,Não Ciência,Cinza,Finalidade artística e criativa.
+A482,Christopher Pincock,F28,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Pode usar ciência, mas não constitui ciência em si."
+A483,Christopher Pincock,F28,Astrologia,M05,Pseudociência,Vermelho,Não apresenta modelos empiricamente validados.
+A484,Christopher Pincock,F28,Astronomia,M06,Ciência,Verde,Forte uso de modelos matemáticos e validação observacional.
+A485,Christopher Pincock,F28,Ecologia,M07.1,Ciência,Verde,Modelos quantitativos e testes empíricos.
+A486,Christopher Pincock,F28,Biologia Molecular,M07.2,Ciência,Verde,Elevado grau de modelagem e evidência experimental.
+A487,Christopher Pincock,F28,Biorritmos,M08,Pseudociência,Vermelho,Hipóteses não sustentadas empiricamente.
+A488,Christopher Pincock,F28,Criacionismo,M09,Pseudociência,Vermelho,Não produz modelos científicos testáveis.
+A489,Christopher Pincock,F28,Design Inteligente,M10,Pseudociência,Vermelho,Falta de modelagem científica validada e capacidade preditiva.
+A490,Christopher Pincock,F28,Direito,M11,Não Ciência,Cinza,Campo normativo e interpretativo.
+A491,Christopher Pincock,F28,Microeconomia,M12.1,Ciência,Verde,Forte modelagem matemática e confrontação empírica.
+A492,Christopher Pincock,F28,Macroeconomia,M12.2,Ciência,Verde,Utiliza modelos matemáticos e dados observacionais.
+A493,Christopher Pincock,F28,Economia aplicada,M12.3,Ciência,Verde,Testa empiricamente modelos econômicos.
+A494,Christopher Pincock,F28,Engenharia de pesca,M13.1,Ciência,Verde,Aplica modelos científicos e quantitativos.
+A495,Christopher Pincock,F28,Engenharia aeroespacial,M13.2,Ciência,Verde,Baseada em modelos matemáticos e físicos rigorosos.
+A496,Christopher Pincock,F28,Esportes,M14,Não Ciência,Cinza,Prática social; não constitui disciplina científica por si só.
+A497,Christopher Pincock,F28,Filosofia - Estética,M15.1,Não Ciência,Cinza,Investigação filosófica normativa.
+A498,Christopher Pincock,F28,Filosofia - Ética,M15.2,Não Ciência,Cinza,Investigação filosófica normativa.
+A499,Christopher Pincock,F28,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Não depende de validação empírica.
+A500,Christopher Pincock,F28,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,Análise filosófica do conhecimento.
+A501,Christopher Pincock,F28,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Altamente formal, mas não empírica."
+A502,Christopher Pincock,F28,Física,M18,Ciência,Verde,Exemplo paradigmático de modelagem matemática empiricamente validada.
+A503,Christopher Pincock,F28,Frenologia,M19,Pseudociência,Vermelho,Teoria refutada empiricamente.
+A504,Christopher Pincock,F28,Geografia Física,M20.1,Ciência,Verde,Modelagem quantitativa e observação empírica.
+A505,Christopher Pincock,F28,Geografia Humana,M20.2,Não Ciência,Cinza,"Empírica, porém menos formalizada matematicamente."
+A506,Christopher Pincock,F28,Geotecnologias,M20.3,Ciência,Verde,Baseada em modelagem espacial e validação empírica.
+A507,Christopher Pincock,F28,História,M21,Não Ciência,Cinza,"Pesquisa empírica sistemática, mas limitada em modelagem matemática."
+A508,Christopher Pincock,F28,Homeopatia,M22,Pseudociência,Vermelho,Falta de suporte empírico para seus princípios fundamentais.
+A509,Christopher Pincock,F28,Linguística Formal,M23,Ciência,Verde,Utiliza modelos abstratos rigorosos para representar fenômenos linguísticos.
+A510,Christopher Pincock,F28,Literatura,M24,Não Ciência,Cinza,Campo interpretativo e artístico.
+A511,Christopher Pincock,F28,Marxismo,M25,Não Ciência,Cinza,Algumas vertentes usam análise empírica; outras são normativas ou filosóficas.
+A512,Christopher Pincock,F28,Matemática,M26,Não Ciência,Cinza,"Fundamental para a ciência, mas não empírica em si."
+A513,Christopher Pincock,F28,Medicina,M27,Ciência,Verde,Fundamentada em evidências e modelos biológicos.
+A514,Christopher Pincock,F28,Psicologia,M28,Ciência,Verde,Utiliza métodos empíricos e modelagem estatística.
+A515,Christopher Pincock,F28,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Narrativas simbólicas sem validação empírica.
+A516,Christopher Pincock,F28,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Produção cultural e literária.
+A517,Christopher Pincock,F28,Neurociência,M30,Ciência,Verde,Forte integração entre modelagem e evidência experimental.
+A518,Christopher Pincock,F28,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,Evidências insuficientes e baixa replicabilidade.
+A519,Christopher Pincock,F28,Pedagogia,M32,Não Ciência,Cinza,"Possui pesquisa empírica, mas também dimensões normativas."
+A520,Christopher Pincock,F28,Política,M33,Não Ciência,Cinza,Depende do enfoque; pode ser empírica ou normativa.
+A521,Christopher Pincock,F28,Psicanálise,M34,Não Ciência,Cinza,Baixa testabilidade e limitada validação empírica.
+A522,Christopher Pincock,F28,Química Analítica ,M35,Ciência,Verde,Forte base experimental e quantitativa.
+A523,Christopher Pincock,F28,Física - Química ,M35,Ciência,Verde,Intensivamente matematizada e empiricamente validada.
+A524,Christopher Pincock,F28,Quiropraxia,M36,Não Ciência,Cinza,"Alguns procedimentos possuem evidência, mas muitos pressupostos são controversos."
+A525,Christopher Pincock,F28,Religião,M37,Não Ciência,Cinza,"Baseada em fé e doutrina, não em modelagem empírica."
+A526,Christopher Pincock,F28,Sociologia,M38,Não Ciência,Cinza,"Pesquisa empírica relevante, com níveis variáveis de formalização."
+A527,Christopher Pincock,F28,Teologia,M39,Não Ciência,Cinza,Fundamentada em pressupostos religiosos.
+A528,Christopher Pincock,F28,Teoria das Cordas,M40,Ciência,Verde,"Possui modelagem matemática rigorosa, embora com limitada confirmação empírica atual."
+A529,Christopher Pincock,F28,Terraplanismo,M41,Pseudociência,Vermelho,Contradiz evidências empíricas consolidadas.
+A530,Christopher Pincock,F28,Atomismo,M42,Não Ciência,Cinza,Historicamente filosófico; tornou-se científico quando incorporado à física moderna.
+A531,Christopher Pincock,F28,Criticismo literário,M43,Não Ciência,Cinza,Campo interpretativo e hermenêutico.
+A532,Gaston Bachelard,F31,Acupuntura,M01,Não Ciência,Cinza,Baseia-se em conceitos tradicionais pouco integrados ao conhecimento científico moderno.
+A533,Gaston Bachelard,F31,Alquimia,M02,Não Ciência,Cinza,Representa um estágio pré-científico superado pela química moderna.
+A534,Gaston Bachelard,F31,Antropologia Biológica,M03.1,Ciência,Verde,Utiliza métodos sistemáticos e rompe com explicações intuitivas sobre a natureza humana.
+A535,Gaston Bachelard,F31,Arqueologia,M03.2,Ciência,Verde,Constrói explicações mediante métodos e técnicas especializadas.
+A536,Gaston Bachelard,F31,Antropologia Cultural/Social,M03.3,Ciência,Verde,Produz conhecimento sistemático que ultrapassa o senso comum sobre culturas.
+A537,Gaston Bachelard,F31,Antropologia Linguística,M03.4,Ciência,Verde,Emprega investigação racional e metodológica dos fenômenos linguísticos.
+A538,Gaston Bachelard,F31,Artes Visuais,M04.1,Não Ciência,Cinza,"Produção estética, não conhecimento científico."
+A539,Gaston Bachelard,F31,Artes Cênicas,M04.2,Não Ciência,Cinza,Finalidade artística e expressiva.
+A540,Gaston Bachelard,F31,Artes Musicais,M04.3,Não Ciência,Cinza,Produção artística.
+A541,Gaston Bachelard,F31,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Aplicação técnica e criativa, mas não ciência propriamente dita."
+A542,Gaston Bachelard,F31,Astrologia,M05,Pseudociência,Vermelho,Mantém explicações apoiadas em crenças sem ruptura epistemológica efetiva.
+A543,Gaston Bachelard,F31,Astronomia,M06,Ciência,Verde,Exemplo clássico de superação das aparências imediatas dos sentidos.
+A544,Gaston Bachelard,F31,Ecologia,M07.1,Ciência,Verde,Constrói objetos teóricos e emprega técnicas de investigação.
+A545,Gaston Bachelard,F31,Biologia Molecular,M07.2,Ciência,Verde,Conhecimento altamente mediado por instrumentos e teorias.
+A546,Gaston Bachelard,F31,Biorritmos,M08,Pseudociência,Vermelho,Baseada em crenças sem validação científica consistente.
+A547,Gaston Bachelard,F31,Criacionismo,M09,Pseudociência,Vermelho,"Fundamentado em dogmas, não em investigação científica."
+A548,Gaston Bachelard,F31,Design Inteligente,M10,Pseudociência,Vermelho,Não rompe com pressupostos metafísicos e religiosos.
+A549,Gaston Bachelard,F31,Direito,M11,Não Ciência,Cinza,"Campo normativo, não explicativo da realidade natural."
+A550,Gaston Bachelard,F31,Microeconomia,M12.1,Ciência,Verde,Desenvolve modelos teóricos para compreender fenômenos econômicos.
+A551,Gaston Bachelard,F31,Macroeconomia,M12.2,Ciência,Verde,Utiliza abstrações e construção teórica sistemática.
+A552,Gaston Bachelard,F31,Economia aplicada,M12.3,Ciência,Verde,"Articula teoria, técnica e observação empírica."
+A553,Gaston Bachelard,F31,Engenharia de pesca,M13.1,Ciência,Verde,Aplica conhecimentos científicos por meio de técnicas especializadas.
+A554,Gaston Bachelard,F31,Engenharia aeroespacial,M13.2,Ciência,Verde,Fortemente baseada em ciência aplicada e tecnologia.
+A555,Gaston Bachelard,F31,Esportes,M14,Não Ciência,Cinza,Prática social e cultural.
+A556,Gaston Bachelard,F31,Filosofia - Estética,M15.1,Não Ciência,Cinza,Reflexão filosófica sobre o belo.
+A557,Gaston Bachelard,F31,Filosofia - Ética,M15.2,Não Ciência,Cinza,Campo normativo da filosofia.
+A558,Gaston Bachelard,F31,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Investigação filosófica sem base empírica.
+A559,Gaston Bachelard,F31,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Filosofia da ciência, não ciência."
+A560,Gaston Bachelard,F31,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Instrumento racional fundamental, mas não ciência empírica."
+A561,Gaston Bachelard,F31,Física,M18,Ciência,Verde,Modelo exemplar de ruptura epistemológica para Bachelard.
+A562,Gaston Bachelard,F31,Frenologia,M19,Pseudociência,Vermelho,Doutrina refutada pela ciência.
+A563,Gaston Bachelard,F31,Geografia Física,M20.1,Ciência,Verde,Constrói explicações teóricas dos fenômenos naturais.
+A564,Gaston Bachelard,F31,Geografia Humana,M20.2,Ciência,Verde,Supera explicações espontâneas sobre espaço e sociedade.
+A565,Gaston Bachelard,F31,Geotecnologias,M20.3,Ciência,Verde,Utiliza técnicas sofisticadas para construir conhecimento.
+A566,Gaston Bachelard,F31,História,M21,Ciência,Verde,Produz conhecimento crítico que rompe com narrativas espontâneas.
+A567,Gaston Bachelard,F31,Homeopatia,M22,Pseudociência,Vermelho,Não apresenta fundamentação compatível com a ciência moderna.
+A568,Gaston Bachelard,F31,Linguística Formal,M23,Ciência,Verde,Constrói teoricamente seu objeto de estudo.
+A569,Gaston Bachelard,F31,Literatura,M24,Não Ciência,Cinza,Produção artística e interpretativa.
+A570,Gaston Bachelard,F31,Marxismo,M25,Não Ciência,Cinza,Algumas vertentes produzem análise científica; outras assumem caráter ideológico.
+A571,Gaston Bachelard,F31,Matemática,M26,Não Ciência,Cinza,"É racional e fundamental para a ciência, mas não ciência empírica."
+A572,Gaston Bachelard,F31,Medicina,M27,Ciência,Verde,"Baseada em pesquisa, técnica e constante correção de erros."
+A573,Gaston Bachelard,F31,Psicologia,M28,Ciência,Verde,Busca superar explicações intuitivas do comportamento humano.
+A574,Gaston Bachelard,F31,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Explicações baseadas em narrativas simbólicas.
+A575,Gaston Bachelard,F31,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Produção cultural e simbólica.
+A576,Gaston Bachelard,F31,Neurociência,M30,Ciência,Verde,Exemplo de conhecimento construído por instrumentos e teorias complexas.
+A577,Gaston Bachelard,F31,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,Não superou os testes exigidos pela ciência.
+A578,Gaston Bachelard,F31,Pedagogia,M32,Ciência,Verde,Quando fundamentada em pesquisa sistemática sobre educação.
+A579,Gaston Bachelard,F31,Política,M33,Não Ciência,Cinza,Possui dimensões empíricas e normativas.
+A580,Gaston Bachelard,F31,Psicanálise,M34,Não Ciência,Cinza,"Bachelard provavelmente reconheceria seu esforço teórico, mas questionaria sua validação científica."
+A581,Gaston Bachelard,F31,Química Analítica ,M35,Ciência,Verde,Resultado da superação da alquimia e do senso comum.
+A582,Gaston Bachelard,F31,Física - Química ,M35,Ciência,Verde,Altamente teórica e experimental.
+A583,Gaston Bachelard,F31,Quiropraxia,M36,Não Ciência,Cinza,"Algumas práticas possuem respaldo empírico, outras não."
+A584,Gaston Bachelard,F31,Religião,M37,Não Ciência,Cinza,"Fundamentada na fé, não na construção científica do objeto."
+A585,Gaston Bachelard,F31,Sociologia,M38,Ciência,Verde,Produz conhecimento sistemático sobre fenômenos sociais.
+A586,Gaston Bachelard,F31,Teologia,M39,Não Ciência,Cinza,Fundamentada em pressupostos religiosos.
+A587,Gaston Bachelard,F31,Teoria das Cordas,M40,Ciência,Verde,Produto de elaboração teórica avançada dentro da física.
+A588,Gaston Bachelard,F31,Terraplanismo,M41,Pseudociência,Vermelho,"Apega-se às aparências imediatas, exatamente o oposto da ruptura epistemológica."
+A589,Gaston Bachelard,F31,Atomismo,M42,Ciência,Verde,Exemplo histórico de construção teórica que ultrapassa a observação direta.
+A590,Gaston Bachelard,F31,Criticismo literário,M43,Não Ciência,Cinza,Campo interpretativo e humanístico.
+A591,Philip Kitcher,F32,Acupuntura,M01,Não Ciência,Cinza,"Algumas técnicas podem ser testadas empiricamente, mas muitos pressupostos tradicionais carecem de confirmação independente."
+A592,Philip Kitcher,F32,Alquimia,M02,Pseudociência,Vermelho,Não produziu um programa de pesquisa unificado e fecundo comparável ao da química.
+A593,Philip Kitcher,F32,Antropologia Biológica,M03.1,Ciência,Verde,Possui hipóteses testáveis e gera novas pesquisas continuamente.
+A594,Philip Kitcher,F32,Arqueologia,M03.2,Ciência,Verde,Produz explicações testáveis e integra diferentes evidências.
+A595,Philip Kitcher,F32,Antropologia Cultural/Social,M03.3,Ciência,Verde,Desenvolve programas de pesquisa empíricos e cumulativos.
+A596,Philip Kitcher,F32,Antropologia Linguística,M03.4,Ciência,Verde,Formula hipóteses investigáveis e gera novas agendas de pesquisa.
+A597,Philip Kitcher,F32,Artes Visuais,M04.1,Não Ciência,Cinza,Não busca explicações testáveis da realidade.
+A598,Philip Kitcher,F32,Artes Cênicas,M04.2,Não Ciência,Cinza,Campo artístico e expressivo.
+A599,Philip Kitcher,F32,Artes Musicais,M04.3,Não Ciência,Cinza,"Produção estética, não científica."
+A600,Philip Kitcher,F32,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Aplicação técnica e criativa, não programa científico."
+A601,Philip Kitcher,F32,Astrologia,M05,Pseudociência,Vermelho,"Baixa testabilidade, explicações ad hoc e pouca fecundidade científica."
+A602,Philip Kitcher,F32,Astronomia,M06,Ciência,Verde,Exemplo de ciência altamente unificada e produtiva.
+A603,Philip Kitcher,F32,Ecologia,M07.1,Ciência,Verde,Programa de pesquisa ativo e empiricamente testável.
+A604,Philip Kitcher,F32,Biologia Molecular,M07.2,Ciência,Verde,Elevada fecundidade e integração teórica.
+A605,Philip Kitcher,F32,Biorritmos,M08,Pseudociência,Vermelho,Não gera pesquisas robustas nem previsões confiáveis.
+A606,Philip Kitcher,F32,Criacionismo,M09,Pseudociência,Vermelho,Caso paradigmático criticado por Kitcher por falta de fecundidade e testabilidade.
+A607,Philip Kitcher,F32,Design Inteligente,M10,Pseudociência,Vermelho,Produz explicações ad hoc e não gera programas de pesquisa independentes.
+A608,Philip Kitcher,F32,Direito,M11,Não Ciência,Cinza,"Campo normativo, não explicativo da natureza."
+A609,Philip Kitcher,F32,Microeconomia,M12.1,Ciência,Verde,Formula hipóteses testáveis e modelos relativamente unificados.
+A610,Philip Kitcher,F32,Macroeconomia,M12.2,Ciência,Verde,"Programa de pesquisa ativo, embora sujeito a controvérsias."
+A611,Philip Kitcher,F32,Economia aplicada,M12.3,Ciência,Verde,Testa empiricamente teorias econômicas.
+A612,Philip Kitcher,F32,Engenharia de pesca,M13.1,Ciência,Verde,Baseada em conhecimento científico testável.
+A613,Philip Kitcher,F32,Engenharia aeroespacial,M13.2,Ciência,Verde,Utiliza teorias científicas consolidadas e produz inovação contínua.
+A614,Philip Kitcher,F32,Esportes,M14,Não Ciência,Cinza,"Prática social, não programa científico."
+A615,Philip Kitcher,F32,Filosofia - Estética,M15.1,Não Ciência,Cinza,Reflexão filosófica normativa.
+A616,Philip Kitcher,F32,Filosofia - Ética,M15.2,Não Ciência,Cinza,Campo normativo da filosofia.
+A617,Philip Kitcher,F32,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Não se fundamenta em hipóteses empiricamente testáveis.
+A618,Philip Kitcher,F32,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Filosofia do conhecimento, não ciência empírica."
+A619,Philip Kitcher,F32,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Ferramenta racional, mas não ciência empírica."
+A620,Philip Kitcher,F32,Física,M18,Ciência,Verde,Um dos exemplos máximos de unificação e fecundidade.
+A621,Philip Kitcher,F32,Frenologia,M19,Não Ciência,Cinza,Teoria refutada e incapaz de gerar pesquisa produtiva.
+A622,Philip Kitcher,F32,Geografia Física,M20.1,Ciência,Verde,Produz explicações testáveis e integradas.
+A623,Philip Kitcher,F32,Geografia Humana,M20.2,Ciência,Verde,Possui programas de pesquisa empíricos.
+A624,Philip Kitcher,F32,Geotecnologias,M20.3,Ciência,Verde,Campo tecnológico sustentado por ciência consolidada.
+A625,Philip Kitcher,F32,História,M21,Não Ciência,Cinza,"Produz conhecimento empírico, mas com menor poder preditivo e unificação teórica."
+A626,Philip Kitcher,F32,Homeopatia,M22,Pseudociência,Vermelho,Hipóteses centrais não encontram confirmação independente.
+A627,Philip Kitcher,F32,Linguística Formal,M23,Ciência,Verde,Programa teórico produtivo e sistemático.
+A628,Philip Kitcher,F32,Literatura,M24,Não Ciência,Cinza,Campo interpretativo e artístico.
+A629,Philip Kitcher,F32,Marxismo,M25,Não Ciência,Cinza,Algumas vertentes geram pesquisa empírica; outras recorrem a explicações ad hoc.
+A630,Philip Kitcher,F32,Matemática,M26,Não Ciência,Cinza,"Fundamental para a ciência, mas não empírica."
+A631,Philip Kitcher,F32,Medicina,M27,Ciência,Verde,Hipóteses constantemente testadas e refinadas.
+A632,Philip Kitcher,F32,Psicologia,M28,Ciência,Verde,Campo empiricamente investigável e produtivo.
+A633,Philip Kitcher,F32,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Não produz hipóteses testáveis nem programas de pesquisa.
+A634,Philip Kitcher,F32,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Narrativa simbólica e cultural.
+A635,Philip Kitcher,F32,Neurociência,M30,Ciência,Verde,Extremamente fecunda e integrada com outras ciências.
+A636,Philip Kitcher,F32,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,Falha em produzir resultados robustos e replicáveis.
+A637,Philip Kitcher,F32,Pedagogia,M32,Não Ciência,Cinza,"Possui pesquisa empírica, mas também elementos normativos."
+A638,Philip Kitcher,F32,Política,M33,Não Ciência,Cinza,Mistura investigação empírica e reflexão normativa.
+A639,Philip Kitcher,F32,Psicanálise,M34,Não Ciência,Cinza,Kitcher provavelmente a veria com reservas devido à dificuldade de testar muitas de suas hipóteses centrais.
+A640,Philip Kitcher,F32,Química Analítica ,M35,Ciência,Verde,Altamente testável e integrada à química moderna.
+A641,Philip Kitcher,F32,Física - Química ,M35,Ciência,Verde,Forte unificação e fecundidade científica.
+A642,Philip Kitcher,F32,Quiropraxia,M36,Não Ciência,Cinza,Algumas práticas possuem evidência independente; outras permanecem controversas.
+A643,Philip Kitcher,F32,Religião,M37,Não Ciência,Cinza,Baseada em fé e não em investigação empírica.
+A644,Philip Kitcher,F32,Sociologia,M38,Ciência,Verde,Produz hipóteses testáveis e novas agendas de pesquisa.
+A645,Philip Kitcher,F32,Teologia,M39,Não Ciência,Cinza,Fundamentada em pressupostos religiosos.
+A646,Philip Kitcher,F32,Teoria das Cordas,M40,Ciência,Verde,"Integra um programa unificado e fecundo, embora sua testabilidade atual seja limitada."
+A647,Philip Kitcher,F32,Terraplanismo,M41,Pseudociência,Vermelho,Incapaz de competir com a capacidade explicativa e unificadora da ciência moderna.
+A648,Philip Kitcher,F32,Atomismo,M42,Ciência,Verde,Integra um programa científico altamente fecundo e unificado.
+A649,Philip Kitcher,F32,Criticismo literário,M43,Não Ciência,Cinza,"Campo interpretativo, não empírico."
+A650,Susan Haack,F33,Acupuntura,M01,Não Ciência,Cinza,"Algumas práticas são investigadas seriamente, mas certos pressupostos tradicionais permanecem pouco sustentados."
+A651,Susan Haack,F33,Alquimia,M02,Não Ciência,Cinza,Não corresponde aos padrões modernos de investigação crítica.
+A652,Susan Haack,F33,Antropologia Biológica,M03.1,Ciência,Verde,Evidências empíricas e revisão constante de hipóteses.
+A653,Susan Haack,F33,Arqueologia,M03.2,Ciência,Verde,Pesquisa baseada em evidências e revisão crítica.
+A654,Susan Haack,F33,Antropologia Cultural/Social,M03.3,Ciência,Verde,Investigação aberta à correção e sustentada por evidências.
+A655,Susan Haack,F33,Antropologia Linguística,M03.4,Ciência,Verde,Produz conhecimento por investigação sistemática.
+A656,Susan Haack,F33,Artes Visuais,M04.1,Não Ciência,Cinza,"Objetivos estéticos, não investigativos."
+A657,Susan Haack,F33,Artes Cênicas,M04.2,Não Ciência,Cinza,Produção artística.
+A658,Susan Haack,F33,Artes Musicais,M04.3,Não Ciência,Cinza,Produção artística.
+A659,Susan Haack,F33,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Atividade técnica e criativa, não investigativa."
+A660,Susan Haack,F33,Astrologia,M05,Pseudociência,Vermelho,Ignora sistematicamente evidências contrárias.
+A661,Susan Haack,F33,Astronomia,M06,Ciência,Verde,Exemplo robusto de investigação crítica.
+A662,Susan Haack,F33,Ecologia,M07.1,Ciência,Verde,"Baseada em observação, testes e revisão contínua."
+A663,Susan Haack,F33,Biologia Molecular,M07.2,Ciência,Verde,Investigação empírica sofisticada e autocorretiva.
+A664,Susan Haack,F33,Biorritmos,M08,Pseudociência,Vermelho,Falta de suporte empírico consistente.
+A665,Susan Haack,F33,Criacionismo,M09,Pseudociência,Vermelho,Caso clássico de pseudoinvestigação para Haack.
+A666,Susan Haack,F33,Design Inteligente,M10,Pseudociência,Vermelho,Busca confirmar conclusões prévias em vez de investigá-las criticamente.
+A667,Susan Haack,F33,Direito,M11,Não Ciência,Cinza,"Campo normativo, não empírico."
+A668,Susan Haack,F33,Microeconomia,M12.1,Ciência,Verde,Produz hipóteses confrontáveis com evidências.
+A669,Susan Haack,F33,Macroeconomia,M12.2,Ciência,Verde,Investigação empírica sujeita a revisão.
+A670,Susan Haack,F33,Economia aplicada,M12.3,Ciência,Verde,Uso sistemático de evidências.
+A671,Susan Haack,F33,Engenharia de pesca,M13.1,Ciência,Verde,Baseada em conhecimentos produzidos cientificamente.
+A672,Susan Haack,F33,Engenharia aeroespacial,M13.2,Ciência,Verde,Aplicação de conhecimento científico testado.
+A673,Susan Haack,F33,Esportes,M14,Não Ciência,Cinza,Prática social.
+A674,Susan Haack,F33,Filosofia - Estética,M15.1,Não Ciência,Cinza,Reflexão filosófica.
+A675,Susan Haack,F33,Filosofia - Ética,M15.2,Não Ciência,Cinza,Campo normativo.
+A676,Susan Haack,F33,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Não fundamentada em investigação empírica.
+A677,Susan Haack,F33,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,Filosofia do conhecimento.
+A678,Susan Haack,F33,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Ferramenta racional, mas não investigação empírica."
+A679,Susan Haack,F33,Física,M18,Ciência,Verde,Modelo exemplar de investigação crítica.
+A680,Susan Haack,F33,Frenologia,M19,Pseudociência,Vermelho,Recusou evidências contrárias e foi abandonada pela ciência.
+A681,Susan Haack,F33,Geografia Física,M20.1,Ciência,Verde,Pesquisa empírica e autocorretiva.
+A682,Susan Haack,F33,Geografia Humana,M20.2,Ciência,Verde,Produz conhecimento mediante investigação sistemática.
+A683,Susan Haack,F33,Geotecnologias,M20.3,Ciência,Verde,Baseadas em métodos e evidências.
+A684,Susan Haack,F33,História,M21,Ciência,Verde,"Embora diferente das ciências naturais, utiliza evidências e revisão crítica."
+A685,Susan Haack,F33,Homeopatia,M22,Pseudociência,Vermelho,Persistência apesar da ausência de evidências robustas.
+A686,Susan Haack,F33,Linguística Formal,M23,Ciência,Verde,Produz hipóteses sujeitas à crítica e revisão.
+A687,Susan Haack,F33,Literatura,M24,Não Ciência,Cinza,Campo interpretativo e artístico.
+A688,Susan Haack,F33,Marxismo,M25,Não Ciência,Cinza,Algumas vertentes são abertas à evidência; outras assumem caráter dogmático.
+A689,Susan Haack,F33,Matemática,M26,Não Ciência,Cinza,Não depende de investigação empírica.
+A690,Susan Haack,F33,Medicina,M27,Ciência,Verde,Constantemente corrigida por novas evidências.
+A691,Susan Haack,F33,Psicologia,M28,Ciência,Verde,Investigação empírica aberta à revisão.
+A692,Susan Haack,F33,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,"Narrativas culturais, não investigação crítica."
+A693,Susan Haack,F33,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Produção simbólica.
+A694,Susan Haack,F33,Neurociência,M30,Ciência,Verde,Pesquisa altamente empírica e autocorretiva.
+A695,Susan Haack,F33,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,Histórico de baixa confiabilidade e resistência à refutação.
+A696,Susan Haack,F33,Pedagogia,M32,Ciência,Verde,Quando baseada em pesquisa educacional empírica.
+A697,Susan Haack,F33,Política,M33,Não Ciência,Cinza,Mistura investigação empírica e reflexão normativa.
+A698,Susan Haack,F33,Psicanálise,M34,Não Ciência,Cinza,Algumas versões dialogam com evidências; outras resistem à refutação.
+A699,Susan Haack,F33,Química Analítica ,M35,Ciência,Verde,Investigação rigorosamente baseada em evidências.
+A700,Susan Haack,F33,Física - Química ,M35,Ciência,Verde,Pesquisa experimental e teórica aberta à correção.
+A701,Susan Haack,F33,Quiropraxia,M36,Não Ciência,Cinza,Algumas práticas possuem evidência; outras permanecem controversas.
+A702,Susan Haack,F33,Religião,M37,Não Ciência,Cinza,Fundamentada na fé e não na investigação empírica.
+A703,Susan Haack,F33,Sociologia,M38,Ciência,Verde,Investigação sistemática baseada em evidências sociais.
+A704,Susan Haack,F33,Teologia,M39,Não Ciência,Cinza,Fundamentada em pressupostos religiosos.
+A705,Susan Haack,F33,Teoria das Cordas,M40,Ciência,Verde,"Inserida em uma comunidade científica aberta à crítica e revisão, apesar das dificuldades empíricas atuais."
+A706,Susan Haack,F33,Terraplanismo,M41,Pseudociência,Vermelho,Rejeita evidências contrárias de forma sistemática.
+A707,Susan Haack,F33,Atomismo,M42,Ciência,Verde,Teoria sustentada por vasta investigação empírica.
+A708,Susan Haack,F33,Criticismo literário,M43,Não Ciência,Cinza,"Campo interpretativo, não investigativo em sentido científico."
+A709,Mituo Taketani,F34,Acupuntura,M01,Pseudociência,Vermelho,Postula efeitos fisiológicos terapêuticos a partir de base material estrutural (meridianos) indemonstrável empiricamente.
+A710,Mituo Taketani,F34,Alquimia,M02,Pseudociência,Vermelho,"Observa fenômenos reativos, mas atribui causalidade a substâncias fantasiosas, rompendo o ciclo dialético da matéria."
+A711,Mituo Taketani,F34,Antropologia Biológica,M03.1,Ciência,Verde,Cumpre o ciclo ao mapear fenômenos adaptativos em estruturas genéticas e quantificá-las por dinâmicas populacionais precisas.
+A712,Mituo Taketani,F34,Arqueologia,M03.2,Não Ciência,Cinza,"Permanece no estágio fenomenológico e substancial (descrição material), sem deduzir leis matemáticas dinâmicas universais."
+A713,Mituo Taketani,F34,Antropologia Cultural/Social,M03.3,Não Ciência,Cinza,"Limita-se à catalogação descritiva de fenômenos sociais, não configurando a estrutura material e leis matemáticas universais."
+A714,Mituo Taketani,F34,Antropologia Linguística,M03.4,Não Ciência,Cinza,Foca na catalogação de ocorrências linguísticas sem alcançar a derivação de leis estruturais estritamente universais e quantificáveis.
+A715,Mituo Taketani,F34,Artes Visuais,M04.1,Não Ciência,Cinza,"Expressão estética e técnica, desprovida de investigação fenomenológica material e estrutural visando leis físicas."
+A716,Mituo Taketani,F34,Artes Cênicas,M04.2,Não Ciência,Cinza,Prática performática humana desvinculada de formulação analítica sobre a estrutura constituinte da matéria.
+A717,Mituo Taketani,F34,Artes Musicais,M04.3,Não Ciência,Cinza,Disciplina estética não orientada à dialética metodológica de investigação de estruturas físicas universais.
+A718,Mituo Taketani,F34,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Prática projetual e utilitária, operando de maneira paralela à exigência metodológica de formular leis da natureza."
+A719,Mituo Taketani,F34,Astrologia,M05,Pseudociência,Vermelho,Postula leis matemáticas e influências dinâmicas carentes de comprovação objetiva sobre a base material interveniente.
+A720,Mituo Taketani,F34,Astronomia,M06,Ciência,Verde,"Completa o ciclo dialético investigando fenômenos ópticos, evidenciando estruturas estelares e deduzindo leis astrofísicas."
+A721,Mituo Taketani,F34,Ecologia,M07.1,Ciência,Verde,"Articula fenômenos interacionais à estrutura ecossistêmica material, formulando modelos dinâmicos e termodinâmicos universais."
+A722,Mituo Taketani,F34,Biologia Molecular,M07.2,Ciência,Verde,"Conecta os fenômenos hereditários às estruturas moleculares físicas, fundamentando-se em dinâmicas bioquímicas rigorosas."
+A723,Mituo Taketani,F34,Biorritmos,M08,Pseudociência,Vermelho,Cria equações matemáticas (estágio essencial) abstratas não suportadas por fundamentação biológica e material válida.
+A724,Mituo Taketani,F34,Criacionismo,M09,Pseudociência,Vermelho,Interrompe o ciclo epistemológico ao postular leis geradoras desprovidas de comprovação fenomenológica material subjacente.
+A725,Mituo Taketani,F34,Design Inteligente,M10,Pseudociência,Vermelho,Formula postulados estruturais finais prescindindo de comprovação dos mecanismos materiais objetivos correspondentes.
+A726,Mituo Taketani,F34,Direito,M11,Não Ciência,Cinza,"Campo normativo presuntivo, desenhado para a ordenação social e desvinculado da descoberta de leis naturais materiais."
+A727,Mituo Taketani,F34,Microeconomia,M12.1,Ciência,Verde,"Observa fenômenos de troca, consolida a estrutura de agentes materiais limitados e sistematiza equações dinâmicas universais."
+A728,Mituo Taketani,F34,Macroeconomia,M12.2,Ciência,Verde,Sistematiza fenômenos agregados e capacidades materiais produtivas por meio de modelagem matemática quantificável estrita.
+A729,Mituo Taketani,F34,Economia aplicada,M12.3,Ciência,Verde,Submete as dinâmicas teóricas universais estruturadas à constante verificação dialética empírica dos fenômenos.
+A730,Mituo Taketani,F34,Engenharia de pesca,M13.1,Ciência,Verde,Aplica formulações essenciais biológicas e fluidodinâmicas à quantificação e estruturação de fenômenos na aquicultura.
+A731,Mituo Taketani,F34,Engenharia aeroespacial,M13.2,Ciência,Verde,Consolida o ciclo aplicando equações mecânicas universais à constituição material visando a produção de fenômenos de voo.
+A732,Mituo Taketani,F34,Esportes,M14,Não Ciência,Cinza,Prática motora humana aplicada; não atua como campo teórico de pesquisa voltado às leis naturais de estruturação da matéria.
+A733,Mituo Taketani,F34,Filosofia - Estética,M15.1,Não Ciência,Cinza,"Investigação analítica do belo abstrato, não ancorada em estágios de empirismo fenomênico ou estrutura material quantificável."
+A734,Mituo Taketani,F34,Filosofia - Ética,M15.2,Não Ciência,Cinza,"Estudo axiológico e prescritivo das condutas morais, estruturalmente desprovido de dependência de base fenomênica física."
+A735,Mituo Taketani,F34,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,"Foca na formulação abstrata do ser e das causas elementares, rompendo deliberadamente com a base material empírica."
+A736,Mituo Taketani,F34,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Atua sobre a natureza conceitual da formulação do saber, não estabelecendo equações pautadas no mecanismo dialético material."
+A737,Mituo Taketani,F34,Filosofia - Lógica,M15.5,Não Ciência,Cinza,Sistema formal puramente dedutivo que elabora premissas apriorísticas e não depende de fenomenologia ou substância física.
+A738,Mituo Taketani,F34,Física,M18,Ciência,Verde,"Cumpre estritamente o critério: documenta fenômenos, desvenda a substância particulada e formula a essencialidade matemática estrita."
+A739,Mituo Taketani,F34,Frenologia,M19,Pseudociência,Vermelho,"Estabeleceu conexões inválidas entre fenômenos ósseos estruturais e atividade fisiológica mental, invalidando o ciclo dialético."
+A740,Mituo Taketani,F34,Geografia Física,M20.1,Ciência,Verde,"Vincula fenômenos topográficos a estruturas geológicas, elaborando sistemas dinâmicos e termodinâmicos terrestres precisos."
+A741,Mituo Taketani,F34,Geografia Humana,M20.2,Ciência,Verde,Mapeia as manifestações populacionais fenomênicas sobre o espaço físico e deriva modelagens matemáticas socioespaciais consolidadas.
+A742,Mituo Taketani,F34,Geotecnologias,M20.3,Ciência,Verde,"Instrumentaliza o estágio essencial (física eletromagnética) para registrar, estruturar e modelar matematicamente a matéria."
+A743,Mituo Taketani,F34,História,M21,Não Ciência,Cinza,"Disciplina documental e descritiva fixada na etapa fenomênica, sem o objetivo metodológico de postular leis dinâmicas fixas."
+A744,Mituo Taketani,F34,Homeopatia,M22,Pseudociência,Vermelho,Reivindica a ocorrência de fenômenos clínicos na absoluta ausência de base material substancial e estrutural mensurável.
+A745,Mituo Taketani,F34,Linguística Formal,M23,Ciência,Verde,"Isola as manifestações do idioma, extrai a estrutura sintática latente e constrói modelos axiomáticos matemáticos cognitivos."
+A746,Mituo Taketani,F34,Literatura,M24,Não Ciência,Cinza,"Prática expressiva e hermenêutica pautada em critérios estéticos, alheia aos três estágios do rigor científico materialista."
+A747,Mituo Taketani,F34,Marxismo,M25,Não Ciência,Cinza,Formulação histórico-sociológica que carece do rigor exato na formulação de leis matemáticas dinâmicas universais sobre a matéria.
+A748,Mituo Taketani,F34,Matemática,M26,Não Ciência,Cinza,Cria axiomas e equações lógicas perfeitas desobrigadas de possuir base material empírica provada na natureza física contingente.
+A749,Mituo Taketani,F34,Medicina,M27,Ciência,Verde,"Integra sistematicamente a anamnese dos fenômenos clínicos, a patologia estrutural celular e as leis universais bioquímicas de base."
+A750,Mituo Taketani,F34,Psicologia,M28,Ciência,Verde,"Avalia o escopo fenomênico cognitivo, rastreia seus vínculos estruturais cerebrais fundamentando formulações dinâmicas de ação."
+A751,Mituo Taketani,F34,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Elaboração narrativa fundacional desprovida de estrutura material observável e imune ao crivo dialético físico de refutação.
+A752,Mituo Taketani,F34,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Representação literária e mitográfica que não se qualifica como inquérito fenomenológico a respeito da estrutura da realidade física.
+A753,Mituo Taketani,F34,Neurociência,M30,Ciência,Verde,Cumpre os critérios de modo estrito interligando impulsos elétricos estruturais fenomênicos às leis matemáticas sinápticas.
+A754,Mituo Taketani,F34,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Alega resultados e capacidades fenomenológicas desprovidas de suporte em qualquer base física, rompendo categoricamente o ciclo."
+A755,Mituo Taketani,F34,Pedagogia,M32,Não Ciência,Cinza,"Área interventiva e formativa voltada para as normas do aprendizado, isenta do propósito dialético de ditar leis da natureza."
+A756,Mituo Taketani,F34,Política,M33,Não Ciência,Cinza,"Esfera axiológica pautada em sistemas normativos para a governança institucional, operando inteiramente fora da mecânica material."
+A757,Mituo Taketani,F34,Psicanálise,M34,Pseudociência,Vermelho,"Constrói complexa topologia estrutural (id, ego) não passível de redução à comprovação em base material eletroquímica ou neural."
+A758,Mituo Taketani,F34,Química Analítica ,M35,Ciência,Verde,Domínio estrito da base substancial cujas manifestações reativas obedecem imperiosamente a leis estequiométricas universais.
+A759,Mituo Taketani,F34,Física - Química ,M35,Ciência,Verde,Grau máximo da dialética epistemológica; estuda os fenômenos atômicos revelando as essências físicas termodinâmicas.
+A760,Mituo Taketani,F34,Quiropraxia,M36,Pseudociência,Vermelho,Atribui causalidade sobre quadros clínicos a distorções vertebrais materiais (subluxações inatas) inexistentes estruturalmente.
+A761,Mituo Taketani,F34,Religião,M37,Não Ciência,Cinza,Edificação puramente dogmática que opera sem submissão ao modelo metodológico materialista imposto pelos três estágios.
+A762,Mituo Taketani,F34,Sociologia,M38,Ciência,Verde,Afere dados empíricos observáveis a fim de evidenciar dinâmicas populacionais reguladas por fórmulas e probabilidades essenciais.
+A763,Mituo Taketani,F34,Teologia,M39,Não Ciência,Cinza,Proposições analíticas da transcendência estritamente distantes da imposição do ciclo metodológico fenomenológico-substancial.
+A764,Mituo Taketani,F34,Teoria das Cordas,M40,Pseudociência,Vermelho,Pela definição objetiva de Taketani: gera o estágio essencial matemático mais elaborado da atualidade sem qualquer prova material.
+A765,Mituo Taketani,F34,Terraplanismo,M41,Pseudociência,Vermelho,Contraria frontalmente o ciclo ao renegar fatos fenomênicos consolidados com o fim de salvar estruturas físicas nulas.
+A766,Mituo Taketani,F34,Atomismo,M42,Ciência,Verde,Processo que evoluiu do questionamento macroscópico fenomênico à estrutura elementar quantificável matematicamente.
+A767,Mituo Taketani,F34,Criticismo literário,M43,Não Ciência,Cinza,Investigação inteiramente hermenêutica voltada a textos e estéticas culturais não regida pela dialética objetiva da matéria física.
+A768,Hu Shih,F35,Acupuntura,M01,Pseudociência,Vermelho,Falha na verificação prática rigorosa; converteu-se em dogma tradicional refratário ao ceticismo metodológico.
+A769,Hu Shih,F35,Alquimia,M02,Pseudociência,Vermelho,"Formulou hipóteses estagnadas que, ao falharem na prova prática, transformaram-se em premissas esotéricas dogmáticas."
+A770,Hu Shih,F35,Antropologia Biológica,M03.1,Ciência,Verde,Trata hipóteses evolutivas como ferramentas provisórias submetidas à experimentação e corroboração empírica rigorosa.
+A771,Hu Shih,F35,Arqueologia,M03.2,Ciência,Verde,"Emprega o ceticismo construtivo contra narrativas tradicionais, testando hipóteses materiais contra evidências empíricas tangíveis."
+A772,Hu Shih,F35,Antropologia Cultural/Social,M03.3,Não Ciência,Cinza,Disciplina interpretativa cujas formulações hermenêuticas não são instrumentalizadas para teste prático exato.
+A773,Hu Shih,F35,Antropologia Linguística,M03.4,Não Ciência,Cinza,"Pesquisa de cunho descritivo cultural, isenta da imposição pragmática de validação experimental empírica."
+A774,Hu Shih,F35,Artes Visuais,M04.1,Não Ciência,Cinza,Atuação estético-criativa desvinculada do objetivo de estabelecer verdades via prova prática metodológica.
+A775,Hu Shih,F35,Artes Cênicas,M04.2,Não Ciência,Cinza,Prática performática humana desobrigada da formulação e da refutação de hipóteses instrumentalizáveis.
+A776,Hu Shih,F35,Artes Musicais,M04.3,Não Ciência,Cinza,Produção sonora e sensível que dispensa o crivo do ceticismo construtivo sobre fatos empíricos contingentes.
+A777,Hu Shih,F35,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,Atividade projetual técnica que não se estrutura como pesquisa para verificação prática de premissas naturais.
+A778,Hu Shih,F35,Astrologia,M05,Pseudociência,Vermelho,"Aceitação passiva da tradição; mantém seus postulados imunes ao descarte empírico, mesmo falhando repetidamente na experimentação."
+A779,Hu Shih,F35,Astronomia,M06,Ciência,Verde,"Utiliza hipóteses cosmológicas arrojadas como ferramentas provisórias, testadas incessantemente por evidências ópticas e radiométricas."
+A780,Hu Shih,F35,Ecologia,M07.1,Ciência,Verde,"Submete modelos sistêmicos ambientais a rigoroso escrutínio empírico, descartando premissas ineficazes na prática de campo."
+A781,Hu Shih,F35,Biologia Molecular,M07.2,Ciência,Verde,"Aplica a dúvida metódica ao estudo celular, demandando corroboração prática estrita para qualquer proposição teórica."
+A782,Hu Shih,F35,Biorritmos,M08,Pseudociência,Vermelho,Formulação desprovida de verificação rigorosa cujos defensores rejeitam o descarte pragmático perante fortes evidências contrárias.
+A783,Hu Shih,F35,Criacionismo,M09,Pseudociência,Vermelho,Submissão autoritária a dogmas tradicionais; recusa o ceticismo construtivo e a testabilidade instrumental das suas afirmações.
+A784,Hu Shih,F35,Design Inteligente,M10,Pseudociência,Vermelho,"Apropria-se de terminologia técnica, mas falha em gerar consequências testáveis na realidade, resguardando dogmas imanentes intransigentes."
+A785,Hu Shih,F35,Direito,M11,Não Ciência,Cinza,"Sistema prescritivo embasado no autoritarismo legal e na tradição normativa, não na verificação empírica pragmática da materialidade."
+A786,Hu Shih,F35,Microeconomia,M12.1,Ciência,Verde,"Considera modelos comportamentais como ferramentas analíticas provisórias, validando-as criticamente contra dados estatísticos de mercado."
+A787,Hu Shih,F35,Macroeconomia,M12.2,Ciência,Verde,"Testa hipóteses agregadas através de experimentação indireta, alterando matrizes teóricas quando falham na aplicação instrumental."
+A788,Hu Shih,F35,Economia aplicada,M12.3,Ciência,Verde,Consolidação do pragmatismo metodológico: utiliza teorias estritamente como ferramentas para verificação pragmática em políticas reais.
+A789,Hu Shih,F35,Engenharia de pesca,M13.1,Ciência,Verde,Emprega hipóteses biológicas como instrumentos operacionais sujeitos a testes práticos contínuos de eficiência populacional.
+A790,Hu Shih,F35,Engenharia aeroespacial,M13.2,Ciência,Verde,Validação instrumental absoluta; modelos aerodinâmicos são ferramentas provisórias ratificadas exclusivamente pelo sucesso pragmático material.
+A791,Hu Shih,F35,Esportes,M14,Não Ciência,Cinza,Prática motora de rendimento orgânico não estruturada para a formulação e verificação de verdades empíricas provisórias.
+A792,Hu Shih,F35,Filosofia - Estética,M15.1,Não Ciência,Cinza,"Investigação axiológica do belo que opera no domínio do juízo de valor, sem gerar hipóteses verificáveis empiricamente."
+A793,Hu Shih,F35,Filosofia - Ética,M15.2,Não Ciência,Cinza,Abordagem normativa das condutas que não se submete à validação instrumental ou à prova prática material verificável.
+A794,Hu Shih,F35,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,Premissas apriorísticas elaboradas sem gerar consequências instrumentais exigidas para experimentação na realidade fática.
+A795,Hu Shih,F35,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Estudo analítico-dedutivo da teoria do conhecimento, estruturalmente isento do rigor pragmático de verificação laboratorial."
+A796,Hu Shih,F35,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Formula tautologias formais válidas por definição axiomática, não requerendo atestado pragmático fenomênico."
+A797,Hu Shih,F35,Física,M18,Ciência,Verde,"Incentiva hipóteses arrojadas, testando-as sob máxima severidade instrumental e descartando ideias historicamente falhas."
+A798,Hu Shih,F35,Frenologia,M19,Pseudociência,Vermelho,Ideia que falhou gravemente na prática e resistiu ao descarte empírico imediato por apego autoritário de seus proponentes originais.
+A799,Hu Shih,F35,Geografia Física,M20.1,Ciência,Verde,Exige evidências empíricas de campo para corroborar ou descartar criticamente modelos teóricos sobre a dinâmica estrutural.
+A800,Hu Shih,F35,Geografia Humana,M20.2,Ciência,Verde,Levanta premissas espaciais e demográficas provadas a partir de evidências de campo e instrumentação metodológica rigorosa.
+A801,Hu Shih,F35,Geotecnologias,M20.3,Ciência,Verde,A ferramenta define a validade teórica; modelos espaciais assumem valor exclusivamente quando corroborados pela exatidão cartográfica.
+A802,Hu Shih,F35,História,M21,Não Ciência,Cinza,Disciplina documental interpretativa cujas narrativas passadas não configuram ferramentas preditivas para verificação instrumental material.
+A803,Hu Shih,F35,Homeopatia,M22,Pseudociência,Vermelho,"Convertida em tradição clínica autoritária, rejeita a refutação pragmática mesmo ante falhas sistemáticas em testes estritos de experimentação."
+A804,Hu Shih,F35,Linguística Formal,M23,Ciência,Verde,Estrutura modelos cognitivos provisórios geradores de consequências passíveis de teste instrumental em sintaxe e processamento.
+A805,Hu Shih,F35,Literatura,M24,Não Ciência,Cinza,Manifestação estética narrativa descomprometida com o escrutínio cético necessário à comprovação metodológica material.
+A806,Hu Shih,F35,Marxismo,M25,Pseudociência,Vermelho,"Ao falhar na previsão empírica estrita, seus defensores dogmatizaram as premissas em vez de descartá-las instrumentalmente, blindando-as da crítica."
+A807,Hu Shih,F35,Matemática,M26,Não Ciência,Cinza,Produz verdades dedutivas formais inerentemente independentes do pragmatismo empírico e de experimentações exatas contingentes.
+A808,Hu Shih,F35,Medicina,M27,Ciência,Verde,Padrão de cuidado na verificação; práticas terapêuticas são rigorosamente concebidas como ferramentas abolidas perante ineficácia empírica.
+A809,Hu Shih,F35,Psicologia,M28,Ciência,Verde,Formula hipóteses cognitivo-comportamentais balizadas pela medição prática rigorosa e descartadas perante refutação instrumental psicométrica.
+A810,Hu Shih,F35,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,"Subsiste exclusivamente pela tradição cultural dogmática, absolutamente alienada da dúvida metódica pragmática."
+A811,Hu Shih,F35,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Sistema fabular herdado que opera perfeitamente sem o dever pragmático de propor ferramentas investigativas factuais.
+A812,Hu Shih,F35,Neurociência,M30,Ciência,Verde,"Exerce ceticismo metódico estruturado, substituindo ativamente paradigmas anatômicos quando invalidados pela instrumentação tecnológica moderna."
+A813,Hu Shih,F35,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,Preserva hipóteses inoperantes recusando dogmaticamente o ceticismo construtivo frente a falhas ininterruptas na prova prática.
+A814,Hu Shih,F35,Pedagogia,M32,Não Ciência,Cinza,"Estruturação da prática formativa sustentada amiúde no autoritarismo intelectual, sem submissão prioritária à validação instrumental estrita."
+A815,Hu Shih,F35,Política,M33,Não Ciência,Cinza,"Esfera do embate normativo fortemente guiada por diretrizes institucionais inquestionadas, diametralmente oposta à neutralidade metódica de comprovação."
+A816,Hu Shih,F35,Psicanálise,M34,Pseudociência,Vermelho,"Edificou-se como sistema hermético, ressignificando anomalias retrospectivamente para proteger premissas fundamentais contra qualquer refutação prática."
+A817,Hu Shih,F35,Química Analítica ,M35,Ciência,Verde,Uso instrumental absoluto da formulação teórica no limite quantitativo para garantir a reprodutibilidade perante prova material.
+A818,Hu Shih,F35,Física - Química ,M35,Ciência,Verde,Hipóteses arrojadas de termodinâmica e arranjo atômico que só sobrevivem enquanto validadas pela severa prova instrumental e estequiométrica contínua.
+A819,Hu Shih,F35,Quiropraxia,M36,Pseudociência,Vermelho,"Promove dogmas etiológicos refratários ao descarte, ignorando o imperativo pragmático do ceticismo construtivo mediante fracasso empírico."
+A820,Hu Shih,F35,Religião,M37,Não Ciência,Cinza,"Baseada integralmente no autoritarismo ontológico e na aceitação da revelação divina, suprimindo o ceticismo metodológico sistemático."
+A821,Hu Shih,F35,Sociologia,M38,Ciência,Verde,"Avalia estruturas societárias valendo-se de modelagem analítica pragmática, descartando formulações confrontadas por métricas e dados objetivos."
+A822,Hu Shih,F35,Teologia,M39,Não Ciência,Cinza,"Sistema especulativo dedicado a dogmas transcendentes que, por definição de escopo, escapa da verificação instrumental e do pragmatismo físico."
+A823,Hu Shih,F35,Teoria das Cordas,M40,Não Ciência,Cinza,Estruturação matemática arrojada que incorre em incapacidade transitória de prover ferramentas passíveis de prova prática no laboratório.
+A824,Hu Shih,F35,Terraplanismo,M41,Pseudociência,Vermelho,"Negação direta da prova prática e evidência cartográfica, criando dogmas irracionais em favor da blindagem irracional a constatações materiais."
+A825,Hu Shih,F35,Atomismo,M42,Ciência,Verde,Princípio ontológico que transitou da especulação inicial à validade absoluta após ser atestado pragmática e repetidamente pelo rigor instrumental empírico.
+A826,Hu Shih,F35,Criticismo literário,M43,Não Ciência,Cinza,"Hermenêutica estética textual, inerentemente desvinculada do escopo de prever ferramentas analíticas sujeitas à testabilidade natural empírica."
+A827,Paulin Hountondji,F36,Acupuntura,M01,Pseudociência,Vermelho,Exige adesão a premissas imunes à refutação empírica universal.
+A828,Paulin Hountondji,F36,Alquimia,M02,Pseudociência,Vermelho,Prática hermética e tradicional que recusa a verificação pública metodológica.
+A829,Paulin Hountondji,F36,Antropologia Biológica,M03.1,Ciência,Verde,Investigação rigorosamente baseada em evidências submetidas à refutação.
+A830,Paulin Hountondji,F36,Arqueologia,M03.2,Ciência,Verde,Pesquisa de registros materiais sujeita à crítica analítica por pares.
+A831,Paulin Hountondji,F36,Antropologia Cultural/Social,M03.3,Ciência,Verde,Investigação sistemática baseada em literatura explícita e crítica.
+A832,Paulin Hountondji,F36,Antropologia Linguística,M03.4,Ciência,Verde,Análise estruturada e teórica aberta à correção pública.
+A833,Paulin Hountondji,F36,Artes Visuais,M04.1,Não Ciência,Cinza,Prática estética isenta da exigência de validação metodológica universal.
+A834,Paulin Hountondji,F36,Artes Cênicas,M04.2,Não Ciência,Cinza,Expressão performática que não requer registro explícito para verificação empírica.
+A835,Paulin Hountondji,F36,Artes Musicais,M04.3,Não Ciência,Cinza,Produção cultural e sensorial que dispensa a refutação científica.
+A836,Paulin Hountondji,F36,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,Atividade projetual desobrigada da formulação de hipóteses submetidas à crítica.
+A837,Paulin Hountondji,F36,Astrologia,M05,Pseudociência,Vermelho,Rejeita evidências contrárias de forma sistemática e exige adesão passiva.
+A838,Paulin Hountondji,F36,Astronomia,M06,Ciência,Verde,Pesquisa fundamentada em metodologia universal rigorosa e literatura explícita.
+A839,Paulin Hountondji,F36,Ecologia,M07.1,Ciência,Verde,Investigação empírica permanentemente aberta à refutação metodológica.
+A840,Paulin Hountondji,F36,Biologia Molecular,M07.2,Ciência,Verde,Sustentada por investigação empírica universal e revisão teórica contínua.
+A841,Paulin Hountondji,F36,Biorritmos,M08,Pseudociência,Vermelho,Postulados sem evidência empírica que rejeitam a validação universal.
+A842,Paulin Hountondji,F36,Criacionismo,M09,Pseudociência,Vermelho,Fundamentado na fé dogmática e intolerante à refutação analítica.
+A843,Paulin Hountondji,F36,Design Inteligente,M10,Pseudociência,Vermelho,"Exige crença passiva disfarçada, fugindo da validação metodológica universal."
+A844,Paulin Hountondji,F36,Direito,M11,Não Ciência,Cinza,Sistema normativo estruturado não orientado à refutação empírica.
+A845,Paulin Hountondji,F36,Microeconomia,M12.1,Ciência,Verde,Modelagem teórica validada publicamente e aberta à correção.
+A846,Paulin Hountondji,F36,Macroeconomia,M12.2,Ciência,Verde,Investigação sistemática submetida a debate público e evidências fáticas.
+A847,Paulin Hountondji,F36,Economia aplicada,M12.3,Ciência,Verde,Aplicação de modelos sujeitos à estrita verificação prática por pares.
+A848,Paulin Hountondji,F36,Engenharia de pesca,M13.1,Ciência,Verde,Aplicação rigorosa de evidências sob o crivo da crítica científica.
+A849,Paulin Hountondji,F36,Engenharia aeroespacial,M13.2,Ciência,Verde,Testada metodologicamente e submetida a verificação empírica universal.
+A850,Paulin Hountondji,F36,Esportes,M14,Não Ciência,Cinza,Prática física que não compõe discurso explícito de refutação metódica.
+A851,Paulin Hountondji,F36,Filosofia - Estética,M15.1,Não Ciência,Cinza,"Discurso crítico estruturado, porém isento de validação metodológica fática."
+A852,Paulin Hountondji,F36,Filosofia - Ética,M15.2,Não Ciência,Cinza,Literatura explícita axiológica não baseada em experimentação material estrita.
+A853,Paulin Hountondji,F36,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,"Discurso rigoroso, porém inacessível à experimentação empírica universal."
+A854,Paulin Hountondji,F36,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,Reflexão crítica estruturada que prescinde de refutação fenomenológica.
+A855,Paulin Hountondji,F36,Filosofia - Lógica,M15.5,Não Ciência,Cinza,Sistema axiomático rigoroso independente de validação empírica observacional.
+A856,Paulin Hountondji,F36,Física,M18,Ciência,Verde,Paradigma da investigação metodológica universal sujeita à contínua refutação.
+A857,Paulin Hountondji,F36,Frenologia,M19,Pseudociência,Vermelho,Rejeitou evidências contrárias e ruiu sob a crítica metodológica histórica.
+A858,Paulin Hountondji,F36,Geografia Física,M20.1,Ciência,Verde,Pesquisa empírica com autoria individual sujeita à validação estruturada.
+A859,Paulin Hountondji,F36,Geografia Humana,M20.2,Ciência,Verde,Investigação sistemática baseada em evidências sociais e revisão teórica.
+A860,Paulin Hountondji,F36,Geotecnologias,M20.3,Ciência,Verde,Aplicação de ferramentas tecnológicas submetidas a testes de validade universal.
+A861,Paulin Hountondji,F36,História,M21,Não Ciência,Cinza,"Discurso crítico baseado em registro documental, sem validação experimental universal."
+A862,Paulin Hountondji,F36,Homeopatia,M22,Pseudociência,Vermelho,Rejeita evidências contrárias de forma sistemática frente à experimentação rigorosa.
+A863,Paulin Hountondji,F36,Linguística Formal,M23,Ciência,Verde,Modelos lógicos explícitos permanentemente avaliados pela comunidade acadêmica.
+A864,Paulin Hountondji,F36,Literatura,M24,Não Ciência,Cinza,Arte narrativa que não se propõe a ser objeto de verificação metodológica.
+A865,Paulin Hountondji,F36,Marxismo,M25,Pseudociência,Vermelho,"Vertentes dogmáticas exigem adesão passiva, blindando postulados da crítica."
+A866,Paulin Hountondji,F36,Matemática,M26,Não Ciência,Cinza,Discurso racional formal isento de experimentação e refutação fenomenológica.
+A867,Paulin Hountondji,F36,Medicina,M27,Ciência,Verde,Pesquisa e aplicação clínica rigorosamente testada e aberta à correção.
+A868,Paulin Hountondji,F36,Psicologia,M28,Ciência,Verde,Investigação empírica e teórica submetida à crítica metodológica constante.
+A869,Paulin Hountondji,F36,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,Narrativa de adesão passiva e anônima infensa à refutação analítica.
+A870,Paulin Hountondji,F36,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,Tradição mítica que exige a aceitação não crítica e passiva de seguidores.
+A871,Paulin Hountondji,F36,Neurociência,M30,Ciência,Verde,Investigação científica ancorada em rigorosa validação metodológica pública.
+A872,Paulin Hountondji,F36,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,Alegações imunes à crítica e isentas de reprodutibilidade metodológica universal.
+A873,Paulin Hountondji,F36,Pedagogia,M32,Não Ciência,Cinza,Prática formativa baseada em literatura explícita não orientada à refutação universal.
+A874,Paulin Hountondji,F36,Política,M33,Não Ciência,Cinza,Prática institucional frequentemente pautada por adesão cega em vez de crítica analítica.
+A875,Paulin Hountondji,F36,Psicanálise,M34,Pseudociência,Vermelho,Resiste à refutação criando defesas teóricas imunes à verificação universal.
+A876,Paulin Hountondji,F36,Química Analítica ,M35,Ciência,Verde,Investigação rigorosamente estruturada em experimentação universal inquestionável.
+A877,Paulin Hountondji,F36,Física - Química ,M35,Ciência,Verde,Disciplina sustentada por registros explícitos e crítica metodológica severa.
+A878,Paulin Hountondji,F36,Quiropraxia,M36,Pseudociência,Vermelho,Preserva postulados refratários à crítica analítica clínica por especialistas.
+A879,Paulin Hountondji,F36,Religião,M37,Não Ciência,Cinza,"Fundamentada na fé, isentando-se da crítica e da refutação investigativa empírica."
+A880,Paulin Hountondji,F36,Sociologia,M38,Ciência,Verde,Investigação sistemática baseada em literatura acadêmica explícita e revisada.
+A881,Paulin Hountondji,F36,Teologia,M39,Não Ciência,Cinza,Fundamentada em pressupostos dogmáticos impenetráveis à experimentação universal.
+A882,Paulin Hountondji,F36,Teoria das Cordas,M40,Não Ciência,Cinza,"Inserida em comunidade científica aberta à crítica, sem refutação empírica atual."
+A883,Paulin Hountondji,F36,Terraplanismo,M41,Pseudociência,Vermelho,"Rejeita evidências contrárias de forma sistemática, irracional e cega."
+A884,Paulin Hountondji,F36,Atomismo,M42,Ciência,Verde,Teoria sustentada por vasta investigação empírica submetida a verificação pública.
+A885,Paulin Hountondji,F36,Criticismo literário,M43,Não Ciência,Cinza,Análise textual sistemática desobrigada da validação e refutação científica fática.
+A886,Francis Bacon,F02,Acupuntura,M01,Pseudociência,Vermelho,"Baseia-se em superstição, crenças irracionais e observação defeituosa. São enganações que atrapalham o verdadeiro progresso prático."
+A887,Francis Bacon,F02,Alquimia,M02,Pseudociência,Vermelho,"Bacon criticava a forma que era praticado na sua época (cheias de dogmas, misticismo e falta de testes rigorosos e abertos), considerando-a farsas, embora acreditasse que uma versão ""purificada"" (observacional) dela pudesse ser útil."
+A888,Francis Bacon,F02,Antropologia Biológica,M03.1,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A889,Francis Bacon,F02,Arqueologia,M03.2,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A890,Francis Bacon,F02,Antropologia Cultural/Social,M03.3,Ciência,Verde,"Se limitado estritamente à coleta de dados e indução de padrões de comportamento real, Bacon as aceitaria como ramos práticos da filosofia humana (embora seu foco fosse a matéria)."
+A891,Francis Bacon,F02,Antropologia Linguística,M03.4,Ciência,Verde,"Se limitado estritamente à coleta de dados e indução de padrões de comportamento real, Bacon as aceitaria como ramos práticos da filosofia humana (embora seu foco fosse a matéria)."
+A892,Francis Bacon,F02,Artes Visuais,M04.1,Não Ciência,Cinza,"Pertence à faculdade da ""Imaginação"" e à estética. Não busca a verdade empírica."
+A893,Francis Bacon,F02,Artes Cênicas,M04.2,Não Ciência,Cinza,"Pertence à faculdade da ""Imaginação"" e à estética. Não busca a verdade empírica."
+A894,Francis Bacon,F02,Artes Musicais,M04.3,Não Ciência,Cinza,"Pertence à faculdade da ""Imaginação"" e à estética. Não busca a verdade empírica."
+A895,Francis Bacon,F02,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,"Pertence à faculdade da ""Imaginação"" e à estética. Não busca a verdade empírica."
+A896,Francis Bacon,F02,Astrologia,M05,Pseudociência,Vermelho,"Bacon criticava a forma que eram praticada na sua época (cheias de dogmas, misticismo e falta de testes rigorosos e abertos), considerando-a farsa, embora acreditasse que uma versão ""purificada"" (observacional) dela pudesse ser útil."
+A897,Francis Bacon,F02,Astronomia,M06,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A898,Francis Bacon,F02,Ecologia,M07.1,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A899,Francis Bacon,F02,Biologia Molecular,M07.2,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A900,Francis Bacon,F02,Biorritmos,M08,Pseudociência,Vermelho,"Baseia-se em superstição, crenças irracionais e observação defeituosa. São enganações que atrapalham o verdadeiro progresso prático."
+A901,Francis Bacon,F02,Criacionismo,M09,Pseudociência,Vermelho,"Bacon era cristão, mas defendia a separação total entre o ""Livro da Natureza"" (Ciência) e o ""Livro de Deus"" (Teologia). Misturar os dois gera ciência fantástica e religião herege."
+A902,Francis Bacon,F02,Design Inteligente,M10,Pseudociência,Vermelho,"Bacon era cristão, mas defendia a separação total entre o ""Livro da Natureza"" (Ciência) e o ""Livro de Deus"" (Teologia). Misturar os dois gera ciência fantástica e religião herege."
+A903,Francis Bacon,F02,Direito,M11,Não Ciência,Cinza,"Saberes civis e de convenção humana. Busca a ordem, não a descoberta das leis da natureza."
+A904,Francis Bacon,F02,Microeconomia,M12.1,Ciência,Verde,"Se limitado estritamente à coleta de dados e indução de padrões de comportamento real, Bacon as aceitaria como ramos práticos da filosofia humana (embora seu foco fosse a matéria)."
+A905,Francis Bacon,F02,Macroeconomia,M12.2,Ciência,Verde,"Se limitado estritamente à coleta de dados e indução de padrões de comportamento real, Bacon as aceitaria como ramos práticos da filosofia humana (embora seu foco fosse a matéria)."
+A906,Francis Bacon,F02,Economia aplicada,M12.3,Ciência,Verde,"Se limitado estritamente à coleta de dados e indução de padrões de comportamento real, Bacon as aceitaria como ramos práticos da filosofia humana (embora seu foco fosse a matéria)."
+A907,Francis Bacon,F02,Engenharia de pesca,M13.1,Ciência,Verde,"Para Bacon, a distinção entre ciência e tecnologia era quase nula. O objetivo da ciência é gerar invenções para melhorar a vida humana. Elas são o ápice do projeto baconiano."
+A908,Francis Bacon,F02,Engenharia aeroespacial,M13.2,Ciência,Verde,"Para Bacon, a distinção entre ciência e tecnologia era quase nula. O objetivo da ciência é gerar invenções para melhorar a vida humana. Elas são o ápice do projeto baconiano."
+A909,Francis Bacon,F02,Esportes,M14,Não Ciência,Cinza,Prática física.
+A910,Francis Bacon,F02,Filosofia - Estética,M15.1,Não Ciência,Cinza,"A ética estuda a vontade humana, não a natureza. A metafísica clássica (descolada da matéria) era rejeitada por ele."
+A911,Francis Bacon,F02,Filosofia - Ética,M15.2,Não Ciência,Cinza,"A ética estuda a vontade humana, não a natureza. A metafísica clássica (descolada da matéria) era rejeitada por ele."
+A912,Francis Bacon,F02,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,"A ética estuda a vontade humana, não a natureza. A metafísica clássica (descolada da matéria) era rejeitada por ele."
+A913,Francis Bacon,F02,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"A ética estuda a vontade humana, não a natureza. A metafísica clássica (descolada da matéria) era rejeitada por ele."
+A914,Francis Bacon,F02,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Bacon subestimava a matemática. Para ele, a matemática é apenas um apêndice ou ferramenta de medição, não uma ciência da natureza, pois não investiga a matéria diretamente."
+A915,Francis Bacon,F02,Física,M18,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A916,Francis Bacon,F02,Frenologia,M19,Pseudociência,Vermelho,"Baseia-se em superstição, crenças irracionais e observação defeituosa. São enganações que atrapalham o verdadeiro progresso prático."
+A917,Francis Bacon,F02,Geografia Física,M20.1,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A918,Francis Bacon,F02,Geografia Humana,M20.2,Ciência,Verde,"Se limitado estritamente à coleta de dados e indução de padrões de comportamento real, Bacon as aceitaria como ramos práticos da filosofia humana (embora seu foco fosse a matéria)."
+A919,Francis Bacon,F02,Geotecnologias,M20.3,Ciência,Verde,"Para Bacon, a distinção entre ciência e tecnologia era quase nula. O objetivo da ciência é gerar invenções para melhorar a vida humana. Elas são o ápice do projeto baconiano."
+A920,Francis Bacon,F02,História,M21,Não Ciência,Cinza,"Pertence à faculdade da ""Memória"", narra o que passou, não induz leis universais."
+A921,Francis Bacon,F02,Homeopatia,M22,Pseudociência,Vermelho,"Baseia-se em superstição, crenças irracionais e observação defeituosa. São enganações que atrapalham o verdadeiro progresso prático."
+A922,Francis Bacon,F02,Linguística Formal,M23,Não Ciência,Cinza,"Bacon subestimava a matemática. Para ele, a matemática é apenas um apêndice ou ferramenta de medição, não uma ciência da natureza, pois não investiga a matéria diretamente."
+A923,Francis Bacon,F02,Literatura,M24,Não Ciência,Cinza,"Pertence à faculdade da ""Imaginação"" e à estética. Não busca a verdade empírica."
+A924,Francis Bacon,F02,Marxismo,M25,Pseudociência,Vermelho,"Para Bacon, seria puro Ídolo do Teatro: sistemas de pensamento fechados que forçam os fatos a se curvarem às teorias de seus criadores, em vez de deixar os fatos falarem por si."
+A925,Francis Bacon,F02,Matemática,M26,Não Ciência,Cinza,"Bacon subestimava a matemática. Para ele, a matemática é apenas um apêndice ou ferramenta de medição, não uma ciência da natureza, pois não investiga a matéria diretamente."
+A926,Francis Bacon,F02,Medicina,M27,Ciência,Verde,Ciência empírica e prática voltada ao alívio do sofrimento humano (fortemente defendida por ele).
+A927,Francis Bacon,F02,Psicologia,M28,Ciência,Verde,"Se limitado estritamente à coleta de dados e indução de padrões de comportamento real, Bacon as aceitaria como ramos práticos da filosofia humana (embora seu foco fosse a matéria)."
+A928,Francis Bacon,F02,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,"Pertence à faculdade da ""Imaginação"" e à estética. Não busca a verdade empírica."
+A929,Francis Bacon,F02,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,"Pertence à faculdade da ""Imaginação"" e à estética. Não busca a verdade empírica."
+A930,Francis Bacon,F02,Neurociência,M30,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A931,Francis Bacon,F02,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Baseia-se em superstição, crenças irracionais e observação defeituosa. São enganações que atrapalham o verdadeiro progresso prático."
+A932,Francis Bacon,F02,Pedagogia,M32,Não Ciência,Cinza,"Saberes civis e de convenção humana. Busca a ordem, não a descoberta das leis da natureza."
+A933,Francis Bacon,F02,Política,M33,Não Ciência,Cinza,"Saberes civis e de convenção humana. Busca a ordem, não a descoberta das leis da natureza."
+A934,Francis Bacon,F02,Psicanálise,M34,Pseudociência,Vermelho,"Para Bacon, seria puro Ídolo do Teatro: sistemas de pensamento fechados que forçam os fatos a se curvarem às teorias de seus criadores, em vez de deixar os fatos falarem por si."
+A935,Francis Bacon,F02,Química Analítica ,M35,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A936,Francis Bacon,F02,Física - Química ,M35,Ciência,Verde,"Observa a natureza de forma metódica para extrair suas leis (as ""formas"")."
+A937,Francis Bacon,F02,Quiropraxia,M36,Pseudociência,Vermelho,"Baseia-se em superstição, crenças irracionais e observação defeituosa. São enganações que atrapalham o verdadeiro progresso prático."
+A938,Francis Bacon,F02,Religião,M37,Não Ciência,Cinza,"Conhecimento baseado em revelação e fé. Bacon afirmava que não se deve buscar a natureza nas escrituras, nem Deus nos tubos de ensaio."
+A939,Francis Bacon,F02,Sociologia,M38,Ciência,Verde,"Se limitado estritamente à coleta de dados e indução de padrões de comportamento real, Bacon as aceitaria como ramos práticos da filosofia humana (embora seu foco fosse a matéria)."
+A940,Francis Bacon,F02,Teologia,M39,Não Ciência,Cinza,"Conhecimento baseado em revelação e fé. Bacon afirmava que não se deve buscar a natureza nas escrituras, nem Deus nos tubos de ensaio."
+A941,Francis Bacon,F02,Teoria das Cordas,M40,Pseudociência,Vermelho,"Para ele, criar matemática complexa sem nenhuma observação empírica é ""girar teias de aranha da própria mente"" (crítica que ele fazia aos escolásticos aristotélicos). É um delírio racionalista."
+A942,Francis Bacon,F02,Terraplanismo,M41,Pseudociência,Vermelho,"Baseia-se em superstição, crenças irracionais e observação defeituosa. São enganações que atrapalham o verdadeiro progresso prático."
+A943,Francis Bacon,F02,Atomismo,M42,Ciência,Verde,"Apoiado em experimentação física, seria aprovado."
+A944,Francis Bacon,F02,Criticismo literário,M43,Não Ciência,Cinza,"Pertence à faculdade da ""Imaginação"" e à estética. Não busca a verdade empírica."
+A945,Sven Ove Hansson,F10,Acupuntura,M01,Pseudociência,Vermelho,"Incursão pseudocientífica no domínio da Medicina. Alega confiabilidade científica, mas seus métodos não se sustentam."
+A946,Sven Ove Hansson,F10,Alquimia,M02,Pseudociência,Vermelho,"Se praticada hoje alegando resultados reais, é pseudociência (no passado foi protociência, pois não havia alternativa mais confiável)."
+A947,Sven Ove Hansson,F10,Antropologia Biológica,M03.1,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A948,Sven Ove Hansson,F10,Arqueologia,M03.2,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A949,Sven Ove Hansson,F10,Antropologia Cultural/Social,M03.3,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A950,Sven Ove Hansson,F10,Antropologia Linguística,M03.4,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A951,Sven Ove Hansson,F10,Artes Visuais,M04.1,Não Ciência,Cinza,Atividades de criação e expressão estética. Não faz afirmações sobre como o mundo natural ou histórico funciona.
+A952,Sven Ove Hansson,F10,Artes Cênicas,M04.2,Não Ciência,Cinza,Atividades de criação e expressão estética. Não faz afirmações sobre como o mundo natural ou histórico funciona.
+A953,Sven Ove Hansson,F10,Artes Musicais,M04.3,Não Ciência,Cinza,Atividades de criação e expressão estética. Não faz afirmações sobre como o mundo natural ou histórico funciona.
+A954,Sven Ove Hansson,F10,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,Atividades de criação e expressão estética. Não faz afirmações sobre como o mundo natural ou histórico funciona.
+A955,Sven Ove Hansson,F10,Astrologia,M05,Pseudociência,Vermelho,Incursão pseudocientífica na astronomia. Falha catastroficamente no critério de confiabilidade.
+A956,Sven Ove Hansson,F10,Astronomia,M06,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A957,Sven Ove Hansson,F10,Ecologia,M07.1,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A958,Sven Ove Hansson,F10,Biologia Molecular,M07.2,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A959,Sven Ove Hansson,F10,Biorritmos,M08,Pseudociência,Vermelho,"Incursão pseudocientífica no domínio da Medicina. Alega confiabilidade científica, mas seus métodos não se sustentam."
+A960,Sven Ove Hansson,F10,Criacionismo,M09,Pseudociência,Vermelho,Tentativa clara (e apontada textualmente por Hansson) de vestir dogmas religiosos com jaleco de laboratório para invadir o domínio da biologia evolutiva.
+A961,Sven Ove Hansson,F10,Design Inteligente,M10,Pseudociência,Vermelho,Tentativa clara (e apontada textualmente por Hansson) de vestir dogmas religiosos com jaleco de laboratório para invadir o domínio da biologia evolutiva.
+A962,Sven Ove Hansson,F10,Direito,M11,Não Ciência,Cinza,"Se entendida como a prática política e o sistema normativo de leis (o que devemos fazer), são não ciências. (O estudo dela — Ciência Política ou Jurisprudência — seria ciência na visão de Hansson)."
+A963,Sven Ove Hansson,F10,Microeconomia,M12.1,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A964,Sven Ove Hansson,F10,Macroeconomia,M12.2,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A965,Sven Ove Hansson,F10,Economia aplicada,M12.3,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A966,Sven Ove Hansson,F10,Engenharia de pesca,M13.1,Ciência,Verde,Usam o melhor conhecimento confiável para resolver problemas práticos.
+A967,Sven Ove Hansson,F10,Engenharia aeroespacial,M13.2,Ciência,Verde,Usam o melhor conhecimento confiável para resolver problemas práticos.
+A968,Sven Ove Hansson,F10,Esportes,M14,Não Ciência,Cinza,Prática física e recreativa.
+A969,Sven Ove Hansson,F10,Filosofia - Estética,M15.1,Ciência,Verde,"Para Hansson, o estudo sistemático da história ou da literatura gera o conhecimento mais confiável sobre o passado e os textos, logo, é atividade científica (""Wissenschaft"")."
+A970,Sven Ove Hansson,F10,Filosofia - Ética,M15.2,Ciência,Verde,"Para Hansson, o estudo sistemático da história ou da literatura gera o conhecimento mais confiável sobre o passado e os textos, logo, é atividade científica (""Wissenschaft"")."
+A971,Sven Ove Hansson,F10,Filosofia - Metafísica,M15.3,Ciência,Verde,"Para Hansson, o estudo sistemático da história ou da literatura gera o conhecimento mais confiável sobre o passado e os textos, logo, é atividade científica (""Wissenschaft"")."
+A972,Sven Ove Hansson,F10,Filosofia - Epistemologia,M15.4,Ciência,Verde,"Para Hansson, o estudo sistemático da história ou da literatura gera o conhecimento mais confiável sobre o passado e os textos, logo, é atividade científica (""Wissenschaft"")."
+A973,Sven Ove Hansson,F10,Filosofia - Lógica,M15.5,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A974,Sven Ove Hansson,F10,Física,M18,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A975,Sven Ove Hansson,F10,Frenologia,M19,Pseudociência,Vermelho,Incursão pseudocientífica na biologia humana. Falha catastroficamente no critério de confiabilidade.
+A976,Sven Ove Hansson,F10,Geografia Física,M20.1,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A977,Sven Ove Hansson,F10,Geografia Humana,M20.2,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A978,Sven Ove Hansson,F10,Geotecnologias,M20.3,Ciência,Verde,Usam o melhor conhecimento confiável para resolver problemas práticos.
+A979,Sven Ove Hansson,F10,História,M21,Ciência,Verde,"Para Hansson, o estudo sistemático da história ou da literatura gera o conhecimento mais confiável sobre o passado e os textos, logo, é atividade científica (""Wissenschaft"")."
+A980,Sven Ove Hansson,F10,Homeopatia,M22,Pseudociência,Vermelho,"Incursão pseudocientífica no domínio da Medicina. Alega confiabilidade científica, mas seus métodos não se sustentam."
+A981,Sven Ove Hansson,F10,Linguística Formal,M23,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A982,Sven Ove Hansson,F10,Literatura,M24,Não Ciência,Cinza,Atividades de criação e expressão estética. Não faz afirmações sobre como o mundo natural ou histórico funciona.
+A983,Sven Ove Hansson,F10,Marxismo,M25,Pseudociência,Vermelho,"Quando se apresenta como uma ciência infalível que prevê o futuro da sociedade ignorando evidências contrárias, cai na pseudociência. (A análise marxista acadêmica aberta à revisão, no entanto, é ciência social)."
+A984,Sven Ove Hansson,F10,Matemática,M26,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A985,Sven Ove Hansson,F10,Medicina,M27,Ciência,Verde,Usam o melhor conhecimento confiável para resolver problemas práticos.
+A986,Sven Ove Hansson,F10,Psicologia,M28,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A987,Sven Ove Hansson,F10,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,"Narrativas culturais tradicionais que hoje são compreendidas como literatura/cultura, e não como descrições literais de fatos."
+A988,Sven Ove Hansson,F10,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,"Narrativas culturais tradicionais que hoje são compreendidas como literatura/cultura, e não como descrições literais de fatos."
+A989,Sven Ove Hansson,F10,Neurociência,M30,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A990,Sven Ove Hansson,F10,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Finge seguir o protocolo científico de laboratório, mas se recusa a aceitar os resultados negativos constantes, o que destrói sua confiabilidade."
+A991,Sven Ove Hansson,F10,Pedagogia,M32,Ciência,Verde,Usam o melhor conhecimento confiável para resolver problemas práticos.
+A992,Sven Ove Hansson,F10,Política,M33,Não Ciência,Cinza,"Se entendida como a prática política e o sistema normativo de leis (o que devemos fazer), são não ciências. (O estudo dela — Ciência Política ou Jurisprudência — seria ciência na visão de Hansson)."
+A993,Sven Ove Hansson,F10,Psicanálise,M34,Pseudociência,Vermelho,"Hansson frequentemente concorda que, quando a psicanálise tenta se blindar de críticas empíricas enquanto alega curar e explicar cientificamente a mente, age de forma pseudocientífica."
+A994,Sven Ove Hansson,F10,Química Analítica ,M35,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A995,Sven Ove Hansson,F10,Física - Química ,M35,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A996,Sven Ove Hansson,F10,Quiropraxia,M36,Pseudociência,Vermelho,"Incursão pseudocientífica no domínio da Medicina. Alega confiabilidade científica, mas seus métodos não se sustentam."
+A997,Sven Ove Hansson,F10,Religião,M37,Não Ciência,Cinza,"Práticas de fé. Segundo Hansson, a religião só vira pseudociência quando tenta competir no mesmo terreno da ciência (ex: o Criacionismo tentando refutar a idade geológica da Terra). Se for apenas uma crença moral/espiritual pessoal sem pretensões sobre fatos naturais, é Não Ciência."
+A998,Sven Ove Hansson,F10,Sociologia,M38,Ciência,Verde,"Se encaixa perfeitamente na demarcação de Sven Ove Hanss, essa matéria busca explicar o conhecimento no contexto historico que estamos."
+A999,Sven Ove Hansson,F10,Teologia,M39,Não Ciência,Cinza,"Práticas de fé. Segundo Hansson, a religião só vira pseudociência quando tenta competir no mesmo terreno da ciência (ex: o Criacionismo tentando refutar a idade geológica da Terra). Se for apenas uma crença moral/espiritual pessoal sem pretensões sobre fatos naturais, é Não Ciência."
+A1000,Sven Ove Hansson,F10,Teoria das Cordas,M40,Ciência,Verde,"Embora careça de testes empíricos, seus praticantes não burlam as regras da comunidade científica nem forjam dados; é uma hipótese trabalhando dentro dos limites da confiabilidade acadêmica atual."
+A1001,Sven Ove Hansson,F10,Terraplanismo,M41,Pseudociência,Vermelho,Incursão pseudocientífica na geografia. Falha catastroficamente no critério de confiabilidade.
+A1002,Sven Ove Hansson,F10,Atomismo,M42,Ciência,Verde,Ciência (física/química estabelecida).
+A1003,Sven Ove Hansson,F10,Criticismo literário,M43,Ciência,Verde,"Para Hansson, o estudo sistemático da história ou da literatura gera o conhecimento mais confiável sobre o passado e os textos, logo, é atividade científica (""Wissenschaft"")."
+A1004,Thomas Kuhn,F14,Acupuntura,M01,Pseudociência,Vermelho,Opera em completa estagnação. Seus praticantes não estão descobrindo coisas novas sobre meridianos ou memórias da água; eles operam com paradigmas dogmáticos onde falhas nos testes não geram reformulação teórica.
+A1005,Thomas Kuhn,F14,Alquimia,M02,Pseudociência,Vermelho,"São Paradigmas Mortos. Foram superados por revoluções científicas (pela química e pela neurociência). Tentar praticá-los hoje, rejeitando a revolução científica que os destruiu, é praticar pseudociência."
+A1006,Thomas Kuhn,F14,Antropologia Biológica,M03.1,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1007,Thomas Kuhn,F14,Arqueologia,M03.2,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1008,Thomas Kuhn,F14,Antropologia Cultural/Social,M03.3,Não ciência,Cinza,"Kuhn considerava que as ciências sociais estão em um estágio pré-paradigmático. Os marxistas brigam com os liberais na economia; os behavioristas brigam com os cognitivistas na psicologia. Sem um paradigma único, não há ""ciência normal"", há apenas debate constante de fundamentos (como na filosofia)."
+A1009,Thomas Kuhn,F14,Antropologia Linguística,M03.4,Não ciência,Cinza,"Kuhn considerava que as ciências sociais estão em um estágio pré-paradigmático. Os marxistas brigam com os liberais na economia; os behavioristas brigam com os cognitivistas na psicologia. Sem um paradigma único, não há ""ciência normal"", há apenas debate constante de fundamentos (como na filosofia)."
+A1010,Thomas Kuhn,F14,Artes Visuais,M04.1,Não ciência,Cinza,Produção estética e narrativa. Não opera por paradigmas científicos.
+A1011,Thomas Kuhn,F14,Artes Cênicas,M04.2,Não ciência,Cinza,Produção estética e narrativa. Não opera por paradigmas científicos.
+A1012,Thomas Kuhn,F14,Artes Musicais,M04.3,Não ciência,Cinza,Produção estética e narrativa. Não opera por paradigmas científicos.
+A1013,Thomas Kuhn,F14,Artes Aplicadas e Design,M04.4,Não ciência,Cinza,Produção estética e narrativa. Não opera por paradigmas científicos.
+A1014,Thomas Kuhn,F14,Astrologia,M05,Pseudociência,Vermelho,"É o exemplo central de Kuhn em sua famosa disputa com Karl Popper. Quando uma previsão falhava, os astrólogos culpavam a complexidade dos mapas astrais ou um erro de cálculo individual, mas nunca tentavam revisar o ""paradigma astrológico"" para resolver a anomalia. Não há progressão, apenas estagnação."
+A1015,Thomas Kuhn,F14,Astronomia,M06,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1016,Thomas Kuhn,F14,Ecologia,M07.1,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1017,Thomas Kuhn,F14,Biologia Molecular,M07.2,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1018,Thomas Kuhn,F14,Biorritmos,M08,Pseudociência,Vermelho,Opera em completa estagnação. Seus praticantes não estão descobrindo coisas novas sobre meridianos ou memórias da água; eles operam com paradigmas dogmáticos onde falhas nos testes não geram reformulação teórica.
+A1019,Thomas Kuhn,F14,Criacionismo,M09,Pseudociência,Vermelho,"Não existe ciência normal aqui. Não há quebra-cabeças teóricos sendo resolvidos (como ""calcular"" a ação de Deus); há apenas a rejeição do paradigma da biologia para tentar inserir um dogma religioso."
+A1020,Thomas Kuhn,F14,Design Inteligente,M10,Pseudociência,Vermelho,"Não existe ciência normal aqui. Não há quebra-cabeças teóricos sendo resolvidos (como ""calcular"" a ação de Deus); há apenas a rejeição do paradigma da biologia para tentar inserir um dogma religioso."
+A1021,Thomas Kuhn,F14,Direito,M11,Não ciência,Cinza,"Sistemas de regulação social. O ""paradigma"" aqui é a lei escrita, mas o objetivo é normativo, não explicativo do universo."
+A1022,Thomas Kuhn,F14,Microeconomia,M12.1,Não ciência,Cinza,"Kuhn considerava que as ciências sociais estão em um estágio pré-paradigmático. Os marxistas brigam com os liberais na economia; os behavioristas brigam com os cognitivistas na psicologia. Sem um paradigma único, não há ""ciência normal"", há apenas debate constante de fundamentos (como na filosofia)."
+A1023,Thomas Kuhn,F14,Macroeconomia,M12.2,Não ciência,Cinza,"Kuhn considerava que as ciências sociais estão em um estágio pré-paradigmático. Os marxistas brigam com os liberais na economia; os behavioristas brigam com os cognitivistas na psicologia. Sem um paradigma único, não há ""ciência normal"", há apenas debate constante de fundamentos (como na filosofia)."
+A1024,Thomas Kuhn,F14,Economia aplicada,M12.3,Não ciência,Cinza,"Kuhn considerava que as ciências sociais estão em um estágio pré-paradigmático. Os marxistas brigam com os liberais na economia; os behavioristas brigam com os cognitivistas na psicologia. Sem um paradigma único, não há ""ciência normal"", há apenas debate constante de fundamentos (como na filosofia)."
+A1025,Thomas Kuhn,F14,Engenharia de pesca,M13.1,Ciência,Verde,"Ciência aplicada. Trabalha subordinado aos paradigmas da física, biologia e química para resolver quebra-cabeças de ordem prática."
+A1026,Thomas Kuhn,F14,Engenharia aeroespacial,M13.2,Ciência,Verde,"Ciência aplicada. Trabalha subordinado aos paradigmas da física, biologia e química para resolver quebra-cabeças de ordem prática."
+A1027,Thomas Kuhn,F14,Esportes,M14,Não ciência,Cinza,Atividade lúdica e física.
+A1028,Thomas Kuhn,F14,Filosofia - Estética,M15.1,Não ciência,Cinza,"Ocupa-se de debater significados, valores e o passado, não de resolver quebra-cabeças sob regras inquestionáveis."
+A1029,Thomas Kuhn,F14,Filosofia - Ética,M15.2,Não ciência,Cinza,"Ocupa-se de debater significados, valores e o passado, não de resolver quebra-cabeças sob regras inquestionáveis."
+A1030,Thomas Kuhn,F14,Filosofia - Metafísica,M15.3,Não ciência,Cinza,"Ocupa-se de debater significados, valores e o passado, não de resolver quebra-cabeças sob regras inquestionáveis."
+A1031,Thomas Kuhn,F14,Filosofia - Epistemologia,M15.4,Não ciência,Cinza,"Ocupa-se de debater significados, valores e o passado, não de resolver quebra-cabeças sob regras inquestionáveis."
+A1032,Thomas Kuhn,F14,Filosofia - Lógica,M15.5,Ciência,Verde,"Embora Kuhn focasse nas ciências empíricas, ela operam sob paradigmas axiomáticos rigorosos onde os profissionais resolvem quebra-cabeças complexos sem debater as regras do jogo o tempo todo."
+A1033,Thomas Kuhn,F14,Física,M18,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1034,Thomas Kuhn,F14,Frenologia,M19,Pseudociência,Vermelho,"São Paradigmas Mortos. Foram superados por revoluções científicas (pela química e pela neurociência). Tentar praticá-los hoje, rejeitando a revolução científica que os destruiu, é praticar pseudociência."
+A1035,Thomas Kuhn,F14,Geografia Física,M20.1,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1036,Thomas Kuhn,F14,Geografia Humana,M20.2,Não ciência,Cinza,"Kuhn considerava que as ciências sociais estão em um estágio pré-paradigmático. Os marxistas brigam com os liberais na economia; os behavioristas brigam com os cognitivistas na psicologia. Sem um paradigma único, não há ""ciência normal"", há apenas debate constante de fundamentos (como na filosofia)."
+A1037,Thomas Kuhn,F14,Geotecnologias,M20.3,Ciência,Verde,"Ciência aplicada. Trabalha subordinado aos paradigmas da física, biologia e química para resolver quebra-cabeças de ordem prática."
+A1038,Thomas Kuhn,F14,História,M21,Não ciência,Cinza,"Ocupa-se de debater significados, valores e o passado, não de resolver quebra-cabeças sob regras inquestionáveis."
+A1039,Thomas Kuhn,F14,Homeopatia,M22,Pseudociência,Vermelho,Opera em completa estagnação. Seus praticantes não estão descobrindo coisas novas sobre meridianos ou memórias da água; eles operam com paradigmas dogmáticos onde falhas nos testes não geram reformulação teórica.
+A1040,Thomas Kuhn,F14,Linguística Formal,M23,Ciência,Verde,"Embora Kuhn focasse nas ciências empíricas, ela operam sob paradigmas axiomáticos rigorosos onde os profissionais resolvem quebra-cabeças complexos sem debater as regras do jogo o tempo todo."
+A1041,Thomas Kuhn,F14,Literatura,M24,Não ciência,Cinza,Produção estética e narrativa. Não opera por paradigmas científicos.
+A1042,Thomas Kuhn,F14,Marxismo,M25,Pseudociência,Vermelho,"Kuhn diria que, assim como as outras ciências sociais pré-paradigmáticas, elas funcionam mais como seitas ou escolas de filosofia. O problema é que seus seguidores frequentemente tratam essas teorias como paradigmas infalíveis, recorrendo a interpretações flexíveis em vez de resolverem quebra-cabeças de forma rigorosa quando os fatos dão errado."
+A1043,Thomas Kuhn,F14,Matemática,M26,Ciência,Verde,"Embora Kuhn focasse nas ciências empíricas, ela operam sob paradigmas axiomáticos rigorosos onde os profissionais resolvem quebra-cabeças complexos sem debater as regras do jogo o tempo todo."
+A1044,Thomas Kuhn,F14,Medicina,M27,Ciência,Verde,"Ciência aplicada. Trabalha subordinado aos paradigmas da física, biologia e química para resolver quebra-cabeças de ordem prática."
+A1045,Thomas Kuhn,F14,Psicologia,M28,Não ciência,Cinza,"Kuhn considerava que as ciências sociais estão em um estágio pré-paradigmático. Os marxistas brigam com os liberais na economia; os behavioristas brigam com os cognitivistas na psicologia. Sem um paradigma único, não há ""ciência normal"", há apenas debate constante de fundamentos (como na filosofia)."
+A1046,Thomas Kuhn,F14,Mitologia explicativa (Etiológica),M29,Não ciência,Cinza,Produção estética e narrativa. Não opera por paradigmas científicos.
+A1047,Thomas Kuhn,F14,Mitologia Narrativa (Épica),M29,Não ciência,Cinza,Produção estética e narrativa. Não opera por paradigmas científicos.
+A1048,Thomas Kuhn,F14,Neurociência,M30,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1049,Thomas Kuhn,F14,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,Comunidades que operam fora e contra o paradigma da física moderna. Eles não resolvem problemas construtivos; gastam todo o seu tempo apenas tentando (e falhando) provar que o paradigma principal está errado.
+A1050,Thomas Kuhn,F14,Pedagogia,M32,Não ciência,Cinza,"Kuhn considerava que as ciências sociais estão em um estágio pré-paradigmático. Os marxistas brigam com os liberais na economia; os behavioristas brigam com os cognitivistas na psicologia. Sem um paradigma único, não há ""ciência normal"", há apenas debate constante de fundamentos (como na filosofia)."
+A1051,Thomas Kuhn,F14,Política,M33,Não ciência,Cinza,"Sistemas de regulação social. O ""paradigma"" aqui é a lei escrita, mas o objetivo é normativo, não explicativo do universo."
+A1052,Thomas Kuhn,F14,Psicanálise,M34,Pseudociência,Vermelho,"Kuhn diria que, assim como as outras ciências sociais pré-paradigmáticas, elas funcionam mais como seitas ou escolas de filosofia. O problema é que seus seguidores frequentemente tratam essas teorias como paradigmas infalíveis, recorrendo a interpretações flexíveis em vez de resolverem quebra-cabeças de forma rigorosa quando os fatos dão errado."
+A1053,Thomas Kuhn,F14,Química Analítica ,M35,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1054,Thomas Kuhn,F14,Física - Química ,M35,Ciência,Verde,É o exemplo clássico de Kuhn. Possui paradigmas sólidos e comunidades dedicadas ao puzzle-solving.
+A1055,Thomas Kuhn,F14,Quiropraxia,M36,Pseudociência,Vermelho,Opera em completa estagnação. Seus praticantes não estão descobrindo coisas novas sobre meridianos ou memórias da água; eles operam com paradigmas dogmáticos onde falhas nos testes não geram reformulação teórica.
+A1056,Thomas Kuhn,F14,Religião,M37,Não ciência,Cinza,"Opera sob dogmas estáticos, não sob paradigmas que permitem a resolução de anomalias empíricas."
+A1057,Thomas Kuhn,F14,Sociologia,M38,Não ciência,Cinza,"Kuhn considerava que as ciências sociais estão em um estágio pré-paradigmático. Os marxistas brigam com os liberais na economia; os behavioristas brigam com os cognitivistas na psicologia. Sem um paradigma único, não há ""ciência normal"", há apenas debate constante de fundamentos (como na filosofia)."
+A1058,Thomas Kuhn,F14,Teologia,M39,Não ciência,Cinza,"Opera sob dogmas estáticos, não sob paradigmas que permitem a resolução de anomalias empíricas."
+A1059,Thomas Kuhn,F14,Teoria das Cordas,M40,Ciência,Verde,"Ciência normal. Os físicos teóricos das cordas estão todos concordando com o mesmo conjunto de regras matemáticas (o paradigma) e resolvendo problemas extremamente difíceis dentro dele. Para Kuhn, a falta de teste empírico imediato não a tira da categoria de ciência, desde que a tradição de resolução de problemas continue ativa."
+A1060,Thomas Kuhn,F14,Terraplanismo,M41,Pseudociência,Vermelho,Comunidades que operam fora e contra o paradigma da física moderna. Eles não resolvem problemas construtivos; gastam todo o seu tempo apenas tentando (e falhando) provar que o paradigma principal está errado.
+A1061,Thomas Kuhn,F14,Atomismo,M42,Ciência,Verde,É o próprio paradigma fundacional da química moderna.
+A1062,Thomas Kuhn,F14,Criticismo literário,M43,Não ciência,Cinza,"Ocupa-se de debater significados, valores e o passado, não de resolver quebra-cabeças sob regras inquestionáveis."
+A1063,Massimo Pigliucci,F18,Acupuntura,M01,Pseudociência,Vermelho,"A premissa (""qi"" e meridianos) viola o rigor biológico. Testes clínicos robustos mostram que não supera o efeito placebo."
+A1064,Massimo Pigliucci,F18,Alquimia,M02,Pseudociência,Vermelho,"Históricamente foi protociência, mas hoje é pseudociência. Não sobreviveu à química e não tem suporte empírico."
+A1065,Massimo Pigliucci,F18,Antropologia Biológica,M03.1,Ciência,Verde,"Rigoroso empiricamente (fósseis, datação) com teorias evolutivas sólidas."
+A1066,Massimo Pigliucci,F18,Arqueologia,M03.2,Ciência,Verde,"Rigoroso empiricamente (fósseis, datação) com teorias evolutivas sólidas."
+A1067,Massimo Pigliucci,F18,Antropologia Cultural/Social,M03.3,Ciência,Verde,"Coletam dados reais, mas sofrem de baixo rigor teórico preditivo porque o comportamento humano é complexo e difícil de isolar."
+A1068,Massimo Pigliucci,F18,Antropologia Linguística,M03.4,Ciência,Verde,"Coletam dados reais, mas sofrem de baixo rigor teórico preditivo porque o comportamento humano é complexo e difícil de isolar."
+A1069,Massimo Pigliucci,F18,Artes Visuais,M04.1,Não Ciência,Cinza,Exploração estética e expressão humana. Não têm pretensão empírica.
+A1070,Massimo Pigliucci,F18,Artes Cênicas,M04.2,Não Ciência,Cinza,Exploração estética e expressão humana. Não têm pretensão empírica.
+A1071,Massimo Pigliucci,F18,Artes Musicais,M04.3,Não Ciência,Cinza,Exploração estética e expressão humana. Não têm pretensão empírica.
+A1072,Massimo Pigliucci,F18,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,Exploração estética e expressão humana. Não têm pretensão empírica.
+A1073,Massimo Pigliucci,F18,Astrologia,M05,Pseudociência,Vermelho,Não tem modelo teórico de como planetas afetam mentes e falha catastroficamente em qualquer teste empírico duplo-cego.
+A1074,Massimo Pigliucci,F18,Astronomia,M06,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1075,Massimo Pigliucci,F18,Ecologia,M07.1,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1076,Massimo Pigliucci,F18,Biologia Molecular,M07.2,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1077,Massimo Pigliucci,F18,Biorritmos,M08,Pseudociência,Vermelho,Finge ser fisiologia usando ciclos matemáticos fixos inventados do nada.
+A1078,Massimo Pigliucci,F18,Criacionismo,M09,Pseudociência,Vermelho,Uma farsa para enfiar dogmas religiosos na biologia. Nega a evidência empírica massiva da evolução sem oferecer testes alternativos.
+A1079,Massimo Pigliucci,F18,Design Inteligente,M10,Pseudociência,Vermelho,Uma farsa para enfiar dogmas religiosos na biologia. Nega a evidência empírica massiva da evolução sem oferecer testes alternativos.
+A1080,Massimo Pigliucci,F18,Direito,M11,Não Ciência,Cinza,Criações normativas e sociais humanas para exercício de poder e ordem.
+A1081,Massimo Pigliucci,F18,Microeconomia,M12.1,Ciência,Verde,"Têm modelos teóricos matemáticos complexos, mas frequentemente falham no empirismo prático (suas previsões no mundo real costumam errar)."
+A1082,Massimo Pigliucci,F18,Macroeconomia,M12.2,Ciência,Verde,"Têm modelos teóricos matemáticos complexos, mas frequentemente falham no empirismo prático (suas previsões no mundo real costumam errar)."
+A1083,Massimo Pigliucci,F18,Economia aplicada,M12.3,Ciência,Verde,"Têm modelos teóricos matemáticos complexos, mas frequentemente falham no empirismo prático (suas previsões no mundo real costumam errar)."
+A1084,Massimo Pigliucci,F18,Engenharia de pesca,M13.1,Não Ciência,Cinza,"Tecnologia. Utilizam das ferramentas da ciência para construir soluções, mas seu objetivo é prático e inventivo, não epistêmico de descoberta pura."
+A1085,Massimo Pigliucci,F18,Engenharia aeroespacial,M13.2,Não Ciência,Cinza,"Tecnologia. Utilizam das ferramentas da ciência para construir soluções, mas seu objetivo é prático e inventivo, não epistêmico de descoberta pura."
+A1086,Massimo Pigliucci,F18,Esportes,M14,Não Ciência,Cinza,"Atividade física, lúdica e cultural."
+A1087,Massimo Pigliucci,F18,Filosofia - Estética,M15.1,Não Ciência,Cinza,"Ocorrem no plano a priori, através de lógica e argumentação. São cruciais, mas não investigam o mundo natural via tubos de ensaio."
+A1088,Massimo Pigliucci,F18,Filosofia - Ética,M15.2,Não Ciência,Cinza,"Ocorrem no plano a priori, através de lógica e argumentação. São cruciais, mas não investigam o mundo natural via tubos de ensaio."
+A1089,Massimo Pigliucci,F18,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,"Ocorrem no plano a priori, através de lógica e argumentação. São cruciais, mas não investigam o mundo natural via tubos de ensaio."
+A1090,Massimo Pigliucci,F18,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Ocorrem no plano a priori, através de lógica e argumentação. São cruciais, mas não investigam o mundo natural via tubos de ensaio."
+A1091,Massimo Pigliucci,F18,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Fornece a base (o rigor teórico) da ciência, mas não dependem do mundo físico. 1+1=2 é verdade independente de testes empíricos."
+A1092,Massimo Pigliucci,F18,Física,M18,Ciência,Verde,"As chamadas ""ciências duras"". Possuem extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1093,Massimo Pigliucci,F18,Frenologia,M19,Pseudociência,Vermelho,"Uma pseudociência morta. Tentou relacionar formato do crânio com personalidade, falhou empiricamente e sumiu."
+A1094,Massimo Pigliucci,F18,Geografia Física,M20.1,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1095,Massimo Pigliucci,F18,Geografia Humana,M20.2,Ciência,Verde,"Coletam dados reais, mas sofrem de baixo rigor teórico preditivo porque o comportamento humano é complexo e difícil de isolar."
+A1096,Massimo Pigliucci,F18,Geotecnologias,M20.3,Não Ciência,Cinza,"Tecnologia. Utiliza das ferramentas da ciência para construir soluções, mas seu objetivo é prático e inventivo, não epistêmico de descoberta pura."
+A1097,Massimo Pigliucci,F18,História,M21,Não Ciência,Cinza,"Estudo rigoroso, mas estuda eventos singulares passados documentados, não leis reprodutíveis preditivas da natureza."
+A1098,Massimo Pigliucci,F18,Homeopatia,M22,Pseudociência,Vermelho,"Duplamente falida. Teoricamente (a ""memória da água"" exige jogar fora o que sabemos de física e química) e empiricamente (é literalmente apenas água/açúcar)."
+A1099,Massimo Pigliucci,F18,Linguística Formal,M23,Não Ciência,Cinza,"Fornece a base (o rigor teórico) da ciência, mas não depende do mundo físico. 1+1=2 é verdade independente de testes empíricos."
+A1100,Massimo Pigliucci,F18,Literatura,M24,Não Ciência,Cinza,"Narrativas, textos e interpretações culturais. Foco na linguagem e na experiência humana, não nos fatos materiais do universo."
+A1101,Massimo Pigliucci,F18,Marxismo,M25,Pseudociência,Vermelho,"Embora a análise econômica inicial fosse válida, quando os adeptos começaram a criar desculpas infinitas para explicar por que as revoluções previstas não ocorreram (tornando a teoria infalseável), virou dogma político/pseudociência."
+A1102,Massimo Pigliucci,F18,Matemática,M26,Não Ciência,Cinza,"Fornece a base (o rigor teórico) da ciência, mas não depende do mundo físico. 1+1=2 é verdade independente de testes empíricos."
+A1103,Massimo Pigliucci,F18,Medicina,M27,Ciência,Verde,"Usa o rigor biológico e clínico estrito não para descobrir leis da natureza, mas para curar o corpo."
+A1104,Massimo Pigliucci,F18,Psicologia,M28,Ciência,Verde,Mistura áreas de alto rigor empírico (psicologia cognitiva) com áreas de baixo rigor teórico.
+A1105,Massimo Pigliucci,F18,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,"Narrativas, textos e interpretações culturais. Foco na linguagem e na experiência humana, não nos fatos materiais do universo."
+A1106,Massimo Pigliucci,F18,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,"Narrativas, textos e interpretações culturais. Foco na linguagem e na experiência humana, não nos fatos materiais do universo."
+A1107,Massimo Pigliucci,F18,Neurociência,M30,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1108,Massimo Pigliucci,F18,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Finge usar o rigor de laboratório, mas nunca — em um século de testes — produziu um dado empírico reprodutível e robusto."
+A1109,Massimo Pigliucci,F18,Pedagogia,M32,Não Ciência,Cinza,"Metodologia aplicada. Foco no ""como ensinar"", variando de acordo com filosofias culturais, não em formular leis."
+A1110,Massimo Pigliucci,F18,Política,M33,Não Ciência,Cinza,Criações normativas e sociais humanas para exercício de poder e ordem.
+A1111,Massimo Pigliucci,F18,Psicanálise,M34,Pseudociência,Vermelho,"Falta de rigor absurda: a teoria é tão vaga que qualquer coisa que o paciente faça confirma a teoria. Se tudo confirma a teoria, ela não explica nada."
+A1112,Massimo Pigliucci,F18,Química Analítica ,M35,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1113,Massimo Pigliucci,F18,Física - Química ,M35,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1114,Massimo Pigliucci,F18,Quiropraxia,M36,Pseudociência,Vermelho,"A teoria fundamental (de que todas as doenças vêm de ""subluxações"" vertebrais bloqueando uma força vital inata) é falsa. Sem suporte empírico biológico, a não ser como fisioterapia diluída para dor nas costas."
+A1115,Massimo Pigliucci,F18,Religião,M37,Não Ciência,Cinza,"Opera inteiramente na fé, dogma e revelação. O oposto estrito da ciência, pois assumem conclusões antes mesmo (ou apesar) de qualquer evidência empírica."
+A1116,Massimo Pigliucci,F18,Sociologia,M38,Ciência,Verde,"Ciências ""brandas"". Coletam dados reais, mas sofrem de baixo rigor teórico preditivo porque o comportamento humano é complexo e difícil de isolar."
+A1117,Massimo Pigliucci,F18,Teologia,M39,Não Ciência,Cinza,"Opera inteiramente na fé, dogma e revelação. O oposto estrito da ciência, pois assumem conclusões antes mesmo (ou apesar) de qualquer evidência empírica."
+A1118,Massimo Pigliucci,F18,Teoria das Cordas,M40,Ciência,Verde,"Ciência de fronteira. Tem altíssimo rigor matemático, mas absolutamente zero empirismo até hoje. Corre o risco de virar matemática pura ou filosofia se não puder ser testada."
+A1119,Massimo Pigliucci,F18,Terraplanismo,M41,Pseudociência,Vermelho,Pseudociência baseada na ignorância intencional e desonesta de todo o acervo de física e astronomia.
+A1120,Massimo Pigliucci,F18,Atomismo,M42,Ciência,Verde,Ciência (Química/Física de partículas). Base teórica e empírica irrefutável.
+A1121,Massimo Pigliucci,F18,Criticismo literário,M43,Não Ciência,Cinza,"Narrativas, textos e interpretações culturais. Foco na linguagem e na experiência humana, não nos fatos materiais do universo."
+A1122,Maarten Boudry,F30,Acupuntura,M01,Pseudociência,Vermelho,"A premissa (""qi"" e meridianos) viola o rigor biológico. Testes clínicos robustos mostram que não supera o efeito placebo."
+A1123,Maarten Boudry,F30,Alquimia,M02,Pseudociência,Vermelho,"Históricamente foi protociência, mas hoje é pseudociência. Não sobreviveu à química e não tem suporte empírico."
+A1124,Maarten Boudry,F30,Antropologia Biológica,M03.1,Ciência,Verde,"Rigoroso empiricamente (fósseis, datação) com teorias evolutivas sólidas."
+A1125,Maarten Boudry,F30,Arqueologia,M03.2,Ciência,Verde,"Rigoroso empiricamente (fósseis, datação) com teorias evolutivas sólidas."
+A1126,Maarten Boudry,F30,Antropologia Cultural/Social,M03.3,Ciência,Verde,"Coletam dados reais, mas sofrem de baixo rigor teórico preditivo porque o comportamento humano é complexo e difícil de isolar."
+A1127,Maarten Boudry,F30,Antropologia Linguística,M03.4,Ciência,Verde,"Coletam dados reais, mas sofrem de baixo rigor teórico preditivo porque o comportamento humano é complexo e difícil de isolar."
+A1128,Maarten Boudry,F30,Artes Visuais,M04.1,Não Ciência,Cinza,Exploração estética e expressão humana. Não têm pretensão empírica.
+A1129,Maarten Boudry,F30,Artes Cênicas,M04.2,Não Ciência,Cinza,Exploração estética e expressão humana. Não têm pretensão empírica.
+A1130,Maarten Boudry,F30,Artes Musicais,M04.3,Não Ciência,Cinza,Exploração estética e expressão humana. Não têm pretensão empírica.
+A1131,Maarten Boudry,F30,Artes Aplicadas e Design,M04.4,Não Ciência,Cinza,Exploração estética e expressão humana. Não têm pretensão empírica.
+A1132,Maarten Boudry,F30,Astrologia,M05,Pseudociência,Vermelho,Não tem modelo teórico de como planetas afetam mentes e falha catastroficamente em qualquer teste empírico duplo-cego.
+A1133,Maarten Boudry,F30,Astronomia,M06,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1134,Maarten Boudry,F30,Ecologia,M07.1,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1135,Maarten Boudry,F30,Biologia Molecular,M07.2,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1136,Maarten Boudry,F30,Biorritmos,M08,Pseudociência,Vermelho,Finge ser fisiologia usando ciclos matemáticos fixos inventados do nada.
+A1137,Maarten Boudry,F30,Criacionismo,M09,Pseudociência,Vermelho,Uma farsa para enfiar dogmas religiosos na biologia. Nega a evidência empírica massiva da evolução sem oferecer testes alternativos.
+A1138,Maarten Boudry,F30,Design Inteligente,M10,Pseudociência,Vermelho,Uma farsa para enfiar dogmas religiosos na biologia. Nega a evidência empírica massiva da evolução sem oferecer testes alternativos.
+A1139,Maarten Boudry,F30,Direito,M11,Não Ciência,Cinza,Criações normativas e sociais humanas para exercício de poder e ordem.
+A1140,Maarten Boudry,F30,Microeconomia,M12.1,Ciência,Verde,"Têm modelos teóricos matemáticos complexos, mas frequentemente falham no empirismo prático (suas previsões no mundo real costumam errar)."
+A1141,Maarten Boudry,F30,Macroeconomia,M12.2,Ciência,Verde,"Têm modelos teóricos matemáticos complexos, mas frequentemente falham no empirismo prático (suas previsões no mundo real costumam errar)."
+A1142,Maarten Boudry,F30,Economia aplicada,M12.3,Ciência,Verde,"Têm modelos teóricos matemáticos complexos, mas frequentemente falham no empirismo prático (suas previsões no mundo real costumam errar)."
+A1143,Maarten Boudry,F30,Engenharia de pesca,M13.1,Não Ciência,Cinza,"Tecnologia. Utilizam das ferramentas da ciência para construir soluções, mas seu objetivo é prático e inventivo, não epistêmico de descoberta pura."
+A1144,Maarten Boudry,F30,Engenharia aeroespacial,M13.2,Não Ciência,Cinza,"Tecnologia. Utilizam das ferramentas da ciência para construir soluções, mas seu objetivo é prático e inventivo, não epistêmico de descoberta pura."
+A1145,Maarten Boudry,F30,Esportes,M14,Não Ciência,Cinza,"Atividade física, lúdica e cultural."
+A1146,Maarten Boudry,F30,Filosofia - Estética,M15.1,Não Ciência,Cinza,"Ocorrem no plano a priori, através de lógica e argumentação. São cruciais, mas não investigam o mundo natural via tubos de ensaio."
+A1147,Maarten Boudry,F30,Filosofia - Ética,M15.2,Não Ciência,Cinza,"Ocorrem no plano a priori, através de lógica e argumentação. São cruciais, mas não investigam o mundo natural via tubos de ensaio."
+A1148,Maarten Boudry,F30,Filosofia - Metafísica,M15.3,Não Ciência,Cinza,"Ocorrem no plano a priori, através de lógica e argumentação. São cruciais, mas não investigam o mundo natural via tubos de ensaio."
+A1149,Maarten Boudry,F30,Filosofia - Epistemologia,M15.4,Não Ciência,Cinza,"Ocorrem no plano a priori, através de lógica e argumentação. São cruciais, mas não investigam o mundo natural via tubos de ensaio."
+A1150,Maarten Boudry,F30,Filosofia - Lógica,M15.5,Não Ciência,Cinza,"Fornece a base (o rigor teórico) da ciência, mas não dependem do mundo físico. 1+1=2 é verdade independente de testes empíricos."
+A1151,Maarten Boudry,F30,Física,M18,Ciência,Verde,"As chamadas ""ciências duras"". Possuem extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1152,Maarten Boudry,F30,Frenologia,M19,Pseudociência,Vermelho,"Uma pseudociência morta. Tentou relacionar formato do crânio com personalidade, falhou empiricamente e sumiu."
+A1153,Maarten Boudry,F30,Geografia Física,M20.1,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1154,Maarten Boudry,F30,Geografia Humana,M20.2,Ciência,Verde,"Coletam dados reais, mas sofrem de baixo rigor teórico preditivo porque o comportamento humano é complexo e difícil de isolar."
+A1155,Maarten Boudry,F30,Geotecnologias,M20.3,Não Ciência,Cinza,"Tecnologia. Utiliza das ferramentas da ciência para construir soluções, mas seu objetivo é prático e inventivo, não epistêmico de descoberta pura."
+A1156,Maarten Boudry,F30,História,M21,Não Ciência,Cinza,"Estudo rigoroso, mas estuda eventos singulares passados documentados, não leis reprodutíveis preditivas da natureza."
+A1157,Maarten Boudry,F30,Homeopatia,M22,Pseudociência,Vermelho,"Duplamente falida. Teoricamente (a ""memória da água"" exige jogar fora o que sabemos de física e química) e empiricamente (é literalmente apenas água/açúcar)."
+A1158,Maarten Boudry,F30,Linguística Formal,M23,Não Ciência,Cinza,"Fornece a base (o rigor teórico) da ciência, mas não depende do mundo físico. 1+1=2 é verdade independente de testes empíricos."
+A1159,Maarten Boudry,F30,Literatura,M24,Não Ciência,Cinza,"Narrativas, textos e interpretações culturais. Foco na linguagem e na experiência humana, não nos fatos materiais do universo."
+A1160,Maarten Boudry,F30,Marxismo,M25,Pseudociência,Vermelho,"Embora a análise econômica inicial fosse válida, quando os adeptos começaram a criar desculpas infinitas para explicar por que as revoluções previstas não ocorreram (tornando a teoria infalseável), virou dogma político/pseudociência."
+A1161,Maarten Boudry,F30,Matemática,M26,Não Ciência,Cinza,"Fornece a base (o rigor teórico) da ciência, mas não depende do mundo físico. 1+1=2 é verdade independente de testes empíricos."
+A1162,Maarten Boudry,F30,Medicina,M27,Ciência,Verde,"Usa o rigor biológico e clínico estrito não para descobrir leis da natureza, mas para curar o corpo."
+A1163,Maarten Boudry,F30,Psicologia,M28,Ciência,Verde,Mistura áreas de alto rigor empírico (psicologia cognitiva) com áreas de baixo rigor teórico.
+A1164,Maarten Boudry,F30,Mitologia explicativa (Etiológica),M29,Não Ciência,Cinza,"Narrativas, textos e interpretações culturais. Foco na linguagem e na experiência humana, não nos fatos materiais do universo."
+A1165,Maarten Boudry,F30,Mitologia Narrativa (Épica),M29,Não Ciência,Cinza,"Narrativas, textos e interpretações culturais. Foco na linguagem e na experiência humana, não nos fatos materiais do universo."
+A1166,Maarten Boudry,F30,Neurociência,M30,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1167,Maarten Boudry,F30,"Parapsicologia (Telepatia, Telecinese)",M31,Pseudociência,Vermelho,"Finge usar o rigor de laboratório, mas nunca — em um século de testes — produziu um dado empírico reprodutível e robusto."
+A1168,Maarten Boudry,F30,Pedagogia,M32,Não Ciência,Cinza,"Metodologia aplicada. Foco no ""como ensinar"", variando de acordo com filosofias culturais, não em formular leis."
+A1169,Maarten Boudry,F30,Política,M33,Não Ciência,Cinza,Criações normativas e sociais humanas para exercício de poder e ordem.
+A1170,Maarten Boudry,F30,Psicanálise,M34,Pseudociência,Vermelho,"Falta de rigor absurda: a teoria é tão vaga que qualquer coisa que o paciente faça confirma a teoria. Se tudo confirma a teoria, ela não explica nada."
+A1171,Maarten Boudry,F30,Química Analítica ,M35,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1172,Maarten Boudry,F30,Física - Química ,M35,Ciência,Verde,"Possui extremo rigor teórico (leis fundamentais, equações) e farto suporte empírico reprodutível."
+A1173,Maarten Boudry,F30,Quiropraxia,M36,Pseudociência,Vermelho,"A teoria fundamental (de que todas as doenças vêm de ""subluxações"" vertebrais bloqueando uma força vital inata) é falsa. Sem suporte empírico biológico, a não ser como fisioterapia diluída para dor nas costas."
+A1174,Maarten Boudry,F30,Religião,M37,Não Ciência,Cinza,"Opera inteiramente na fé, dogma e revelação. O oposto estrito da ciência, pois assumem conclusões antes mesmo (ou apesar) de qualquer evidência empírica."
+A1175,Maarten Boudry,F30,Sociologia,M38,Ciência,Verde,"Ciências ""brandas"". Coletam dados reais, mas sofrem de baixo rigor teórico preditivo porque o comportamento humano é complexo e difícil de isolar."
+A1176,Maarten Boudry,F30,Teologia,M39,Não Ciência,Cinza,"Opera inteiramente na fé, dogma e revelação. O oposto estrito da ciência, pois assumem conclusões antes mesmo (ou apesar) de qualquer evidência empírica."
+A1177,Maarten Boudry,F30,Teoria das Cordas,M40,Ciência,Verde,"Ciência de fronteira. Tem altíssimo rigor matemático, mas absolutamente zero empirismo até hoje. Corre o risco de virar matemática pura ou filosofia se não puder ser testada."
+A1178,Maarten Boudry,F30,Terraplanismo,M41,Pseudociência,Vermelho,Pseudociência baseada na ignorância intencional e desonesta de todo o acervo de física e astronomia.
+A1179,Maarten Boudry,F30,Atomismo,M42,Ciência,Verde,Ciência (Química/Física de partículas). Base teórica e empírica irrefutável.
+A1180,Maarten Boudry,F30,Criticismo literário,M43,Não Ciência,Cinza,"Narrativas, textos e interpretações culturais. Foco na linguagem e na experiência humana, não nos fatos materiais do universo."
+A1181,,,,,,,
+A1182,,,,,,,
+A1183,,,,,,,
+A1184,,,,,,,
+A1185,,,,,,,
+A1186,,,,,,,
+A1187,,,,,,,
+A1188,,,,,,,
+A1189,,,,,,,
+A1190,,,,,,,
+A1191,,,,,,,
+A1192,,,,,,,
+A1193,,,,,,,
+A1194,,,,,,,
+A1195,,,,,,,
+A1196,,,,,,,
+A1197,,,,,,,
+A1198,,,,,,,
+A1199,,,,,,,
+A1200,,,,,,,
+A1201,,,,,,,
+A1202,,,,,,,
+A1203,,,,,,,
+A1204,,,,,,,
+A1205,,,,,,,
+A1206,,,,,,,
+A1207,,,,,,,
+A1208,,,,,,,
+A1209,,,,,,,
+A1210,,,,,,,
+A1211,,,,,,,
+A1212,,,,,,,
+A1213,,,,,,,
+A1214,,,,,,,
+A1215,,,,,,,
+A1216,,,,,,,
+A1217,,,,,,,
+A1218,,,,,,,
+A1219,,,,,,,
+A1220,,,,,,,
+A1221,,,,,,,
+A1222,,,,,,,
+A1223,,,,,,,
+A1224,,,,,,,
+A1225,,,,,,,
+A1226,,,,,,,
+A1227,,,,,,,
+A1228,,,,,,,
+A1229,,,,,,,
+A1230,,,,,,,
+A1231,,,,,,,
+A1232,,,,,,,
+A1233,,,,,,,
+A1234,,,,,,,
+A1235,,,,,,,
+A1236,,,,,,,
+A1237,,,,,,,
+A1238,,,,,,,
+A1239,,,,,,,
+A1240,,,,,,,
+A1241,,,,,,,
+A1242,,,,,,,
+A1243,,,,,,,
+A1244,,,,,,,
