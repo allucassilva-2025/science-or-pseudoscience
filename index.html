@@ -342,12 +342,9 @@
 
   <div id="status" class="status">Vértices em infinito · rastros de luz no mouse · clique para selecionar vários</div>
 
+  <script src="data/graph-data.js"></script>
   <script>
     "use strict";
-
-    const authorNames = Array.from({ length: 25 }, (_, index) => "Autor " + (index + 1));
-
-    const subjectNames = Array.from({ length: 60 }, (_, index) => "Matéria " + (index + 1));
 
     const relationTypes = ["positive", "negative", "neutral"];
     const relationLabel = {
