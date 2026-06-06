@@ -1,0 +1,362 @@
+[
+  {
+    "id_filosofo": "F01",
+    "nome": "Alfred Jules Ayer",
+    "definicao_de_ciencia": "Ayer defende que uma afirmação tem significado(é um conhecimento científico(ciência)) se for de uma das classes de afirmações:\n\nAfirmações analíticas: são afirmações que são tautologias, ou seja, são necessariamente verdadeiras por definição. Por exemplo, declarações matemáticas válidas.\n\nAfirmações sintéticas(proposições empíricas): afirmações ou negações sobre algo do mundo real, que não são confirmadas apenas por definições e, portanto, necessitam ser testadas empiricamente para sua verificação. Por exemplo, declarações físicas.\n\nProposições são afirmações em que existem condições que possam verificá-la.\nAfirmações que não tem significado não podem ser expressas como proposições. Todas as proposições podem ser testadas, sejam elas verdadeiras ou falsas.\n\nLogo, esses é um sistema binário em que temos ciência e não ciência, e, por exemplo, mesmo que estando errado, o terra planismo se enquadraria em ciência por poder ser refutado.",
+    "resumo": "Para Ayer, é ciência se puder ser expresso como:\na) Afirmações analíticas: são afirmações que são tautologias, ou seja, são necessariamente verdadeiras por definição.\nb)Afirmações sintéticas(proposições empíricas): afirmações ou negações sobre algo do mundo real, que não são confirmadas apenas por definições e, portanto, necessitam ser testadas empiricamente para sua verificação.\n\nEsse é um sistema binário em que temos apenas ciência e não ciência.",
+    "fonte": "AYER, Alfred Jules. Linguagem, verdade e lógica. Lisboa: Presença, 1991.\nhttps://en.wikipedia.org/wiki/Language,_Truth,_and_Logic",
+    "biografia": "Alfred Jules Ayer foi um filósofo britânico nascido em 1910 e estudou na Universidade de Oxford. Ele destacou-se por suas contribuições fundamentais à filosofia da linguagem, à ética e por ser o grande popularizador do positivismo lógico no mundo anglófono, falecendo em 1989.",
+    "responsavel": "allan",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F02",
+    "nome": "Francis Bacon",
+    "definicao_de_ciencia": "Bacon defende o método indutivo empírico, i.e. a observação de várias amostras variadas e a dedução de uma propriedade comum, com isso chegamos que é necessário uma quantidade adequada de testes para a observação e extração de dados e a conclusão de fatos cientificos. Então tecnicamente temos em conclusão que ciência para Bacon só é aquilo que podemos testar e chegar em conclusões através do metodo dedutivo. ",
+    "resumo": "Não há método único; os padrões de validação científica evoluem historicamente.",
+    "fonte": "BACON, Francis. Novum organum e Nova Atlântida. São Paulo: Abril, 1973.",
+    "biografia": "Francis Bacon, nascido em Londres em 22 de janeiro de 1561 e morreu em Londres até 9 de abril de 1626. Ele foi um político, filósofo empirista, cientista, ensaísta inglês, barão de Verulam e visconde de Saint Alban.",
+    "responsavel": "anizio",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F03",
+    "nome": "Mario Bunge",
+    "definicao_de_ciencia": "Bunge define um campo cognitivo E por 10 características\n\nE = (C, S, D, G, F, B, P, K, A, M),\n\nC - Comunidade cognitiva\nS = Sociedade hospedando C\nG = Visão geral e visão de mundo da filosofia de C\nD -Domínio ou universo de discurso de E: os objetos estudados por E\nF = Base formal: ferramentas lógicas e matemáticas usadas em E\nB = Base específica, conjunto de pressuposições sobre D vindas de outros campos do conhecimento além de E\nP - Problemáticas, conjunto de problemas que E pode resolver\nK = Fundo específico de conhecimento acumulado por E\nA = Objetivos ou metas dos Cs no cultivo de E\nM - Metódica ou coleção de métodos utilizáveis em E\n\nPara Bunge, os campos cognitivos são divididos em duas categorias: Campos de Pesquisa, aquele que muda o tempo todo devido a pesquisa e os Campos de Crença, aqueles que, quando mudam, é devido a uma controvérsia ou revelação.\n\nMais detalhadamente:\n- Os 10 componentes de E devem mudar devido à investigação\n- A comunidade C tem treinamento especializado, fortes laços de pesquisa entre si e tradição de investigação\n- A sociedade S incentiva ou tolera os componentes de C\n- O domínio é exclusivamente de entidades reais (certificadas ou prováveis)\n- A perspectiva geral é composta por uma ontologia de que o mundo é composto por coisas concretas que podem mudar, uma teoria realista do conhecimento, um sistema de valores, e um principio de busca livre pela verdade\n- A Base formal F é uma coleção de teorias lógicas ou matemáticas \n- A Base específica é uma coleção de dados, hipóteses e teorias atualizadas obtidas em outros campos de conhecimento além de E\n- A problemática P consiste em problemas relativos à natureza  dos componentes de D, bem como problemas relacionados a outros componentes de E\n- K é uma coleção de teorias, hipóteses e dados atualizados e testáveis compatíveis com os de B e obtidos anteriormente\n- Os objetivos A incluem descobrir ou usar as leis dos D's, sistematizar  hipóteses sobre D's e refinar os métodos em M.\n- A metodologia M contém exclusivamente procedimentos verificáveis,\n  analisáveis, criticáveis e justificáveis ​​explicáveis\n- E é um componente de um contexto cognitivo mais amplo. Isto é, existe pelo menos\n  um outro campo de pesquisa tal que os componentes de E' não estão vazios, e ou o\n  domínio de um campo está incluído no do outro, ou cada membro do\n  domínio de um deles é um componente de um sistema pertencente ao outro\n  domínio.\n\nQualquer campo cognitivo que não satisfaça todas as doze condições acima será considerado não científico. \nE qualquer campo cognitivo que, embora não científico, seja divulgado como científico será considerado pseudocientífico.\n\nUma outra definição de pseudociência que Bunge propõe é a seguinte, qualquer campo cognitivo E que satisfaça as seguintes 12 condições é pseudociência\n\n1- Os 10 componentes de E mudam pouco ao longo do tempo\n2 - C é comunidade de crentes que se autodenominam cientistas,\n    embora não realizem nenhuma prática científica\n3 - S tolera ou apoia C por razões práticas\n4 - O domínio D está coberto de entidades não reais\n5 - G contém uma ontologia que admite processos imateriais, uma epistemologia que abre espaço para argumentos de autoridade, um sistema de valores não claro e uma ética de tende a defesa do dogma, incluindo engano se necessário\n6 - F é modesto e não propriamente respeitado, incluindo modelos intestáveis\n7 - B é pequeno ou nulo\n8 - P inclui mais problemas práticos sobre vida humana do que problemas cognitivos\n9 - K é estagnado e repleto de hipóteses falsas e intestáveis\n10 - Os objetivos A de C são práticos em vez de cognitivos. E não incluem descoberta de leis ou a        sua utilização para compreender e prever fatos.\n11 - A metódica M não é checável ou justificável e criticismo não é bem vindo\n12- Não há outro campo cognitivo que contenha ou intersecte com E a não ser outras   pseudociências",
+    "resumo": "Bunge caracteriza campos cognitivos em dois tipos: de pesquisa (ciência) e de crenças (não ciência ou pseudociência).\n\nTodo campo cognitivo é composto por 10 componentes que descrevem a sua comunidade investigativa, métodos empregados e escopo de estudo.\n\nC - Comunidade cognitiva\nS - Sociedade hospedando C\nG - Visão geral e visão de mundo da filosofia de C\nD - Domínio ou universo de discurso de E: os objetos estudados por E\nF - Base formal: ferramentas lógicas e matemáticas usadas em E\nB - Base específica, conjunto de pressuposições sobre D vindas de outros campos do conhecimento além de E\nP - Problemáticas, conjunto de problemas que E pode resolver\nK - Fundo específico de conhecimento acumulado por E\nA - Objetivos ou metas dos Cs no cultivo de E\nM - Metódica ou coleção de métodos utilizáveis em E",
+    "fonte": "Skeptical Inquirer",
+    "biografia": "Mario Bunge foi um físico e filósofo argentino nascido em 1919 e estudou na Universidade Nacional de La Plata. Ele destacou-se por suas contribuições fundamentais à filosofia da ciência, à ontologia e ao desenvolvimento do sistemismo materialista, falecendo em 2020.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F04",
+    "nome": "Rudolf Carnap",
+    "definicao_de_ciencia": "Para Carnap, a ciência é um conjunto de enunciados que possuem significado empírico, cujos termos teóricos podem ser reduzidos a observações práticas e que podem ser gradualmente confirmados.",
+    "resumo": "Para Carnap, os critérios fundamentais são testabilidade e confirmabilidade.",
+    "fonte": "CARNAP, Rudolf. Testability and Meaning. Philosophy of Science, v. 3, 1936.",
+    "biografia": "Rudolf Carnap foi um filósofo alemão nascido em 1891 e estudou na Universidade de Jena. Ele destacou-se por suas contribuições fundamentais ao positivismo lógico, falecendo em 1970.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F05",
+    "nome": "Alan F. Chalmers",
+    "definicao_de_ciencia": "Para Alan F. Chalmers, não existe um critério universal e a-histórico de demarcação, pois não há um método único ou uma essência formal que defina a categoria \"ciência\". Ele defende que cada área do conhecimento desenvolve seus próprios métodos, objetivos e padrões de validação que evoluem historicamente, tornando inviável enquadrar todas as disciplinas sob uma regra metodológica singular ou um conjunto fixo de critérios observacionais.",
+    "resumo": "Não há método único; os padrões de validação científica evoluem historicamente.",
+    "fonte": "CHALMERS, Alan F. A fabricação da ciência. São Paulo: Unesp, 1994.",
+    "biografia": "Alan F. Chalmers é um filósofo britânico-australiano nascido em 1939 e estudou na Universidade de Londres. Ele destacou-se por suas contribuições fundamentais à filosofia da ciência, à história da física e à epistemologia.",
+    "responsavel": "allan",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F06",
+    "nome": "Martin Curd",
+    "definicao_de_ciencia": "Para Curd, a busca por um critério de demarcação único é infrutífera porque a ciência não possui uma fronteira metodológica simples, sendo identificada por um conjunto de virtudes epistêmicas variadas.",
+    "resumo": "Rejeita um critério único; a ciência caracteriza-se por múltiplas virtudes epistêmicas.",
+    "fonte": "CURD, Martin; COVER, J. A.; PINCOCK, Christopher (ORGS.). Philosophy of science: the central issues. Second edition, international student edition ed. New York London: W.W. Norton & Company, 2013.",
+    "biografia": "Formado pela Universidade de Pittsburgh, o filósofo britânico Martin Curd (nascido em 1953) dedicou grande parte de sua carreira acadêmica ao ensino da racionalidade científica. Suas principais obras concentram-se na resolução de problemas epistemológicos e na questão da demarcação.",
+    "responsavel": "anizio",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F07",
+    "nome": "John Dupré",
+    "definicao_de_ciencia": "Para Dupré, não há critério universal devido ao pluralismo epistêmico; a ciência é um agregado de práticas, métodos e ontologias regionais diversas que não compartilham uma essência unificadora.",
+    "resumo": "Pluralismo epistêmico; não existe uma essência metodológica unificadora das práticas.",
+    "fonte": "DUPRÉ, John. The Disorder of Things: Metaphysical Foundations of the Disunity of Science. Cambridge: Harvard University Press, 1993.",
+    "biografia": "O filósofo britânico John Dupré, nascido em 1952, concluiu seus estudos superiores na Universidade de Cambridge. Ele é amplamente reconhecido por sua incisiva defesa do pluralismo epistêmico e por suas investigações na intersecção entre a filosofia da biologia e a filosofia da ciência.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F08",
+    "nome": "Paul Feyerabend",
+    "definicao_de_ciencia": "Para Feyerabend, a definição de ciência não existe e o problema da demarcação é uma tentativa de sufocar as visões alternativas de mundo. Para ele, nunca houve um \"método científico\", e tentar resolver o critério da demarcação é prejudicial ao progresso do conhecimento. Nesse sentido, Feyerabend defendia o princípio do \"tudo-vale\" (anything goes).",
+    "resumo": "Para Feyerabend, demarcar a ciência é prejudicial ao progresso do conhecimento. Ele defendia o anarquismo epistemológico e seguia o princípio do \"tudo-vale\" (anything goes).",
+    "fonte": "FEYERABEND, Paul. Contra o método. São Paulo: Editora da Unesp, 2011.",
+    "biografia": "Paul Feyerabend foi um filósofo da ciência austríaco nascido em 1924, e se doutorou na Universidade de Viena. Ele construiu grande parte de sua carreira na Universidade de Berkeley e ficou mundialmente conhecido por sua postura anarquista, até sua morte em 1994.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F09",
+    "nome": "Martin Gardner",
+    "definicao_de_ciencia": "Para Gardner é possível identificar se uma teoria é pseudociência observando o comportamento de seu autor. Ele considera que um charlatão(o que seria um autor de pseudociencia) possui algumas características marcantes:\n1- Se considera um gênio;\n2- Considera outros pesquisadores desonesto ou estupidos\n3- Trabalha em isolamento ao invés de corroborar com outros pesquisadores e participar da comunidade científica\n4- Acredita que há uma perseguição contra suas ideias, semelhante a que ocorreu com Galileo, podendo acreditar que há um clube secreto de cientistas que o persegue.\n5- Normalmente, tenta atacar a atual corrente de pensamento mais forte\n6- Tem a tendência a usar palavras complexas e de inventar palavras.\n\nAssim, a ciência iria em oposto a essas características e um pesquisador teria de trabalhar em conjunto com outros pesquisadores, aceitando que suas teorias podem ser refutadas.\nNão é um sistema binário, temos ciência, a fronteira, a pseudociência e a não ciência. A ciência seria marcada por teorias consolidadas, a fronteira por teorias novas ou controversas que ainda serão testadas pra se descobrir se são ciencia ou não, a pseudociência por crenças isoladas que ignoram evidências contrarias e a não ciência não tentaria se passar por ciência (exemplo: religião)\n",
+    "resumo": "Tenta definir caracterísca de um charlatão (pessoa que produziria pseudociência) e define a ciência em oposto a isso.",
+    "fonte": "GARDNER, Martin. Fads and fallacies in the name of science. 2. ed. rev. e ampl. New York: Dover Publications, 1957. \nhttps://en.wikipedia.org/wiki/Fads_and_Fallacies_in_the_Name_of_Science",
+    "biografia": "Martin Gardner foi um escritor e divulgador científico estadunidense nascido em 1914 e estudou na Universidade de Chicago. Ele destacou-se por suas contribuições fundamentais à matemática recreativa e ao ceticismo científico (combatendo ativamente as pseudociências), falecendo em 2010.",
+    "responsavel": "allan",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F10",
+    "nome": "Sven Ove Hansson",
+    "definicao_de_ciencia": "Para Sven Ove Hansson, a ciência não é um conjunto rígido de verdades, mas sim a prática humana dedicada a fornecer as afirmações mais confiáveis possíveis sobre o mundo em um dado momento.",
+    "resumo": "A ciência não é um conjunto de fatos e sim verdades relativas ao contexto historico em que vivemos.",
+    "fonte": "HANSSON, Sven Ove. Science and Pseudo-Science. In: ZALTA, Edward N. (ed.). The Stanford Encyclopedia of Philosophy. Stanford: Metaphysics Research Lab, Stanford University, 2021.",
+    "biografia": "Nasceu em 1951 na Suécia e ainda vive. Ele é professor de filosofia e pesquisador do Departamento de Filosofia e Historia da Tecnologia no Instituto Real de Tecnologia (KTH) em Estocolmo, Sweden",
+    "responsavel": "anizio",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F11",
+    "nome": "Carl Hempel",
+    "definicao_de_ciencia": "Para Hempel, a demarcação do conhecimento científico depende de sua capacidade de ser submetido ao \"contexto de justificação\", que remete ao plano empírico e aos fatos observáveis.\n\nUma área é considerada científica se o seu sistema teórico for capaz de extrair implicações de teste. Uma hipótese H só adquire significância científica se levar a uma previsão empírica I, estabelecendo a relação lógica H -> I. A partir da observação, define-se o status da hipótese através de dois critérios:\n\nRefutação: Se a implicação prevista não ocorre na experiência empírica, a hipótese sofre falseação lógica.\n\nCorroboração: Se a implicação de teste se mostra verdadeira, a hipótese ganha apoio empírico e é considerada \"confirmada\" ou \"corroborada\", embora nunca seja provada com certeza absoluta devido à falácia da afirmação do consequente. O grau de confirmação da teoria científica aumenta se várias implicações de teste distintas se verificarem na realidade.\n\nNão Ciência: Se um sistema de crenças não produz nenhuma implicação de teste que possa ser verificada com a experiência, ele é incapaz de ser justificado empiricamente. Sem a capacidade de gerar consequências observáveis que possam resultar em refutação empírica ou corroboração, o campo não possui significado empírico e não pertence ao domínio científico.",
+    "resumo": "Para Hempel, o que diferencia ciência de não ciência é o fato da testabilidade das hipóteses de seu sistema teórico. \n\nEssa testabilidade é feita levando em consideração dois fatores: a refutação e corroboração. Após essa observação a a hipótese pode ser falseada ou confirmada. O grau de confirmação da teoria científica aumenta se várias implicações de teste distintas se verificarem. Quanto maior o grau de confirmação, mais aceito é o sistema.\n\nSe um sistema não produz implicação de teste que possa ser testada com a experiência, ele é incapaz de ser justificado empiricamente e, portanto, não pertence ao domínio da ciência.",
+    "fonte": "Filosofia da Ciência Natural",
+    "biografia": "Carl Hempel foi um filósofo germano-estadunidense nascido em 1905 e estudou na Universidade de Berlim. Ele destacou-se por suas contribuições fundamentais à filosofia da ciência, ao empirismo lógico e ao modelo dedutivo-nomológico de explicação científica, falecendo em 1997.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F12",
+    "nome": "Reuben Hersh",
+    "definicao_de_ciencia": "Para Hersh, disciplinas formais como a matemática não são verdades a priori ou absolutas, mas sim práticas falíveis e construções histórico-sociais validadas pelo consenso da comunidade acadêmica.",
+    "resumo": "Para Hersch, a divisão entre matemática e não-matemática está na precisão e reprodutibilidade das suas estruturas mentais compartilhadas por uma comunidade.",
+    "fonte": "HERSH, Reuben. What is mathematics, really? New York: Oxford University Press, 1997.",
+    "biografia": "Reuben Hersh foi um matemático e filósofo estadunidense nascido em 1927, e obteve seu doutorado pelo Courant Institute da Universidade de Nova York. Ele se destacou por sua visão humanista, argumentando que a matemática é um produto sociocultural humano, e faleceu no ano de 2020.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F13",
+    "nome": "Hilton Japiassu",
+    "definicao_de_ciencia": "Para Japiassu, a ciência carece de demarcação essencial pura porque o mito da neutralidade metodológica é falso; a investigação é uma construção histórico-social intrinsecamente condicionada por ideologias.",
+    "resumo": "",
+    "fonte": "JAPIASSU, Hilton. O mito da neutralidade científica. Rio de Janeiro: Imago, 1975. JAPIASSU, Hilton. Introdução ao pensamento epistemológico. Rio de Janeiro: Francisco Alves, 1977.",
+    "biografia": "O intelectual brasileiro Hilton Japiassu (1934–2015) realizou sua formação acadêmica na Universidade de Toulouse, na França. Ao longo de sua trajetória, formulou uma vigorosa crítica ao mito da neutralidade metodológica, consolidando importantes contribuições para a epistemologia e a história das ciências no Brasil.",
+    "responsavel": "allan",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F14",
+    "nome": "Thomas Kuhn",
+    "definicao_de_ciencia": "O critério de demarcação de Kuhn baseia-se na capacidade de uma comunidade de se engajar na resolução de quebra-cabeças trabalhando dentro de um paradigma vigente na área que está sendo tratada, então o problema de demarcação para Kuhn, ciência é tudo aquilo que busca desenvolvimento na sua propria area.",
+    "resumo": "A existência de problemas e uma comunidade engajada em resolver esses problemas é o que define uma ciência.",
+    "fonte": "KUHN, Thomas S. The structure of scientific revolutions. Chicago: University of Chicago Press, 1962.",
+    "biografia": "Nasceu em 18 de Julho de 1922 em Ohio, EUA. Morreu em 17 de Junho de 1996 aos 73 anos em Massachusetts, EUA.",
+    "responsavel": "anizio",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F15",
+    "nome": "Imre Lakatos",
+    "definicao_de_ciencia": "Para abordar o problema da demarcação, Lakatos propôs os Programas de Pesquisa, estrutura que se baseia em um \"Núcleo Rígido\", que é constituído por pressupostos teóricos que não podem ser abandonados ou alterados sem que abandonemos o programa principal. \nTeorias específicas que auxiliam na explicação de evidências que ameaçam o \"Núcleo Rígido\" são denominadas de \"Hipóteses Auxiliares\". Essas hipóteses podem ser abandonadas ou alteradas conforme novas descobertas, a fim de proteger o \"Núcleo Rígido\".  Além disso, o conjunto dessas hipóteses é denominado como \"Cinturão Protetor\" do Núcleo Rígido.\nA partir disso, Lakatos discute a demarcação entre ciência e pseudociência classificando os programas de pesquisa em:\n\n- Progressivos (Ciência): Quando alterações nas hipóteses auxiliares resolvem problemas e aumentam o poder do programa ao prever fatos novos e desconhecidos.\n\n- Degenerativos (Pseudociência):  Quando alterações nas hipóteses surgem apenas como uma resposta a uma nova problemática para proteger o núcleo de falhas passadas, sem conseguir prever nenhum fato novo.\n\nPor outro lado, programas que não possuem um núcleo rígido definido e não tentam fazer previsões empíricas são caracterizados como não ciência.",
+    "resumo": "Lakatos define Programas de Pesquisa: Estruturas compostas por um Núcleo Rígido (Pressupostos teóricos imutáveis) e um Cinturão Protetor (Hipóteses Adicionais), podendo ser um Programa Progressivo, quando as hipóteses adicionais levam a novas descobertas (Ciência) ou Programa Degenerativo, quando hipóteses adicionais apenas protegem o núcleo de falhas (Pseudociência). Se um programa não possui sequer um Núcleo Rígido, ele é caracterizado como Não Ciência.",
+    "fonte": "[Criticism and the growth of knowledge, 1970] e [Wikipedia: Imre Lakatos]",
+    "biografia": "Imre Lakatos foi um filósofo húngaro nascido em 1922 e estudou na Universidade de Debrecen e na Universidade de Cambridge. Ele destacou-se por suas contribuições fundamentais à filosofia da ciência (notadamente com a metodologia dos programas de pesquisa científica) e à filosofia da matemática, falecendo em 1974.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F16",
+    "nome": "Larry Laudan",
+    "definicao_de_ciencia": "Para Laudan, a definição de ciência não existe e o problema da demarcação é um pseudoproblema. Para ele, o foco deveria estar em dividir o conhecimento bem-fundamentado do não-fundamentado, a partir da sua capacidade de resolver problemas e de resistir ao escrutínio.",
+    "resumo": "Para Laudan, o conhecimento não é dividido em ciência e pseudociência, mas sim em bem-fundamentado e não-fundamentado.",
+    "fonte": "LAUDAN, Larry. The demise of the demarcation problem. In: COHEN, R. S.; LAUDAN, L. (Orgs.). Physics, Philosophy and Psychoanalysis. Boston Studies in the Philosophy of Science. Dordrecht: Springer Netherlands, 1983.",
+    "biografia": "Larry Laudan foi um filósofo da ciência estaunidense nascido em 1941, e obteve seu PhD na Universidade de Princeton. Célebre por propor o conceito de tradições de pesquisa, ele focou na dinâmica do progresso científico na eficácia da resolução de problemas práticos e conceituais, e faleceu em 2022.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F17",
+    "nome": "Robert Merton",
+    "definicao_de_ciencia": "Para Merton se uma comunidade pratica as normas abaixo, ela está fazendo ciência\n1- Comunismo: todos os cientistas terem propriedade dos bens científicos, promovendo a colaboração científica; o sigilo é oposto a essa norma\n2- Universalismo: a validade científica deve ser independente dos status sociopolíticos e atributos pessoais de seus participantes\n3- Desinteresse: as instituições científicas não atuam para ganho pessoal, mas para benefício científico comum.\n4- Ceticismo organizado: as afirmações devem ser submetidas a investigações críticas antes de serem aceitas.",
+    "resumo": "Para Merton se uma comunidade pratica as normas abaixo, ela está fazendo ciência\n1- Comunismo\n2- Universalismo\n3- Desinteresse\n4- Ceticismo organizado",
+    "fonte": "MERTON, Robert K. The sociology of science: theoretical and empirical investigations. Chicago: University of Chicago Press, 1973.\nhttps://en.wikipedia.org/wiki/Mertonian_norms",
+    "biografia": "Robert Merton foi um sociólogo estadunidense nascido em 1910 e estudou na Universidade de Harvard. Ele destacou-se por suas contribuições fundamentais à sociologia da ciência e ao desenvolvimento de conceitos como o \"funcionalismo estrutural\", falecendo em 2003.",
+    "responsavel": "allan",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F18",
+    "nome": "Massimo Pigliucci",
+    "definicao_de_ciencia": "Para ele, distinguir ciência de pseudociência não é um exercício estéril, mas uma tarefa intelectual e prática urgente para a sociedade contemporânea. Ele rejeita a busca por um critério único e estrito (como a falseabilidade de Karl Popper) para separar a ciência da pseudociência e acredita que a demarcação da ciência é algo bidimensional ao invés de unidimensional, tendo um eixo empirico (se é possivel realizar experimentos) e um eixo teorico (rigor teorico). Ele conclue portanto que a ciência sólida tem ambos requisitos e a pseudociência não tem nenhum dos requisitos.",
+    "resumo": "Acredita que a demarcação da ciência é algo bidimensional ao invés de unidimensional como outras teorias, tendo um eixo empirico e um eixo teorico.",
+    "fonte": "PIGLIUCCI, Massimo; BOUDRY, Maarten (Orgs.). Philosophy of pseudoscience: reconsidering the demarcation problem. Chicago: University of Chicago Press, 2013.",
+    "biografia": "Nasceu em 16 de Janeiro de 1964 em Monrovia, Liberia, hoje tem 62 anos.",
+    "responsavel": "anizio",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F19",
+    "nome": "Karl Popper",
+    "definicao_de_ciencia": "Para Popper, o que demarca a ciência não é a procura pela verdade, mas sim a capacidade de uma teoria se desenvolver após falsificações de suas hipóteses. \n\nCiência: Uma teoria é científica se for estruturalmente falsificável, ela deve fazer previsões que proíbem a ocorrência de eventos.\n\nSe a teoria resiste às tentativas de falsificação, Popper diz que ela foi corroborada. Se ela falhar no teste, é uma teoria científica refutada/falsa.\n\nPseudociência: A pseudociência é composta por sistemas que tentam parecer ciência, mas não são passíveis de falsificação porque:\nPor serem tão vagos que conseguem explicar qualquer observação possível (ex: Psicanálise de Freud, que, segundo Popper, \"tudo explica, logo nada proíbe\").\nPela utilização de hipóteses ad hoc: quando a teoria falha, seus defensores inventam hipóteses adicionais para manter a teoria (ex: o Marxismo soviético, segundo Popper).\n\nNão Ciência: São disciplinas que não formulam previsões suscetíveis a testes empíricos. ",
+    "resumo": "O critério de demarcação de Popper é a Falsificabilidade.\n\nUm sistema é considerado Ciência se faz previsões arriscadas e possui uma estrutura que permita que suas hipóteses sejam testadas e falsificadas pela experiência. \nÉ classificado como Pseudociência se tenta imitar a ciência, mas contém premissas vagas ou utiliza hipóteses ad hoc que o tornam impossível de ser falsificado empiricamente. \nPor fim, é Não Ciência se o sistema não tenta prever eventos e, portanto, não possui margem para ser submetido a testes empíricos.",
+    "fonte": "A lógica da pesquisa científica",
+    "biografia": "Karl Popper foi um filósofo austro-britânico nascido em 1902 e estudou na Universidade de Viena. Ele destacou-se por suas contribuições fundamentais à filosofia da ciência (com o falsificacionismo) e à filosofia política (na defesa da sociedade aberta), falecendo em 1994.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F20",
+    "nome": "David Resnik",
+    "definicao_de_ciencia": "Para Resnik, a ciência se baseia nos seguintes critérios fundamentais: testabilidade empírica, coerência lógica, abertura à crítica, reprodutibilidade, honestidade intelectual e transparência metodológica. Seguindo essa ideia, ele afirmou que existem quatro classificações envolvendo o problema da demarcação:\n1- Boa ciência: atividades que aderem aos princípios descritos.\n2- Ciência Fraca: atividades que tentam aderir aos princípios descritos, mas sofrem com falhas metodológicas, falta de rigor ou viés.\n3- Pseudociência: atividades que se propõe científicas mas violam os princípios listados anteriormente.\n4- Artes e Humanidades: saberes legítimos com valor próprio, mas que não pretendem ser ciência.",
+    "resumo": "Para Resnik, a ciência deve seguir princípios de testabilidade empírica, coerência lógica, abertura à crítica, reprodutibilidade, honestidade intelectual e transparência metodológica, sendo a partir disso classificada em quatro categorias.",
+    "fonte": "RESNIK, David B. A pragmatic approach to the demarcation problem. Studies in History and Philosophy of Science Part A, v. 31, n. 2, p. 249-267, 2000.",
+    "biografia": "David Resnik é um filósofo e bioeticista estadunidense. Ele obteve seu doutorado na University of North Carolina at Chapel Hill e, ao longo de sua carreira, destaca-se por suas contribuições fundamentais à ética na ciência e à bioética.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F21",
+    "nome": "Michael Ruse",
+    "definicao_de_ciencia": "Para Ruse uma ciência deve seguir os seguintes critérios:\n1- Ser guiada por leis naturais: a ciência deve explicar o mundo recorrendo a leis naturais e não a milagres ou intervenções divinas\n2- Explicar o mundo através das leis: a teoria deve ser capaz de prever consequências dessas leis, explicando fenomenos do mundo real a partir delas\n3- Ser testável empiricamente: as afirmações devem ser passíveis de teste no mundo físico\n4- Conclusões provisórias: os cientístas devem aceitar que sua teoria pode estar errada, podendo ser substituída no futuro \n5- Falseabilidade: deve existir uma possível observação que, se encontrada, destrua a teoria\n\nAssim, teorias que seguissem esses critérios seriam científicas, as que não seguissem seriam não científicas e, as que, mesmo sendo não científicas, tentassem se passar por científicas seriam pseudo ciência.  ",
+    "resumo": "Para Ruse uma ciência deve seguir os seguintes critérios:\n1- Ser guiada por leis naturais\n2- Explicar o mundo através das leis\n3- Ser testável empiricamente\n4- Conclusões provisórias\n5- Falseabilidade",
+    "fonte": "RUSE, Michael (ed.). But Is It Science?: The Philosophical Question in the Creation/Evolution Controversy. Amherst: Prometheus Books, 1988.",
+    "biografia": "Michael Ruse foi um filósofo da ciência britânico-canadense nascido em 1940 e estudou na Universidade de Bristol. Ele destacou-se por suas contribuições fundamentais à filosofia da biologia, ao estudo do darwinismo e ao debate entre ciência e religião, falecendo em 2024.",
+    "responsavel": "allan",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F22",
+    "nome": "Bertrand Russel",
+    "definicao_de_ciencia": "Para Russell, a ciência não se define pela posse de verdades absolutas, mas por ser o corpo de conhecimento logicamente mais rigoroso e provável, fundamentado na observação empírica e no ceticismo provisório.",
+    "resumo": "Conhecimento provável e logicamente rigoroso, ancorado na observação empírica.",
+    "fonte": "RUSSELL, Bertrand. The scientific outlook. New York, NY: Routledge, 2009.",
+    "biografia": "Um dos pensadores mais influentes do século XX, o britânico Bertrand Russell (1872–1970) construiu sua base acadêmica na Universidade de Cambridge. Seu vasto legado é estrutural para a lógica matemática moderna, para a epistemologia teórica e para a fundação da filosofia analítica.",
+    "responsavel": "anizio",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F23",
+    "nome": "Carl Sagan",
+    "definicao_de_ciencia": "Em seu livro, Sagan batiza seu método de \"Kit de Detecção de Balelas\", composto por 9 ferramentas de investigação:\nPara ser ciência, o conjunto de ideias deve satisfazer as seguintes condições:\n\n1 - Sempre que possível, deve haver confirmação independente dos \"fatos\"\n2 - Deve-se incentivar o debate sobre as evidências por defensores bem informados de todos os  pontos de vista.\n3 - Argumentos de autoridades têm pouco peso. Talvez seja melhor dizer que, na ciência, não existem autoridades; no máximo, existem especialistas.\n4 - Considerar mais de uma hipótese. Pensar em todas as diferentes maneiras pelas quais algo poderia ser explicado. Em seguida, pensar em testes pelos quais você poderia refutar sistematicamente cada uma das alternativas. A hipótese que sobreviver, aquela que resistir à refutação, terá uma chance maior de ser a resposta correta.\n5 - Não se apegar demais a uma hipótese só porque ela é sua. Pergunte-se por que você gosta da ideia. Compare-a com alternativas. Procure razões para rejeitá-la. Se você não encontrar, outros conseguirão.\n6 - Se é algo quantificável, quantifique. O que é vago e qualitativo está aberto a muitas explicações.\n7 - Se existe uma cadeia de argumentação, cada elo dessa cadeia deve funcionar \n8 - A Navalha de Occam. Esta prática diz que, quando confrontados com duas hipóteses que explicam os dados igualmente bem, deve-se escolher a mais simples.\n9 - Considere que a hipótese pode ser refutada. Os céticos inveterados devem ter a chance de acompanhar seu raciocínio, de replicar seus experimentos e verificar se chegam ao mesmo resultado.",
+    "resumo": "Para Carl Sagan, a Ciência caracteriza-se pela aplicação do pensamento cético, guiado pelas nove ferramentas do seu \"Kit de Detecção de Balelas\". \nA Pseudociência ocorre quando um conjunto de ideias falha ao satisfazer tais condições, apoiando-se em falácias lógicas e afirmações intestáveis. \nA Não Ciência engloba domínios do conhecimento que sequer se propõem a formular alegações empíricas ou previsões testáveis sobre o mundo.",
+    "fonte": "The demon-haunted world: science as a candle in the dark",
+    "biografia": "Carl Sagan foi um astrônomo e divulgador científico estadunidense nascido em 1934 e estudou na Universidade de Chicago. Ele destacou-se por suas contribuições fundamentais à ciência planetária, à exobiologia e à promoção do ceticismo científico, falecendo em 1996.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F24",
+    "nome": "Vandana Shiva",
+    "definicao_de_ciencia": "Para Shiva, a definição de ciência deve ser pautada no seu impacto social e ecológico. Shiva apoia o pluralismo epistêmico, em que diferentes formas de conhecer são validadas pela sua capacidade de proteger e nutrir a vida. Para ela, os critérios de demarcação tradicionais são uma ferramenta de exclusão para grupos minoritários, denominada ciência reducionista que provoca a destruição da diversidade de pensamentos e de saberes locais em nome de uma universalidade científica (o que ela chama de \"monoculturas da mente\").",
+    "resumo": "Para Shiva, a ciência é o conjunto de saberes com impacto ecológico e social, e os critérios de demarcação tradicionais são uma ferramental de exclusão.",
+    "fonte": "SHIVA, Vandana. Monocultures of the mind: perspectives on biodiversity and biotechnology. London; New York: Zed Books, 1993.",
+    "biografia": "Vandana Shiva é uma física, escritora e ativista ambiental indiana nascida em 1952, e obteve seu doutorado em física quântica pela Universidade de Western Ontario, no Canadá. Ela é uma das principais vozes globais do ecofeminismo, dedicando-se à defesa da biodiversidade e da soberania alimentar.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F25",
+    "nome": "Paul Thagard",
+    "definicao_de_ciencia": "Para Thagard, uma teoria não é científica se satisfaz as condições:\n1- A teoria tem sido menos progressiva do que teorias alternativas por um longo período de tempo e tem muitos problemas não resolvidos\n2- A comunidade de participantes faz pouco esforço pra desenvolver a teoria para resolver seus problemas, não demonstra preocupação com as tentativas de avaliar a teoria em relação a outras e é seletiva em considerar confirmações de desconfimações\n\nPara Thagard, teorias podem levar algum tempo sendo apenas não promissoras até que de fato passem a ser consideradas pseudociência(por exemplo a astrologia).",
+    "resumo": "Para Thagard, uma teoria não é científica se satisfaz as condições:\n1- A teoria tem sido menos progressiva do que teorias alternativas por um longo período de tempo e tem muitos problemas não resolvidos\n2- A comunidade de participantes faz pouco esforço pra desenvolver a teoria para resolver seus problemas e é seletiva em considerar confirmações de desconfimaçõe\n",
+    "fonte": "THAGARD, Paul R. Why Astrology is a Pseudoscience. PSA: Proceedings of the Biennial Meeting of the Philosophy of Science Association, 1978.\nhttps://en.wikipedia.org/wiki/Demarcation_problem",
+    "biografia": "Paul Thagard é um filósofo e cientista cognitivo canadense nascido em 1950 e estudou na Universidade de Toronto (e na Universidade de Cambridge). Ele destaca-se por suas contribuições fundamentais à filosofia da ciência, à ciência cognitiva e ao estudo computacional das teorias científicas.",
+    "responsavel": "allan",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F26",
+    "nome": "Kwasi Wiredu",
+    "definicao_de_ciencia": "Para Wiredu, a racionalidade empírica não possui uma fronteira cultural ocidental exclusiva; a ciência define-se pela coerência lógica e evidência material, exigindo a descolonização de dogmas dogmáticos.",
+    "resumo": "Racionalidade empírica e lógica universal, livre de exclusividades culturais dogmáticas.",
+    "fonte": "WIREDU, Kwasi. Cultural universals and particulars: an African perspective. Bloomington: Indiana University Press, 1996.",
+    "biografia": "Filósofo de origem ganesa, Kwasi Wiredu (1931–2022) graduou-se pela Universidade de Oxford. Ele consagrou-se como uma das figuras centrais da filosofia africana contemporânea, destacando-se por seus debates em epistemologia e por sua defesa rigorosa da descolonização conceitual.",
+    "responsavel": "anizio",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F27",
+    "nome": "J. A. Cover",
+    "definicao_de_ciencia": "Para Cover, as tentativas históricas de demarcação estrita falham; a racionalidade científica afere-se pela robustez crítica e pelo progresso teórico das práticas, e não por uma regra única.",
+    "resumo": "A racionalidade afere-se pelo progresso teórico e robustez crítica, sem limites metodológicos estritos.",
+    "fonte": "CURD, Martin; COVER, J. A.; PINCOCK, Christopher (ORGS.). Philosophy of science: the central issues. Second edition, international student edition ed. New York London: W.W. Norton & Company, 2013.",
+    "biografia": "O estudioso estadunidense J. A. Cover, nascido em 1958, obteve sua formação na Universidade de Syracuse. Sua produção intelectual e docência estão concentradas fundamentalmente na análise da metafísica, na filosofia moderna e em tópicos basilares da filosofia da ciência.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F28",
+    "nome": "Christopher Pincock",
+    "definicao_de_ciencia": "Para Pincock, a definição de ciência deve se basear na legitimidade epistêmica de suas representações, a partir da sua capacidade de usar modelos abstratos e matemáticos de forma justificada, controlada e empiricamente mapeável, olhando para a epistemologia da modelagem.",
+    "resumo": "Para Pincock, as áreas que se propõem como ciência devem ter uma metodologia justificada, a partir de modelagem abstrata e matemática.",
+    "fonte": "PINCOCK, Christopher. Mathematics and Scientific Representation. Oxford: Oxford University Press, 2012.",
+    "biografia": "Christopher Pincock é um filósofo contemporâneo estaudidense, e concluiu seu doutorado na Universidade da Califórnia, Berkeley. Atualmente leciona na Universidade Estadual de Ohio, focando suas pesquisas em como os modelos matemáticos conseguem representar o mundo físico.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F29",
+    "nome": "Alan Musgrave",
+    "definicao_de_ciencia": "Para Musgrave, a ciência demarca-se pelo realismo crítico; não pela prova absoluta, mas pela aceitação estritamente provisória e racional das teorias que melhor resistem a testes de refutação severos.",
+    "resumo": "Realismo crítico; aceitação racional e provisória de teorias que sobrevivem a testes severos.",
+    "fonte": "LAKATOS, Imre; MUSGRAVE, Alan. Criticism and the growth of knowledge. Cambridge: Cambridge University Press, 1970.",
+    "biografia": "Nascido em 1940, o filósofo britânico-neozelandês Alan Musgrave estudou na prestigiada London School of Economics. No âmbito acadêmico, notabilizou-se como um ardente defensor do realismo crítico e por suas colaborações profundas na teoria do conhecimento e na epistemologia das ciências físicas.",
+    "responsavel": "allan",
+    "possui_criterio_demarcacao": "nao"
+  },
+  {
+    "id_filosofo": "F30",
+    "nome": "Maarten Boudry",
+    "definicao_de_ciencia": "Ele acredita que a demarcação da ciência é algo bidimensional ao invés de unidimensional, tendo um eixo empirico (se é possivel realizar experimentos) e um eixo teorico (rigor teorico). Ele conclue portanto que a ciência sólida tem ambos requisitos e a pseudociência não tem nenhum dos requisitos.",
+    "resumo": "Acredita que a demarcação da ciência é algo bidimensional ao invés de unidimensional como outras teorias, tendo um eixo empirico e um eixo teorico.",
+    "fonte": "BOUDRY, Maarten. Philosophy of Pseudoscience: Reconsidering the Demarcation Problem (2013).",
+    "biografia": "Nasceu em 15 de Agosto de 1984 em Moorslede, Bélgica, tem 41 anos.",
+    "responsavel": "anizio",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F31",
+    "nome": "Gaston Bachelard",
+    "definicao_de_ciencia": "Para Bachelard, a definição de ciência se baseia nos seguintes pilares:\n1 - Ruptura epistemológica: \"recusa\" do senso comum e do que é evidente aos sentidos.\n2 - Obstáculo epistemológico: superação de barreiras que o próprio ser humano cria.\n3 - Racionalismo aplicado e tecnocientificismo: a ciência é o conhecimento mediado por teorias e técnicas.",
+    "resumo": "Para Bachelard, a ciência é a forma de conhecimento que rompe com as aparências do senso comum e constrói seus próprios objetos através da razão e da técnica.",
+    "fonte": "BACHELARD, Gaston. A formação do espírito científico: contribuição para uma psicanálise do conhecimento objetivo. Tradução de Estela dos Santos Abreu. Rio de Janeiro: Contraponto, 1996.",
+    "biografia": "Gaston Bachelard foi um filósofo francês nascido em 1884 e estudou na Universidade de Sorbonne. Ele destacou-se por suas contribuições fundamentais à filosofia da ciência e à poética do espaço e da imaginação, falecendo em 1962.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F32",
+    "nome": "Philip Kitcher",
+    "definicao_de_ciencia": "Para Kitcher, o problema da demarcação não deve ser resolvido somente com um critério lógico simples. Para ele, a \"boa ciência\" possui três critérios fundamentais:\n1 - Testabilidade independente de hipóteses auxiliares: ao enfrentar uma anomalia, propor hipóteses auxiliares não é um problema, desde que elas mesmas sejam testáveis de forma independente do problema específico que ela foi criada para resolver.\n2 - Unificação: a \"boa ciência\" utiliza uma quantidade limitada de estratégias ou padrões de resolução para explicar uma variedade de fenômenos diferentes, enquanto a pseudociência cria muitas explicações isoladas (ad hoc), carecendo de estrutura central integrada.\n3 - Fecundidade/Profundidade: a ciência florescente é intrinsecamente incompleta, de forma a possibilitar novos problemas, discussões e investigações, enquanto a pseudociência é estéril, no sentido de defender um dogma estático e não promover novas agendas de pesquisa.",
+    "resumo": "Para Kitcher, a ciência possui três critérios fundamentais: testabilidade independente das hipóteses auxiliares; unificação; e fecundidade.",
+    "fonte": "KITCHER, Philip. Abusing science: the case against creationism. Cambridge, MA: MIT Press, 1982.",
+    "biografia": "Philip Kitcher é um filósofo britânico nascido em 1947 e estudou na Universidade de Princeton. Ele destacou-se por suas contribuições fundamentais à filosofia da ciência, à filosofia da biologia e ao pragmatismo.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F33",
+    "nome": "Susan Haack",
+    "definicao_de_ciencia": "Para Haack, a definição de ciência se baseia em três ideias centrais:\n1 - Continuidade com o senso comum: a investigação científica é uma extensão das habilidades cognitivas cotidianas que os seres humanos usam para resolver problemas, de modo a seguir um modelo de palavras cruzadas, em que o suporte para uma hipótese encaixa pistas (evidências empíricas) com palavras preenchidas (conhecimento prévio).\n2 - Antiessencialismo: não existe um método científico único, pois a ciência é abrange uma variedade de práticas, e tentar restringir isso seria um erro conceitual.\n3 - Investigação crítica: com foco na atitude epistêmica, a ciência deve ser vista como prática que busca a verdade e é aberta a mudanças caso as evidências contrariem a hipótese inicial, enquanto a pseudicência realiza uma pseudoinvestigação (sham inquiry), em que evidências que contradizem as hipóteses são ignoradas.",
+    "resumo": "Para Haack, a ciência possui três ideias fundamentais: continuidade com o senso comum; antiessencialismo; e investigação crítica.",
+    "fonte": "HAACK, Susan. Defending science - within reason: between scientism and cynicism. Amherst, NY: Prometheus Books, 2003.",
+    "biografia": "Susan Haack é uma filósofa e lógica britânica nascida em 1945 e estudou na Universidade de Oxford. Ela destacou-se por suas contribuições fundamentais à filosofia da linguagem, à epistemologia (notadamente com o fundeherentismo) e ao pragmatismo.",
+    "responsavel": "mariana",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F34",
+    "nome": "Mituo Taketani",
+    "definicao_de_ciencia": "Mituo Taketani defende que ciência é um processo contínuo e dialético de penetração na matéria. \nPara ser ciência deve cumprir:\n\n1. Estágio Fenomenológico (A Observação): Deve começar com a descrição empírica dos fenômenos observados na natureza.\n2. Estágio Substancial (A Estrutura):  A investigação deve buscar identificar e comprovar a estrutura que causa o que foi observado.\n3. Estágio Essencial (A Lei Universal): A ciência deve formular as leis matemáticas, dinâmicas e universais definitivas que regem o sistema.\n4. Ciclo inquebrável: O conhecimento cai na pseudociência ou na metafísica se romper esse ciclo. Criar equações matemáticas (Essência) sem provar a base material (Substância) é pseudociência. Ficar eternamente catalogando fatos (Fenômeno) sem buscar a estrutura oculta é fenomenalismo não científico.",
+    "resumo": "Para Mituo Taketani, a Ciência é um processo guiado pela \"Doutrina dos Três Estágios\" (Fenômeno, Substância e Essência).\nA Pseudociência ocorre quando um sistema rompe esse ciclo.\nA Não Ciência sequer se propõe a buscar a estrutura profunda ou formular leis.",
+    "fonte": "TAKETANI, Mituo. Shizen no Benshōhō [A Dialética da Natureza]. Tóquio: Nihon Hyoronsha, 1948.",
+    "biografia": "Mituo Taketani foi um físico e filósofo japonês nascido em 1911 e estudou na Universidade Imperial de Kyoto. Ele destacou-se por suas contribuições fundamentais à física de partículas e à filosofia da ciência (notadamente com a Doutrina dos Três Estágios), falecendo em 2000.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F35",
+    "nome": "Hu Shih",
+    "definicao_de_ciencia": "Hu Shih defende que a ciência não são verdades absolutas, mas uma atitude baseada no \"Pragmatismo Metodológico\". Para ser ciência, o investigador e as ideias devem satisfazer:\n\n1. Ousadia na hipótese:  Deve-se incentivar a criação das hipóteses mais arrojadas e criativas possíveis para tentar solucionar um problema.\n2. Cuidado na verificação:  Nenhuma ideia tem valor de verdade até passar pelo teste rigoroso da prova prática, da experimentação e das evidências empíricas.\n3. Ceticismo construtivo contra o autoritarismo: A ciência rejeita a aceitação passiva da tradição. Nenhum conhecimento está isento da dúvida metódica e da necessidade de comprovação.\n4. Ferramentalidade das teorias: Toda teoria ou premissa deve ser tratada apenas como uma ferramenta provisória. Se a ideia não gera consequências testáveis na realidade ou falha na prática, ela deve ser descartada, evitando que se transforme em dogma.",
+    "resumo": "Para Hu Shih, a Ciência caracteriza-se com base na \"ousadia na hipótese e cuidado na verificação\", tratando a teoria como uma ferramenta.\nA Pseudociência é um conjunto de ideias que falha ao rejeitar a investigação prática.\nA Não Ciência engloba tradições que sequer se propõem a testar suas crenças na realidade.",
+    "fonte": "HU, Shih. Hu Shih Wencun [Coletânea de Ensaios de Hu Shih]. Xangai: Ya Dong Tu Shu Guan, 1921",
+    "biografia": "Hu Shih foi um filósofo e ensaísta chinês nascido em 1891 e estudou na Universidade de Columbia. Ele destacou-se por suas contribuições fundamentais ao pragmatismo, ao Movimento da Nova Cultura e à reforma da literatura chinesa, falecendo em 1962.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "sim"
+  },
+  {
+    "id_filosofo": "F36",
+    "nome": "Paulin Hountondji",
+    "definicao_de_ciencia": "Paulin Hountondji estabelece que a ciência e a filosofia rigorosa são discursos críticos e estruturados. Deve satisfazer os requisitos:\n\n1. Exigência de Universalismo Metodológico: As regras de investigação, validação e experimentação devem ser aplicáveis universalmente.\n2. Registro Explícito:  O conhecimento deve estar em uma literatura explícita para que as ideias sejam objetos de verificação pública e histórica.\n3. Responsabilidade Individual: O conhecimento científico é gerado por pesquisadores que assumem a autoria e a responsabilidade analítica pelas suas hipóteses. \n4. Submissão à Crítica e Refutação: O sistema não pode exigir a adesão cega ou a crença passiva de seus seguidores. Para ser ciência, o discurso deve estar obrigatoriamente aberto à crítica analítica por seus pares e à possível refutação de seus postulados.",
+    "resumo": "Para Paulin Hountondji, a Ciência é um universalismo metodológico, exige literatura, responsabilidade individual e aberto à crítica.\nA Pseudociência é um que sistema tenta burlar essas exigências.\nA Não Ciência são saberes que não se propõem a operar sob a refutação empírica ou metodológica.",
+    "fonte": "HOUNTONDJI, Paulin J. Sur la \"philosophie africaine\": critique de l'ethnophilosophie. Paris: François Maspero, 1976.",
+    "biografia": "Paulin Hountondji foi um filósofo beninense nascido em 1942 e estudou na École Normale Supérieure de Paris. Ele destacou-se por suas contribuições fundamentais à filosofia africana, à epistemologia e pela sua rigorosa crítica à etnofilosofia, falecendo em 2024.",
+    "responsavel": "felipe",
+    "possui_criterio_demarcacao": "sim"
+  }
+]
