@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visualização em formato de infinito</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      font-family: Inter, Arial, sans-serif;
+      color: white;
+      background: #000000;
+    }
+    #light-trails {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      overflow: hidden;
+      mix-blend-mode: screen;
+    }
+    .trail-light,
+    .spark-light,
+    .click-ripple {
+      position: fixed;
+      left: 0;
+      top: 0;
+      border-radius: 999px;
+      pointer-events: none;
+      will-change: transform, opacity;
+    }
+    .trail-light {
+      width: 118px;
+      height: 118px;
+      background: radial-gradient(circle,
+        rgba(255,255,255,0.16) 0%,
+        rgba(180,230,255,0.08) 22%,
+        rgba(57,255,136,0.03) 44%,
+        rgba(0,0,0,0) 72%
+      );
+      animation: trailFade 780ms ease-out forwards;
+    }
+    .spark-light {
+      width: 34px;
+      height: 34px;
+      background: radial-gradient(circle,
+        rgba(255,255,255,0.28) 0%,
+        rgba(180,230,255,0.10) 34%,
+        rgba(0,0,0,0) 72%
+      );
+      animation: sparkDrift 640ms ease-out forwards;
+    }
+    .click-ripple {
+      width: 34px;
+      height: 34px;
+      border: 1px solid rgba(255,255,255,0.16);
+      box-shadow:
+        0 0 10px rgba(255,255,255,0.16),
+        0 0 24px rgba(180,230,255,0.10);
+      animation: rippleGlow 720ms ease-out forwards;
+    }
+    @keyframes trailFade {
+      0% { opacity: 0.36; transform: translate3d(var(--x), var(--y), 0) scale(0.34); }
+      100% { opacity: 0; transform: translate3d(var(--x), var(--y), 0) scale(1.35); }
+    }
+    @keyframes sparkDrift {
+      0% { opacity: 0.42; transform: translate3d(var(--x), var(--y), 0) scale(0.45); }
+      100% { opacity: 0; transform: translate3d(calc(var(--x) + var(--dx)), calc(var(--y) + var(--dy)), 0) scale(1.45); }
+    }
+    @keyframes rippleGlow {
+      0% { opacity: 0.34; transform: translate3d(var(--x), var(--y), 0) scale(0.3); }
+      100% { opacity: 0; transform: translate3d(var(--x), var(--y), 0) scale(4.2); }
+    }
+    #viewport {
+      position: fixed;
+      inset: 0;
+      overflow: hidden;
+      cursor: grab;
+    }
+    #viewport.dragging { cursor: grabbing; }
+    #edge-canvas, #graph-svg {
+      position: absolute;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      display: block;
+    }
+    #edge-canvas { z-index: 1; }
+    #graph-svg { z-index: 2; }
+    .top-panel {
+      position: fixed;
+      top: 16px;
+      left: 16px;
+      z-index: 20;
+      width: min(520px, calc(100vw - 32px));
+      padding: 14px 16px;
+      border-radius: 18px;
+      background: rgba(2, 6, 23, 0.76);
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+    .top-panel h1 { margin: 0 0 6px; font-size: 18px; line-height: 1.15; }
+    .top-panel p { margin: 0; color: #cbd5e1; font-size: 13px; line-height: 1.4; }
+    .controls {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      z-index: 20;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+      max-width: 560px;
+    }
+    button {
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(2, 6, 23, 0.78);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    button:hover, button.active {
+      background: rgba(16, 185, 129, 0.18);
+      border-color: rgba(57, 255, 136, 0.6);
+    }
+    .legend {
+      position: fixed;
+      left: 16px;
+      bottom: 16px;
+      z-index: 20;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(2, 6, 23, 0.76);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #cbd5e1;
+      font-size: 12px;
+    }
+    .legend-row { display: flex; align-items: center; gap: 8px; margin: 5px 0; }
+    .legend-dot, .legend-line { display: inline-block; flex: 0 0 auto; }
+    .legend-dot { width: 10px; height: 10px; border-radius: 999px; }
+    .legend-line { width: 24px; height: 3px; border-radius: 999px; }
+    .node {
+      cursor: pointer;
+      transition: opacity 0.12s ease, r 0.12s ease, stroke-width 0.12s ease;
+    }
+    .node.author { fill: rgba(255,255,255,0.98); stroke: rgba(255,255,255,0.95); stroke-width: 1.2; }
+    .node.subject { fill: #020617; stroke: rgba(255,255,255,0.88); stroke-width: 1; }
+    .node.faded { opacity: 0.12; }
+    .node.focused { opacity: 1; stroke-width: 2.2; }
+    .node.selected { opacity: 1; stroke-width: 3.4; }
+    .label {
+      fill: #f8fafc;
+      font-weight: 700;
+      pointer-events: none;
+      paint-order: stroke;
+      stroke: rgba(0,0,0,0.9);
+      stroke-width: 3px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: opacity 0.12s ease;
+    }
+    .author-label { font-size: 9.6px; text-anchor: middle; }
+    .subject-label { font-size: 8.8px; fill: #dbeafe; }
+    .label.faded { opacity: 0.1; }
+    .orbit-guide {
+      fill: none;
+      stroke: rgba(255,255,255,0.18);
+      stroke-width: 1.6;
+      pointer-events: none;
+    }
+    .nucleus-guide {
+      fill: rgba(255,255,255,0.04);
+      stroke: rgba(255,255,255,0.16);
+      stroke-width: 1.2;
+      pointer-events: none;
+    }
+
+    .link-hit {
+      fill: none;
+      stroke: rgba(255,255,255,0);
+      stroke-width: 10;
+      pointer-events: stroke;
+    }
+    .tooltip {
+      position: fixed;
+      z-index: 40;
+      max-width: 320px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(2, 6, 23, 0.94);
+      border: 1px solid rgba(255,255,255,0.14);
+      color: #e5e7eb;
+      pointer-events: none;
+      opacity: 0;
+      transform: translateY(6px);
+      transition: opacity 0.1s ease, transform 0.1s ease;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+    .tooltip.visible { opacity: 1; transform: translateY(0); }
+    .tooltip strong { display: block; margin-bottom: 4px; color: white; font-size: 13px; }
+    .author-card {
+      position: fixed;
+      z-index: 45;
+      width: min(330px, calc(100vw - 24px));
+      min-height: 88px;
+      display: grid;
+      grid-template-columns: 68px 1fr;
+      gap: 9px;
+      padding: 9px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.68);
+      border: 1px solid rgba(15, 23, 42, 0.18);
+      color: #020617;
+      opacity: 0;
+      transform: translateY(8px) scale(0.97);
+      pointer-events: none;
+      transition: opacity 0.16s ease, transform 0.16s ease;
+    }
+    .author-card.visible { opacity: 1; transform: translateY(0) scale(1); }
+    .author-card-image {
+      width: 68px; height: 68px; border-radius: 12px; overflow: hidden;
+      background: rgba(248,250,252,0.8); border: 1px solid rgba(15,23,42,0.12);
+    }
+    .author-card-image img, .author-card-placeholder {
+      width: 100%; height: 100%; display: grid; place-items: center; object-fit: cover; font-weight: 800; color: #020617;
+    }
+    .author-card-title { margin: 1px 0 4px; font-size: 13px; line-height: 1.15; color: #020617; }
+    .author-card-text { margin: 0; font-size: 11.5px; line-height: 1.28; color: #111827; }
+    .status {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      z-index: 20;
+      padding: 9px 11px;
+      border-radius: 14px;
+      background: rgba(2, 6, 23, 0.76);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #cbd5e1;
+      font-size: 12px;
+    }
+
+    .starfield { display: none; }
+    .atom-background-glow { display: none; }
+    .node.author {
+      fill: rgba(255,255,255,0.98);
+      stroke: rgba(180,230,255,0.98);
+      stroke-width: 1.4;
+      filter:
+        drop-shadow(0 0 3px rgba(255,255,255,0.88))
+        drop-shadow(0 0 7px rgba(150,220,255,0.55));
+    }
+    .node.author.selected, .node.author.focused {
+      filter:
+        drop-shadow(0 0 5px rgba(255,255,255,0.96))
+        drop-shadow(0 0 12px rgba(150,220,255,0.72));
+    }
+    .node.subject {
+      fill: rgba(2, 6, 23, 0.98);
+      stroke: transparent;
+      stroke-width: 0;
+      filter:
+        drop-shadow(0 0 3px rgba(255,255,255,0.28))
+        drop-shadow(0 0 8px rgba(255,255,255,0.34));
+    }
+    .node.subject.selected, .node.subject.focused {
+      stroke: transparent;
+      stroke-width: 0;
+      filter:
+        drop-shadow(0 0 5px rgba(255,255,255,0.92))
+        drop-shadow(0 0 13px rgba(255,255,255,0.54));
+    }
+    .label.author-label { fill: #ffffff; }
+    .label.subject-label { fill: #dff4ff; }
+    .orbit-guide, .nucleus-guide { display: none; }
+    @media (max-width: 800px) {
+      .top-panel, .legend { display: none; }
+      .controls { left: 10px; right: 10px; top: 10px; justify-content: center; }
+      .status { left: 10px; right: 10px; bottom: 10px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <div id="light-trails" aria-hidden="true"></div>
+  <div class="starfield"></div>
+  <section class="top-panel">
+    <h1>Grafo epistemologia</h1>
+  </section>
+
+  <section class="controls">
+    <button class="filter active" data-filter="all">Todos</button>
+    <button class="filter" data-filter="authors">Autores</button>
+    <button class="filter" data-filter="subjects">Matérias</button>
+    <button id="toggle-edges" class="active">Arestas visíveis</button>
+    <button id="clear-selection">Limpar seleção</button>
+    <button id="reset">Resetar zoom</button>
+  </section>
+
+  <aside class="legend">
+    <div class="legend-row"><span class="legend-dot" style="background:#fff"></span>Autores</div>
+    <div class="legend-row"><span class="legend-dot" style="background:#020617;border:1px solid #8fd3ff"></span>Matérias</div>
+    <div class="legend-row"><span class="legend-line" style="background:#39ff88"></span>Ciência</div>
+    <div class="legend-row"><span class="legend-line" style="background:#ff2d55"></span>Não ciência / pseudociência</div>
+    <div class="legend-row"><span class="legend-line" style="background:#ffffff"></span>Indefinido</div>
+  </aside>
+
+  <div id="viewport">
+    <canvas id="edge-canvas"></canvas>
+    <svg id="graph-svg" aria-label="Grafo em formato de infinito">
+      <defs>
+        <radialGradient id="nucleusGlow" cx="50%" cy="50%" r="60%">
+          <stop offset="0%" stop-color="rgba(255,255,255,1)"/>
+          <stop offset="28%" stop-color="rgba(208,240,255,0.96)"/>
+          <stop offset="60%" stop-color="rgba(115,195,255,0.72)"/>
+          <stop offset="100%" stop-color="rgba(115,195,255,0.08)"/>
+        </radialGradient>
+      </defs>
+      <g id="graph-layer">
+        <g id="guides-layer"></g>
+        <g id="link-hit-layer"></g>
+        <g id="nodes-layer"></g>
+        <g id="labels-layer"></g>
+      </g>
+    </svg>
+  </div>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <article id="author-card" class="author-card" aria-live="polite">
+    <div class="author-card-image"></div>
+    <div>
+      <h2 class="author-card-title"></h2>
+      <p class="author-card-text"></p>
+    </div>
+  </article>
+
+  <div id="status" class="status">Vértices em infinito · rastros de luz no mouse · clique para selecionar vários</div>
+
+  <script>
+    "use strict";
+
+    const authorNames = Array.from({ length: 25 }, (_, index) => "Autor " + (index + 1));
+
+    const subjectNames = Array.from({ length: 60 }, (_, index) => "Matéria " + (index + 1));
+
+    const relationTypes = ["positive", "negative", "neutral"];
+    const relationLabel = {
+      positive: "ciência",
+      negative: "não ciência / pseudociência",
+      neutral: "indefinido"
+    };
+    const relationColor = {
+      positive: "rgba(57, 255, 136, 0.18)",
+      negative: "rgba(255, 45, 85, 0.16)",
+      neutral: "rgba(255, 255, 255, 0.11)"
+    };
+    const relationHighlightColor = {
+      positive: "rgba(57, 255, 136, 0.95)",
+      negative: "rgba(255, 45, 85, 0.95)",
+      neutral: "rgba(255, 255, 255, 0.82)"
+    };
+
+    const world = {
+      width: 3000,
+      height: 2200,
+      centerX: 1500,
+      centerY: 1100
+    };
+
+    function infinityPoint(cx, cy, scaleX, scaleY, t, rotationDeg = 0) {
+      // Curva de Gerono: x = sin(t), y = sin(2t)/2.
+      // Ela desenha um ∞ horizontal e é leve para renderizar.
+      const x0 = scaleX * Math.sin(t);
+      const y0 = scaleY * Math.sin(2 * t) / 2;
+      const rot = rotationDeg * Math.PI / 180;
+
+      return {
+        x: cx + x0 * Math.cos(rot) - y0 * Math.sin(rot),
+        y: cy + x0 * Math.sin(rot) + y0 * Math.cos(rot)
+      };
+    }
+
+    function labelPlacement(point, offset = 26) {
+      const vx = point.x - world.centerX;
+      const vy = point.y - world.centerY;
+      const vlen = Math.hypot(vx, vy) || 1;
+      const labelX = point.x + (vx / vlen) * offset;
+      const labelY = point.y + (vy / vlen) * offset;
+      let anchor = "middle";
+      if (vx > 40) anchor = "start";
+      else if (vx < -40) anchor = "end";
+
+      return { labelX, labelY, anchor };
+    }
+
+    function phaseForInfinity(index, total, phase = 0.16) {
+      // O pequeno deslocamento evita que um vértice caia exatamente no cruzamento central.
+      return (Math.PI * 2 * (index + phase) / total) - Math.PI / 2;
+    }
+
+    const authors = authorNames.map((name, index) => {
+      const t = phaseForInfinity(index, authorNames.length, 0.32);
+      const point = infinityPoint(world.centerX, world.centerY, 430, 360, t, 0);
+      const { labelX, labelY, anchor } = labelPlacement(point, 21);
+
+      return {
+        id: `A${index + 1}`,
+        name,
+        kind: "author",
+        x: point.x,
+        y: point.y,
+        labelX,
+        labelY,
+        labelAnchor: anchor,
+        text: name === "Karl Popper"
+          ? "Para Karl Popper, ciência é aquilo que pode ser testado e potencialmente falseado. Uma teoria é científica porque pode ser confrontada com a realidade."
+          : `${name}: substitua este texto pela definição de ciência ou critério de demarcação usado por este autor.`
+      };
+    });
+
+    const subjects = subjectNames.map((name, index) => {
+      const t = phaseForInfinity(index, subjectNames.length, 0.18);
+      const point = infinityPoint(world.centerX, world.centerY, 1180, 820, t, 0);
+      const { labelX, labelY, anchor } = labelPlacement(point, 30);
+
+      return {
+        id: `B${index + 1}`,
+        name,
+        kind: "subject",
+        x: point.x,
+        y: point.y,
+        labelX,
+        labelY,
+        labelAnchor: anchor,
+        orbitIndex: 0,
+        text: `${name}: campo comparado com os critérios de ciência, não ciência ou indeterminação.`
+      };
+    });
+
+    const nodes = [...authors, ...subjects];
+    const nodeById = new Map(nodes.map(node => [node.id, node]));
+    const links = [];
+
+    authors.forEach((author, ai) => {
+      subjects.forEach((subject, si) => {
+        const type = relationTypes[(ai * 5 + si * 7) % relationTypes.length];
+        links.push({
+          source: author,
+          target: subject,
+          type,
+          text: `${author.name} classifica ${subject.name} como ${relationLabel[type]} nesta relação de exemplo.`
+        });
+      });
+    });
+
+    for (let i = 0; i < authors.length - 1; i++) {
+      links.push({
+        source: authors[i],
+        target: authors[i + 1],
+        type: "author",
+        text: `Relação cronológica entre ${authors[i].name} e ${authors[i + 1].name}.`
+      });
+    }
+
+    const linksByNode = new Map(nodes.map(node => [node.id, []]));
+    links.forEach(link => {
+      linksByNode.get(link.source.id).push(link);
+      linksByNode.get(link.target.id).push(link);
+    });
+
+    const viewport = document.getElementById("viewport");
+    const canvas = document.getElementById("edge-canvas");
+    const ctx = canvas.getContext("2d", { alpha: true });
+
+    const edgeCacheCanvas = document.createElement("canvas");
+    edgeCacheCanvas.width = world.width;
+    edgeCacheCanvas.height = world.height;
+    const edgeCacheCtx = edgeCacheCanvas.getContext("2d", { alpha: true });
+    const svg = document.getElementById("graph-svg");
+    const graphLayer = document.getElementById("graph-layer");
+    const guidesLayer = document.getElementById("guides-layer");
+    const linkHitLayer = document.getElementById("link-hit-layer");
+    const nodesLayer = document.getElementById("nodes-layer");
+    const labelsLayer = document.getElementById("labels-layer");
+    const tooltip = document.getElementById("tooltip");
+    const authorCard = document.getElementById("author-card");
+    const status = document.getElementById("status");
+    const lightTrails = document.getElementById("light-trails");
+
+    let transform = { x: 0, y: 0, k: 1 };
+    let hoveredNode = null;
+    const selectedNodes = new Set();
+    let hoveredLink = null;
+    let currentFilter = "all";
+    let showAllEdges = true;
+    let rafId = null;
+
+    function initView() {
+      const scaleX = window.innerWidth / world.width;
+      const scaleY = window.innerHeight / world.height;
+      const k = Math.min(scaleX, scaleY) * 0.92;
+      transform.k = Math.max(0.15, Math.min(k, 1.2));
+      transform.x = (window.innerWidth - world.width * transform.k) / 2;
+      transform.y = (window.innerHeight - world.height * transform.k) / 2;
+      applyTransform();
+      scheduleDraw();
+    }
+
+    function resizeCanvas() {
+      const dpr = window.devicePixelRatio || 1;
+      canvas.width = Math.round(window.innerWidth * dpr);
+      canvas.height = Math.round(window.innerHeight * dpr);
+      canvas.style.width = `${window.innerWidth}px`;
+      canvas.style.height = `${window.innerHeight}px`;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      svg.setAttribute("viewBox", `0 0 ${window.innerWidth} ${window.innerHeight}`);
+      scheduleDraw();
+    }
+
+    function worldToScreen(point) {
+      return {
+        x: point.x * transform.k + transform.x,
+        y: point.y * transform.k + transform.y
+      };
+    }
+
+    function applyTransform() {
+      graphLayer.setAttribute("transform", `translate(${transform.x},${transform.y}) scale(${transform.k})`);
+      scheduleDraw();
+      if (hoveredNode && hoveredNode.kind === "author") positionAuthorCard(hoveredNode);
+    }
+
+    function scheduleDraw() {
+      if (rafId) return;
+      rafId = requestAnimationFrame(() => {
+        rafId = null;
+        drawEdges();
+      });
+    }
+
+    function shouldShowNode(node) {
+      if (currentFilter === "authors") return node.kind === "author";
+      if (currentFilter === "subjects") return node.kind === "subject";
+      return true;
+    }
+
+    function isAuthorLink(link) {
+      return link.type === "author";
+    }
+
+    function shouldShowLink(link) {
+      if (currentFilter === "authors") return isAuthorLink(link);
+      if (currentFilter === "subjects") return !isAuthorLink(link);
+      return true;
+    }
+
+    function getCurveControlPoint(source, target, scale = 1) {
+      const dx = target.x - source.x;
+      const dy = target.y - source.y;
+      const dist = Math.hypot(dx, dy) || 1;
+      const nx = -dy / dist;
+      const ny = dx / dist;
+      const radialBiasX = (target.x - world.centerX) * 0.08 * scale;
+      const radialBiasY = (target.y - world.centerY) * 0.08 * scale;
+      const curve = Math.min(130 * scale, Math.max(28 * scale, dist * 0.10 * scale));
+      return {
+        cx: (source.x + target.x) / 2 + nx * curve + radialBiasX,
+        cy: (source.y + target.y) / 2 + ny * curve + radialBiasY
+      };
+    }
+
+    function getLinkPathWorld(link) {
+      const source = link.source;
+      const target = link.target;
+      const { cx, cy } = getCurveControlPoint(source, target, 1);
+      return `M ${source.x} ${source.y} Q ${cx} ${cy} ${target.x} ${target.y}`;
+    }
+
+    function drawWorldCurve(link, targetCtx) {
+      const source = link.source;
+      const target = link.target;
+      const { cx, cy } = getCurveControlPoint(source, target, 1);
+
+      targetCtx.beginPath();
+      targetCtx.moveTo(source.x, source.y);
+      targetCtx.quadraticCurveTo(cx, cy, target.x, target.y);
+
+      if (isAuthorLink(link)) {
+        targetCtx.setLineDash([10, 8]);
+        targetCtx.strokeStyle = 'rgba(255,255,255,0.58)';
+        targetCtx.lineWidth = 1.1;
+      } else {
+        targetCtx.setLineDash([]);
+        targetCtx.strokeStyle = relationColor[link.type];
+        targetCtx.lineWidth = 0.55;
+      }
+      targetCtx.stroke();
+      targetCtx.setLineDash([]);
+    }
+
+    function buildEdgeCache() {
+      edgeCacheCtx.clearRect(0, 0, world.width, world.height);
+      edgeCacheCtx.lineCap = "round";
+      edgeCacheCtx.lineJoin = "round";
+
+      for (const link of links) {
+        if (shouldShowLink(link) || currentFilter === 'all') drawWorldCurve(link, edgeCacheCtx);
+      }
+    }
+
+    function drawCachedEdges() {
+      const dpr = window.devicePixelRatio || 1;
+
+      ctx.save();
+      ctx.setTransform(
+        dpr * transform.k,
+        0,
+        0,
+        dpr * transform.k,
+        dpr * transform.x,
+        dpr * transform.y
+      );
+
+      // Mantém todas as arestas visíveis mesmo quando há vértices selecionados.
+      // A seleção apenas desenha uma camada de destaque por cima.
+      ctx.globalAlpha = 0.82;
+      ctx.drawImage(edgeCacheCanvas, 0, 0);
+      ctx.restore();
+
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    function drawCurve(link, highlight = false) {
+      const source = worldToScreen(link.source);
+      const target = worldToScreen(link.target);
+      const { cx, cy } = getCurveControlPoint(source, target, transform.k);
+
+      ctx.beginPath();
+      ctx.moveTo(source.x, source.y);
+      ctx.quadraticCurveTo(cx, cy, target.x, target.y);
+
+      if (isAuthorLink(link)) {
+        ctx.setLineDash([8 * transform.k, 6 * transform.k]);
+        ctx.strokeStyle = highlight ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.65)';
+        ctx.lineWidth = highlight ? 2.2 : 1.25;
+      } else {
+        ctx.setLineDash([]);
+        ctx.strokeStyle = highlight ? relationHighlightColor[link.type] : relationColor[link.type];
+        ctx.lineWidth = highlight ? 1.9 : 0.55;
+      }
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    function drawEdges() {
+      const dpr = window.devicePixelRatio || 1;
+
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+      if (showAllEdges) {
+        drawCachedEdges();
+      }
+
+      const focusIds = getFocusNodeIds();
+      if (focusIds.size > 0) {
+        for (const link of getLinksForNodeIds(focusIds)) {
+          drawCurve(link, true);
+        }
+      }
+
+      if (hoveredLink && shouldShowLink(hoveredLink)) {
+        drawCurve(hoveredLink, true);
+      }
+    }
+
+    function createSvgElement(tag, attrs = {}) {
+      const element = document.createElementNS("http://www.w3.org/2000/svg", tag);
+      for (const [key, value] of Object.entries(attrs)) element.setAttribute(key, value);
+      return element;
+    }
+
+    function renderGuides() {
+      // Sem contorno fixo do símbolo de infinito.
+      // O formato aparece pela posição dos próprios vértices e pelas arestas do grafo.
+    }
+
+    function renderLinkHits() {
+      links.forEach((link, index) => {
+        const path = createSvgElement("path", {
+          class: "link-hit",
+          d: getLinkPathWorld(link)
+        });
+        path.dataset.index = String(index);
+        linkHitLayer.appendChild(path);
+      });
+    }
+
+    function renderNodes() {
+      nodes.forEach(node => {
+        const radius = node.kind === "author" ? 8 : 9;
+        const circle = createSvgElement("circle", {
+          class: `node ${node.kind}`,
+          cx: node.x,
+          cy: node.y,
+          r: radius,
+          tabindex: "0"
+        });
+        circle.dataset.id = node.id;
+        nodesLayer.appendChild(circle);
+
+        const label = createSvgElement("text", {
+          class: `label ${node.kind}-label`,
+          x: node.labelX,
+          y: node.labelY,
+          'text-anchor': node.labelAnchor || 'middle'
+        });
+        label.textContent = node.name;
+        label.dataset.id = node.id;
+        labelsLayer.appendChild(label);
+      });
+    }
+
+    function isLinkRelatedToIds(link, ids) {
+      return ids.has(link.source.id) || ids.has(link.target.id);
+    }
+
+    function getFocusNodeIds() {
+      const focusIds = new Set(selectedNodes);
+
+      // Sem seleção fixa, o mouse cria um foco temporário.
+      // Com seleção fixa, o foco permanece na união dos vértices clicados.
+      if (hoveredNode && selectedNodes.size === 0) {
+        focusIds.add(hoveredNode.id);
+      }
+
+      return focusIds;
+    }
+
+    function getLinksForNodeIds(ids) {
+      const result = [];
+      const seen = new Set();
+
+      ids.forEach(id => {
+        const nodeLinks = linksByNode.get(id) || [];
+        nodeLinks.forEach(link => {
+          if (!shouldShowLink(link)) return;
+
+          const key = `${link.source.id}|${link.target.id}|${link.type}|${link.text}`;
+          if (seen.has(key)) return;
+
+          seen.add(key);
+          result.push(link);
+        });
+      });
+
+      return result;
+    }
+
+    function updateLinkHitInteractivity(focusIds = new Set(), restrictToFocus = false) {
+      Array.from(linkHitLayer.children).forEach((element, index) => {
+        const link = links[index];
+        const visibleByFilter = shouldShowLink(link);
+        const relatedToFocus = focusIds.size === 0 ? true : isLinkRelatedToIds(link, focusIds);
+
+        const isEnabled = visibleByFilter && (!restrictToFocus || relatedToFocus);
+        element.style.display = visibleByFilter ? '' : 'none';
+        element.style.pointerEvents = isEnabled ? 'stroke' : 'none';
+      });
+    }
+
+    function updateSelectionStatus() {
+      if (selectedNodes.size === 0) {
+        status.textContent = 'Vértices em infinito · rastros de luz no mouse · clique para selecionar vários';
+        return;
+      }
+
+      const suffix = selectedNodes.size === 1 ? 'vértice selecionado' : 'vértices selecionados';
+      status.textContent = `${selectedNodes.size} ${suffix} · todas as arestas continuam visíveis`;
+    }
+
+    function applyGraphFocus() {
+      const focusIds = getFocusNodeIds();
+      const connected = new Set(focusIds);
+
+      for (const link of getLinksForNodeIds(focusIds)) {
+        connected.add(link.source.id);
+        connected.add(link.target.id);
+      }
+
+      document.querySelectorAll('.node').forEach(element => {
+        const id = element.dataset.id;
+        const node = nodeById.get(id);
+        const baseRadius = node.kind === 'author' ? 8 : 9;
+        const selected = selectedNodes.has(id);
+        const temporarilyFocused = hoveredNode && selectedNodes.size === 0 && hoveredNode.id === id;
+        const related = focusIds.size === 0 || connected.has(id);
+
+        element.classList.toggle('selected', selected);
+        element.classList.toggle('faded', focusIds.size > 0 && !related);
+        element.classList.toggle('focused', focusIds.size > 0 && related);
+
+        if (selected) {
+          element.setAttribute('r', baseRadius + 5);
+        } else if (temporarilyFocused) {
+          element.setAttribute('r', baseRadius + 4);
+        } else {
+          element.setAttribute('r', baseRadius);
+        }
+      });
+
+      document.querySelectorAll('.label').forEach(element => {
+        const related = focusIds.size === 0 || connected.has(element.dataset.id);
+        element.classList.toggle('faded', !related);
+      });
+
+      updateLinkHitInteractivity(focusIds, selectedNodes.size > 0);
+      updateSelectionStatus();
+      scheduleDraw();
+    }
+
+    function toggleNodeSelection(node) {
+      if (selectedNodes.has(node.id)) {
+        selectedNodes.delete(node.id);
+      } else {
+        selectedNodes.add(node.id);
+      }
+
+      applyGraphFocus();
+    }
+
+    function clearSelection() {
+      selectedNodes.clear();
+      hoveredNode = null;
+      hoveredLink = null;
+      hideTooltip();
+      hideAuthorCard();
+      applyGraphFocus();
+    }
+
+    function showTooltip(node, event) {
+      tooltip.innerHTML = `<strong>${node.name}</strong>${node.text}`;
+      tooltip.classList.add('visible');
+      moveTooltip(event);
+    }
+
+    function moveTooltip(event) {
+      const offset = 14;
+      const width = 320;
+      const x = Math.min(event.clientX + offset, window.innerWidth - width - 12);
+      const y = Math.min(event.clientY + offset, window.innerHeight - 80);
+      tooltip.style.left = `${Math.max(12, x)}px`;
+      tooltip.style.top = `${Math.max(12, y)}px`;
+    }
+
+    function hideTooltip() {
+      tooltip.classList.remove('visible');
+    }
+
+    function showAuthorCard(node) {
+      authorCard.querySelector('.author-card-image').innerHTML = `<div class="author-card-placeholder">${node.name.charAt(0)}</div>`;
+      authorCard.querySelector('.author-card-title').textContent = node.name;
+      authorCard.querySelector('.author-card-text').textContent = node.text;
+      authorCard.classList.add('visible');
+      positionAuthorCard(node);
+    }
+
+    function positionAuthorCard(node) {
+      const screen = worldToScreen(node);
+      const cardWidth = Math.min(330, window.innerWidth - 24);
+      const cardHeight = 106;
+      const x = Math.max(12, Math.min(screen.x - cardWidth / 2, window.innerWidth - cardWidth - 12));
+      const y = Math.max(12, Math.min(screen.y - cardHeight - 22, window.innerHeight - cardHeight - 12));
+      authorCard.style.left = `${x}px`;
+      authorCard.style.top = `${y}px`;
+    }
+
+    function hideAuthorCard() {
+      authorCard.classList.remove('visible');
+    }
+
+    let lastTrailTime = 0;
+    let lastTrailX = -9999;
+    let lastTrailY = -9999;
+    const maxLightParticles = 32;
+
+    function limitLightParticles() {
+      while (lightTrails.children.length > maxLightParticles) {
+        lightTrails.firstElementChild.remove();
+      }
+    }
+
+    function createTrailLight(x, y, intensity = 1) {
+      const particle = document.createElement('span');
+      const size = 76 + Math.random() * 68 * intensity;
+      particle.className = 'trail-light';
+      particle.style.width = `${size}px`;
+      particle.style.height = `${size}px`;
+      particle.style.setProperty('--x', `${x - size / 2}px`);
+      particle.style.setProperty('--y', `${y - size / 2}px`);
+      particle.style.animationDuration = `${620 + Math.random() * 260}ms`;
+      lightTrails.appendChild(particle);
+      limitLightParticles();
+      particle.addEventListener('animationend', () => particle.remove(), { once: true });
+    }
+
+    function createSparkLight(x, y, amount = 5) {
+      for (let i = 0; i < amount; i++) {
+        const spark = document.createElement('span');
+        const size = 18 + Math.random() * 30;
+        const angle = Math.random() * Math.PI * 2;
+        const distance = 24 + Math.random() * 42;
+        spark.className = 'spark-light';
+        spark.style.width = `${size}px`;
+        spark.style.height = `${size}px`;
+        spark.style.setProperty('--x', `${x - size / 2}px`);
+        spark.style.setProperty('--y', `${y - size / 2}px`);
+        spark.style.setProperty('--dx', `${Math.cos(angle) * distance}px`);
+        spark.style.setProperty('--dy', `${Math.sin(angle) * distance}px`);
+        spark.style.animationDuration = `${460 + Math.random() * 280}ms`;
+        lightTrails.appendChild(spark);
+        spark.addEventListener('animationend', () => spark.remove(), { once: true });
+      }
+      limitLightParticles();
+    }
+
+    function createClickRipple(x, y) {
+      const ripple = document.createElement('span');
+      ripple.className = 'click-ripple';
+      ripple.style.setProperty('--x', `${x - 17}px`);
+      ripple.style.setProperty('--y', `${y - 17}px`);
+      lightTrails.appendChild(ripple);
+      limitLightParticles();
+      ripple.addEventListener('animationend', () => ripple.remove(), { once: true });
+    }
+
+    function createMouseTrail(event) {
+      const now = performance.now();
+      const distance = Math.hypot(event.clientX - lastTrailX, event.clientY - lastTrailY);
+      if (now - lastTrailTime > 34 && distance > 14) {
+        createTrailLight(event.clientX, event.clientY, 1);
+        lastTrailTime = now;
+        lastTrailX = event.clientX;
+        lastTrailY = event.clientY;
+      }
+    }
+
+    window.addEventListener('pointermove', createMouseTrail, { passive: true });
+
+    nodesLayer.addEventListener('pointerover', event => {
+      const target = event.target.closest('.node');
+      if (!target) return;
+
+      const node = nodeById.get(target.dataset.id);
+      if (!node || !shouldShowNode(node)) return;
+
+      hoveredNode = node;
+      createSparkLight(event.clientX, event.clientY, node.kind === 'author' ? 6 : 4);
+      applyGraphFocus();
+
+      if (node.kind === 'author') {
+        hideTooltip();
+        showAuthorCard(node);
+      } else {
+        hideAuthorCard();
+        showTooltip(node, event);
+      }
+    });
+
+    nodesLayer.addEventListener('pointermove', event => {
+      const target = event.target.closest('.node');
+      if (!target) return;
+
+      const node = nodeById.get(target.dataset.id);
+      if (node && node.kind === 'subject') moveTooltip(event);
+    });
+
+    nodesLayer.addEventListener('pointerout', event => {
+      if (event.relatedTarget && nodesLayer.contains(event.relatedTarget)) return;
+
+      hoveredNode = null;
+      hideTooltip();
+      hideAuthorCard();
+      applyGraphFocus();
+    });
+
+    nodesLayer.addEventListener('click', event => {
+      const target = event.target.closest('.node');
+      if (!target) return;
+
+      event.stopPropagation();
+
+      const node = nodeById.get(target.dataset.id);
+      if (!node || !shouldShowNode(node)) return;
+
+      toggleNodeSelection(node);
+      createClickRipple(event.clientX, event.clientY);
+      createSparkLight(event.clientX, event.clientY, 8);
+
+      if (node.kind === 'author') {
+        hideTooltip();
+        showAuthorCard(node);
+      } else {
+        hideAuthorCard();
+        showTooltip(node, event);
+      }
+    });
+
+    linkHitLayer.addEventListener('pointerover', event => {
+      const target = event.target.closest('.link-hit');
+      if (!target) return;
+
+      const link = links[Number(target.dataset.index)];
+      if (!link || !shouldShowLink(link)) return;
+      if (selectedNodes.size > 0 && !isLinkRelatedToIds(link, selectedNodes)) return;
+
+      hoveredLink = link;
+      createTrailLight(event.clientX, event.clientY, 1.25);
+      createSparkLight(event.clientX, event.clientY, 3);
+      showTooltip({
+        name: `Relação: ${link.source.name} ↔ ${link.target.name}`,
+        text: link.text
+      }, event);
+      scheduleDraw();
+    });
+
+    linkHitLayer.addEventListener('pointermove', event => {
+      const target = event.target.closest('.link-hit');
+      if (!target || !hoveredLink) return;
+      moveTooltip(event);
+    });
+
+    linkHitLayer.addEventListener('pointerout', event => {
+      const leavingTo = event.relatedTarget;
+      if (leavingTo && linkHitLayer.contains(leavingTo)) return;
+
+      hoveredLink = null;
+      hideTooltip();
+      scheduleDraw();
+    });
+
+    let isDragging = false;
+    let dragStart = null;
+
+    viewport.addEventListener('pointerdown', event => {
+      if (event.target.closest('.node')) return;
+      if (event.target.closest('.link-hit')) return;
+
+      isDragging = true;
+      dragStart = { x: event.clientX, y: event.clientY, tx: transform.x, ty: transform.y };
+      viewport.classList.add('dragging');
+      viewport.setPointerCapture(event.pointerId);
+    });
+
+    viewport.addEventListener('pointermove', event => {
+      if (!isDragging) return;
+      transform.x = dragStart.tx + event.clientX - dragStart.x;
+      transform.y = dragStart.ty + event.clientY - dragStart.y;
+      applyTransform();
+    });
+
+    viewport.addEventListener('pointerup', event => {
+      isDragging = false;
+      viewport.classList.remove('dragging');
+      if (viewport.hasPointerCapture(event.pointerId)) viewport.releasePointerCapture(event.pointerId);
+    });
+
+    viewport.addEventListener('wheel', event => {
+      event.preventDefault();
+      const zoomFactor = event.deltaY < 0 ? 1.12 : 0.89;
+      const oldK = transform.k;
+      const newK = Math.max(0.12, Math.min(2.2, oldK * zoomFactor));
+      const mouseWorldX = (event.clientX - transform.x) / oldK;
+      const mouseWorldY = (event.clientY - transform.y) / oldK;
+      transform.k = newK;
+      transform.x = event.clientX - mouseWorldX * newK;
+      transform.y = event.clientY - mouseWorldY * newK;
+      applyTransform();
+    }, { passive: false });
+
+    document.querySelectorAll('.filter').forEach(button => {
+      button.addEventListener('click', () => {
+        currentFilter = button.dataset.filter;
+        document.querySelectorAll('.filter').forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+        applyFilter();
+      });
+    });
+
+    function applyFilter() {
+      clearSelection();
+      document.querySelectorAll('.node, .label').forEach(element => {
+        const node = nodeById.get(element.dataset.id);
+        element.style.display = shouldShowNode(node) ? '' : 'none';
+      });
+      updateLinkHitInteractivity(new Set(), false);
+      guidesLayer.style.display = currentFilter === 'authors' ? 'none' : '';
+      buildEdgeCache();
+      scheduleDraw();
+    }
+
+    const toggleEdgesButton = document.getElementById('toggle-edges');
+    toggleEdgesButton.addEventListener('click', event => {
+      showAllEdges = !showAllEdges;
+      event.currentTarget.classList.toggle('active', showAllEdges);
+      event.currentTarget.textContent = showAllEdges ? 'Arestas visíveis' : 'Só ao passar mouse';
+      scheduleDraw();
+    });
+
+    document.getElementById('clear-selection').addEventListener('click', clearSelection);
+
+    document.getElementById('reset').addEventListener('click', () => {
+      clearSelection();
+      initView();
+    });
+
+    window.addEventListener('resize', () => {
+      resizeCanvas();
+      initView();
+    });
+
+    renderGuides();
+    renderLinkHits();
+    renderNodes();
+    buildEdgeCache();
+    updateLinkHitInteractivity(new Set(), false);
+    resizeCanvas();
+    initView();
+  </script>
+</body>
+</html>
