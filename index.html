@@ -401,6 +401,13 @@
       return (Math.PI * 2 * (index + phase) / total) - Math.PI / 2;
     }
 
+
+    /*******************************************************************
+      Se deixar essas variáveis como 'const' não lê da base de dados!
+      Ter ATENÇÃO!!!!!!!
+      ******************************************************************/
+
+    /*
     const authors = authorNames.map((name, index) => {
       const t = phaseForInfinity(index, authorNames.length, 0.32);
       const point = infinityPoint(world.centerX, world.centerY, 430, 360, t, 0);
@@ -420,7 +427,6 @@
           : `${name}: substitua este texto pela definição de ciência ou critério de demarcação usado por este autor.`
       };
     });
-
     const subjects = subjectNames.map((name, index) => {
       const t = phaseForInfinity(index, subjectNames.length, 0.18);
       const point = infinityPoint(world.centerX, world.centerY, 1180, 820, t, 0);
@@ -439,11 +445,9 @@
         text: `${name}: campo comparado com os critérios de ciência, não ciência ou indeterminação.`
       };
     });
-
     const nodes = [...authors, ...subjects];
     const nodeById = new Map(nodes.map(node => [node.id, node]));
     const links = [];
-
     authors.forEach((author, ai) => {
       subjects.forEach((subject, si) => {
         const type = relationTypes[(ai * 5 + si * 7) % relationTypes.length];
@@ -455,7 +459,6 @@
         });
       });
     });
-
     for (let i = 0; i < authors.length - 1; i++) {
       links.push({
         source: authors[i],
@@ -464,12 +467,19 @@
         text: `Relação cronológica entre ${authors[i].name} e ${authors[i + 1].name}.`
       });
     }
-
     const linksByNode = new Map(nodes.map(node => [node.id, []]));
     links.forEach(link => {
       linksByNode.get(link.source.id).push(link);
       linksByNode.get(link.target.id).push(link);
     });
+    */
+
+    let authors = [];
+    let subjects = [];
+    let nodes = [];
+    let nodeById = new Map();
+    let links = [];
+    let linksByNode = new Map();
 
     const viewport = document.getElementById("viewport");
     const canvas = document.getElementById("edge-canvas");
@@ -861,8 +871,9 @@
       tooltip.classList.remove('visible');
     }
 
-    function showAuthorCard(node) {
-      authorCard.querySelector('.author-card-image').innerHTML = `<div class="author-card-placeholder">${node.name.charAt(0)}</div>`;
+function showAuthorCard(node) {
+      if (node.foto) {authorCard.querySelector('.author-card-image').innerHTML = `<img src="${node.foto}" alt="Foto de ${node.name}">`;}
+      else {authorCard.querySelector('.author-card-image').innerHTML = `<div class="author-card-placeholder">${node.name.charAt(0)}</div>`;}
       authorCard.querySelector('.author-card-title').textContent = node.name;
       authorCard.querySelector('.author-card-text').textContent = node.text;
       authorCard.classList.add('visible');
@@ -1123,6 +1134,8 @@
       initView();
     });
 
+
+    /*******************
     renderGuides();
     renderLinkHits();
     renderNodes();
@@ -1130,6 +1143,106 @@
     updateLinkHitInteractivity(new Set(), false);
     resizeCanvas();
     initView();
+    ******************/
+
+    
+    async function carregarDadosEpistemologicos() {
+      try {
+        status.textContent = "Carregando dados da base...";
+      
+        const [resFilosofos, resMaterias, resAvaliacoes] = await Promise.all([
+          fetch('data/filosofos.json').then(r => r.json()),
+          fetch('data/materias.json').then(r => r.json()),
+          fetch('data/avaliacoes.json').then(r => r.json())
+        ]);
+      
+  
+        authors = resFilosofos.map((f, index) => {
+          const t = phaseForInfinity(index, resFilosofos.length, 0.32);
+          const point = infinityPoint(world.centerX, world.centerY, 430, 360, t, 0);
+          const { labelX, labelY, anchor } = labelPlacement(point, 21);
+          const nomeFormatado = f.nome.trim();
+          return {
+            id: String(f.id_filosofo),
+            name: f.nome,
+            kind: "author",
+            x: point.x,
+            y: point.y,
+            labelX,
+            labelY,
+            labelAnchor: anchor,
+            text: f.resumo || f.definicao_de_ciencia,
+            foto: `image-authors/${nomeFormatado}.png`
+          };
+        });
+      
+
+        subjects = resMaterias.map((m, index) => {
+          const t = phaseForInfinity(index, resMaterias.length, 0.18);
+          const point = infinityPoint(world.centerX, world.centerY, 1180, 820, t, 0);
+          const { labelX, labelY, anchor } = labelPlacement(point, 30);
+        
+          return {
+            id: String(m.id_materia),
+            name: m.materia,
+            kind: "subject",
+            x: point.x,
+            y: point.y,
+            labelX,
+            labelY,
+            labelAnchor: anchor,
+            orbitIndex: 0,
+            text: m.descricao
+          };
+        });
+
+
+        nodes = [...authors, ...subjects];
+        nodeById = new Map(nodes.map(node => [node.id, node]));
+      
+        resAvaliacoes.forEach(av => {
+          const autorNode = nodeById.get(String(av.id_filosofo));
+          const materiaNode = nodeById.get(String(av.id_materia));
+        
+          if (autorNode && materiaNode) {
+            // Mapeia as classificações de texto da base para as classes aceitas no CSS
+            let tipoAresta = "neutral";
+            if (av.classificacao === "Ciência") tipoAresta = "positive";
+            else if (av.classificacao === "Pseudociência" || av.classificacao === "Não Ciência") tipoAresta = "negative";
+          
+            links.push({
+              source: autorNode,
+              target: materiaNode,
+              type: tipoAresta,
+              text: av.justificativa || `${autorNode.name} classifica ${materiaNode.name} como ${av.classificacao}.`
+            });
+          }
+        });
+      
+
+        linksByNode = new Map(nodes.map(node => [node.id, []]));
+        links.forEach(link => {
+          linksByNode.get(link.source.id).push(link);
+          linksByNode.get(link.target.id).push(link);
+        });
+
+        if (typeof renderGuides === "function") renderGuides();
+        renderLinkHits();
+        renderNodes();
+        buildEdgeCache();
+        updateLinkHitInteractivity(new Set(), false);
+        resizeCanvas();
+        initView();
+        updateSelectionStatus();
+      
+      } catch (err) {
+        console.error("Erro ao carregar os dados JSON:", err);
+        status.textContent = "Erro crítico ao carregar os dados da pasta data/.";
+      }
+    }
+
+    // Dispara a carga de dados assim que a página abre
+    carregarDadosEpistemologicos();
   </script>
 </body>
 </html>
