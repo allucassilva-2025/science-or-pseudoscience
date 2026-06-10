@@ -233,6 +233,11 @@
     }
     .author-card-title { margin: 1px 0 4px; font-size: 13px; line-height: 1.15; color: #020617; }
     .author-card-text { margin: 0; font-size: 11.5px; line-height: 1.28; color: #111827; }
+    .author-card-sources {
+      grid-column: 1 / -1; /* Ocupa toda a largura do grid */
+      width: 100%;         /* Garante que preencha o espaço */
+      box-sizing: border-box;
+    }
     .status {
       position: fixed;
       right: 16px;
@@ -871,12 +876,64 @@
       tooltip.classList.remove('visible');
     }
 
-function showAuthorCard(node) {
+    function showAuthorCard(node) {
       if (node.foto) {authorCard.querySelector('.author-card-image').innerHTML = `<img src="${node.foto}" alt="Foto de ${node.name}">`;}
       else {authorCard.querySelector('.author-card-image').innerHTML = `<div class="author-card-placeholder">${node.name.charAt(0)}</div>`;}
       authorCard.querySelector('.author-card-title').textContent = node.name;
       authorCard.querySelector('.author-card-text').textContent = node.text;
       authorCard.classList.add('visible');
+
+      let sourcesContainer = authorCard.querySelector('.author-card-sources');
+
+      // 3. Criação do Container de Fontes (com as correções de Grid e Largura)
+      if (!sourcesContainer) {
+        sourcesContainer = document.createElement('div');
+        sourcesContainer.className = 'author-card-sources';
+        sourcesContainer.style.gridColumn = '1 / -1'; // Ocupa toda a largura do Grid
+        sourcesContainer.style.width = '100%';
+        sourcesContainer.style.boxSizing = 'border-box';
+        sourcesContainer.style.marginTop = '12px';
+        sourcesContainer.style.paddingTop = '10px';
+        sourcesContainer.style.borderTop = '1px solid rgba(15, 23, 42, 0.12)'; // Borda sutil para fundo claro
+        sourcesContainer.style.maxHeight = '300px';
+        sourcesContainer.style.overflowY = 'auto';
+        authorCard.appendChild(sourcesContainer);
+      }
+
+
+      if (node.fontes && node.fontes.length > 0) {
+        const biografiaTexto = node.fontes[0].biografia || '';
+        const listHtml = node.fontes.map(f => {
+          
+          const linkHtml = f.link ? `<a href="${f.link}" target="_blank" style="color: #49a6e9; text-decoration: none; display: inline-block; margin-top: 3px; font-size: 11px; font-weight: 500;">🔗 Acessar Obra</a>` : '';
+        
+          const obra = f.obra || ''; 
+          const referencia = f.referencia || '';
+          const ano = f.ano ? `<span style="color: #111827; font-size: 12px;">(${f.ano})</span>` : '';
+          const biografia = f.biografia
+
+          const quebraLinha = (obra && referencia) ? '<br>' : '';
+        
+          return `<li style="margin-bottom: 10px; list-style: none; line-height: 1.4; text-align: left;">
+                    ${obra ? `<strong style="color: #111827; font-size: 13px;">${obra}</strong>` : ''} ${ano}
+                    ${quebraLinha}
+                    ${referencia ?`<span style="font-size: 11px; color: #111827; display: block; font-style: italic; margin-top: 2px;">${referencia}</span>` : ''}
+                    ${linkHtml}
+                    ${quebraLinha}
+                  </li>`;
+        }).join('');
+      
+        sourcesContainer.innerHTML = `
+        <h4 style="margin: 0 0 8px 0; font-size: 12px; color: #111827; text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600;">Biografia:</h4>
+        <ul style="padding: 0; margin: 0 0 16px 0; list-style: none; font-size: 11.5px; color: #111827; line-height: 1.4; text-align: left;">
+        <li>${biografiaTexto}</li>
+        </ul>
+        <h4 style="margin: 0 0 8px 0; font-size: 12px; color: #111827; text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600;">Referência:</h4> 
+        <ul style="padding: 0; margin: 0;">${listHtml}</ul>`;
+        sourcesContainer.style.display = 'block';
+      } else {
+        sourcesContainer.style.display = 'none';
+      }
       positionAuthorCard(node);
     }
 
@@ -1150,11 +1207,12 @@ function showAuthorCard(node) {
       try {
         status.textContent = "Carregando dados da base...";
       
-        const [resFilosofos, resMaterias, resAvaliacoes] = await Promise.all([
+        const [resFilosofos, resMaterias, resAvaliacoes, resFontes] = await Promise.all([
           fetch('data/filosofos.json').then(r => r.json()),
           fetch('data/materias.json').then(r => r.json()),
-          fetch('data/avaliacoes.json').then(r => r.json())
-        ]);
+          fetch('data/avaliacoes.json').then(r => r.json()),
+          fetch('data/fontes.json').then(r => r.json()).catch(() => []) // Fallback de segurança
+        ]); 
       
   
         authors = resFilosofos.map((f, index) => {
@@ -1162,6 +1220,15 @@ function showAuthorCard(node) {
           const point = infinityPoint(world.centerX, world.centerY, 430, 360, t, 0);
           const { labelX, labelY, anchor } = labelPlacement(point, 21);
           const nomeFormatado = f.nome.trim();
+
+          const fontesDoAutor = resFontes.filter(fonte => {
+            // 1. Tenta ligar se houver id_filosofo idêntico
+            if (fonte.id_filosofo && String(fonte.id_filosofo) === String(f.id_filosofo)) return true;
+            // 2. Se não houver ID na fonte, tenta ligar se o nome do autor bater com o nome na fonte
+            if (fonte.autor && f.nome.toLowerCase().includes(fonte.autor.toLowerCase().trim())) return true;
+            return false;
+          });
+
           return {
             id: String(f.id_filosofo),
             name: f.nome,
@@ -1172,7 +1239,8 @@ function showAuthorCard(node) {
             labelY,
             labelAnchor: anchor,
             text: f.resumo || f.definicao_de_ciencia,
-            foto: `image-authors/${nomeFormatado}.png`
+            foto: `image-authors/${nomeFormatado}.png`,
+            fontes: fontesDoAutor
           };
         });
       
