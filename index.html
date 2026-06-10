@@ -1245,8 +1245,12 @@
         });
       
 
-        subjects = resMaterias.map((m, index) => {
-          const t = phaseForInfinity(index, resMaterias.length, 0.18);
+
+        
+        const materiasValidas = resMaterias.filter(m => m && m.id_materia && m.materia);
+
+        subjects = materiasValidas.map((m, index) => {
+          const t = phaseForInfinity(index, materiasValidas.length, 0.18);
           const point = infinityPoint(world.centerX, world.centerY, 1180, 820, t, 0);
           const { labelX, labelY, anchor } = labelPlacement(point, 30);
         
@@ -1260,7 +1264,7 @@
             labelY,
             labelAnchor: anchor,
             orbitIndex: 0,
-            text: m.descricao
+            text: m.descricao || "Sem descrição disponível."
           };
         });
 
