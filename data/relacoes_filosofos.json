@@ -1,0 +1,2193 @@
+[
+  {
+    "id_filosofo_origem": "F02",
+    "filosofo_origem": "Francis Bacon",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Concordância: Ambos pertencem à mesma grande tradição do empirismo e são inimigos viscerais da metafísica e do pensamento puramente especulativo. Bacon revolucionou a filosofia ao defender que o conhecimento real sobre a natureza só pode ser obtido através da observação sensorial direta e da coleta de fatos (rejeitando os dogmas dedutivos como \"Ídolos do Teatro\"). Séculos depois, Ayer refinou essa visão empirista com as ferramentas da lógica moderna, criando o Princípio da Verificação: a ideia de que qualquer frase que não possa ser testada empiricamente no mundo real (como afirmações teológicas ou metafísicas) é literalmente vazia de sentido lógico. Apesar da diferença temporal e metodológica, ambos concordam que a experiência sensorial é o único juiz da verdade factual."
+  },
+  {
+    "id_filosofo_origem": "F03",
+    "filosofo_origem": "Mario Bunge",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição direta. Enquanto Ayer reduz a ciência à simples validação de uma frase isolada, o sistema de Bunge exige 10 variáveis complexas,refutando ativamente critérios puramente reducionistas como o de Ayer."
+  },
+  {
+    "id_filosofo_origem": "F04",
+    "filosofo_origem": "Rudolf Carnap",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Concordância parcial: Ambos concordam que a ciência depende da verificação empírica, classificando como \"sem significado\" (não ciência) tudo aquilo que não gera implicações testáveis no mundo real."
+  },
+  {
+    "id_filosofo_origem": "F04",
+    "filosofo_origem": "Rudolf Carnap",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Concordância: Ambos valorizam a observação empírica como fundamento do conhecimento científico, embora Carnap seja mais formal e lógico."
+  },
+  {
+    "id_filosofo_origem": "F05",
+    "filosofo_origem": "Alan F. Chalmers",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer defendia um critério binário e fixo de verificabilidade para demarcar ciência. Chalmers rejeita exatamente esse tipo de demarcação rígida e universal, argumentando que não existe um critério único e a-histórico capaz de definir a ciência, pois cada disciplina desenvolve seus próprios padrões de validação ao longo do tempo."
+  },
+  {
+    "id_filosofo_origem": "F05",
+    "filosofo_origem": "Alan F. Chalmers",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Bacon é o pai do indutivismo clássico — a ideia de que a ciência começa com observações neutras e puras para induzir leis gerais. Chalmers dedica parte central de sua obra a demolir essa visão, argumentando que a \"observação neutra\" é um mito filosófico: toda observação já é carregada de teoria (theory-laden)."
+  },
+  {
+    "id_filosofo_origem": "F05",
+    "filosofo_origem": "Alan F. Chalmers",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Oposição parcial: Ambos rejeitam o relativismo e defendem que a ciência é um empreendimento racional legítimo. A divergência está no método: Bunge propõe um sistema formal rígido de 10 componentes, enquanto Chalmers argumenta que qualquer tentativa de fixar um critério universal e a-histórico está fadada ao fracasso, pois a ciência é por natureza histórica e contextual."
+  },
+  {
+    "id_filosofo_origem": "F05",
+    "filosofo_origem": "Alan F. Chalmers",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Carnap dedicou sua carreira a construir uma linguagem lógica formal para distinguir ciência de metafísica. Chalmers rejeita esse projeto, pois a demarcação não pode ser resolvida com ferramentas puramente lógico-formais. A ciência real opera dentro de tradições históricas que não se encaixam em nenhum molde lógico fixo."
+  },
+  {
+    "id_filosofo_origem": "F06",
+    "filosofo_origem": "Martin Curd",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Curd, ao mapear o histórico do problema da demarcação, rejeita categoricamente o critério de verificabilidade do positivismo lógico de Ayer. Ele argumenta que essa abordagem formal é falha porque as teorias científicas reais não funcionam sob critérios de significado tão engessados."
+  },
+  {
+    "id_filosofo_origem": "F06",
+    "filosofo_origem": "Martin Curd",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Curd (assim como a grande maioria dos filósofos da ciência contemporâneos) rejeita o indutivismo ingênuo de Bacon. A ideia baconiana de que a ciência começa com a coleta passiva e sem preconceitos de fatos é vista por Curd como historicamente irreal e filosoficamente insustentável."
+  },
+  {
+    "id_filosofo_origem": "F06",
+    "filosofo_origem": "Martin Curd",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos defendem o projeto da racionalidade científica e a extrema necessidade de distinguir ciência de pseudociência (Curd rejeita a ideia de Laudan de que o problema da demarcação é um falso problema). Ambos concordam que essa demarcação não se faz com uma única regra de ouro, mas analisando o sistema teórico e o progresso da disciplina."
+  },
+  {
+    "id_filosofo_origem": "F06",
+    "filosofo_origem": "Martin Curd",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Pelos mesmos motivos da oposição a Ayer. Curd aponta que o esforço de Carnap para criar uma linguagem lógica puramente neutra e formal para a ciência fracassou porque a ciência opera em contextos teóricos e históricos complexos, não apenas na sintaxe lógica."
+  },
+  {
+    "id_filosofo_origem": "F06",
+    "filosofo_origem": "Martin Curd",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância: Curd e Chalmers ocupam o mesmo espaço filosófico e pedagógico contemporâneo. Ambos rejeitam o \"Método Universal\" absoluto (como o falsificacionismo estrito ou o indutivismo), absorvem as críticas históricas de Kuhn, mas se recusam a cair no relativismo, defendendo que a ciência continua sendo nosso empreendimento racional e falível mais bem-sucedido."
+  },
+  {
+    "id_filosofo_origem": "F07",
+    "filosofo_origem": "John Dupré",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância direta (Pluralismo): Ambos rejeitam a existência de um método. Eles concordam que a ciência não possui uma essência unificadora."
+  },
+  {
+    "id_filosofo_origem": "F07",
+    "filosofo_origem": "John Dupré",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Concordância (Fim do critério único): Ambos concordam que a busca por uma regra de demarcação única é infrutífera. Eles alinham-se na visão de que a ciência é identificada por uma pluralidade, e não por uma fronteira metodológica simples."
+  },
+  {
+    "id_filosofo_origem": "F08",
+    "filosofo_origem": "Paul Feyerabend",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Feyerabend afirma que não há critério de demarcação, mas Ayer foi um dos principais divulgadores do positivismo lógico no mundo anglo-saxão, defendendo o princípio de verificação"
+  },
+  {
+    "id_filosofo_origem": "F08",
+    "filosofo_origem": "Paul Feyerabend",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Bacon é o pai do indutivismo clássico, defendendo que a ciência deve progredir a partir da observação pura e neutra dos fatos para a formulação de leis gerais. Feyerabend argumenta que a \"observação neutra\" é um mito; toda observação já está contaminada por teorias prévias (theory-laden)."
+  },
+  {
+    "id_filosofo_origem": "F08",
+    "filosofo_origem": "Paul Feyerabend",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Oposição: Bunge foi um defensor ferrenho do realismo científico, do sistemismo e do materialismo, sendo um crítico implacável de qualquer forma de relativismo, subjetivismo ou irracionalismo na ciência. Ele via as ideias de Feyerabend como um \"anticientificismo\" perigoso que abria as portas para pseudociências. Feyerabend, por sua vez, atacava exatamente o tipo de dogmatismo cientificista e a defesa de um método universal que Bunge sustentava."
+  },
+  {
+    "id_filosofo_origem": "F08",
+    "filosofo_origem": "Paul Feyerabend",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: No plano pessoal, Carnap era muito aberto e chegou a incentivar o jovem Feyerabend, mas filosoficamente eles estão em polos opostos - a formalização lógica de Carnap versus o anarquismo metodológico de Feyerabend."
+  },
+  {
+    "id_filosofo_origem": "F08",
+    "filosofo_origem": "Paul Feyerabend",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância parcial: Chalmers e Feyerabend concordam que o método científico não é uma receita fixa, universal e imutável. A divergência é sobre o \"dadaísmo\" e o relativismo radical de Feyerabend. Chalmers argumenta que, só porque as regras da ciência mudam historicamente e não são universais, isso não significa que \"tudo vale\" (anything goes). Para Chalmers, as mudanças metodológicas na ciência ocorrem de forma progressiva e argumentada."
+  },
+  {
+    "id_filosofo_origem": "F08",
+    "filosofo_origem": "Paul Feyerabend",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Concordância parcial: Curd e Feyerabend estão no mesmo barco quando o assunto é criticar os positivistas lógicos e os falsificacionistas estritos, concordando que a busca por um critério de demarcação único, simples e universal é uma ilusão que não condiz com a prática científica real. Feyerabend chuta o balde e adota o anarquismo epistemológico: se não há um método único, então \"tudo vale\" (anything goes) e a ciência não tem uma superioridade intrínseca sobre os mitos ou a astrologia. Já Martin Curd adota uma postura mais moderada e pragmática."
+  },
+  {
+    "id_filosofo_origem": "F08",
+    "filosofo_origem": "Paul Feyerabend",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Concordância parcial: Dupré é um filósofo da ciência contemporâneo que defende o pluralismo metafísico e epistemológico, argumentando contra o reducionismo e contra a noção de que existe uma \"unidade da ciência\". Feyerabend também defendia um pluralismo teórico radical, afirmando que precisamos de uma proliferação de ideias e métodos alternativos para que o conhecimento avance, recusando a hegemonia de um único padrão científico."
+  },
+  {
+    "id_filosofo_origem": "F09",
+    "filosofo_origem": "Martin Gardner",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição parcial: Ayer defendia um critério puramente lógico-formal de verificabilidade. Gardner, embora também defensor da racionalidade científica, opera de forma pragmática e sociológica, identificando a pseudociência pelo comportamento do seu proponente, não por uma análise sintática de suas proposições."
+  },
+  {
+    "id_filosofo_origem": "F09",
+    "filosofo_origem": "Martin Gardner",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Concordância: Ambos são defensores do espírito empírico e da investigação rigorosa contra o dogmatismo. Bacon preconizava a observação sistemática da natureza; Gardner, séculos depois, usou esse mesmo espírito crítico para expor charlatões que ignoram as evidências contrárias às suas teorias."
+  },
+  {
+    "id_filosofo_origem": "F09",
+    "filosofo_origem": "Martin Gardner",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos são figuras centrais e combativas na luta contra as pseudociências. Gardner foi o pioneiro prático do ceticismo moderno, enquanto Bunge construiu o aparato filosófico-sistemático que fundamenta essa mesma luta, tornando-os aliados naturais apesar dos métodos distintos."
+  },
+  {
+    "id_filosofo_origem": "F09",
+    "filosofo_origem": "Martin Gardner",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Carnap tentava demarcar a ciência pela lógica formal dos enunciados. Gardner não confia nessa abordagem abstrata — seu critério foca no comportamento e na atitude do proponente, algo que a análise lógica de Carnap ignora completamente."
+  },
+  {
+    "id_filosofo_origem": "F09",
+    "filosofo_origem": "Martin Gardner",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Oposição: Chalmers rejeita qualquer critério de demarcação único, incluindo os baseados no comportamento do proponente. Gardner, ao contrário, propõe exatamente um conjunto de marcadores comportamentais para identificar charlatões, o que Chalmers consideraria uma tentativa ingênua de fixar fronteiras onde elas são por natureza fluidas."
+  },
+  {
+    "id_filosofo_origem": "F09",
+    "filosofo_origem": "Martin Gardner",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Concordância parcial: Curd reconhece a legitimidade do projeto de distinguir ciência de pseudociência, ainda que rejeite critérios únicos. Gardner compartilha o objetivo prático de fazer essa distinção, mas os dois divergem no método: Curd é analítico e teórico, Gardner é empírico e focado no comportamento do proponente."
+  },
+  {
+    "id_filosofo_origem": "F09",
+    "filosofo_origem": "Martin Gardner",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Oposição: Dupré defende o pluralismo epistêmico radical e questiona a unidade da ciência. Para Gardner, essa postura relativizante seria perigosa, pois abre espaço para que pseudociências se apresentem como formas legítimas de conhecimento alternativo."
+  },
+  {
+    "id_filosofo_origem": "F09",
+    "filosofo_origem": "Martin Gardner",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição direta: Feyerabend declarou que o problema da demarcação é prejudicial ao progresso do conhecimento e que \"tudo vale\". Gardner passou a vida inteira combatendo exatamente as consequências dessa postura: a validação cultural de charlatões, curandeiros e pseudocientistas que se beneficiam do relativismo epistemológico."
+  },
+  {
+    "id_filosofo_origem": "F10",
+    "filosofo_origem": "Sven Ove Hansson",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer e o positivismo lógico defendiam um critério de verificação muito estreito, onde tudo que não fosse empiricamente verificável ou puramente lógico (como ética, metafísica e áreas das humanidades) não tinha sentido. Hansson adota uma definição ampla de ciência (Wissenschaft) que engloba as humanidades e a filosofia como produtoras de conhecimento sistemático e confiável."
+  },
+  {
+    "id_filosofo_origem": "F10",
+    "filosofo_origem": "Sven Ove Hansson",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Concordância: Ambos compartilham o projeto iluminista de usar a investigação empírica sistemática para libertar a humanidade do dogmatismo, superstição e dos falsos saberes (os \"Ídolos\" de Bacon), buscando o conhecimento factual mais robusto disponível."
+  },
+  {
+    "id_filosofo_origem": "F10",
+    "filosofo_origem": "Sven Ove Hansson",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos são figuras centrais na filosofia contemporânea na luta ativa contra as pseudociências (como a psicanálise e a homeopatia). Assim como Hansson, Bunge via a ciência de forma sistêmica, valorizando a confiabilidade, a revisão por pares e o realismo, enquanto atacava doutrinas que se isolam da crítica."
+  },
+  {
+    "id_filosofo_origem": "F10",
+    "filosofo_origem": "Sven Ove Hansson",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Pelo mesmo motivo de Ayer. A tentativa de Carnap de reduzir a demarcação científica a uma questão de sintaxe lógica e linguagem perfeita exclui a visão flexível e pluralista de Hansson, que avalia a confiabilidade de uma disciplina (mesmo as humanas) dentro do seu próprio domínio."
+  },
+  {
+    "id_filosofo_origem": "F10",
+    "filosofo_origem": "Sven Ove Hansson",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância: Em sua visão madura, Chalmers defende que, embora a ciência não tenha um \"Método Universal\" fixo e imutável (reconhecendo as críticas de Popper e Kuhn), ela continua sendo nosso empreendimento mais racional e falivelmente confiável. Isso se alinha perfeitamente à definição de Hansson."
+  },
+  {
+    "id_filosofo_origem": "F10",
+    "filosofo_origem": "Sven Ove Hansson",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Concordância: Dupré defende um pluralismo científico, argumentando que as ciências são incrivelmente diversas em seus métodos e não podem ser reduzidas a uma única régua (como a da física). A adoção de Hansson do modelo Wissenschaft é inerentemente pluralista, aceitando que a pesquisa histórica e a pesquisa física buscam a confiabilidade de formas diferentes."
+  },
+  {
+    "id_filosofo_origem": "F10",
+    "filosofo_origem": "Sven Ove Hansson",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição: Feyerabend defendia o anarquismo epistemológico (\"vale tudo\") e dizia que a ciência não possui uma autoridade superior ao mito, magia ou religião. Hansson escreveu extensamente exatamente para provar o oposto: demarcar o conhecimento altamente confiável do lixo epistêmico é crucial para a sociedade."
+  },
+  {
+    "id_filosofo_origem": "F10",
+    "filosofo_origem": "Sven Ove Hansson",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Concordância: Gardner foi um dos fundadores do ceticismo moderno, dedicando-se a expor charlatões, parapsicólogos e falsos cientistas. O trabalho filosófico de Hansson oferece exatamente a estrutura teórica para justificar o ativismo prático de Gardner contra aqueles que forjam a autoridade da ciência."
+  },
+  {
+    "id_filosofo_origem": "F11",
+    "filosofo_origem": "Carl Hempel",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Concordância (Significância Empírica): Ambos concordam que a ciência depende da verificação empírica, classificando como \"sem significado\" (não ciência) tudo aquilo que não gera implicações testáveis no mundo real."
+  },
+  {
+    "id_filosofo_origem": "F11",
+    "filosofo_origem": "Carl Hempel",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Concordância (Confirmação Gradual): Defendem que a ciência baseia-se no significado empírico e que as hipóteses nunca são provadas de forma absoluta, mas sim gradualmente \"confirmadas\" ou \"corroboradas\" através de testes."
+  },
+  {
+    "id_filosofo_origem": "F12",
+    "filosofo_origem": "Reuben Hersh",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição teórica: Embora o foco deles fosse a ciência, os positivistas precisavam que a matemática fosse puramente lógica/tautológica para que o sistema deles funcionasse. Ao dizer que a matemática é empírica e social, Hersh implode a base matemática do positivismo deles."
+  },
+  {
+    "id_filosofo_origem": "F12",
+    "filosofo_origem": "Reuben Hersh",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição teórica: Embora o foco deles fosse a ciência, os positivistas precisavam que a matemática fosse puramente lógica/tautológica para que o sistema deles funcionasse. Ao dizer que a matemática é empírica e social, Hersh implode a base matemática do positivismo deles."
+  },
+  {
+    "id_filosofo_origem": "F12",
+    "filosofo_origem": "Reuben Hersh",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Oposição teórica: Embora o foco deles fosse a ciência, os positivistas precisavam que a matemática fosse puramente lógica/tautológica para que o sistema deles funcionasse. Ao dizer que a matemática é empírica e social, Hersh implode a base matemática do positivismo deles."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer defendia a verificabilidade como critério neutro e objetivo de demarcação, herança do positivismo lógico. Japiassu critica exatamente esse mito da neutralidade científica, argumentando que até os critérios de demarcação são construções históricas e ideológicas, não ferramentas lógicas puras."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Bacon é o arquétipo do cientista que acredita poder observar a natureza de forma neutra e isenta de preconceitos. Japiassu desmonta essa ilusão, mostrando que a ciência nunca foi — nem poderia ser — uma prática isenta de valores, interesses e condicionamentos histórico-sociais."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Oposição: Bunge é um realista científico que defende a objetividade e a universalidade da ciência. Japiassu critica essa postura como ingênua, argumentando que a suposta objetividade científica mascara relações de poder e ideologias dominantes, o que Bunge classificaria como relativismo anticientífico."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: A tentativa de Carnap de construir uma linguagem científica puramente lógica e neutra é, para Japiassu, o exemplo máximo do mito da neutralidade que ele tenta desmontar. Japiassu argumenta que toda linguagem é carregada de pressupostos histórico-culturais e que a ilusão de uma metalinguagem neutra encobre relações de poder."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância parcial: Ambos rejeitam a ideia de um método científico universal e a-histórico. Chalmers faz isso por razões epistemológicas internas à filosofia da ciência; Japiassu faz isso a partir de uma crítica sociológica e ideológica mais ampla, denunciando o mito da neutralidade como uma construção de poder."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Oposição: Curd busca defender a racionalidade científica e a necessidade de distinguir ciência de pseudociência, ainda que de forma pluralista. Japiassu vai mais longe na crítica, questionando se os próprios critérios de demarcação não são eles mesmos instrumentos ideológicos de exclusão de saberes não-hegemônicos."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Concordância: Dupré e Japiassu convergem na crítica ao reducionismo e à ideia de uma ciência unificada com métodos universais. Ambos reconhecem a pluralidade de práticas e saberes, questionando a hegemonia de um único modelo científico."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Concordância: Feyerabend e Japiassu são aliados na crítica ao cientificismo. Ambos argumentam que a ciência não é neutra, que os seus critérios de demarcação são históricos e contingentes, e que a imposição de um único método sufoca formas alternativas de conhecimento. Japiassu dá a isso uma roupagem sociológica e terceiro-mundista; Feyerabend, uma roupagem anarquista."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Oposição direta: Gardner é um defensor ferrenho da racionalidade científica e do ceticismo empírico, dedicando-se a expor pseudociências. Japiassu critica exatamente esse posicionamento como um reforço do mito da neutralidade científica, pois quem define o que é pseudociência também carrega seus próprios valores ideológicos."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Oposição: Hansson busca critérios racionais para distinguir o conhecimento confiável do lixo epistêmico. Japiassu questiona se esses critérios são de fato universais e neutros ou se reproduzem uma visão hegemônica de quais saberes merecem ser considerados confiáveis."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Oposição: Hempel tentou formalizar a lógica da explicação e da confirmação científica em termos puramente lógicos. Japiassu critica esse projeto como parte do mito positivista da neutralidade, ignorando que os próprios critérios lógicos de confirmação são culturalmente situados."
+  },
+  {
+    "id_filosofo_origem": "F13",
+    "filosofo_origem": "Hilton Japiassu",
+    "id_filosofo_destino": "F12",
+    "filosofo_destino": "Reuben Hersh",
+    "relacao": "Concordância: Hersh argumenta que a matemática é uma construção social e humana, não um conjunto de verdades absolutas. Japiassu dialoga com essa visão, pois sua crítica ao mito da neutralidade científica inclui as ciências formais, vendo-as também como práticas historicamente situadas e ideologicamente condicionadas."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer e os positivistas lógicos acreditavam que a ciência progride de forma linear e cumulativa através do acúmulo de fatos verificados de forma neutra. Kuhn destruiu essa visão argumentando que a ciência avança através de rupturas abruptas (revoluções), onde velhos fatos perdem o sentido sob novos paradigmas."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Bacon propôs que o cientista deve coletar dados observacionais puros, livres de qualquer pressuposição teórica. Kuhn afirma que a \"observação pura\" é impossível; toda observação é moldada pela teoria (o paradigma) vigente do observador."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Oposição: Bunge é um realista estrito que ataca Kuhn duramente por promover (segundo Bunge) o relativismo e o irracionalismo. Para Bunge, a ciência caminha para verdades objetivas, e a ideia kuhniana de que não podemos comparar objetivamente paradigmas (\"incomensurabilidade\") é uma afronta ao progresso da razão."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Carnap buscava um modelo formal, puramente lógico e neutro para avaliar e justificar teorias. Kuhn argumenta que as teorias não são aceitas apenas por força lógica formal, mas por persuasão, fatores sociológicos e consenso dentro de uma comunidade científica em uma época específica."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância: Em sua obra clássica (O que é ciência afinal?), Chalmers absorve criticamente a filosofia de Kuhn, concordando com ele na rejeição do empirismo ingênuo, na dependência teórica da observação e no reconhecimento de que fatores sociológicos e históricos são vitais para entender o progresso científico."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Concordância: O pluralismo de Dupré e sua rejeição a uma ciência monolítica com um \"método universal\" alinham-se bem com a visão de Kuhn de que diferentes disciplinas operam com pressupostos inteiramente diferentes (paradigmas distintos) e que a unidade positivista da ciência é uma ilusão."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Concordância: Eles foram contemporâneos, amigos e aliados no combate ao racionalismo positivista. Ambos desenvolveram o conceito de \"incomensurabilidade\" de forma independente quase no mesmo ano. Embora Feyerabend tenha ido muito além (para o anarquismo epistemológico), ambos concordam que as regras metodológicas não são universais nem suficientes para explicar a escolha de teorias."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Oposição: Gardner era um ferrenho defensor da racionalidade científica pura e da descoberta de verdades objetivas. Ele via as consequências da obra de Kuhn (que gerou o relativismo sociológico das décadas seguintes) como corrosivas para a distinção entre ciência real e irracionalismo."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Oposição: Hansson busca critérios racionais para demarcar o conhecimento mais confiável (ciência) do lixo (pseudociência). A ideia de Kuhn de que velhos e novos paradigmas não podem ser traduzidos ou comparados de forma puramente racional dificulta a demarcação, pois dá munição para os charlatões dizerem: \"Nós não somos pseudociência, somos apenas um paradigma alternativo\"."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Oposição: Hempel, no ápice do empirismo lógico, tentou reduzir a explicação científica a uma estrutura estritamente lógica (o modelo nomológico-dedutivo). Kuhn substituiu a lógica pura pela psicologia social de grupos de cientistas, mostrando que, na prática histórica, a ciência quase nunca seguiu o rigor lógico de Hempel."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F12",
+    "filosofo_destino": "Reuben Hersh",
+    "relacao": "Concordância: Hersh revolucionou a filosofia da matemática ao argumentar que ela não é uma coleção de verdades platônicas eternas, mas sim uma construção social humana focada no consenso. Essa é exatamente a aplicação direta da epistemologia sociológica de Kuhn sobre o conhecimento."
+  },
+  {
+    "id_filosofo_origem": "F14",
+    "filosofo_origem": "Thomas Kuhn",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Concordância: O epistemólogo brasileiro é famoso por criticar o \"mito da neutralidade científica\", argumentando que a ciência carrega valores sociais, de época e de poder. Kuhn é o alicerce fundamental dessa desconstrução da ciência como uma força \"pura e desinteressada\"."
+  },
+  {
+    "id_filosofo_origem": "F15",
+    "filosofo_origem": "Imre Lakatos",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Concordância parcial: Ambos baseiam a análise do progresso científico em estruturas focadas em resolver problemas (o \"Paradigma\" defendido por Kuhn e o \"Núcleo Rígido\" dos programas de pesquisa de Lakatos). \nNo entanto, Kuhn acusa a semelhança entre os conceitos, enquanto Lakatos nega essa aproximação. \nKuhn possui um enfoque histórico e sociológico, enquanto Lakatos rejeita essa descrição histórico-social, focando em uma reconstrução racional de como o conhecimento deve ser avaliado."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer defendia o verificacionismo estrito do positivismo lógico. Laudan rejeita essa abordagem puramente lógica. Para ele, a racionalidade da ciência só pode ser compreendida historicamente, avaliando como uma teoria ou \"tradição de pesquisa\" se comporta no tempo através da sua taxa de sucesso na resolução de problemas práticos e teóricos."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Bacon propôs um método indutivo rígido baseado na coleta de dados neutros para chegar a leis universais. Laudan, influenciado pela virada histórica da filosofia da ciência, argumenta que o método científico não é fixo nem puramente indutivo. Além disso, Laudan foca nos problemas conceituais (coerência interna e externa com outras teorias), algo que o indutivismo ingênuo de Bacon desconsiderava."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância parcial: Ambos defendem ferrenhamente a racionalidade e o progresso da ciência contra o relativismo pós-moderno. No entanto, Bunge é um realista científico dogmático, enquanto Laudan é um antirrealista/pragmatista."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Carnap tentou formalizar uma lógica indutiva e critérios formais de confirmação. Laudan considera essa abordagem puramente lógica e histórica inadequada. Para Laudan, a racionalidade da ciência não pode ser engessada em um cálculo de probabilidades lógicas, mas deve ser avaliada historicamente pela capacidade de uma \"tradição de pesquisa\" (o conceito dele correlato aos paradigmas de Kuhn) de resolver problemas ao longo do tempo."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância parcial: Tanto Chalmers quanto Curd buscam uma visão de ciência que seja historicamente informada, mas que mantenha alguma forma de identidade ou virtude. Contudo, Chalmers ainda tende a buscar uma defesa da ciência baseada em metodologias evolutivas ou virtudes que flertam com o realismo, enquanto Laudan descarta o realismo e foca exclusivamente na utilidade pragmática de resolver problemas."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Concordância: Ambos concordam que a busca histórica por um critério único e estrito de demarcação falha."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Concordância parcial: Dupré defende o pluralismo radical e a desunidade da ciência. Laudan concorda com a ideia de que diferentes disciplinas enfrentam problemas diferentes e podem usar ferramentas distintas em momentos históricos variados. No entanto, Dupré fundamenta isso em uma visão metafísica do mundo (o mundo é desordenado). Laudan, sendo um pragmatista estrito, prefere evitar debates metafísicos profundos: para ele, a desunidade metodológica é apenas o reflexo prático de cientistas tentando resolver diferentes tipos de problemas."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Concordância parcial: Ambos concordam que o positivismo falhou e que não existe um método universal único e imutável. Porém, onde Feyerabend diz \"então tudo vale e a ciência é como o mito\", Laudan reage energicamente. Ele combate o relativismo de Feyerabend. Laudan argumenta que, embora os métodos mudem, a ciência possui critérios racionais de progresso, em que teorias que resolvem mais problemas empíricos e minimizam anomalias conceituais são objetivamente melhores."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Oposição: Gardner é um dos filósofos que mais trabalha para redefinir e salvar o critério de demarcação para isolar a pseudociência. Como Laudan defende que o problema da demarcação está morto, enterrado e é filosoficamente intratável, as abordagens de Garden colidem diretamente com o pragmatismo desinflacionado de Laudan."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Oposição: Hansson é um dos filósofos contemporâneos que mais trabalha para redefinir e salvar o critério de demarcação para isolar a pseudociência. Como Laudan defende que o problema da demarcação está morto, enterrado e é filosoficamente intratável, as abordagens de Hansson colidem diretamente com o pragmatismo desinflacionado de Laudan."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Oposição: Hempel é famoso pelo modelo nomológico-dedutivo (explicação científica como dedução lógica a partir de leis gerais e condições iniciais). Laudan contesta esse modelo, afirmando que a ciência frequentemente aceita explicações que resolvem problemas práticos e teóricos importantes, mesmo que elas não se encaixem perfeitamente na estrutura lógica dedutiva e estrita de Hempel."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Concordância parcial: Laudan adota a visão de Kuhn de que a ciência opera em grandes estruturas conceituais históricas (Kuhn chama de \"Paradigmas\", Laudan chama de \"Tradições de Pesquisa\"). Ambos concordam que a ciência muda por revoluções. No entanto, Kuhn sugeria que a mudança de paradigma parecia uma conversão religiosa sem critérios puramente racionais. Laudan reconstrói a racionalidade, argumentando que mudar de uma tradição de pesquisa para outra é uma escolha perfeitamente racional baseada em qual delas tem a maior taxa de progresso na resolução de problemas."
+  },
+  {
+    "id_filosofo_origem": "F16",
+    "filosofo_origem": "Larry Laudan",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância: O modelo de \"Tradições de Pesquisa\" de Laudan é um herdeiro direto dos \"Programas de Investigação Científica\" de Lakatos. Ambos tentam salvar a racionalidade da ciência integrando a história. A divergência é sutil, em que Lakatos foca no \"núcleo firme\" e no \"cinturão protetor\" de hipóteses que são testadas. Laudan é mais flexível: ele argumenta que os elementos centrais de uma tradição de pesquisa podem mudar e ser modificados ao longo do tempo sem que a tradição inteira seja destruída, desde que ela continue resolvendo problemas."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer buscava um critério lógico-formal para demarcar a ciência. Merton opera em um plano completamente diferente: para ele, a ciência se define pelas normas sociais e institucionais que regulam o comportamento de sua comunidade (CUDOS), e não pela estrutura lógica de seus enunciados."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Concordância: Bacon defendia a colaboração intelectual e a partilha do conhecimento contra o isolamento dos alquimistas e dos escolásticos. O \"Comunismo\" de Merton — a norma de que o conhecimento científico é propriedade coletiva — é o herdeiro direto do ethos baconiano de um empreendimento científico cooperativo e público."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos reconhecem que a ciência é uma prática coletiva e institucional com valores próprios. Bunge descreve a comunidade científica (componente C de seu sistema) como parte essencial do que define um campo cognitivo; Merton formaliza justamente os valores normativos que essa comunidade deve seguir para ser genuinamente científica."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Carnap focava na estrutura lógica dos enunciados científicos. Merton foca nas estruturas sociais e institucionais da ciência. Eles operam em níveis completamente distintos — o lógico-semântico versus o sociológico — e dificilmente se falam diretamente."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância parcial: Chalmers reconhece que fatores históricos e sociológicos influenciam a ciência. Merton formaliza exatamente quais são as normas sociais que fazem uma comunidade científica funcionar. Ambos se afastam do positivismo ingênuo, mas Chalmers foca nos métodos e Merton nas instituições."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Concordância parcial: Curd valoriza a racionalidade científica e a necessidade de distinguir ciência de pseudociência. Merton oferece um critério sociológico complementar: uma comunidade que viola o ceticismo organizado ou o universalismo está operando de forma pseudocientífica, mesmo que suas proposições pareçam racionais."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Oposição: Dupré rejeita a ideia de uma ciência unificada com normas universais. Merton propõe justamente isso — que existe um conjunto universal de normas (CUDOS) que define o ethos científico, independentemente da disciplina ou da cultura."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição: Feyerabend nega a existência de um método ou de normas científicas universais. Merton propõe exatamente um conjunto de normas institucionais universais (CUDOS) que define a prática científica autêntica, sendo os dois diametralmente opostos."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Concordância: Gardner identificava o charlatão pseudocientífico pelo seu comportamento: isolamento, sigilo, apelo à autoridade. Merton formaliza o oposto disso como as normas da ciência legítima: comunismo (partilha), universalismo, desinteresse e ceticismo organizado. As características do charlatão de Gardner são a violação direta das normas de Merton."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Concordância: Hansson defende que a pseudociência se caracteriza por imitar a ciência sem seguir suas práticas de confiabilidade. As normas CUDOS de Merton descrevem precisamente as práticas que tornam a ciência confiável — o que a pseudociência viola ao operar com sigilo, parcialidade e ausência de escrutínio."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Oposição temática: Hempel focava na lógica interna da explicação e da justificação científica. Merton focava na sociologia externa da ciência, nas normas institucionais que regulam seu funcionamento. Complementam-se mais do que se contradizem."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F12",
+    "filosofo_destino": "Reuben Hersh",
+    "relacao": "Concordância parcial: Hersh vê a matemática como uma prática social e comunitária. Merton concordaria que a comunidade e suas normas são constitutivas do que é aceito como conhecimento válido, ainda que Merton tenha desenvolvido suas normas para as ciências empíricas."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Oposição: Japiassu critica a ciência como prática carregada de ideologia e interesses de classe. Merton, ao contrário, defende que as normas do desinteresse e do universalismo fazem da ciência uma prática genuinamente autônoma das pressões políticas e econômicas — exatamente o \"mito da neutralidade\" que Japiassu desmonta."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Concordância e tensão: Ambos são fundadores da sociologia da ciência, mas com focos distintos. Kuhn mostra que as comunidades científicas operam dentro de paradigmas que moldam a percepção e a aceitação de resultados. Merton foca nas normas institucionais que deveriam reger essas comunidades. A visão de Kuhn sugere que as normas de Merton são frequentemente violadas na prática histórica real."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância parcial: Lakatos focava na estrutura racional dos programas de pesquisa. Merton focava nas normas sociais. O ceticismo organizado de Merton — a norma de que afirmações devem ser submetidas à crítica antes de serem aceitas — dialoga com a exigência de Lakatos de que os programas progressivos devem gerar previsões testáveis sujeitas ao escrutínio da comunidade."
+  },
+  {
+    "id_filosofo_origem": "F17",
+    "filosofo_origem": "Robert Merton",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Concordância parcial: Laudan e Merton convergem na crítica ao positivismo lógico como modelo suficiente para entender a ciência. Mas enquanto Laudan foca na resolução de problemas como critério de progresso racional, Merton foca nas normas institucionais que garantem a integridade desse processo."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer e os positivistas lógicos tentaram criar uma linha divisória binária e estrita baseada na lógica e na verificação. Pigliucci argumenta que essa busca por uma \"bala de prata\" lógica foi o grande erro que fez o problema da demarcação estagnar no século XX, defendendo, em vez disso, limites difusos (fuzzy)."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Concordância: Pigliucci compartilha a valorização baconiana do empirismo e da utilidade da ciência para a humanidade, embora reconheça (junto com a filosofia moderna) que o indutivismo ingênuo de Bacon é insuficiente para explicar como a ciência realmente opera."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos são gigantes contemporâneos na denúncia de pseudociências. Bunge também propôs um critério multicritério/multidimensional para identificar a ciência, uma abordagem que dialoga perfeitamente com o mapeamento multidimensional (rigor teórico vs. suporte empírico) de Pigliucci."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Pela mesma razão de Ayer. O projeto de Carnap de reduzir a ciência a uma linguagem lógica perfeita e a um critério rígido de confirmação falhou, e Pigliucci usa esse fracasso para justificar por que precisamos da abordagem de \"semelhança de família\" de Wittgenstein."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Concordância: Dupré é um defensor do pluralismo científico (a ideia de que não existe \"um\" método científico único, mas várias ciências com métodos diferentes). Pigliucci concorda totalmente com essa visão pluralista, que é a base da sua ideia de \"semelhança de família\" entre as ciências."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição: Feyerabend declarou guerra ao método científico com seu anarquismo epistemológico (\"vale tudo\"). Para Pigliucci, o relativismo de Feyerabend é um desastre intelectual que abre as portas para o charlatanismo, negacionismo e pseudociência."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Concordância: Ambos são figuras centrais no ativismo cético. Compartilham o objetivo prático de educar o público e desmascarar fraudes pseudocientíficas (como o criacionismo e a parapsicologia)."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Concordância: Hansson e Pigliucci são os dois maiores defensores contemporâneos de que o problema da demarcação é vital. Ambos concordam que a pseudociência não é apenas um erro, mas uma imitação desonesta da autoridade científica."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Oposição: A tendência de Japiassu de criticar a ciência como não objetiva choca-se com a defesa feroz de Pigliucci da ciência como a ferramenta mais confiável e objetiva que temos para entender a realidade empírica."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Oposição: Pigliucci reconhece a importância da história da ciência, mas critica severamente o legado relativista de Kuhn. Ele argumenta que a ideia de paradigmas \"incomensuráveis\" de Kuhn tem sido sequestrada por pseudocientistas para alegarem que a ciência moderna é \"apenas mais um paradigma\" equivalente ao misticismo."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância: Pigliucci utiliza frequentemente os conceitos de Lakatos. A ideia de que as pseudociências são \"programas de pesquisa degenerescentes\" (que apenas inventam desculpas em vez de fazer novas descobertas empíricas) é uma ferramenta central na crítica de Pigliucci."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Oposição: Esta é a maior rivalidade explícita de Pigliucci. Laudan escreveu em 1983 que o problema da demarcação era um \"pseudo-problema\" morto e sem utilidade. O principal livro de filosofia de Pigliucci (Philosophy of Pseudoscience) foi escrito especificamente para refutar Laudan e provar que demarcar ciência de lixo é vital para a sociedade."
+  },
+  {
+    "id_filosofo_origem": "F18",
+    "filosofo_origem": "Massimo Pigliucci",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Concordância: As normas institucionais (CUDOS) de Merton capturam bem o comportamento que Pigliucci espera de uma comunidade científica saudável, em oposição ao isolamento e secretismo que caracterizam as comunidades pseudocientíficas."
+  },
+  {
+    "id_filosofo_origem": "F19",
+    "filosofo_origem": "Karl Popper",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Concordância metodológica: Ambos baseiam a demarcação na lógica central de refutação/falseação empírica e na corroboração de hipóteses."
+  },
+  {
+    "id_filosofo_origem": "F19",
+    "filosofo_origem": "Karl Popper",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância conceitual: Ambos definem a pseudociência (ou programa degenerativo) pelo uso de hipóteses ad hoc inventadas apenas para salvar teorias de falhas."
+  },
+  {
+    "id_filosofo_origem": "F20",
+    "filosofo_origem": "David Resnik",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição: Feyerabend defendia o anarquismo metodológico (\"tudo vale\") e argumentava que a ciência não deveria ter privilégios políticos ou sociais em relação a outras formas de saber, desconfiando de sua autoridade institucional. Resnik defende uma visão institucionalista forte: para ele, a ciência possui uma responsabilidade social única e as fraudes ou desvios éticos ameaçam a credibilidade pública do conhecimento objetivo. Onde Feyerabend prega a desregulamentação da ciência, Resnik teoriza e defende os mecanismos de regulação, integridade e conformidade ética da pesquisa."
+  },
+  {
+    "id_filosofo_origem": "F20",
+    "filosofo_origem": "David Resnik",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Concordância: Merton é o pai da sociologia da ciência e famoso por estabelecer o \"CUDOS\" (os quatro conjuntos de imperativos institucionais da ciência: Comunismo, Universalismo, Desinteresse e Ceticismo Organizado). Resnik bebe diretamente dessa fonte. Para ele, as normas éticas da ciência não são apenas regras morais subjetivas, mas exigências funcionais da própria prática científica — exatamente como Merton defendia. Resnik expande o trabalho mertoniano ao traduzir esses valores em diretrizes práticas de conduta para laboratórios e comitês de ética modernos."
+  },
+  {
+    "id_filosofo_origem": "F20",
+    "filosofo_origem": "David Resnik",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Concordância parcial: Embora operem em campos diferentes (Popper na lógica da demarcação e Resnik na ética), há uma intersecção clara. Popper defendia que a ciência avança por meio de críticas severas, testes duros e uma postura de abertura ao erro (falsificacionismo). Resnik absorve essa visão e a transforma em uma virtude ética profissional: a \"objetividade\" e a \"abertura\" na pesquisa científica exigem que o cientista relate dados negativos, compartilhe resultados e evite vieses, tornando o imperativo metodológico de Popper uma obrigação moral no laboratório."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer propunha um critério binário de verificabilidade lógica. Ruse adota uma visão mais pluralista e prática, exigindo não apenas testabilidade, mas também que a teoria seja guiada por leis naturais e aceite conclusões provisórias, um leque de critérios que vai além da análise semântica de Ayer."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Concordância parcial: Ambos valorizam a observação empírica e a testabilidade como pilares da ciência. Ruse, porém, exige que a ciência seja guiada por leis naturais — algo que o indutivismo ingênuo de Bacon, focado na coleta passiva de fatos, não captura adequadamente."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos são realistas científicos que defendem critérios múltiplos e sistêmicos para demarcar a ciência. Ruse e Bunge convergem na rejeição de sistemas que apelam a causas sobrenaturais — o criacionismo, por exemplo, é uma pseudociência tanto pelo sistema de Bunge quanto pelos cinco critérios de Ruse."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Concordância parcial: Ambos valorizam a testabilidade empírica como critério central. Ruse, porém, acrescenta exigências que vão além da confirmabilidade lógica de Carnap: a teoria deve ser guiada por leis naturais e as conclusões devem ser aceitas como provisórias, critérios que o formalismo de Carnap não aborda."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância: Chalmers e Ruse convergem no antiessencialismo — ambos rejeitam que exista um único critério suficiente para definir a ciência. Ruse propõe cinco critérios cumulativos; Chalmers argumenta que os padrões de validação evoluem historicamente. Ambos se afastam do falsificacionismo simples de Popper."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Concordância: Curd e Ruse compartilham a defesa de que a ciência possui um conjunto de virtudes epistêmicas que a distingue da pseudociência, ainda que não exista uma fronteira metodológica única. Os cinco critérios de Ruse funcionam como virtudes epistêmicas no sentido em que Curd defende."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Oposição: Dupré rejeita qualquer tentativa de unificar a ciência sob critérios metodológicos comuns. Ruse, ao propor cinco critérios universais para identificar a ciência legítima, está fazendo exatamente o que Dupré critica: buscar uma essência metodológica unificadora."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição: Feyerabend nega que exista um método científico e que qualquer tentativa de demarcação seja legítima. Ruse usou seus cinco critérios precisamente num tribunal — o caso McLean v. Arkansas — para provar que o criacionismo não é ciência. Para Ruse, demarcar ciência de pseudociência é uma necessidade prática e política urgente, não um pseudoproblema."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Concordância: Ambos são críticos ativos de formas de pseudociência, especialmente o criacionismo. Gardner identificava o pseudocientista pelo seu comportamento; Ruse identificava a pseudociência pelos critérios de seus produtos teóricos. São abordagens complementares para o mesmo problema."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Concordância: Ambos defendem que o problema da demarcação é real e urgente. Os cinco critérios de Ruse (leis naturais, testabilidade, conclusões provisórias, falseabilidade e explicação via leis) são coerentes com a visão de Hansson de que a pseudociência imita a ciência sem seguir suas práticas de confiabilidade."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Concordância: A exigência de Ruse de que as teorias gerem implicações testáveis e falseáveis ressoa diretamente com a estrutura de justificação de Hempel, onde hipóteses só adquirem significância científica se levarem a previsões empíricas verificáveis."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F12",
+    "filosofo_destino": "Reuben Hersh",
+    "relacao": "Oposição: Hersh defende que a matemática é uma construção social, sujeita a revisão e falível. Ruse, ao exigir que a ciência seja guiada por leis naturais e gere explicações por meio dessas leis, pressupõe uma objetividade das estruturas formais que Hersh questiona."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Oposição: Japiassu critica o mito da neutralidade científica e vê os critérios de demarcação como construções ideológicas. Ruse, ao apresentar seus cinco critérios num tribunal para defender a ciência do criacionismo, está fazendo exatamente o contrário: usando esses critérios como ferramentas objetivas e universais de demarcação."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Concordância parcial: Kuhn mostrou que a ciência opera dentro de paradigmas históricos. Ruse absorve essa visão ao aceitar que as conclusões científicas são provisórias e podem ser substituídas. No entanto, Ruse vai além ao propor critérios formais que permitem distinguir ciência de não-ciência independentemente do paradigma vigente."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância: A exigência de Ruse de que a teoria seja guiada por leis naturais e que gere previsões testáveis dialoga com o programa de pesquisa progressivo de Lakatos — aquele que prevê fatos novos em vez de apenas se defender de anomalias com hipóteses ad hoc."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Oposição direta: Laudan declarou que o problema da demarcação é um pseudoproblema morto. Ruse é o contraponto empírico perfeito: ele usou seus critérios de demarcação num tribunal federal (McLean v. Arkansas, 1981) para provar que o criacionismo não é ciência, demonstrando que o problema tem consequências práticas e jurídicas reais."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Concordância: As normas institucionais de Merton (ceticismo organizado, desinteresse, universalismo) descrevem a comunidade científica que pratica os critérios de Ruse. Uma comunidade que segue os cinco critérios de Ruse inevitavelmente pratica também as normas de Merton — são duas descrições complementares da mesma prática."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F18",
+    "filosofo_destino": "Massimo Pigliucci",
+    "relacao": "Concordância: Pigliucci defende a bidimensionalidade da demarcação (rigor teórico e suporte empírico). Os cinco critérios de Ruse distribuem-se exatamente por essas duas dimensões: testabilidade e falseabilidade são o eixo empírico; ser guiada por leis naturais e explicar o mundo por meio dessas leis é o eixo teórico."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Concordância parcial: Ambos incluem a falseabilidade como critério fundamental de demarcação. Ruse, porém, vai além do falsificacionismo de Popper ao adicionar quatro critérios adicionais — guia por leis naturais, explicação via leis, testabilidade e conclusões provisórias — tornando seu critério mais robusto e menos suscetível às críticas que derrubaram o falsificacionismo estrito."
+  },
+  {
+    "id_filosofo_origem": "F21",
+    "filosofo_origem": "Michael Ruse",
+    "id_filosofo_destino": "F20",
+    "filosofo_destino": "David Resnik",
+    "relacao": "Concordância: Ambos propõem conjuntos práticos e pluralistas de critérios para identificar a ciência legítima. Os critérios de Ruse (testabilidade, leis naturais, provisoriedade, falseabilidade) e os de Resnik (coerência lógica, abertura à crítica, reprodutibilidade, honestidade intelectual) convergem numa visão de ciência como prática rigorosa e autocorretiva."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Concordância: O positivismo lógico de Ayer foi construído diretamente sobre as fundações do empirismo e da análise lógica da linguagem propostos por Russell. Ambos concordam que a filosofia deve se livrar da metafísica obscura."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Concordância: Russell admirava Bacon como o grande profeta da ciência moderna. Ambos compartilham a crença fundamental de que o conhecimento deve vir da observação empírica da natureza, e não da autoridade cega ou da tradição."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos são herdeiros do Iluminismo, defensores inflexíveis do realismo científico, do naturalismo materialista e dopositivismo no sentido de combater ferozmente qualquer forma de pseudociência e obscurantismo."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Concordância: Carnap e o Círculo de Viena basearam todo o seu projeto de empirismo lógico na obra máxima de Russell (o Principia Mathematica). Ambos veem a análise lógica como a principal ferramenta para organizar o conhecimento empírico."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Oposição: A filosofia de Russell busca a unidade e a redução estrutural do mundo aos seus fatos lógicos mais atômicos (atomismo lógico). O \"realismo promíscuo\" e o pluralismo radical de Dupré vão na direção exatamente oposta a esse ideal de unificação analítica."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição: A visão de Feyerabend de que a ciência é apenas mais uma ideologia (no mesmo nível do mito ou da astrologia) e seu anarquismo metodológico (\"vale tudo\") representam o oposto absoluto da defesa contundente de Russell da superioridade e universalidade da razão científica."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Concordância: Ambos foram gigantes do ceticismo moderno. Compartilham o uso incisivo da lógica e da racionalidade para desmascarar fraudes, crenças místicas, religião dogmática e pseudociência."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Concordância: Hansson defende o conhecimento científico como o mais confiável disponível, uma visão totalmente alinhada ao apreço de Russell pelo rigor empírico em detrimento do achismo ou do misticismo."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Concordância: Assim como Carnap e Ayer, o trabalho de Hempel sobre a estrutura lógica da explicação científica é uma continuação direta da tradição analítica inaugurada por Russell."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F12",
+    "filosofo_destino": "Reuben Hersh",
+    "relacao": "Oposição: Hersh argumenta que a matemática é uma construção social e humana, sujeita a falhas. Russell passou a primeira metade de sua vida tentando provar o \"Logicismo\" — a ideia de que a matemática é uma extensão da lógica pura, contendo verdades absolutas, objetivas e independentes da sociedade."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Oposição: Japiassu flerta com a crítica sociológica de que a objetividade científica é um \"mito\". Russell dedicou sua vida a defender que a verdade objetiva existe e que o método científico é a melhor forma da humanidade alcançá-la, longe das paixões políticas."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Oposição: Russell acreditava no progresso cumulativo e objetivo da ciência em direção a uma verdade correspondente à realidade. A ideia de Kuhn de que a ciência avança por saltos irracionais (\"conversões\") entre paradigmas incomensuráveis choca-se com o realismo objetivo de Russell."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância: Lakatos tentou salvar a racionalidade objetiva da ciência do relativismo gerado por Kuhn. Russell, como um firme defensor do intelecto racional contínuo, aprovaria o esforço de manter a ciência ancorada na lógica e não na psicologia de massas."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Concordância: O \"universalismo\" de Merton — a ideia de que a validade de uma descoberta científica independe da raça, nacionalidade ou religião de quem a descobriu — é o reflexo exato da ética racionalista e cosmopolita defendida por Russell."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F18",
+    "filosofo_destino": "Massimo Pigliucci",
+    "relacao": "Concordância: Ambos partilham o mesmo ethos intelectual: defensores públicos do secularismo, da razão científica e críticos ácidos do pensamento mágico e da pseudociência."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Concordância: Apesar de discordarem no passado sobre o papel exato da indução (Russell achava a indução empiricamente necessária, Popper a rejeitava a favor da dedução), ambos foram aliados na defesa incondicional da racionalidade objetiva, da verdade e da sociedade aberta contra o totalitarismo."
+  },
+  {
+    "id_filosofo_origem": "F22",
+    "filosofo_origem": "Bertrand Russel",
+    "id_filosofo_destino": "F21",
+    "filosofo_destino": "Michael Ruse",
+    "relacao": "Concordância: Ruse é um defensor da biologia evolutiva e um crítico severo do criacionismo, alinhando-se perfeitamente à visão secular, naturalista e anti-religiosa de Russell na compreensão das origens humanas."
+  },
+  {
+    "id_filosofo_origem": "F23",
+    "filosofo_origem": "Carl Sagan",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Concordância: Ambos rejeitam a autoridade e exigem ceticismo estruturado e debate aberto na comunidade."
+  },
+  {
+    "id_filosofo_origem": "F23",
+    "filosofo_origem": "Carl Sagan",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Concordância metodológica: Ambos exigem que as hipóteses sejam sistematicamente desenhadas para possibilitar a refutação empírica."
+  },
+  {
+    "id_filosofo_origem": "F23",
+    "filosofo_origem": "Carl Sagan",
+    "id_filosofo_destino": "F20",
+    "filosofo_destino": "David Resnik",
+    "relacao": "Concordância direta: Ambos listam requisitos práticos quase idênticos (testabilidade, reprodutibilidade e abertura irrestrita à crítica)."
+  },
+  {
+    "id_filosofo_origem": "F23",
+    "filosofo_origem": "Carl Sagan",
+    "id_filosofo_destino": "F21",
+    "filosofo_destino": "Michael Ruse",
+    "relacao": "Concordância: Ambos exigem o desapego emocional do cientista em relação à teoria e a aceitação de sua possível refutação."
+  },
+  {
+    "id_filosofo_origem": "F23",
+    "filosofo_origem": "Carl Sagan",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Concordância (Ceticismo): Ambos definem a prática científica primariamente pela atitude de ceticismo sistemático e provisório."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição direta: Bacon é o alvo central da crítica histórica de Shiva. Ela argumenta que a metáfora baconiana de \"torturar a natureza para que ela revele seus segredos\" inaugurou uma era de violência ecológica e patriarcal. Para Shiva, Bacon transformou a natureza de um organismo vivo e provedor (a Mãe Terra) em uma máquina inerte a ser dominada e mercantilizada pelo homem ocidental, criando as bases do que ela chama de \"mal-desenvolvimento\"."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Oposição direta: Bunge era um defensor ferrenho do cientificismo universalista e via qualquer tentativa de atrelar a ciência ao gênero ou ao colonialismo (como o ecofeminismo ou o construtivismo social) como uma \"pseudociência anticatastrófica\" e um ataque à racionalidade. Shiva está no polo oposto, defendendo que a suposta \"universalidade\" que Bunge protegia é, na verdade, um paroquialismo ocidental (o \"conhecimento do homem branco colonizador\") imposto ao resto do mundo para suplantar sistemas de conhecimento indígenas e locais mais sustentáveis."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Concordância: Dupré ataca o reducionismo científico e Shiva usa essa exata crítica ao reducionismo para atacar a agricultura industrial. Ambos concordam que sistemas complexos (como ecossistemas e sociedades humanas) não podem ser compreendidos ou geridos de forma saudável através do reducionismo mecanicista, exigindo abordagens pluralistas e holísticas."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Concordância: Feyerabend é o autor da filosofia da ciência tradicional que mais se aproxima de Shiva. Ele argumentava que a ciência ocidental é apenas uma forma de conhecimento entre outras e que sua imposição global foi feita pela força e pelo colonialismo, e não por superioridade intrínseca. Shiva adota exatamente essa premissa para defender a legitimidade das medicinas tradicionais (como a Ayurveda) e da agricultura indígena contra o monopólio da ciência e da indústria farmacêutica/agroquímica ocidental."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Oposição epistemológica: Gardner defende a divulgação científica tradicional, o ceticismo empírico e o critério de demarcação estrito contra o que considera pseudociência ou ativismo ideológico disfarçado de ciência, enquanto Shiva defende discussões éticas e ecológicas acerca do que é ciência."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Oposição epistemológica: Hansson defende a divulgação científica tradicional, o ceticismo empírico e o critério de demarcação estrito contra o que considera pseudociência ou ativismo ideológico disfarçado de ciência, enquanto Shiva defende discussões éticas e ecológicas acerca do que é ciência."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Concordância: Japiassu dedicou sua obra à crítica da ciência como ideologia e à denúncia do \"mito da neutralidade científica\", argumentando que a ciência frequentemente serve a interesses de dominação social. Shiva faz coro absoluto a essa tese, aplicando-a ao contexto do Sul Global: para ela, a ciência moderna opera como uma ideologia de dominação econômica e ecológica disfarçada de progresso técnico neutro."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Concordância teórica: Embora Kuhn não tenha focado em ecologia, sua tese de que a ciência opera por \"paradigmas\" históricos e sociais serve como uma ferramenta teórica crucial para Shiva. Ela utiliza a estrutura de Kuhn para demonstrar que o \"reducionismo mecânico\" ocidental é apenas um paradigma histórico datado , que ganhou poder não por ser biologicamente absoluto, mas por estar alinhado à expansão do capitalismo colonial."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F18",
+    "filosofo_destino": "Massimo Pigliucci",
+    "relacao": "Oposição epistemológica: Martin Pigliucci defende a divulgação científica tradicional, o ceticismo empírico e o critério de demarcação estrito contra o que considera pseudociência ou ativismo ideológico disfarçado de ciência, enquanto Shiva defende discussões éticas e ecológicas acerca do que é ciência."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F21",
+    "filosofo_destino": "Michael Ruse",
+    "relacao": "Oposição epistemológica: Ruse defende a divulgação científica tradicional, o ceticismo empírico e o critério de demarcação estrito contra o que considera pseudociência ou ativismo ideológico disfarçado de ciência, enquanto Shiva defende discussões éticas e ecológicas acerca do que é ciência."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Oposição teórica: Russell defendia um realismo lógico e uma visão da ciência como a ferramenta mais confiável para desvendar a realidade objetiva, o que colide com a crítica de Shiva à ciência ocidental. No entanto, Russell foi um ativista pacifista e antinuclear fervoroso na velhice. Shiva compartilha do ativismo político radical e da aversão à militarização e destruição tecnológica, mas diverge fundamentalmente da base filosófica empirista e racionalista ocidental que Russell sustentou por toda a vida."
+  },
+  {
+    "id_filosofo_origem": "F24",
+    "filosofo_origem": "Vandana Shiva",
+    "id_filosofo_destino": "F23",
+    "filosofo_destino": "Carl Sagan",
+    "relacao": "Oposição epistemológica: Sagan defende a divulgação científica tradicional, o ceticismo empírico e o critério de demarcação estrito contra o que considera pseudociência ou ativismo ideológico disfarçado de ciência, enquanto Shiva defende discussões éticas e ecológicas acerca do que é ciência."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer buscava um critério puramente lógico e síncrono para demarcar a ciência. Thagard propõe um critério essencialmente histórico e diacrônico: o que torna um campo pseudociência é seu fracasso em progredir ao longo do tempo em comparação com alternativas, algo que a análise semântica de Ayer não consegue captar."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Bacon acreditava que a observação sistemática e cumulativa de fatos levaria naturalmente ao progresso científico. Thagard mostra que campos como a astrologia acumularam observações por séculos sem gerar progresso real — ou seja, o critério de Bacon é necessário, mas não suficiente para distinguir ciência de pseudociência."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos são críticos da astrologia como pseudociência, e ambos utilizam critérios multidimensionais para fazer essa distinção. Bunge foca na estrutura sistêmica do campo; Thagard foca no comportamento histórico da comunidade e na sua incapacidade de progresso em relação a alternativas."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Carnap focava na confirmabilidade lógica de enunciados isolados. O critério de Thagard é holístico e histórico — avalia o comportamento de um programa inteiro ao longo do tempo, comparando-o com seus concorrentes, uma perspectiva que a lógica indutiva de Carnap não comporta."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância parcial: Chalmers reconhece que não há um método universal e que os padrões de validação evoluem historicamente. Thagard concorda ao propor um critério histórico-comparativo. Ambos se afastam do positivismo rígido, embora Thagard ainda acredite que é possível distinguir ciência de pseudociência com base no padrão de progresso ao longo do tempo."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Concordância: Curd reconhece que a demarcação se faz avaliando virtudes epistêmicas e o progresso de uma disciplina. O critério histórico-comparativo de Thagard é coerente com essa visão: um campo que não progride em relação a alternativas por um longo período está demonstrando a ausência das virtudes epistêmicas que Curd valoriza."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Oposição: Dupré rejeita qualquer critério unificador para demarcar a ciência. Thagard, ao contrário, propõe um critério específico — a progressividade histórica relativa a alternativas — como ferramenta legítima para distinguir ciência de pseudociência, mesmo que esse critério seja mais flexível do que os propostos pelos positivistas."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição: Feyerabend negava que existissem critérios racionais para distinguir ciência de pseudociência. Thagard demonstrou (no caso da astrologia) que é possível fazer essa distinção de forma racional e histórica, sem apelar a um método universal fixo — refutando o anarquismo de Feyerabend com um exemplo concreto."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Concordância: Ambos usam a astrologia como exemplo paradigmático de pseudociência. Gardner identifica o astrólogo pelo seu comportamento de charlatão; Thagard identifica a astrologia pela sua história de estagnação e pela ausência de engajamento sério com alternativas. São abordagens complementares para o mesmo caso."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Concordância: Hansson define a ciência como a prática dedicada a fornecer afirmações o mais confiáveis possível em um dado momento. O critério histórico de Thagard — comparar o progresso de um campo com suas alternativas ao longo do tempo — é uma operacionalização direta do que torna um campo mais ou menos confiável na acepção de Hansson."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Concordância parcial: Hempel focava na estrutura lógica das hipóteses e suas implicações de teste. Thagard vai além ao exigir que a comunidade se comprometa ativamente com o desenvolvimento da teoria e com a avaliação comparativa de alternativas — um nível de análise sociológica que Hempel não atingia."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F12",
+    "filosofo_destino": "Reuben Hersh",
+    "relacao": "Oposição: Hersh defende que a matemática é uma construção social, falível e revisável. Thagard, ao usar a ciência cognitiva para mostrar como as teorias são representadas no cérebro, pressupõe um realismo científico moderado que entra em tensão com o humanismo matemático de Hersh."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Concordância parcial: Japiassu critica a ciência como prática ideologicamente condicionada. Thagard concordaria que a comunidade científica é um fator determinante — afinal, seu critério de pseudociência inclui o comportamento da comunidade que sustenta o campo. Mas Thagard mantém que é possível avaliar racionalmente o progresso de um campo, enquanto Japiassu questiona a possibilidade dessa avaliação neutra."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Concordância parcial: Kuhn mostrou que as comunidades científicas operam dentro de paradigmas e que a resolução de quebra-cabeças é o trabalho central da ciência normal. Thagard usa esse insight: a pseudociência se revela justamente quando a comunidade para de tentar resolver seus problemas e passa a apenas defender o núcleo contra críticas."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância: O critério de Thagard é profundamente lakatoseano. A pseudociência de Thagard corresponde ao programa degenerativo de Lakatos — aquele que não gera novas predições e cuja comunidade inventa desculpas para proteger o núcleo, em vez de fazer descobertas genuínas."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Oposição: Laudan declarou o problema da demarcação morto. Thagard discorda: seu artigo sobre a astrologia é justamente um exercício de demarcação rigorosa, mostrando que é possível distinguir ciência de pseudociência usando critérios histórico-comparativos, sem apelar a um algoritmo lógico único."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Concordância: O segundo critério de Thagard para a pseudociência — a comunidade faz pouco esforço para desenvolver a teoria e é seletiva nas confirmações — é a violação direta das normas de Merton. Uma comunidade pseudocientífica viola o ceticismo organizado (ao ser seletiva) e o desinteresse (ao proteger o núcleo em vez de buscar a verdade)."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F18",
+    "filosofo_destino": "Massimo Pigliucci",
+    "relacao": "Concordância: Ambos propõem critérios pluralistas e históricos para a demarcação. Pigliucci usa um espaço bidimensional (rigor teórico vs. suporte empírico); Thagard usa um critério histórico-comparativo baseado no progresso relativo. Ambas as abordagens convergem na rejeição de um critério único e binário."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Concordância parcial: Ambos usam a astrologia como exemplo de pseudociência. Popper a critica por ser infalsificável; Thagard a critica por sua estagnação histórica e pelo comportamento de sua comunidade. O critério de Thagard é mais robusto: ele explica por que a astrologia continua sendo pseudociência mesmo quando astrólogos geram predições que são refutadas."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F20",
+    "filosofo_destino": "David Resnik",
+    "relacao": "Concordância parcial: Resnik exige abertura à crítica e transparência metodológica como critérios da boa ciência. O segundo critério de Thagard — a comunidade faz pouco esforço para avaliar a teoria em relação a alternativas e é seletiva nas confirmações — descreve exatamente a violação dos valores de abertura e honestidade intelectual que Resnik defende."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F21",
+    "filosofo_destino": "Michael Ruse",
+    "relacao": "Concordância: Ambos propõem critérios práticos e pluralistas para a demarcação, e ambos os aplicaram em contextos concretos (Ruse num tribunal; Thagard num artigo sobre astrologia). A falseabilidade de Ruse e a progressividade histórica de Thagard são critérios complementares: um campo que é infalsificável também tende a estagnar historicamente."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Oposição parcial: Russell defendia a superioridade da razão científica e do empirismo rigoroso. Thagard compartilha esse compromisso, mas enquanto Russell operava num nível filosófico geral, Thagard oferece um critério operacional específico — a progressividade histórica comparativa — que Russell não desenvolveu explicitamente."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F23",
+    "filosofo_destino": "Carl Sagan",
+    "relacao": "Concordância: Ambos utilizam a astrologia como exemplo central de pseudociência e ambos criticam a atitude dos seus praticantes. O \"kit de detecção de balelas\" de Sagan e o critério histórico-comparativo de Thagard são abordagens complementares: Sagan fornece as ferramentas epistêmicas práticas; Thagard fornece o critério filosófico formal."
+  },
+  {
+    "id_filosofo_origem": "F25",
+    "filosofo_origem": "Paul Thagard",
+    "id_filosofo_destino": "F24",
+    "filosofo_destino": "Vandana Shiva",
+    "relacao": "Oposição: Shiva defende que diferentes sistemas de conhecimento têm legitimidade própria e que os critérios de demarcação ocidentais são ferramentas de exclusão. Thagard responderia que o critério de progressividade histórica é neutro culturalmente — o problema da astrologia não é sua origem cultural, mas sua estagnação e a recusa da sua comunidade em se engajar seriamente com alternativas."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer defende o positivismo lógico e o empirismo estrito. Wiredu rejeita as categorias epistemológicas ocidentais rígidas do positivismo e adota uma visão pragmática da verdade."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Bacon propõe um método indutivo universal e objetivo para a ciência. Wiredu critica a imposição de uma única régua epistemológica \"universal\" (que é, na verdade, ocidental) para validar o conhecimento."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Oposição: Bunge é um realista científico radical que defende que a verdade é a correspondência estrita com a realidade material. Wiredu rejeita explicitamente a teoria da correspondência da verdade."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Pelos mesmos motivos de Ayer. A busca do Círculo de Viena por uma linguagem lógica universal colide com o projeto de descolonização conceitual e dependência linguística/cultural de Wiredu."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Concordância: Dupré defende o pluralismo científico e rejeita o reducionismo. Wiredu também adota um pluralismo ontológico e epistemológico, valorizando diferentes formas de racionalidade."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Concordância: Feyerabend critica a hegemonia epistêmica da ciência ocidental e valoriza o conhecimento tradicional/indígena. Wiredu compartilha essa defesa do pensamento tradicional contra a arrogância epistemológica do Ocidente."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Oposição: Gardner é um cético rigoroso que defende a racionalidade científica ocidental pura contra \"crenças\". Wiredu critica essa postura como imperialismo epistemológico, defendendo que culturas tradicionais têm sua própria lógica."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Oposição: Hempel busca modelos lógicos universais de explicação (como o modelo nomológico-dedutivo). Wiredu rejeita que o modelo analítico-ocidental seja a única forma válida de estruturar o conhecimento empírico."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F12",
+    "filosofo_destino": "Reuben Hersh",
+    "relacao": "Concordância: Hersh vê a matemática como uma construção social e humana, fugindo do platonismo. Wiredu, influenciado pelo pragmatismo de John Dewey, também vê a verdade e o conhecimento como construções humanas e sociais (assertibilidade garantida)."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Concordância: Japiassu critica o mito da neutralidade e da objetividade absoluta da ciência ocidental. Wiredu concorda plenamente, apontando como a suposta \"neutralidade\" ocidental carrega preconceitos culturais ocultos."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Concordância: Kuhn argumenta que o conhecimento é moldado por paradigmas sociais e culturais, não existindo acesso a uma \"verdade objetiva\" neutra. Wiredu se alinha a essa visão de que a verdade é contextualmente situada."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Oposição: Lakatos tentou salvar métricas universais de racionalidade científica do relativismo de Kuhn. Wiredu foca em desconstruir essas supostas métricas universais impostas pelo Ocidente."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Concordância: Laudan foca na ciência como resolução de problemas e rejeita a busca por uma \"Verdade\" que espelhe a natureza. Wiredu adota a mesma postura pragmática de que o conhecimento serve para resolver problemas humanos, não para espelhar realidades absolutas."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Oposição: Merton defende o \"universalismo\" como norma ética da ciência (o conhecimento independe de quem o produz). Para Wiredu, ignorar quem produz o conhecimento e sua cultura é perpetuar a colonização conceitual."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Oposição: Popper defende que a ciência se aproxima de uma Verdade objetiva (teoria da correspondência). Wiredu argumenta filosoficamente e logicamente contra a teoria da correspondência da verdade."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Oposição: Russell é pilar da filosofia analítica clássica, do atomismo lógico e do realismo (teoria da correspondência). Wiredu, apesar de usar métodos analíticos, destrói a base do realismo de Russell com seu pragmatismo."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F23",
+    "filosofo_destino": "Carl Sagan",
+    "relacao": "Oposição: Sagan trata a maior parte do pensamento tradicional e mítico como superstição primitiva que deve ser iluminada pela ciência ocidental. Wiredu dedicou sua vida a provar que o pensamento africano tradicional não é pré-lógico, mas possui sua própria racionalidade empírica."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F24",
+    "filosofo_destino": "Vandana Shiva",
+    "relacao": "Concordância: Ambas as filosofias lutam contra a violência da imposição do conhecimento ocidental. Shiva foca na biopirataria e na agricultura na Índia; Wiredu foca na ontologia e na lógica na África, mas o inimigo comum é a hegemonia epistêmica eurocêntrica."
+  },
+  {
+    "id_filosofo_origem": "F26",
+    "filosofo_origem": "Kwasi Wiredu",
+    "id_filosofo_destino": "F25",
+    "filosofo_destino": "Paul Thagard",
+    "relacao": "Oposição: Thagard usa o realismo cognitivo/neurológico estrito para tentar fornecer um modelo universal de como a ciência funciona na mente humana. Wiredu rejeitaria essa tentativa de reduzir o conhecimento a um universalismo biológico-computacional que ignora a estrutura social, cultural e linguística que molda a verdade."
+  },
+  {
+    "id_filosofo_origem": "F27",
+    "filosofo_origem": "J. A. Cover",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância: Ambos rejeitam firmemente as tentativas de aplicar regras estritas ou universais de demarcação."
+  },
+  {
+    "id_filosofo_origem": "F27",
+    "filosofo_origem": "J. A. Cover",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Concordância: Ambos concordam que a busca histórica por um critério único e estrito de demarcação falha."
+  },
+  {
+    "id_filosofo_origem": "F27",
+    "filosofo_origem": "J. A. Cover",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância: Ambos abandonam regras de falseação isolada e avaliam a ciência baseando-se no avanço e progresso teórico contínuo."
+  },
+  {
+    "id_filosofo_origem": "F27",
+    "filosofo_origem": "J. A. Cover",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Concordância : Ambos rejeitam a demarcação estrita clássica, focando na robustez crítica e na capacidade de progresso das práticas."
+  },
+  {
+    "id_filosofo_origem": "F27",
+    "filosofo_origem": "J. A. Cover",
+    "id_filosofo_destino": "F25",
+    "filosofo_destino": "Paul Thagard",
+    "relacao": "Concordância: Ambos medem a validade e a racionalidade científica pelo seu desempenho em manter um progresso teórico."
+  },
+  {
+    "id_filosofo_origem": "F28",
+    "filosofo_origem": "Christopher Pincock",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer defendia que a matemática na ciência consistia apenas em tautologias analíticas vazias que ajudavam a organizar os dados dos sentidos. Pincock afasta-se dessa visão desinflacionada. Ele argumenta que os modelos matemáticos na ciência contemporânea fazem mais do que organizar observações, tendo um valor representativo próprio e genuíno, o que gera conhecimento científico novo sobre as conexões estruturais do mundo, e não meras manipulações lógicas."
+  },
+  {
+    "id_filosofo_origem": "F28",
+    "filosofo_origem": "Christopher Pincock",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Oposição direta: Dupré defende a desunidade da ciência e critica o \"reducionismo matemático\" que tenta enfiar a biologia e as ciências sociais em modelos físicos abstratos. Pincock é muito mais otimista quanto ao poder unificador da matemática. Ele defende que a modelagem matemática e os processos de idealização, quando bem aplicados, são ferramentas legítimas e epistemologicamente eficazes para entender a complexidade do mundo, resistindo à fragmentação radical proposta por Dupré."
+  },
+  {
+    "id_filosofo_origem": "F28",
+    "filosofo_origem": "Christopher Pincock",
+    "id_filosofo_destino": "F12",
+    "filosofo_destino": "Reuben Hersh",
+    "relacao": "Oposição direta: Hersh é um humanista que defende que a matemática é apenas uma construção social e falível, quase-empírica. Pincock, por outro lado, defende um papel muito mais robusto e estrutural para a matemática na ciência. Para Pincock, o fato de a matemática funcionar tão bem para prever e representar o mundo físico de forma precisa exige que ela tenha uma validade objetiva que vai muito além de convenções sociais ou culturais."
+  },
+  {
+    "id_filosofo_origem": "F28",
+    "filosofo_origem": "Christopher Pincock",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Concordância: Russell foi um dos pioneiros a tentar entender a relação estrutural entre a lógica, a matemática e o mundo físico (o atomismo lógico). Pincock herda essa tradição analítica, concordando com o projeto de Russell de que o sucesso da ciência depende da nossa capacidade de mapear estruturas formais na realidade material."
+  },
+  {
+    "id_filosofo_origem": "F28",
+    "filosofo_origem": "Christopher Pincock",
+    "id_filosofo_destino": "F25",
+    "filosofo_destino": "Paul Thagard",
+    "relacao": "Concordância parcial: Thagard aborda o progresso científico através da ciência cognitiva e dos sistemas conceituais. Pincock aborda o mesmo progresso, mas pela ferramenta da matemática. Ambos compartilham de um realismo científico moderado e da rejeição ao relativismo: o conhecimento científico é cumulativo e objetivo. A matemática (para Pincock) e os mapas cognitivos (para Thagard) são as ferramentas que tornam essa objetividade possível."
+  },
+  {
+    "id_filosofo_origem": "F28",
+    "filosofo_origem": "Christopher Pincock",
+    "id_filosofo_destino": "F27",
+    "filosofo_destino": "J. A. Cover",
+    "relacao": "Concordância: Pincock e Cover adotam a postura analítica rigorosa, buscando uma resposta racional para o sucesso da ciência através da análise das virtudes epistêmicas das teorias matematizadas."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer defendia a verificabilidade estrita como critério de significado científico, herança do positivismo lógico. Musgrave, como discípulo de Popper e Lakatos, rejeita o verificacionismo, argumentando que a ciência avança por falseações e pela aceitação provisória e racional das teorias que melhor resistem a testes severos."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Bacon propôs o método indutivo como caminho para a verdade científica. Musgrave, seguindo Popper, rejeita a indução como fundamento da ciência: não há acumulação de verdades por observação; há conjecturas audaciosas submetidas a refutações severas, e a aceitação da teoria sobrevivente é sempre provisória."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos são realistas científicos que defendem que as teorias científicas fazem afirmações sobre a realidade e que o progresso científico nos aproxima da verdade. Musgrave defende o realismo crítico; Bunge defende o materialismo científico. Ambos se opõem ao relativismo e ao construtivismo social."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Oposição: Musgrave rejeita o projeto de Carnap de construir uma lógica indutiva que quantifique o grau de confirmação de teorias. Para Musgrave, seguindo Popper, a indução é um mito epistemológico e a força de uma teoria não vem da sua confirmação acumulada, mas da sua capacidade de sobreviver a tentativas sérias de refutação."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Concordância parcial: Ambos rejeitam o indutivismo e o positivismo simples. Chalmers adota uma postura mais agnóstica, negando qualquer critério universal. Musgrave é mais comprometido com o realismo crítico popperiano: embora os métodos evoluam, a ciência possui uma lógica racional de crescimento por conjecturas e refutações que não é puramente relativa."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F06",
+    "filosofo_destino": "Martin Curd",
+    "relacao": "Concordância: Ambos reconhecem que a demarcação não se faz com uma única regra de ouro, mas que a ciência possui virtudes epistêmicas — como a robustez crítica — que a distinguem de outros empreendimentos. Musgrave formaliza isso como realismo crítico; Curd fala em virtudes epistêmicas variadas."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Oposição: Dupré rejeita o realismo científico e defende o pluralismo radical. Musgrave é um defensor do realismo científico e da possibilidade de comparação racional entre teorias. Para Musgrave, o pluralismo de Dupré beira o relativismo que abre as portas para o irracionalismo."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição direta: Feyerabend e Musgrave têm uma das rivalidades mais conhecidas da filosofia da ciência do século XX. Ambos estudaram com Popper e foram colegas em Lakatos, mas chegaram a conclusões opostas: Feyerabend ao anarquismo epistemológico, Musgrave ao realismo crítico. Musgrave acusa Feyerabend de usar argumentos sofísticos para destruir a racionalidade que o próprio Feyerabend usava para argumentar."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Concordância: Ambos defendem a racionalidade científica contra o irracionalismo e a pseudociência. Gardner o faz de forma prática e divulgativa; Musgrave o faz de forma filosófica e técnica, mas o objetivo é o mesmo: mostrar que existe uma diferença real e racionalmente defensável entre ciência genuína e charlatanismo."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Concordância: Hansson defende que a ciência fornece o conhecimento mais confiável disponível. Musgrave concordaria: a aceitação provisória e racional das teorias que sobrevivem a testes severos é justamente o que torna o conhecimento científico mais confiável do que suas alternativas."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Oposição parcial: Hempel buscava modelos lógicos de explicação e confirmação científica. Musgrave, seguindo Popper, rejeita a confirmação positiva e o indutivismo que fundamentam o modelo de Hempel, defendendo que a ciência avança por falseação, não por acumulação de confirmações."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F12",
+    "filosofo_destino": "Reuben Hersh",
+    "relacao": "Oposição: Hersh defende que a matemática é uma construção social falível. Musgrave, como realista crítico, defende que as teorias — incluindo as matemáticas — fazem afirmações sobre estruturas reais do mundo. A visão humanista e anti-platônica de Hersh conflita com o realismo estrutural que Musgrave sustenta."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Oposição: Japiassu critica o mito da neutralidade científica e vê a ciência como prática ideologicamente condicionada. Musgrave defende que existe uma racionalidade objetiva no método científico — conjecturas e refutações — que transcende os condicionamentos sociais e ideológicos que Japiassu denuncia."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Oposição parcial: Musgrave e Kuhn tiveram debates clássicos publicados no volume organizado por Lakatos. Musgrave reconhece as contribuições históricas de Kuhn, mas critica a ideia de incomensurabilidade entre paradigmas, pois ela ameaça a possibilidade de comparação racional entre teorias — algo que o realismo crítico de Musgrave exige."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância direta: Musgrave foi o co-editor com Lakatos do volume Criticism and the Growth of Knowledge. Ele herda e defende a metodologia dos programas de pesquisa de Lakatos como uma alternativa superior tanto ao falsificacionismo estrito de Popper quanto ao relativismo de Kuhn — uma reconstrução racional do progresso científico."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Oposição: Laudan adotou o antirrealismo e o pragmatismo, focando na resolução de problemas sem comprometimento com a verdade. Musgrave é um defensor do realismo científico: a ciência não apenas resolve problemas, ela nos aproxima da verdade sobre como o mundo realmente é. Essa divergência metafísica fundamental separa os dois."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Concordância parcial: Merton focava nas normas institucionais da ciência; Musgrave foca na racionalidade lógica do método. Ambos convergem na defesa de uma ciência genuinamente crítica e aberta — o ceticismo organizado de Merton é o correlato sociológico do que Musgrave exige metodologicamente: que toda teoria seja submetida a testes severos."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F18",
+    "filosofo_destino": "Massimo Pigliucci",
+    "relacao": "Concordância: Ambos defendem que é possível e necessário demarcar ciência de pseudociência. Pigliucci usa critérios bidimensionais; Musgrave usa o realismo crítico e a sobrevivência a testes severos. Ambos se opõem ao relativismo de Laudan e ao anarquismo de Feyerabend."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Concordância e refinamento: Musgrave é um dos mais importantes seguidores e defensores de Popper. Ele concorda com o núcleo do falsificacionismo — a demarcação pela falseabilidade e pela aceitação provisória de teorias corroboradas — mas incorpora os refinamentos de Lakatos para lidar com casos históricos mais complexos que o falsificacionismo simples não explicava."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F20",
+    "filosofo_destino": "David Resnik",
+    "relacao": "Concordância parcial: Resnik foca na ética da prática científica — abertura à crítica, reprodutibilidade, honestidade intelectual. Musgrave foca na lógica da justificação científica. Ambos convergem na valorização da abertura crítica: a honestidade intelectual de Resnik e a submissão a testes severos de Musgrave descrevem a mesma postura epistêmica por ângulos diferentes."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F21",
+    "filosofo_destino": "Michael Ruse",
+    "relacao": "Concordância: Ambos são defensores práticos da fronteira entre ciência e pseudociência. Ruse a usa em tribunais; Musgrave a usa em debates filosóficos técnicos. Os critérios de falseabilidade e provisoriedade de Ruse são diretamente compatíveis com o realismo crítico de Musgrave."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Concordância: Russell fundou parte das bases lógicas e do realismo analítico sobre os quais Musgrave e Popper constroem. Ambos são defensores da objetividade da razão, do realismo e da superioridade do método científico para alcançar o conhecimento verdadeiro sobre o mundo."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F23",
+    "filosofo_destino": "Carl Sagan",
+    "relacao": "Concordância: Sagan e Musgrave compartilham o compromisso com o ceticismo científico e a exigência de que as teorias se submetam a testes severos. O \"kit de detecção de balelas\" de Sagan é, na prática, uma versão divulgativa do realismo crítico que Musgrave defende em nível filosófico."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F24",
+    "filosofo_destino": "Vandana Shiva",
+    "relacao": "Oposição: Shiva critica o universalismo metodológico ocidental como uma ferramenta de exclusão epistêmica. Musgrave, como realista crítico, defende que a lógica das conjecturas e refutações é uma norma racional universal — não uma imposição cultural — que distingue o conhecimento genuíno do dogma, independentemente de sua origem geográfica."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F25",
+    "filosofo_destino": "Paul Thagard",
+    "relacao": "Concordância: Ambos usam a astrologia como caso paradigmático de pseudociência e ambos oferecem critérios racionais para justificar essa classificação. Thagard usa a estagnação histórica; Musgrave usa a ausência de testes severos e de aceitação provisória racional. São critérios complementares."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F26",
+    "filosofo_destino": "Kwasi Wiredu",
+    "relacao": "Oposição: Wiredu questiona a teoria da correspondência da verdade e o universalismo epistemológico ocidental. Musgrave defende o realismo crítico, que pressupõe que as teorias científicas fazem afirmações verdadeiras sobre a realidade e que essa verdade é objetiva — exatamente o tipo de universalismo que Wiredu critica como parroquialismo ocidental disfarçado."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F27",
+    "filosofo_destino": "J. A. Cover",
+    "relacao": "Concordância: Ambos rejeitam regras fixas de demarcação e avaliam a ciência com base no seu progresso teórico e robustez crítica. Musgrave formaliza isso como realismo crítico; Cover identifica isso como uma virtude epistemológica da prática científica."
+  },
+  {
+    "id_filosofo_origem": "F29",
+    "filosofo_origem": "Alan Musgrave",
+    "id_filosofo_destino": "F28",
+    "filosofo_destino": "Christopher Pincock",
+    "relacao": "Concordância: Pincock defende que a modelagem matemática rigorosa e empiricamente mapeável é o que justifica o conhecimento científico. Musgrave, como realista crítico, concordaria: as teorias matemáticas aceitas provisoriamente são aquelas que sobreviveram a testes empíricos severos — exatamente o que Pincock descreve como representação legítima."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Concordância: Embora Boudry não seja um positivista lógico estrito como Ayer, ambos compartilham uma defesa feroz do empirismo, da racionalidade e da necessidade de expurgar o obscurantismo e as alegações infundadas do discurso intelectual."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Concordância: Boudry é um herdeiro direto do projeto iluminista e baconiano, defendendo o método empírico como a única ferramenta viável para a aquisição de conhecimento objetivo sobre a natureza, em oposição ao dogmatismo."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Concordância: Ambos são realistas científicos radicais e céticos que dedicam/dedicaram grande parte de suas carreiras a denunciar pseudociências (especialmente a psicanálise) e a atacar o relativismo pós-moderno nas humanidades."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F04",
+    "filosofo_destino": "Rudolf Carnap",
+    "relacao": "Concordância: Assim como com Ayer, Boudry se alinha ao esforço de Carnap de separar o conhecimento rigoroso do \"nonsense\" (embora Boudry faça isso com ferramentas da epistemologia evolucionária e cognitiva, não apenas lógicas)."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Oposição: A defesa de Dupré de um pluralismo radical (\"realismo promíscuo\") e sua flexibilização metodológica frequentemente entram em choque com a visão de Boudry de que a ciência exige limites rígidos para não deixar o obscurantismo (\"woo\") entrar pela porta dos fundos."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição: O anarquismo epistemológico (\"vale tudo\") de Feyerabend e sua defesa de que a ciência é apenas mais uma tradição (comparável à astrologia ou magia) é a antítese exata do projeto de Boudry de demarcar e combater a pseudociência."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F09",
+    "filosofo_destino": "Martin Gardner",
+    "relacao": "Concordância: Ambos são figuras centrais no movimento cético internacional, dedicando obras para desmascarar ilusões cognitivas, charlatanismo e crenças pseudocientíficas."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Concordância: Ambos são referências contemporâneas cruciais no problema da demarcação. Ambos focam na pseudociência não apenas como erro lógico, mas como um empreendimento que imita a ciência para obter autoridade ilegítima."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F11",
+    "filosofo_destino": "Carl Hempel",
+    "relacao": "Concordância: O foco de Hempel no rigor lógico da explicação científica serve como a base da racionalidade que Boudry defende contra abordagens não empíricas."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Oposição: Japiassu foca em desconstruir o \"mito\" da neutralidade e objetividade científica, flertando com o relativismo sociológico. Boudry luta ativamente contra a ideia de que a objetividade científica é apenas uma ilusão ou construção de poder."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Oposição: Embora reconheça o valor histórico de Kuhn, Boudry é um crítico veemente da apropriação relativista de Kuhn (a ideia de incomensurabilidade), argumentando que ela abre as portas para que pseudocientistas defendam que suas crenças são apenas \"paradigmas alternativos\"."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância: O conceito de Boudry de \"estratégias de imunização\" (como pseudociências criam desculpas para não serem refutadas) é uma evolução direta do conceito de Lakatos de hipóteses ad hoc em \"programas de pesquisa degenerescentes\"."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Oposição: Laudan publicou o famoso artigo declarando a \"morte\" do problema da demarcação. Boudry construiu grande parte de sua carreira argumentando explicitamente contra Laudan, provando que demarcar ciência de pseudociência é filosoficamente possível e socialmente vital."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Concordância: As normas institucionais de Merton (CUDOS) representam a estrutura de racionalidade e ceticismo organizado que Boudry acredita ser essencial para a confiabilidade da ciência."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F18",
+    "filosofo_destino": "Massimo Pigliucci",
+    "relacao": "Concordância. São os grandes parceiros contemporâneos no problema da demarcação. Juntos, organizaram o livro Philosophy of Pseudoscience para refutar Larry Laudan e propor uma visão de limites difusos (mas reais) entre ciência e pseudociência."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Concordância. Embora Boudry critique o falseacionismo estrito de Popper (por ser binário demais), o trabalho inteiro de Boudry sobre como os sistemas de crença estranhos se blindam contra críticas é uma continuação da intuição original de Popper sobre as teorias infalseáveis."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F21",
+    "filosofo_destino": "Michael Ruse",
+    "relacao": "Concordância: Ambos são filósofos com forte foco na biologia evolutiva e ambos lutaram duramente na linha de frente epistemológica contra o Criacionismo e o Design Inteligente, tratando-os como modelos perfeitos de pseudociência."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Concordância: Russel é o arquétipo do intelectual cético, naturalista e inimigo do pensamento mágico — exatamente a tradição na qual Boudry se insere."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F23",
+    "filosofo_destino": "Carl Sagan",
+    "relacao": "Concordância: A missão de Boudry na filosofia é essencialmente a mesma de Sagan na divulgação científica: fornecer um \"kit de detecção de mentiras\" contra a pseudociência e defender a razão."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F24",
+    "filosofo_destino": "Vandana Shiva",
+    "relacao": "Oposição: Shiva frequentemente utiliza apelos à natureza e romantização de conhecimentos tradicionais para criticar a ciência moderna (como nos transgênicos). Boudry critica ativamente essas posturas como falácias naturalistas e pensamento anticientífico."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F25",
+    "filosofo_destino": "Paul Thagard",
+    "relacao": "Concordância: Ambos investigam o problema da demarcação sob a luz da psicologia cognitiva. Assim como em sua própria análise, o foco de Thagard em como as pseudociências falham em progredir e como o cérebro processa evidências é altamente compatível com a epistemologia de Boudry."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F26",
+    "filosofo_destino": "Kwasi Wiredu",
+    "relacao": "Oposição: A visão de Wiredu de que a verdade depende da opinião cultural e sua defesa da racionalidade inerente das crenças tradicionais africanas chocam-se com a defesa universalista de Boudry do método científico moderno, que trata crenças tradicionais infundadas simplesmente como superstições a serem descartadas."
+  },
+  {
+    "id_filosofo_origem": "F30",
+    "filosofo_origem": "Maarten Boudry",
+    "id_filosofo_destino": "F29",
+    "filosofo_destino": "Alan Musgrave",
+    "relacao": "Concordância: Musgrave é um racionalista crítico (da escola popperiana) que defende o realismo científico contra o construtivismo social e o relativismo radical, alinhando-se perfeitamente às batalhas filosóficas de Boudry."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição fiilosófica: Ayer buscava uma lógica unificada e formal da confirmação científica. Bachelard rejeita qualquer formalismo estático. Para ele, a razão científica é essencialmente histórica e dinâmica."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição: Bacon defendia que a ciência começa na observação empírica pura, despida de preconceitos, induzindo leis a partir dos sentidos. Para Bachelard, o empirismo ingênuo e a observação imediata são os maiores obstáculos epistemológicos para o progresso científico, argumentando que ciência de verdade, como a física quântica e a relatividade, só nasce quando fazemos uma ruptura total com a experiência sensível imediata."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F03",
+    "filosofo_destino": "Mario Bunge",
+    "relacao": "Oposição teórica: Bunge defendia um realismo científico estrito e absoluto. Bachelard, por sua vez, propõe um racionalismo aplicado. Para Bachelard, a ciência quântica e a química moderna mostram que a ciência não descreve a \"realidade imediata\" dada, mas cria uma nova realidade abstrata e técnica, em que objeto da ciência não é \"achado\" na natureza; ele é construído pela teoria e pelos aparelhos."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F13",
+    "filosofo_destino": "Hilton Japiassu",
+    "relacao": "Concordância: Japiassu foi profundamente influenciado pela escola francesa de epistemologia, da qual Bachelard é o patrono. Japiassu absorve a visão histórica e crítica de Bachelard para combater o positivismo remanescente na academia e defender a interdisciplinaridade, entendendo que a ciência deve ser analisada como uma prática cultural e histórica viva, e não como um dogma estático."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Concordância: Os conceitos de \"Mudança de Paradigma\" de Kuhn e de \"Ruptura Epistemológica\" de Bachelard conversam bem. Ambos concordavam que a história da ciência não é uma evolução linear e cumulativa, mas sim um processo marcado por descontinuidades e revoluções conceituais profundas, onde a nova ciência reconfigura o próprio significado do que veio antes."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância parcial: Lakatos argumentava que a ciência progride pela retificação de programas de pesquisa que enfrentam anomalias. Há um forte paralelo aqui com a visão de Bachelard de que o espírito científico progride por meio da \"retificação de erros\". No entanto, Lakatos tentava manter um padrão metodológico universal, enquanto Bachelard defendia que cada ciência cria suas próprias normas de racionalidade (pluralismo regional)."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F18",
+    "filosofo_destino": "Massimo Pigliucci",
+    "relacao": "Oposição: Pigliucci debate exaustivamente os critérios lógicos e práticos para separar a ciência da pseudociência (demarcação). Bachelard considerava essa abordagem puramente abstrata de demarcação inútil. Para ele, o oposto da ciência não é uma \"pseudociência\" estática, mas sim o senso comum, as imagens poéticas inconscientes e a opinião. A ciência se demarca de si mesma e do passado a cada nova ruptura histórica, e não por um selo metodológico imutável."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Concordância parcial: Popper e Bachelard compartilham a ideia de que a ciência avança eliminando erros. Contudo, Popper foca na lógica da refutação dedutiva aplicada a hipóteses, enquanto Bachelard foca na psicologia do cientista e na história, mostrando que as barreiras ao progresso são internas e psicológicas (obstáculos epistemológicos), exigindo uma \"psicanálise do espírito científico\" para que o cientista consiga pensar contra o próprio cérebro."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Oposição: Russell buscava fundamentar o conhecimento e a ciência em uma base lógica rigorosa e em dados dos sentidos depurados. Bachelard argumentava que o atomismo lógico e o realismo empirista falham em capturar a ciência, pois o objeto científico não é um dado dos sentidos isolado; ele é um produto de mediação teórica e técnica complexa (fenomenotécnica)."
+  },
+  {
+    "id_filosofo_origem": "F31",
+    "filosofo_origem": "Gaston Bachelard",
+    "id_filosofo_destino": "F30",
+    "filosofo_destino": "Maarten Boudry",
+    "relacao": "Oposição: Boudry debate exaustivamente os critérios lógicos e práticos para separar a ciência da pseudociência (demarcação). Bachelard considerava essa abordagem puramente abstrata de demarcação inútil. Para ele, o oposto da ciência não é uma \"pseudociência\" estática, mas sim o senso comum, as imagens poéticas inconscientes e a opinião. A ciência se demarca de si mesma e do passado a cada nova ruptura histórica, e não por um selo metodológico imutável."
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F01",
+    "filosofo_destino": "Alfred Jules Ayer",
+    "relacao": "Oposição: Ayer propôs um critério de demarcação baseado na lógica formal e na verificabilidade/confirmabilidade de enunciados isolados. Kitcher se opõe a essa demarcação puramente sintática. A unificação e a fecundidade de Kitcher são virtudes históricas e dinâmicas, que avaliam como a teoria se comporta ao longo do tempo na comunidade científica."
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição direta: Feyerabend dizia que não há diferença metodológica intrínseca entre ciência, mito ou magia, e que qualquer tentativa de demarcação é um ato de opressão institucional. Kitcher usa suas três virtudes exatamente para rebater esse anarquismo. Ele demonstra que a ciência possui, sim, uma assinatura de racionalidade prática: mitos não possuem fecundidade para gerar novas tecnologias ou predições arriscadas, nem padrões de unificação que resistam a testes independentes."
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F10",
+    "filosofo_destino": "Sven Ove Hansson",
+    "relacao": "Concordância: Para Hansson, a ciência é a prática humana dedicada a fornecer as afirmações mais confiáveis possíveis sobre o mundo em um dado momento. Essa abordagem conversa com Kitcher, que afirma que para diagnosticar uma pseudociência, precisamos olhar para sintomas como a falta de progresso (fecundidade) e a incapacidade de resolver problemas de forma coerente (unificação)."
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F14",
+    "filosofo_destino": "Thomas Kuhn",
+    "relacao": "Concordância: Kuhn usava a \"resolução de quebra-cabeças\" e Laudan a \"resolução de problemas\" como marcas da ciência."
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F15",
+    "filosofo_destino": "Imre Lakatos",
+    "relacao": "Concordância: A demarcação de Kitcher é profundamente lakatoseana. O que Lakatos chama de \"Programa de Investigação Progressivo\" mapeia perfeitamente o que Kitcher define como uma teoria cheia de fecundidade e testabilidade independente. Ambos concordam que a ciência avança resolvendo problemas novos. Uma teoria vira pseudociência quando ela se torna \"degenerativa\" (no vocabulário de Lakatos) ou infecunda (no de Kitcher), gastando toda a sua energia apenas inventando hipóteses protetoras para sobreviver."
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Concordância parcial: Laudan declarou que o \"problema da demarcação estava morto\" e que tentar rotular coisas como pseudociência era inútil. Para Kitcher, a demarcação pelas três virtudes é viável, politicamente necessária e crucial para defender as instituições educacionais. No entanto, ambos adotam uma postura pragmática de que a ciência deve ser avaliada por sua capacidade de resolver problemas e responder a interesses humanos práticos"
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F18",
+    "filosofo_destino": "Massimo Pigliucci",
+    "relacao": "Concordância: Pigliucci defende a bidimensionalidade. Essa abordagem multicritério conversa com Kitcher, que afirma que para diagnosticar uma pseudociência, precisamos olhar para sintomas como a falta de progresso (fecundidade) e a incapacidade de resolver problemas de forma coerente (unificação)."
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F25",
+    "filosofo_destino": "Paul Thagard",
+    "relacao": "Concordância: Ambos defendem um realismo científico moderado e naturalizado, buscando explicar o progresso científico por meio do sucesso explicativo e cognitivo. Tanto Kitcher quanto Thagard rejeitam o relativismo radical, mas admitem que a psicologia e as estruturas sociais dos laboratórios desempenham um papel crucial na dinâmica de aceitação de novas teorias."
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F30",
+    "filosofo_destino": "Maarten Boudry",
+    "relacao": "Concordância: Pigliucci defende a bidimensionalidade. Essa abordagem multicritério conversa com Kitcher, que afirma que para diagnosticar uma pseudociência, precisamos olhar para sintomas como a falta de progresso (fecundidade) e a incapacidade de resolver problemas de forma coerente (unificação)."
+  },
+  {
+    "id_filosofo_origem": "F32",
+    "filosofo_origem": "Philip Kitcher",
+    "id_filosofo_destino": "F31",
+    "filosofo_destino": "Gaston Bachelard",
+    "relacao": "Concordância parcial: O conceito de testabilidade independente de Kitcher (a exigência de que hipóteses auxiliares e instrumentos sejam checados por fora) conversa diretamente com a fenomenotécnica de Bachelard. Ambos entendem que a demarcação na ciência contemporânea passa pelo rigor técnico do laboratório e pela capacidade do espírito científico de purificar seus conceitos, quebrando com as explicações fáceis do senso comum."
+  },
+  {
+    "id_filosofo_origem": "F33",
+    "filosofo_origem": "Susan Haack",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição: Haack acusa Feyerabend de ter passado da constatação correta de que a ciência é uma atividade humana para a conclusão errada de que ela é apenas uma construção social, política ou ideológica. Para Haack, o anarquismo de Feyerabend é um excesso intelectual que ignora o fato de que a ciência de fato descobre verdades sobre o mundo real."
+  },
+  {
+    "id_filosofo_origem": "F33",
+    "filosofo_origem": "Susan Haack",
+    "id_filosofo_destino": "F16",
+    "filosofo_destino": "Larry Laudan",
+    "relacao": "Oposição: Ambos combatem o relativismo radical e concordam que a ciência progride por critérios racionais. Contudo, enquanto Laudan adota o pragmatismo antirrealista (a ciência resolve problemas, mas não descreve a realidade), Haack adota a perspectiva realista."
+  },
+  {
+    "id_filosofo_origem": "F33",
+    "filosofo_origem": "Susan Haack",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Oposição: Haack escreveu críticas severas a Popper, apelidando-o ironicamente de um dos \"relativistas involuntários\". Ela argumenta que ao rejeitar totalmente a indução e focar apenas na falsificação negativa, Popper deixou a ciência sem uma base racional para a crença justificada. O fundentismo de Haack tenta corrigir isso, mostrando como as evidências se acumulam de forma positiva (como palavras cruzadas se apoiando mutuamente)."
+  },
+  {
+    "id_filosofo_origem": "F33",
+    "filosofo_origem": "Susan Haack",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Concordância parcial: Ambos argumentam que existe um mundo real independente de nós e que a ciência é a melhor ferramenta humana para conhecê-lo."
+  },
+  {
+    "id_filosofo_origem": "F33",
+    "filosofo_origem": "Susan Haack",
+    "id_filosofo_destino": "F24",
+    "filosofo_destino": "Vandana Shiva",
+    "relacao": "Oposição direta: Haack combate frontalmente as correntes da epistemologia feminista e pós-colonial que Shiva representa. Haack escreveu ensaios cortantes afirmando que conceitos como \"ciência feminista\", \"ciência indígena\" ou \"ciência ocidental\" são contradições em termos. Para Haack, não existe gênero ou nacionalidade na estrutura das evidências: uma pista de palavras cruzadas é resolvida pela lógica e pelo fato empírico, independentemente de quem o faça. Ela vê o ecofeminismo de Shiva como uma politização perigosa que mina a integridade do conhecimento objetivo."
+  },
+  {
+    "id_filosofo_origem": "F33",
+    "filosofo_origem": "Susan Haack",
+    "id_filosofo_destino": "F31",
+    "filosofo_destino": "Gaston Bachelard",
+    "relacao": "Oposição direta: Para Haack, o pensamento científico é apenas uma extensão refinada e paciente do bom senso e do senso comum cotidiano. Bachelard pensa exatamente o oposto. Para ele, o senso comum, a experiência imediata e as intuições cotidianas não são a base da ciência, mas sim os maiores obstáculos epistemológicos ao seu progresso."
+  },
+  {
+    "id_filosofo_origem": "F34",
+    "filosofo_origem": "Mituo Taketani",
+    "id_filosofo_destino": "F02",
+    "filosofo_destino": "Francis Bacon",
+    "relacao": "Oposição metodológica: Enquanto Bacon define a ciência pela coleta exaustiva de observações empíricas, Taketani classifica estacionar apenas na coleta de fatos (Estágio Fenomenológico) como \"fenomenalismo não científico\"."
+  },
+  {
+    "id_filosofo_origem": "F34",
+    "filosofo_origem": "Mituo Taketani",
+    "id_filosofo_destino": "F28",
+    "filosofo_destino": "Christopher Pincock",
+    "relacao": "Concordância: Ambos exigem que equações e modelos matemáticos abstratos (a \"Essência\" de Taketani) sejam estritamente mapeados e justificados pela realidade empírica e estrutural (a \"Substância\"), sendo pseudociência usá-los no vazio."
+  },
+  {
+    "id_filosofo_origem": "F35",
+    "filosofo_origem": "Hu Shih",
+    "id_filosofo_destino": "F22",
+    "filosofo_destino": "Bertrand Russel",
+    "relacao": "Concordância: Ambos rejeitam dogmas e verdades absolutas, defendendo que a ciência opera estritamente através da dúvida metódica e da aceitação provisória fundamentada na prática empírica."
+  },
+  {
+    "id_filosofo_origem": "F35",
+    "filosofo_origem": "Hu Shih",
+    "id_filosofo_destino": "F23",
+    "filosofo_destino": "Carl Sagan",
+    "relacao": "Concordância: Ambos defendem a geração de múltiplas hipóteses criativas (ousadia) e a rejeição total do apelo à autoridade clássica, exigindo sempre a verificação prática rigorosa"
+  },
+  {
+    "id_filosofo_origem": "F35",
+    "filosofo_origem": "Hu Shih",
+    "id_filosofo_destino": "F29",
+    "filosofo_destino": "Alan Musgrave",
+    "relacao": "Concordância: Ambos tratam as teorias científicas não como verdades finais, mas como ferramentas de aceitação estritamente provisória, condicionadas à prova e ao teste rigoroso."
+  },
+  {
+    "id_filosofo_origem": "F36",
+    "filosofo_origem": "Paulin Hountondji",
+    "id_filosofo_destino": "F05",
+    "filosofo_destino": "Alan F. Chalmers",
+    "relacao": "Oposição metodológica: Hountondji exige um universalismo metodológico aplicável a todos; Chalmers rejeita isso, afirmando que não há método universal e cada área cria o seu."
+  },
+  {
+    "id_filosofo_origem": "F36",
+    "filosofo_origem": "Paulin Hountondji",
+    "id_filosofo_destino": "F07",
+    "filosofo_destino": "John Dupré",
+    "relacao": "Oposição (Universalismo vs. Pluralismo): Hountondji exige regras metodológicas universais, enquanto Dupré defende o pluralismo epistêmico, vendo a ciência apenas como práticas regionais e diversas."
+  },
+  {
+    "id_filosofo_origem": "F36",
+    "filosofo_origem": "Paulin Hountondji",
+    "id_filosofo_destino": "F08",
+    "filosofo_destino": "Paul Feyerabend",
+    "relacao": "Oposição direta: Hountondji defende um rigor metodológico universal contra mitos; Feyerabend defende o \"tudo-vale\", rejeitando qualquer método ou demarcação."
+  },
+  {
+    "id_filosofo_origem": "F36",
+    "filosofo_origem": "Paulin Hountondji",
+    "id_filosofo_destino": "F17",
+    "filosofo_destino": "Robert Merton",
+    "relacao": "Concordância: Ambos exigem avaliação baseada em universalismo, registro/propriedade pública do conhecimento e escrutínio aberto contínuo (ceticismo organizado e submissão à crítica)."
+  },
+  {
+    "id_filosofo_origem": "F36",
+    "filosofo_origem": "Paulin Hountondji",
+    "id_filosofo_destino": "F19",
+    "filosofo_destino": "Karl Popper",
+    "relacao": "Concordância : Ambos marcam o processo científico pela submissão implacável das hipóteses à crítica e refutação analítica, rejeitando crenças passivas."
+  },
+  {
+    "id_filosofo_origem": "F36",
+    "filosofo_origem": "Paulin Hountondji",
+    "id_filosofo_destino": "F20",
+    "filosofo_destino": "David Resnik",
+    "relacao": "Concordância : Ambos definem a ciência pela obrigatoriedade da transparência (literatura explícita para Hountondji), honestidade individual e abertura frontal à crítica."
+  },
+  {
+    "id_filosofo_origem": "F36",
+    "filosofo_origem": "Paulin Hountondji",
+    "id_filosofo_destino": "F24",
+    "filosofo_destino": "Vandana Shiva",
+    "relacao": "Oposição radical: Hountondji exige universalismo contra o falso protecionismo cultural; Shiva ataca essa exata noção universalista, considerando-a uma ferramenta reducionista e excludente (\"monocultura da mente\")."
+  },
+  {
+    "id_filosofo_origem": "F36",
+    "filosofo_origem": "Paulin Hountondji",
+    "id_filosofo_destino": "F26",
+    "filosofo_destino": "Kwasi Wiredu",
+    "relacao": "Concordância : Ambos rejeitam o escudo de \"verdade cultural/tradição\", defendendo que a ciência exige racionalidade lógica e universalidade sem barreiras ou folclores intocáveis."
+  }
+]

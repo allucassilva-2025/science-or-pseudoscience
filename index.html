@@ -312,7 +312,8 @@
     <div class="legend-row"><span class="legend-dot" style="background:#020617;border:1px solid #8fd3ff"></span>Matérias</div>
     <div class="legend-row"><span class="legend-line" style="background:#39ff88"></span>Ciência</div>
     <div class="legend-row"><span class="legend-line" style="background:#ff2d55"></span>Não ciência / pseudociência</div>
-    <div class="legend-row"><span class="legend-line" style="background:#ffffff"></span>Indefinido</div>
+    <div class="legend-row"><span class="legend-line" style="background:#94a3b8"></span>Indefinido</div>
+    <div class="legend-row"><span class="legend-line" style="background:#fbbf24"></span>Relação entre filósofos</div>
   </aside>
 
   <div id="viewport">
@@ -360,12 +361,12 @@
     const relationColor = {
       positive: "rgba(57, 255, 136, 0.18)",
       negative: "rgba(255, 45, 85, 0.16)",
-      neutral: "rgba(255, 255, 255, 0.11)"
+      neutral: "rgba(148, 163, 184, 0.18)"
     };
     const relationHighlightColor = {
       positive: "rgba(57, 255, 136, 0.95)",
       negative: "rgba(255, 45, 85, 0.95)",
-      neutral: "rgba(255, 255, 255, 0.82)"
+      neutral: "rgba(148, 163, 184, 0.95)"
     };
 
     const world = {
@@ -566,7 +567,12 @@
       return link.type === "author";
     }
 
+    function isSelectedAuthorLink(link) {
+      return isAuthorLink(link) && (selectedNodes.has(link.source.id) || selectedNodes.has(link.target.id));
+    }
+
     function shouldShowLink(link) {
+      if (isAuthorLink(link) && !isSelectedAuthorLink(link)) return false;
       if (currentFilter === "authors") return isAuthorLink(link);
       if (currentFilter === "subjects") return !isAuthorLink(link);
       return true;
@@ -605,15 +611,19 @@
 
       if (isAuthorLink(link)) {
         targetCtx.setLineDash([10, 8]);
-        targetCtx.strokeStyle = 'rgba(255,255,255,0.58)';
-        targetCtx.lineWidth = 1.1;
+        targetCtx.strokeStyle = 'rgba(251,191,36,0.72)';
+        targetCtx.lineWidth = 1.2;
+        targetCtx.shadowColor = 'rgba(251,191,36,0.85)';
+        targetCtx.shadowBlur = 8;
       } else {
         targetCtx.setLineDash([]);
         targetCtx.strokeStyle = relationColor[link.type];
         targetCtx.lineWidth = 0.55;
+        targetCtx.shadowBlur = 0;
       }
       targetCtx.stroke();
       targetCtx.setLineDash([]);
+      targetCtx.shadowBlur = 0;
     }
 
     function buildEdgeCache() {
@@ -622,7 +632,7 @@
       edgeCacheCtx.lineJoin = "round";
 
       for (const link of links) {
-        if (shouldShowLink(link) || currentFilter === 'all') drawWorldCurve(link, edgeCacheCtx);
+        if (shouldShowLink(link)) drawWorldCurve(link, edgeCacheCtx);
       }
     }
 
@@ -659,15 +669,19 @@
 
       if (isAuthorLink(link)) {
         ctx.setLineDash([8 * transform.k, 6 * transform.k]);
-        ctx.strokeStyle = highlight ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.65)';
-        ctx.lineWidth = highlight ? 2.2 : 1.25;
+        ctx.strokeStyle = highlight ? 'rgba(251,191,36,1)' : 'rgba(251,191,36,0.72)';
+        ctx.lineWidth = highlight ? 2.4 : 1.25;
+        ctx.shadowColor = 'rgba(251,191,36,0.95)';
+        ctx.shadowBlur = highlight ? 14 : 8;
       } else {
         ctx.setLineDash([]);
         ctx.strokeStyle = highlight ? relationHighlightColor[link.type] : relationColor[link.type];
         ctx.lineWidth = highlight ? 1.9 : 0.55;
+        ctx.shadowBlur = 0;
       }
       ctx.stroke();
       ctx.setLineDash([]);
+      ctx.shadowBlur = 0;
     }
 
     function drawEdges() {
@@ -795,7 +809,7 @@
       }
 
       const suffix = selectedNodes.size === 1 ? 'vértice selecionado' : 'vértices selecionados';
-      status.textContent = `${selectedNodes.size} ${suffix} · todas as arestas continuam visíveis`;
+      status.textContent = `${selectedNodes.size} ${suffix} · relações entre filósofos aparecem ao clicar`;
     }
 
     function applyGraphFocus() {
@@ -1203,17 +1217,121 @@
     ******************/
 
     
+    async function carregarJsonData(name) {
+      try {
+        const response = await fetch(`data/${name}.json`);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return await response.json();
+      } catch (err) {
+        if (window.graphData && Array.isArray(window.graphData[name])) {
+          return window.graphData[name];
+        }
+        throw err;
+      }
+    }
+
+    function splitCsvLine(line) {
+      const values = [];
+      let value = "";
+      let quoted = false;
+
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        const next = line[i + 1];
+
+        if (char === '"' && quoted && next === '"') {
+          value += '"';
+          i++;
+        } else if (char === '"') {
+          quoted = !quoted;
+        } else if (char === "," && !quoted) {
+          values.push(value);
+          value = "";
+        } else {
+          value += char;
+        }
+      }
+
+      values.push(value);
+      return values;
+    }
+
+    function parseCsv(text) {
+      const lines = text.trim().split(/\r?\n/).filter(Boolean);
+      if (lines.length < 2) return [];
+
+      const headers = splitCsvLine(lines[0]).map(header => header.trim());
+      return lines.slice(1).map(line => {
+        const values = splitCsvLine(line);
+        return Object.fromEntries(headers.map((header, index) => [header, values[index] || ""]));
+      });
+    }
+
+    async function carregarRelacoesFilosofos() {
+      const baseNames = [
+        "relacoes_filosofos",
+        "relacoes_filsofo",
+        "reloes_filosofos",
+        "relacoes-filosofos",
+        "relacoes filosofos"
+      ];
+
+      for (const baseName of baseNames) {
+        try {
+          return await carregarJsonData(baseName);
+        } catch (jsonErr) {
+          // Tenta a próxima grafia conhecida.
+        }
+      }
+
+      for (const baseName of baseNames) {
+        try {
+          const response = await fetch(`data/${baseName}.csv`);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return parseCsv(await response.text());
+        } catch (csvErr) {
+          // Tenta a próxima grafia conhecida.
+        }
+      }
+
+      return [];
+    }
+
+    function firstValue(row, keys) {
+      for (const key of keys) {
+        if (row[key] !== undefined && row[key] !== null && String(row[key]).trim() !== "") {
+          return String(row[key]).trim();
+        }
+      }
+      return "";
+    }
+
+    function normalizeLookupText(value) {
+      return String(value || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim()
+        .toLowerCase();
+    }
+
+    function isNoneValue(value) {
+      const normalized = normalizeLookupText(value);
+      return !normalized || ["none", "null", "nan", "na", "n/a", "-", "sem relação", "sem relacao"].includes(normalized);
+    }
+
     async function carregarDadosEpistemologicos() {
       try {
         status.textContent = "Carregando dados da base...";
       
-        const [resFilosofos, resMaterias, resAvaliacoes, resFontes] = await Promise.all([
-          fetch('data/filosofos.json').then(r => r.json()),
-          fetch('data/materias.json').then(r => r.json()),
-          fetch('data/avaliacoes.json').then(r => r.json()),
-          fetch('data/fontes.json').then(r => r.json()).catch(() => []) // Fallback de segurança
+        const [resFilosofos, resMaterias, resAvaliacoes, resFontes, resRelacoesFilosofos] = await Promise.all([
+          carregarJsonData('filosofos'),
+          carregarJsonData('materias'),
+          carregarJsonData('avaliacoes'),
+          carregarJsonData('fontes').catch(() => []),
+          carregarRelacoesFilosofos()
         ]); 
       
+        links = [];
   
         authors = resFilosofos.map((f, index) => {
           const t = phaseForInfinity(index, resFilosofos.length, 0.32);
@@ -1253,10 +1371,14 @@
           const t = phaseForInfinity(index, materiasValidas.length, 0.18);
           const point = infinityPoint(world.centerX, world.centerY, 1180, 820, t, 0);
           const { labelX, labelY, anchor } = labelPlacement(point, 30);
+          const materiaNome = String(m.materia).trim();
+          const subcampoNome = String(m.subcampo || "").trim();
+          const nomeExibicao = subcampoNome || materiaNome;
         
           return {
-            id: String(m.id_materia),
-            name: m.materia,
+            id: `${String(m.id_materia)}::${index}`,
+            materiaId: String(m.id_materia),
+            name: nomeExibicao,
             kind: "subject",
             x: point.x,
             y: point.y,
@@ -1271,24 +1393,89 @@
 
         nodes = [...authors, ...subjects];
         nodeById = new Map(nodes.map(node => [node.id, node]));
+        const authorByName = new Map(authors.map(author => [normalizeLookupText(author.name), author]));
+        const subjectNodesByMateriaId = new Map();
+        subjects.forEach(subject => {
+          if (!subjectNodesByMateriaId.has(subject.materiaId)) {
+            subjectNodesByMateriaId.set(subject.materiaId, []);
+          }
+          subjectNodesByMateriaId.get(subject.materiaId).push(subject);
+        });
       
         resAvaliacoes.forEach(av => {
           const autorNode = nodeById.get(String(av.id_filosofo));
-          const materiaNode = nodeById.get(String(av.id_materia));
+          const materiaNodes = subjectNodesByMateriaId.get(String(av.id_materia)) || [];
         
-          if (autorNode && materiaNode) {
+          if (autorNode && materiaNodes.length > 0) {
             // Mapeia as classificações de texto da base para as classes aceitas no CSS
+            const classificacao = String(av.classificacao || "").trim().toLowerCase();
             let tipoAresta = "neutral";
-            if (av.classificacao === "Ciência") tipoAresta = "positive";
-            else if (av.classificacao === "Pseudociência" || av.classificacao === "Não Ciência") tipoAresta = "negative";
-          
-            links.push({
-              source: autorNode,
-              target: materiaNode,
-              type: tipoAresta,
-              text: av.justificativa || `${autorNode.name} classifica ${materiaNode.name} como ${av.classificacao}.`
+            if (classificacao === "ciência") tipoAresta = "positive";
+            else if (classificacao === "pseudociência" || classificacao === "não ciência") tipoAresta = "negative";
+
+            materiaNodes.forEach(materiaNode => {
+              links.push({
+                source: autorNode,
+                target: materiaNode,
+                type: tipoAresta,
+                text: av.justificativa || `${autorNode.name} classifica ${materiaNode.name} como ${av.classificacao}.`
+              });
             });
           }
+        });
+
+        const linkedPairs = new Set(links.map(link => `${link.source.id}::${link.target.id}`));
+        authors.forEach(author => {
+          subjects.forEach(subject => {
+            const pairId = `${author.id}::${subject.id}`;
+            if (linkedPairs.has(pairId)) return;
+
+            links.push({
+              source: author,
+              target: subject,
+              type: "neutral",
+              text: `${author.name} ainda não possui avaliação cadastrada para ${subject.name}; relação marcada como indefinida.`
+            });
+            linkedPairs.add(pairId);
+          });
+        });
+
+        const authorRelationPairs = new Set();
+        const findAuthor = value => {
+          const normalized = normalizeLookupText(value);
+          return nodeById.get(String(value)) || authorByName.get(normalized) || null;
+        };
+
+        [...resAvaliacoes, ...resRelacoesFilosofos].forEach(row => {
+          const sourceValue = firstValue(row, [
+            "id_filosofo_origem", "id_filosofo_1", "id_filosofo_a", "id_filosofo",
+            "filosofo_origem", "filosofo_1", "filosofo_a", "filosofo", "source", "from"
+          ]);
+          const targetValue = firstValue(row, [
+            "id_filosofo_destino", "id_filosofo_2", "id_filosofo_b",
+            "filosofo_destino", "filosofo_2", "filosofo_b", "relacoes_filosofos",
+            "relacoes_filsofo", "relacoes_filosofo", "relacao_filosofo", "target", "to"
+          ]);
+          const relationText = firstValue(row, ["relacao", "relação", "tipo", "descricao", "descrição", "texto"]);
+
+          if (isNoneValue(sourceValue) || isNoneValue(targetValue)) return;
+
+          targetValue.split(/[;|]/).map(value => value.trim()).filter(value => !isNoneValue(value)).forEach(targetItem => {
+            const source = findAuthor(sourceValue);
+            const target = findAuthor(targetItem);
+            if (!source || !target || source.id === target.id) return;
+
+            const pairKey = [source.id, target.id].sort().join("::");
+            if (authorRelationPairs.has(pairKey)) return;
+
+            links.push({
+              source,
+              target,
+              type: "author",
+              text: relationText || `Relação entre ${source.name} e ${target.name}.`
+            });
+            authorRelationPairs.add(pairKey);
+          });
         });
       
 
