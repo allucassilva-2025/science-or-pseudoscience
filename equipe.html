@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#1F4E3D" />
+  <title>Equipe — Demarcação · IMPA Tech</title>
+  <meta name="description" content="Os nove integrantes do projeto e a divisão de tarefas." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="index.html" class="brand" aria-label="Demarcação — voltar à home">
+      <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <circle cx="10" cy="16" r="5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        <circle cx="22" cy="16" r="5" stroke="#8B2C2C" stroke-width="1.5" fill="none"/>
+        <line x1="15" y1="16" x2="17" y2="16" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <span>
+        <span class="brand__name">Demarcação</span>
+        <span class="brand__sub">Um mapa da ciência</span>
+      </span>
+    </a>
+    
+    <nav class="nav" data-nav aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="grafo.html">Visualização</a>
+      <a href="problema.html">O problema</a>
+      <a href="filosofos.html">Filósofos</a>
+      <a href="campos.html">Campos</a>
+      <a href="metodologia.html">Método</a>
+      <a href="equipe.html" aria-current="page">Equipe</a>
+      <a href="bibliografia.html">Bibliografia</a>
+    </nav>
+    
+    <button class="theme-toggle" data-theme-toggle aria-label="Alternar tema"></button>
+    <button class="nav-toggle" data-nav-toggle aria-label="Abrir menu" aria-expanded="false">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="page-header">
+    <div class="container">
+      <p class="page-header__kicker">Quem fez</p> 
+      <h1 class="page-header__title">Equipe.</h1>
+      <p class="page-header__lede">
+        O projeto foi desenvolvido por 9 integrantes do IMPA Tech divididos em três frentes diferentes de trabalho: pesquisa teórica, visualização e integração com a web.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container container--default">
+      <div class="team-section">
+        <h3>Pesquisa teórica</h3>
+        <p class="team-section__role">Pesquisa bibliográfica de diferentes autores e matérias.</p>
+        <div class="team-grid">
+          <div class="team-member"><span class="team-member__initials">AM</span><span>Allan Yukio Furuhashi Melo</span></div>
+          <div class="team-member"><span class="team-member__initials">AJ</span><span>Anizio Silva Correia Júnior</span></div>
+          <div class="team-member"><span class="team-member__initials">FO</span><span>Felipe Leria de Oliveira</span></div>
+          <div class="team-member"><span class="team-member__initials">MY</span><span>Mariana Tiemi Yoshioka</span></div>
+        </div>
+      </div>
+
+      <div class="team-section">
+        <h3>Visualização</h3>
+        <p class="team-section__role">Desenvolvimento do projeto de visualização em HTML e CSS.</p>
+        <div class="team-grid">
+          <div class="team-member"><span class="team-member__initials">LF</span><span>Lisandra Menezes Fagundes</span></div>
+          <div class="team-member"><span class="team-member__initials">LS</span><span>Lucas Vieira Silva</span></div>
+          <div class="team-member"><span class="team-member__initials">SL</span><span>Samuel Bezerra de Holanda Leite</span></div>
+        </div>
+      </div>
+
+      <div class="team-section">
+        <h3>Integração com a web</h3>
+        <p class="team-section__role">Interface do site e integração do código de visualização à web.</p>
+        <div class="team-grid">
+          <div class="team-member"><span class="team-member__initials">GC</span><span>Guilherme Willemen Pimentel de Castro</span></div>
+          <div class="team-member"><span class="team-member__initials">LD</span><span>Lucas Fraga Damasceno</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>Demarcação — Trabalho Final de Visualização · IMPA Tech, 2026.</div>
+    <div>
+      <a href="bibliografia.html">Bibliografia</a> &nbsp;·&nbsp;
+      <a href="equipe.html">Equipe</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

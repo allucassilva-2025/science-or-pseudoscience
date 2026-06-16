@@ -1,0 +1,142 @@
+// ============================================================
+// Demarcação — interações leves
+// ============================================================
+
+// Dark mode toggle
+(function () {
+  const t = document.querySelector('[data-theme-toggle]');
+  const r = document.documentElement;
+  let d = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+  r.setAttribute('data-theme', d);
+  if (!t) return;
+  const render = () => {
+    t.setAttribute('aria-label', 'Mudar para modo ' + (d === 'dark' ? 'claro' : 'escuro'));
+    t.innerHTML =
+      d === 'dark'
+        ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+        : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+  };
+  render();
+  t.addEventListener('click', () => {
+    d = d === 'dark' ? 'light' : 'dark';
+    r.setAttribute('data-theme', d);
+    render();
+  });
+})();
+
+// Mobile nav toggle
+(function () {
+  const btn = document.querySelector('[data-nav-toggle]');
+  const nav = document.querySelector('[data-nav]');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', () => {
+    const open = nav.classList.toggle('is-open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  // Close when a link is clicked
+  nav.querySelectorAll('a').forEach((a) =>
+    a.addEventListener('click', () => {
+      nav.classList.remove('is-open');
+      btn.setAttribute('aria-expanded', 'false');
+    })
+  );
+})();
+
+// Sticky header shadow
+(function () {
+  const h = document.querySelector('.site-header');
+  if (!h) return;
+  const update = () => h.classList.toggle('is-scrolled', window.scrollY > 8);
+  update();
+  window.addEventListener('scroll', update, { passive: true });
+})();
+
+// Decorative graph preview on home (SVG)
+(function () {
+  const host = document.querySelector('[data-graph-preview]');
+  if (!host) return;
+
+  // Pequeno grafo de demonstração — filósofos (círculos verdes/vermelhos)
+  // conectados a campos (quadrados neutros). Só decorativo.
+  const w = 600, h = 450;
+  const nodes = [
+    { id: 'popper', type: 'author', label: 'Popper', x: 140, y: 110 },
+    { id: 'kuhn', type: 'author', label: 'Kuhn', x: 460, y: 110 },
+    { id: 'lakatos', type: 'author', label: 'Lakatos', x: 300, y: 60 },
+    { id: 'carnap', type: 'author', label: 'Carnap', x: 100, y: 340 },
+    { id: 'feyerabend', type: 'author', label: 'Feyerabend', x: 500, y: 340 },
+    { id: 'fisica', type: 'field', label: 'Física', x: 240, y: 260 },
+    { id: 'astrologia', type: 'field', label: 'Astrologia', x: 380, y: 260 },
+    { id: 'psicanalise', type: 'field', label: 'Psicanálise', x: 310, y: 380 },
+  ];
+  const edges = [
+    { from: 'popper', to: 'fisica', kind: 'science' },
+    { from: 'popper', to: 'astrologia', kind: 'pseudo' },
+    { from: 'popper', to: 'psicanalise', kind: 'pseudo' },
+    { from: 'kuhn', to: 'fisica', kind: 'science' },
+    { from: 'lakatos', to: 'fisica', kind: 'science' },
+    { from: 'lakatos', to: 'psicanalise', kind: 'pseudo' },
+    { from: 'carnap', to: 'fisica', kind: 'science' },
+    { from: 'feyerabend', to: 'astrologia', kind: 'science' },
+    { from: 'popper', to: 'lakatos', kind: 'author' },
+    { from: 'popper', to: 'kuhn', kind: 'author' },
+    { from: 'carnap', to: 'popper', kind: 'author' },
+  ];
+
+  const byId = Object.fromEntries(nodes.map((n) => [n.id, n]));
+  const edgeColor = (k) => k === 'science' ? 'var(--color-primary)' : k === 'pseudo' ? 'var(--color-accent)' : 'var(--color-text-muted)';
+
+  const svgNS = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(svgNS, 'svg');
+  svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
+  svg.setAttribute('role', 'img');
+  svg.setAttribute('aria-label', 'Pré-visualização do grafo de demarcação');
+
+  edges.forEach((e) => {
+    const a = byId[e.from], b = byId[e.to];
+    const line = document.createElementNS(svgNS, 'line');
+    line.setAttribute('x1', a.x); line.setAttribute('y1', a.y);
+    line.setAttribute('x2', b.x); line.setAttribute('y2', b.y);
+    line.setAttribute('stroke', edgeColor(e.kind));
+    line.setAttribute('stroke-width', e.kind === 'author' ? '1' : '1.5');
+    line.setAttribute('stroke-dasharray', e.kind === 'author' ? '4 4' : '');
+    line.setAttribute('class', 'edge');
+    svg.appendChild(line);
+  });
+
+  nodes.forEach((n) => {
+    const g = document.createElementNS(svgNS, 'g');
+    g.setAttribute('class', 'node');
+    g.setAttribute('transform', `translate(${n.x}, ${n.y})`);
+
+    if (n.type === 'author') {
+      const c = document.createElementNS(svgNS, 'circle');
+      c.setAttribute('r', '10');
+      c.setAttribute('fill', 'var(--color-surface)');
+      c.setAttribute('stroke', 'var(--color-text)');
+      c.setAttribute('stroke-width', '1.5');
+      g.appendChild(c);
+    } else {
+      const r = document.createElementNS(svgNS, 'rect');
+      r.setAttribute('x', '-8'); r.setAttribute('y', '-8');
+      r.setAttribute('width', '16'); r.setAttribute('height', '16');
+      r.setAttribute('fill', 'var(--color-surface)');
+      r.setAttribute('stroke', 'var(--color-text-muted)');
+      r.setAttribute('stroke-width', '1');
+      g.appendChild(r);
+    }
+    const t = document.createElementNS(svgNS, 'text');
+    t.setAttribute('y', n.type === 'author' ? -16 : 28);
+    t.setAttribute('text-anchor', 'middle');
+    t.setAttribute('font-family', 'var(--font-display)');
+    t.setAttribute('font-size', '12');
+    t.setAttribute('fill', 'var(--color-text)');
+    t.setAttribute('font-style', n.type === 'author' ? 'italic' : 'normal');
+    t.textContent = n.label;
+    g.appendChild(t);
+
+    svg.appendChild(g);
+  });
+
+  host.appendChild(svg);
+})();
