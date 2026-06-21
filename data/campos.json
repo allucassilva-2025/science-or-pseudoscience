@@ -1,0 +1,474 @@
+[
+  {
+    "nome": "Acupuntura",
+    "categoria": "Contestada",
+    "descricao": "Terapia milenar originária da Medicina Tradicional Chinesa (MTC) que consiste na inserção de finas agulhas em pontos específicos do corpo.",
+    "votos_c": 4,
+    "votos_nc": 10,
+    "votos_p": 22
+  },
+  {
+    "nome": "Alquimia",
+    "categoria": "Pseudociência",
+    "descricao": "O estudo de transmutações, com principal objetivo na busca da pedra filosofal e o elixir da vida.",
+    "votos_c": 0,
+    "votos_nc": 3,
+    "votos_p": 33
+  },
+  {
+    "nome": "Antropologia Biológica",
+    "categoria": "Ciência",
+    "descricao": "Estuda a evolução, a genética, a anatomia e a adaptação dos seres humanos.",
+    "votos_c": 30,
+    "votos_nc": 6,
+    "votos_p": 0
+  },
+  {
+    "nome": "Arqueologia",
+    "categoria": "Ciência",
+    "descricao": "Estuda as sociedades e culturas do passado por meio da análise de vestígios materiais, como artefatos, ruínas e fósseis.",
+    "votos_c": 28,
+    "votos_nc": 8,
+    "votos_p": 0
+  },
+  {
+    "nome": "Antropologia Cultural/Social",
+    "categoria": "Contestada",
+    "descricao": "Estuda as culturas humanas, focando nos comportamentos, crenças, organizações sociais, rituais e costumes.",
+    "votos_c": 18,
+    "votos_nc": 18,
+    "votos_p": 0
+  },
+  {
+    "nome": "Antropologia Linguística",
+    "categoria": "Contestada",
+    "descricao": "Estuda a linguagem e a comunicação humana, focando em como os idiomas moldam o pensamento e refletem a cultura.",
+    "votos_c": 16,
+    "votos_nc": 20,
+    "votos_p": 0
+  },
+  {
+    "nome": "Artes Visuais",
+    "categoria": "Neutra",
+    "descricao": "Estuda a expressão da criatividade envolvendo formas artísticas que utilizam a visão (pintura, escultura, fotografia).",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Artes Cênicas",
+    "categoria": "Neutra",
+    "descricao": "Dedicada à criação, interpretação e produção de manifestações artísticas relacionadas à performance ao vivo.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Artes Musicais",
+    "categoria": "Neutra",
+    "descricao": "Formas de expressão artística que utilizam sons, ritmos e melodias para comunicar emoções e cultura.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Artes Aplicadas e Design",
+    "categoria": "Neutra",
+    "descricao": "Une estética à funcionalidade prática, transformando conceitos em objetos e espaços que resolvem problemas cotidianos.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Astrologia",
+    "categoria": "Pseudociência",
+    "descricao": "Conjunto de crenças que estuda a suposta correlação entre a posição dos corpos celestes e a personalidade humana ou destino.",
+    "votos_c": 0,
+    "votos_nc": 2,
+    "votos_p": 34
+  },
+  {
+    "nome": "Astronomia",
+    "categoria": "Ciência",
+    "descricao": "Estudo empírico e rigoroso dos corpos celestes e de todos os fenômenos que se originam fora da atmosfera terrestre.",
+    "votos_c": 36,
+    "votos_nc": 0,
+    "votos_p": 0
+  },
+  {
+    "nome": "Ecologia",
+    "categoria": "Ciência",
+    "descricao": "Ramo da biologia que estuda a interação entre os seres vivos e o ambiente físico em que vivem.",
+    "votos_c": 35,
+    "votos_nc": 1,
+    "votos_p": 0
+  },
+  {
+    "nome": "Biologia Molecular",
+    "categoria": "Ciência",
+    "descricao": "Estuda os seres vivos a nível fundamental, focando nas estruturas, composição e funções das macromoléculas celulares.",
+    "votos_c": 35,
+    "votos_nc": 1,
+    "votos_p": 0
+  },
+  {
+    "nome": "Biorritmos",
+    "categoria": "Pseudociência",
+    "descricao": "Teoria refutada que afirma que as capacidades humanas são estritamente reguladas por ciclos fixos baseados na data de nascimento.",
+    "votos_c": 0,
+    "votos_nc": 2,
+    "votos_p": 34
+  },
+  {
+    "nome": "Criacionismo",
+    "categoria": "Pseudociência",
+    "descricao": "Crença religiosa que busca impor origens divinas imediatas para o universo e a vida, opondo-se ao paradigma evolutivo empírico.",
+    "votos_c": 0,
+    "votos_nc": 8,
+    "votos_p": 28
+  },
+  {
+    "nome": "Design Inteligente",
+    "categoria": "Pseudociência",
+    "descricao": "Variação do criacionismo que argumenta, sem provas laboratoriais, que certas características biológicas exigem uma causa inteligente.",
+    "votos_c": 0,
+    "votos_nc": 4,
+    "votos_p": 32
+  },
+  {
+    "nome": "Direito",
+    "categoria": "Neutra",
+    "descricao": "Sistema de normas de conduta imposto por um conjunto de instituições para regular a sociedade.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Microeconomia",
+    "categoria": "Contestada",
+    "descricao": "Ramo da economia que estuda o comportamento de indivíduos e firmas na tomada de decisões alocativas.",
+    "votos_c": 24,
+    "votos_nc": 11,
+    "votos_p": 1
+  },
+  {
+    "nome": "Macroeconomia",
+    "categoria": "Contestada",
+    "descricao": "Estuda o comportamento da economia como um todo, lidando com agregados como inflação, desemprego e crescimento.",
+    "votos_c": 20,
+    "votos_nc": 15,
+    "votos_p": 1
+  },
+  {
+    "nome": "Economia Aplicada",
+    "categoria": "Contestada",
+    "descricao": "Uso da teoria econômica e de dados estatísticos para prever e resolver problemas do mundo real em políticas públicas.",
+    "votos_c": 22,
+    "votos_nc": 13,
+    "votos_p": 1
+  },
+  {
+    "nome": "Engenharia de Pesca",
+    "categoria": "Ciência",
+    "descricao": "Aplicação tecnológica rigorosa sobre o cultivo, captura e processamento sustentável de recursos hidrobiológicos.",
+    "votos_c": 18,
+    "votos_nc": 18,
+    "votos_p": 0
+  },
+  {
+    "nome": "Engenharia Aeroespacial",
+    "categoria": "Ciência",
+    "descricao": "Ramo da engenharia submetido a testes extremos que projeta aeronaves, foguetes e sistemas operacionais atmosféricos e espaciais.",
+    "votos_c": 20,
+    "votos_nc": 16,
+    "votos_p": 0
+  },
+  {
+    "nome": "Esportes",
+    "categoria": "Neutra",
+    "descricao": "Atividades físicas regulamentadas focadas em competição, condicionamento humano e entretenimento social.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Filosofia - Estética",
+    "categoria": "Neutra",
+    "descricao": "Ramo filosófico que examina a natureza da beleza, da arte e da experiência estética puramente conceitual.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Filosofia - Ética",
+    "categoria": "Neutra",
+    "descricao": "Estudo analítico focado na moralidade, abordando conceitualmente o certo e o errado (o 'dever-ser').",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Filosofia - Metafísica",
+    "categoria": "Neutra",
+    "descricao": "Área clássica da filosofia dedicada a questões sobre a essência da realidade, o ser e a causalidade original.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Filosofia - Epistemologia",
+    "categoria": "Neutra",
+    "descricao": "Estudo da origem, da estrutura e da validade do próprio conhecimento humano e dos seus limites.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Filosofia - Lógica",
+    "categoria": "Neutra",
+    "descricao": "Ciência formal que estuda as regras de inferência e a estrutura do raciocínio válido a priori.",
+    "votos_c": 10,
+    "votos_nc": 26,
+    "votos_p": 0
+  },
+  {
+    "nome": "Física",
+    "categoria": "Ciência",
+    "descricao": "O paradigma clássico das ciências duras. Estuda as leis fundamentais da matéria, energia, tempo e espaço.",
+    "votos_c": 36,
+    "votos_nc": 0,
+    "votos_p": 0
+  },
+  {
+    "nome": "Frenologia",
+    "categoria": "Pseudociência",
+    "descricao": "Teoria médica refutada que acreditava que o formato do crânio ditava as faculdades mentais e morais do indivíduo.",
+    "votos_c": 0,
+    "votos_nc": 1,
+    "votos_p": 35
+  },
+  {
+    "nome": "Geografia Física",
+    "categoria": "Ciência",
+    "descricao": "Estudo dos padrões e processos do ambiente natural (clima, relevo, hidrografia) na superfície terrestre.",
+    "votos_c": 32,
+    "votos_nc": 4,
+    "votos_p": 0
+  },
+  {
+    "nome": "Geografia Humana",
+    "categoria": "Ciência",
+    "descricao": "Ramo da geografia centrado na organização espacial das sociedades, sua economia e o seu impacto cultural no meio.",
+    "votos_c": 28,
+    "votos_nc": 8,
+    "votos_p": 0
+  },
+  {
+    "nome": "Geotecnologias",
+    "categoria": "Ciência",
+    "descricao": "Conjunto de tecnologias empíricas (como satélites e radares) usadas para mapear e monitorizar processos espaciais.",
+    "votos_c": 30,
+    "votos_nc": 6,
+    "votos_p": 0
+  },
+  {
+    "nome": "História",
+    "categoria": "Contestada",
+    "descricao": "Estudo narrativo e documental do passado da humanidade. Divide epistemólogos sobre ser ciência rigorosa ou humanidade.",
+    "votos_c": 12,
+    "votos_nc": 24,
+    "votos_p": 0
+  },
+  {
+    "nome": "Homeopatia",
+    "categoria": "Pseudociência",
+    "descricao": "Sistema de medicina alternativa fundamentado em diluições extremas que carece de eficácia física para além do efeito placebo.",
+    "votos_c": 0,
+    "votos_nc": 2,
+    "votos_p": 34
+  },
+  {
+    "nome": "Linguística Formal",
+    "categoria": "Ciência",
+    "descricao": "Estuda a linguagem estruturalmente, aplicando lógicas e modelos quantificáveis às sintaxes humanas.",
+    "votos_c": 24,
+    "votos_nc": 12,
+    "votos_p": 0
+  },
+  {
+    "nome": "Literatura",
+    "categoria": "Neutra",
+    "descricao": "Produção artística pautada na palavra escrita, operando como expressão puramente cultural e estética.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Marxismo",
+    "categoria": "Contestada",
+    "descricao": "Doutrina socioeconómica e interpretativa da história. Para falsificacionistas como Popper, operou como pseudociência dogmática.",
+    "votos_c": 5,
+    "votos_nc": 12,
+    "votos_p": 19
+  },
+  {
+    "nome": "Matemática",
+    "categoria": "Ciência",
+    "descricao": "A ciência formal fundamental baseada em abstrações numéricas e geométricas submetidas a demonstrações puramente lógicas.",
+    "votos_c": 14,
+    "votos_nc": 22,
+    "votos_p": 0
+  },
+  {
+    "nome": "Medicina",
+    "categoria": "Ciência",
+    "descricao": "Disciplina que conjuga conhecimentos biomédicos empíricos com técnicas práticas para a prevenção e cura de doenças.",
+    "votos_c": 26,
+    "votos_nc": 10,
+    "votos_p": 0
+  },
+  {
+    "nome": "Psicologia",
+    "categoria": "Contestada",
+    "descricao": "Estudo científico do comportamento e dos processos mentais humanos, embora historicamente afetada por cisões metodológicas.",
+    "votos_c": 29,
+    "votos_nc": 7,
+    "votos_p": 0
+  },
+  {
+    "nome": "Mitologia Etiológica",
+    "categoria": "Neutra",
+    "descricao": "Estuda os mitos fundacionais que procuram explicar de forma não empírica a origem dos deuses, do mundo ou de costumes sociais.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Mitologia Narrativa",
+    "categoria": "Neutra",
+    "descricao": "Compreende lendas épicas e folclóricas vistas pela sua contribuição estética, moral ou antropológica literária.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Neurociência",
+    "categoria": "Ciência",
+    "descricao": "Ramo amplamente experimental que lida com a estrutura e o funcionamento mecânico-químico do sistema nervoso central.",
+    "votos_c": 35,
+    "votos_nc": 1,
+    "votos_p": 0
+  },
+  {
+    "nome": "Parapsicologia",
+    "categoria": "Pseudociência",
+    "descricao": "Área dedicada a fenômenos como telepatia e telecinese, cujos testes laboratoriais falham constantemente na validação universal.",
+    "votos_c": 0,
+    "votos_nc": 2,
+    "votos_p": 34
+  },
+  {
+    "nome": "Pedagogia",
+    "categoria": "Contestada",
+    "descricao": "A ciência e prática da educação, que muitas vezes cruza saberes empíricos da cognição com valores sociais normativos.",
+    "votos_c": 8,
+    "votos_nc": 28,
+    "votos_p": 0
+  },
+  {
+    "nome": "Política",
+    "categoria": "Contestada",
+    "descricao": "Atividade de organização cívica, frequentemente debatida entre ser uma prática social subjetiva ou uma 'Ciência Política'.",
+    "votos_c": 4,
+    "votos_nc": 32,
+    "votos_p": 0
+  },
+  {
+    "nome": "Psicanálise",
+    "categoria": "Contestada",
+    "descricao": "Prática clínica freudiana baseada no inconsciente humano, fortemente acusada por falsificacionistas de evitar testes refutáveis.",
+    "votos_c": 6,
+    "votos_nc": 10,
+    "votos_p": 20
+  },
+  {
+    "nome": "Química Analítica",
+    "categoria": "Ciência",
+    "descricao": "Trata da identificação rigorosa e da quantificação exata das espécies e elementos químicos no universo físico.",
+    "votos_c": 36,
+    "votos_nc": 0,
+    "votos_p": 0
+  },
+  {
+    "nome": "Física-Química",
+    "categoria": "Ciência",
+    "descricao": "Estuda os fenômenos químicos sob a ótica inabalável dos princípios termodinâmicos e quantitativos das leis da física.",
+    "votos_c": 36,
+    "votos_nc": 0,
+    "votos_p": 0
+  },
+  {
+    "nome": "Quiropraxia",
+    "categoria": "Pseudociência",
+    "descricao": "Prática que fundamentou tratar doenças variadas apenas alinhando 'subluxações' da coluna; rejeitada pela biomedicina clássica.",
+    "votos_c": 2,
+    "votos_nc": 4,
+    "votos_p": 30
+  },
+  {
+    "nome": "Religião",
+    "categoria": "Neutra",
+    "descricao": "Sistema de crenças, ritos e valores baseados na revelação transcendental e não em metodologias de pesquisa fática.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Sociologia",
+    "categoria": "Contestada",
+    "descricao": "Ciência social centrada nos padrões das relações comunitárias, operando com metodologias empíricas mas de difícil isolamento.",
+    "votos_c": 23,
+    "votos_nc": 13,
+    "votos_p": 0
+  },
+  {
+    "nome": "Teologia",
+    "categoria": "Neutra",
+    "descricao": "Estudo analítico e dogmático sobre o divino. Não pretende realizar predições físicas submetidas à falseabilidade laboratorial.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  },
+  {
+    "nome": "Teoria das Cordas",
+    "categoria": "Contestada",
+    "descricao": "Modelo físico altamente matemático, mas contestado epistemologicamente por não ser (ainda) passível de testes e evidências materiais.",
+    "votos_c": 16,
+    "votos_nc": 14,
+    "votos_p": 6
+  },
+  {
+    "nome": "Terraplanismo",
+    "categoria": "Pseudociência",
+    "descricao": "Crença de negação deliberada da gravidade e da observação espacial estabelecida. Sustentada exclusivamente em falácias lógicas.",
+    "votos_c": 0,
+    "votos_nc": 2,
+    "votos_p": 34
+  },
+  {
+    "nome": "Atomismo",
+    "categoria": "Ciência",
+    "descricao": "Evoluiu de especulação filosófica grega para o pilar central e inquestionável da química orgânica e física das partículas.",
+    "votos_c": 30,
+    "votos_nc": 6,
+    "votos_p": 0
+  },
+  {
+    "nome": "Criticismo Literário",
+    "categoria": "Neutra",
+    "descricao": "Prática puramente interpretativa das obras humanas de caráter textual. Nenhuma das suas leituras visa formular leis naturais.",
+    "votos_c": 0,
+    "votos_nc": 36,
+    "votos_p": 0
+  }
+]

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#1F4E3D" />
+  <title>Metodologia — Demarcação · IMPA Tech</title>
+  <meta name="description" content="Como o grafo foi construído: vértices, arestas, ferramentas e processo." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="index.html" class="brand" aria-label="Demarcação — voltar à home">
+      <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <circle cx="10" cy="16" r="5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        <circle cx="22" cy="16" r="5" stroke="#8B2C2C" stroke-width="1.5" fill="none"/>
+        <line x1="15" y1="16" x2="17" y2="16" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <span>
+        <span class="brand__name">Demarcação</span>
+        <span class="brand__sub">Um mapa da ciência</span>
+      </span>
+    </a>
+    <nav class="nav" data-nav aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="visualizacao.html">Visualização</a>
+      <a href="problema.html">O problema</a>
+      <a href="filosofos.html">Filósofos</a>
+      <a href="campos.html">Campos</a>
+      <a href="metodologia.html" aria-current="page">Método</a>
+      <a href="equipe.html">Equipe</a>
+      <a href="bibliografia.html">Bibliografia</a>
+    </nav>
+    <button class="theme-toggle" data-theme-toggle aria-label="Alternar tema"></button>
+    <button class="nav-toggle" data-nav-toggle aria-label="Abrir menu" aria-expanded="false">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="page-header">
+    <div class="container">
+      <p class="page-header__kicker">Construção</p>
+      <h1 class="page-header__title">Metodologia.</h1>
+      <p class="page-header__lede">
+        Como o grafo foi construído: dos vértices às arestas, dos dados teóricos à interface de exploração.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container container--default">
+      <div class="steps">
+        <div class="step">
+          <p class="step__num"></p>
+          <div>
+            <h2 class="step__title">Levantamento teórico</h2>
+            <p class="step__body">
+              Pesquisa em fontes primárias e secundárias da Epistemologia da Ciência, com foco em autores que
+              propuseram critérios explícitos de demarcação. A bibliografia completa está em
+              <a href="bibliografia.html" style="color: var(--color-primary);">Bibliografia</a>.
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <p class="step__num"></p>
+          <div>
+            <h2 class="step__title">Definição dos vértices</h2>
+            <p class="step__body">
+              Dois tipos de vértices foram modelados:
+            </p>
+            <ul style="margin-top: var(--space-3); padding-left: var(--space-6); color: var(--color-text-muted);">
+              <li><strong>Filósofos da ciência</strong> (círculos brancos): cada autor que formulou uma definição de ciência.</li>
+              <li><strong>Campos com pretensão de cientificidade</strong> (círculos pretos): cada disciplina ou prática candidata.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="step">
+          <p class="step__num"></p>
+          <div>
+            <h2 class="step__title">Definição das arestas</h2>
+            <p class="step__body">
+              Também dois tipos:
+            </p>
+            <ul style="margin-top: var(--space-3); padding-left: var(--space-6); color: var(--color-text-muted);">
+              <li><strong>Autor → Campo</strong>: <span style="color: var(--color-primary);">verde</span> se o autor considera ciência;
+                <span style="color: var(--color-accent);">vermelho</span> se considera pseudociência.</li>
+              <li><strong>Autor → Autor</strong>: linha tracejada, indicando influência ou diálogo entre definições. Para visualizar, selecione o filtro "Autores"</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="step">
+          <p class="step__num"></p>
+          <div>
+            <h2 class="step__title">Implementação web customizada</h2>
+            <p class="step__body">
+              O grafo foi construído inteiramente com tecnologias web nativas (HTML, CSS e JavaScript), consumindo as informações da nossa base de dados de autores e campos dinamicamente a partir de arquivos JSON. 
+              Para garantir melhor performance e fluidez visual, adotamos uma arquitetura de renderização híbrida: utilizamos o <strong>Canvas</strong> para processar os rastros de luz dinâmicos e os efeitos visuais, enquanto uma camada invisível em <strong>SVG</strong> é sobreposta para detectar com precisão as interações do mouse. 
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <p class="step__num"></p>
+          <div>
+            <h2 class="step__title">Subgrafos navegáveis</h2>
+            <p class="step__body">
+              Em vez de exibir o grafo completo de uma só vez, o usuário pode filtrar por filósofo, por campo, ou
+              por classificação. Cada subgrafo conta uma história mais legível do que o todo.
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <p class="step__num"></p>
+          <div>
+            <h2 class="step__title">Integração com a web</h2>
+            <p class="step__body">
+              O grafo é embutido neste site. A interface inclui legenda, filtros, e textos contextuais que conectam
+              a visualização aos conceitos da Epistemologia.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="prose" style="margin-top: var(--space-16);">
+        <h2>Inspirações</h2>
+        <p>
+          O projeto se apoia em referências contemporâneas de visualização de conhecimento, incluindo
+          <em>Places & Spaces: Mapping Science</em> (com destaque para o trabalho <em>Science Paths</em> de
+          Kim Albrecht, Barabási e Sinatra) e as visualizações narrativas da publicação
+          <a href="https://pudding.cool/" target="_blank" rel="noopener noreferrer">The Pudding</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>Demarcação — Trabalho Final de Visualização · IMPA Tech, 2026.</div>
+    <div>
+      <a href="bibliografia.html">Bibliografia</a> &nbsp;·&nbsp;
+      <a href="equipe.html">Equipe</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

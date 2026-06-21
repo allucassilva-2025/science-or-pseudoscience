@@ -23,24 +23,28 @@
     }
     
     .viz-page-container {
-      padding-top: 90px; /* Dá espaço para o menu do topo não cobrir o grafo */
-      height: 100vh;
+      padding-top: 90px;
+      padding-bottom: 80px; /* espaço entre o grafo e o rodape */
+      min-height: 100vh; /* Garante que a página tenha no mínimo o tamanho da tela */
+      height: auto; /* ajusta o tamanhod a pag de acordo com o grafo */
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: center; /* deixa o grafo no centro */
       box-sizing: border-box;
     }
 
-    /* É aqui que deixamos o grafo menor e mais elegante */
     .graph-window {
-      width: 90%; /* Ocupa 90% da largura da tela */
-      max-width: 1400px; /* Limite máximo para telas gigantes */
-      height: 82vh; /* Ocupa 82% da altura da tela */
-      border: 1px solid rgba(255, 255, 255, 0.15); /* Bordinha sutil */
-      border-radius: 16px; /* Bordas arredondadas */
+      width: 90%; /* Mantém a largura expandida */
+      max-width: none; 
+      
+      min-height: 700px; /* Garante que o grafo terá sempre, pelo menos, 700px de altura */
+      height: 85vh; /* Tenta usar 85% do ecrã, mas nunca será menor que os 700px definidos acima */
+      
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 16px;
       overflow: hidden;
-      background: #000; /* Fundo preto para combinar com o grafo */
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+      background: #000;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     }
 
     iframe {
@@ -72,7 +76,7 @@
       <a href="problema.html">O problema</a>
       <a href="filosofos.html">Filósofos</a>
       <a href="campos.html">Campos</a>
-      <a href="metodologia.html">Método</a>
+      <!--<a href="metodologia.html">Método</a>-->
       <a href="equipe.html">Equipe</a>
       <a href="bibliografia.html">Bibliografia</a>
     </nav>
@@ -85,10 +89,33 @@
 </header>
 
 <main class="viz-page-container">
+
+  <section class="page-header">
+      <div class="container">
+        <p class="page-header__kicker">Visualização interativa</p>
+        <h1 class="page-header__title">O grafo da demarcação.</h1>
+        <p class="page-header__lede">
+          Explore, por meio do grafo, as relações entre filósofos da ciência e suas opiniões sobre diferentes campos do conhecimento, avaliadas a partir das teses por eles defendidas. 
+        </p>
+        <br>
+
+      </div>
+    </section>
+
   <div class="graph-window">
     <iframe src="grafo.html" title="Visualização Interativa do Grafo"></iframe>
   </div>
 </main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>Demarcação — Trabalho Final de Visualização · IMPA Tech, 2026.</div>
+    <div>
+      <a href="./bibliografia.html">Bibliografia</a> &nbsp;·&nbsp;
+      <a href="./equipe.html">Equipe</a>
+    </div>
+  </div>
+</footer>
 
 <script src="js/app.js" defer></script>
 </body>
