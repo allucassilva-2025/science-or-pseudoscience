@@ -156,7 +156,7 @@
 
         card.innerHTML = `
           <div>
-            <img src="image-authors/${f.nome}.png" alt="${f.nome}" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; background-color: var(--color-surface);" loading="lazy" onerror="this.style.display='none';">
+            <img src="image-authors/${f.nome}.png?v=2" alt="${f.nome}" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; background-color: var(--color-surface);" loading="lazy" onerror="this.style.display='none';">
             ${statusDemarcacao}
             <h3 class="philosopher__name" style="margin-top: 0.25rem;">${f.nome}</h3>
             <p class="philosopher__body" style="font-size: 0.9rem; margin-top: 0.75rem; white-space: pre-line;">${f.resumo || f.definicao_de_ciencia}</p>
